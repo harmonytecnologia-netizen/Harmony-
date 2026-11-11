@@ -32,7 +32,7 @@ def prep_image(src, out):
     x = (im.width - round(W * 1.18)) // 2; y = (im.height - round(H * 1.18)) // 2
     im.crop((x, y, x + round(W * 1.18), y + round(H * 1.18))).save(out, quality=95)
 
-def caption(kicker, title, out):
+def caption(kicker, title, out, badge=None, nologo=False):
     im = Image.new('RGBA', (W, H), (0, 0, 0, 0))
     g = Image.new('L', (1, H))
     for y in range(H):
@@ -41,7 +41,7 @@ def caption(kicker, title, out):
         g.putpixel((0, y), int(255 * min(1, a)))
     sh = Image.new('RGBA', (W, H), (8, 10, 9, 255)); sh.putalpha(g.resize((W, H))); im.alpha_composite(sh)
     l = LOGO.resize((170, round(LOGO.height * 170 / LOGO.width)), Image.LANCZOS)
-    im.alpha_composite(l, ((W - 170) // 2, 110))
+    if not nologo: im.alpha_composite(l, ((W - 170) // 2, 110))
     d = ImageDraw.Draw(im)
     lines = title.split('|'); y = 1440 - 100 * (len(lines) - 1)
     sh2 = Image.new('RGBA', (W, H), (0,0,0,0)); d2 = ImageDraw.Draw(sh2)
@@ -52,6 +52,16 @@ def caption(kicker, title, out):
     for ln in lines:
         d.text((86, y), ln, font=f, fill=CREAM + (255,)); y += 100
     d.line([(90, y + 30), (170, y + 30)], fill=(150, 140, 125, 255), width=1)
+    if badge:
+        av = Image.open(badge).convert('RGBA').resize((112, 112), Image.LANCZOS)
+        by = 1440 - 100 * (len(lines) - 1) - 70 - 150
+        ring = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ImageDraw.Draw(ring).ellipse([86, by - 4, 86 + 120, by + 116], outline=MINT + (255,), width=3)
+        shl = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ImageDraw.Draw(shl).rounded_rectangle([70, by - 20, 520, by + 136], 70, fill=(0, 0, 0, 150))
+        im.alpha_composite(shl.filter(ImageFilter.GaussianBlur(24)))
+        im.alpha_composite(ring); im.alpha_composite(av, (90, by))
+        d = ImageDraw.Draw(im)
+        d.text((226, by + 22), 'Iamin', font=ImageFont.truetype(SERIF, 40), fill=CREAM + (255,))
+        tracked(d, 228, by + 74, 'DICA MOVE', ImageFont.truetype('/usr/share/fonts/opentype/inter/Inter-Medium.otf', 22), (110, 235, 190, 255), 6)
     tracked(d, 0, H - 150, '@move.s.a', ImageFont.truetype(SANS_L, 24), (170, 162, 150, 255), 7, True)
     im.save(out)
 
@@ -90,7 +100,7 @@ def main(cfg_path, out):
     idx = 1
     for k, sc in enumerate(scenes):
         L = lens[k + 1]; nf = int(L * FPS) + 2
-        prep_image(sc['img'], f'{wd}img{k}.jpg'); caption(sc['kicker'], sc['title'], f'{wd}cap{k}.png')
+        prep_image(sc['img'], f'{wd}img{k}.jpg'); caption(sc['kicker'], sc['title'], f'{wd}cap{k}.png', sc.get('badge'), sc.get('nologo', False))
         inputs += ['-loop', '1', '-framerate', '30', '-t', f'{L:.3f}', '-i', f'{wd}img{k}.jpg']; ii = idx; idx += 1
         inputs += ['-loop', '1', '-framerate', '30', '-t', f'{L:.3f}', '-i', f'{wd}cap{k}.png']; ci = idx; idx += 1
         zin = sc.get('zoom', 'in') == 'in'
