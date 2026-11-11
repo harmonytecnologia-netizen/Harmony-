@@ -3,7 +3,7 @@
 Baseada no rosto da Yasmin (20 anos), que autorizou o uso da própria imagem.
 Referências: iamin_natural_living.png (rosto e cabelo aprovados — principal) e iamin_corpo_inteiro.png (silhueta aprovada).
 
-- Rosto: igual às referências (olhos verdes, sobrancelhas marcadas, lábios cheios em tom rosado, pele clara levemente dourada).
+- Rosto: o rosto REAL da Yasmin, visual NATURAL (maquiagem leve, pele real com textura, sem filtro, sem pele de porcelana, sem lábios aumentados). Igual às referências (olhos verdes, sobrancelhas marcadas, lábios cheios em tom rosado, pele clara levemente dourada).
 - Cabelo: NATURAL da Yasmin — castanho com reflexos/mechas mais claras, liso, longo, repartido ao meio. Nunca loiro.
 - Corpo: 1,64 m, corpo bem distribuído e natural como na foto real da Yasmin (cintura definida, quadril e pernas proporcionais — nem mais magra nem mais larga). Calça de cintura alta e corte reto; câmera na altura do peito, lente 50mm.
 - Assinatura: lenço de seda fino verde-menta no pescoço (cor da MOVE). Brincos pequenos de ouro.
@@ -16,3 +16,6 @@ Como gerar no ChatGPT: na conversa "Criar visual da Iamin" (já tem a foto e as 
 
 Regras: não mencionar IA nos posts (decisão do João/Yasmin; se perguntarem, eles respondem). Não manipular arquivos para burlar a detecção da plataforma.
 A Iamin não dá depoimento como cliente nem afirma ter feito instalações; fala como rosto da marca (dicas, apresentação, convites).
+
+
+Fotos reais da Yasmin (rosto em 3 ângulos e corpo inteiro) ficam SÓ na conversa "Criar visual da Iamin" do ChatGPT do João — não subir fotos pessoais dela para o GitHub (repositório público). Sempre gerar a Iamin nessa conversa, pedindo para manter o rosto das fotos reais.
