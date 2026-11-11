@@ -10,3 +10,4 @@
 | 2026-11-11 | Feed + Story (premium, IA) | Home cinema privativo — ambiente conceito | — | — | 18342370000278659 |
 | 2026-11-11 | Reel premium IA + Story | Caixa embutida no forro (medir, recortar, instalar, acabamento) | — | Listen To Me — Asher Fulero | 17963895915000099 |
 | 2026-11-11 19h (fila) | Feed premium + 2 Stories | Varanda gourmet; detalhe caixa embutida | — | — | (19h) |
+| 2026-11-12 (fila) | Reel premium IA + Story / Feed premium + 2 Stories | Cena Cinema; suíte com cortinas automatizadas | — | Shake That Thing — Patrick Jordan Patrikios | (a publicar) |

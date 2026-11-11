@@ -1,0 +1,32 @@
+{
+ "12h": [
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel.mp4",
+   "legenda": "Um toque. A sala se transforma.\n\nA cena “Cinema” reúne tudo em um único comando:\n01 · A luz baixa e a tela desce do forro.\n02 · As cortinas fecham e a cidade fica lá fora.\n03 · O som envolve a sala, sem nada aparente.\n04 · Sessão pronta, do jeito que você gosta.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para a sua casa. Agende uma conversa e envie a planta do seu projeto.\n\nImagens conceito.\n\n#CinemaEmCasa #HomeTheater #AutomaçãoResidencial #CasaInteligente #AltoPadrão #DesignDeInteriores #MOVE",
+   "thumb_offset": 5500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel.mp4"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Bom dia, sem tocar em nada.\n\nNa suíte, as cortinas abrem sozinhas com a primeira luz, a temperatura já está no ponto e uma playlist suave começa baixinho. Uma rotina pensada para você acordar bem.\n\nAutomação de cortinas, clima e som ambiente com a MOVE. Agende uma conversa e envie a planta do seu projeto.\n\nAmbiente conceito.\n\n#AutomaçãoDeCortinas #SuíteMaster #CasaInteligente #ArquiteturaDeInteriores #AltoPadrão #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_extra.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "musica": "Shake That Thing — Patrick Jordan Patrikios",
+ "tema": "Cena Cinema (luz, tela, cortinas, som) + suíte master com cortinas automatizadas"
+}

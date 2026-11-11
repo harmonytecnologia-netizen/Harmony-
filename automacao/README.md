@@ -37,7 +37,7 @@ Público de ALTO PADRÃO. Nada de desenho simples/casinha. Visual realista, ultr
 ## Gerar imagens realistas (ChatGPT do João)
 - No navegador do app Claude (aba chatgpt.com, já logada na conta Plus do João), escrever o prompt e pedir a imagem.
 - Prompt base: "Crie uma imagem fotográfica ultrarrealista, formato vertical 4:5. [ambiente de alto padrão: home cinema, living com som embutido, área gourmet, suíte com automação de cortinas, adega...]. Luz quente e baixa, contraste cinematográfico, atmosfera de revista de arquitetura (Architectural Digest), lente 24mm, materiais nobres com textura real. Sem pessoas, sem textos, sem logotipos e sem marcas visíveis."
-- Abrir a imagem e clicar no ícone de download (topo). O arquivo cai em C:\Users\PC\Downloads como .png ou .tmp (o .tmp já é o PNG completo). Trazer com device_stage_files.
+- Abrir a imagem e clicar no ícone de download (topo). O arquivo cai em C:\Users\PC\Downloads como .png ou .tmp (o .tmp já é o PNG completo). Trazer com device_stage_files LOGO após cada download: se o João cancelar a janela "Salvar", o .tmp some. Reel com imagens: scripts/reel_premium.py (zoom supersampling, sem tremido).
 
 ## Identidade visual
 - Cores: verde-menta `#54DFAE`, fundo `#0D1B17`, texto `#F2F5EF`, secundário `#A9BBB3`, contorno `#2C443A`.
