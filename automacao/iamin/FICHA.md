@@ -1,11 +1,11 @@
 # Iamin — ficha da personagem (rosto da MOVE)
 
 Baseada no rosto da Yasmin (20 anos), que autorizou o uso da própria imagem.
-Referências: iamin_natural_corpo_inteiro.png e iamin_natural_living.png (rosto e cabelo aprovados).
+Referências: iamin_natural_living.png (rosto e cabelo aprovados — principal) e iamin_corpo_inteiro.png (silhueta aprovada).
 
 - Rosto: igual às referências (olhos verdes, sobrancelhas marcadas, lábios cheios em tom rosado, pele clara levemente dourada).
 - Cabelo: NATURAL da Yasmin — castanho com reflexos/mechas mais claras, liso, longo, repartido ao meio. Nunca loiro.
-- Corpo: 1,64 m e 64 kg — proporções naturais, femininas e elegantes (importante em fotos de corpo inteiro).
+- Corpo: 1,64 m. Em corpo inteiro: silhueta fina e alongada, pernas finas e longas, quadril estreito, cintura marcada; calça de cintura alta e corte reto; câmera na altura do peito, lente 50mm.
 - Assinatura: lenço de seda fino verde-menta no pescoço (cor da MOVE). Brincos pequenos de ouro.
 - Looks: blazer preto sobre top preto (cinema/noite) ou blazer off-white com seda champanhe (living/dia).
 - Cenários: interiores de alto padrão (home cinema, living, varanda gourmet, suíte), luz quente.
