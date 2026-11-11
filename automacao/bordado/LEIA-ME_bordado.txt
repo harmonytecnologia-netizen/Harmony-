@@ -1,0 +1,17 @@
+MATRIZ DE BORDADO - LOGO MOVE (sem a linha pequena "SOM · AUTOMAÇÃO · SEGURANÇA", pequena demais para bordar)
+
+Arquivos por tamanho (largura do logo):
+  MOVE_bordado_100mm  -> moletom (peito esquerdo)
+  MOVE_bordado_90mm   -> camiseta manga curta e manga longa (peito esquerdo)
+  MOVE_bordado_80mm   -> calça jogger (coxa esquerda)
+  MOVE_bordado_70mm   -> bermuda (perna esquerda)
+Formatos: .DST (Tajima, universal), .PES (Brother/Babylock), .JEF (Janome), .EXP (Bernina/Melco).
+
+Ordem das cores (2 trocas de linha):
+  1ª cor: detalhes da onda  -> linha VERDE-MENTA (próxima do Pantone 3385 C / #46DAA7)
+  2ª cor: letras MOVE       -> malha VERDE-ESCURA: linha OFF-WHITE (#F8F4EB)
+                               malha OFF-WHITE:    linha VERDE-ESCURA (#0D1B17)
+
+Ponto: preenchimento tatami 0,4 mm com contorno de reforço por baixo.
+IMPORTANTE: fazer 1 peça de teste antes da produção; usar entretela (pellon) por trás.
+Se a bordadeira preferir, ela pode ajustar densidade/compensação no programa dela usando o PDF vetorial do logo.
