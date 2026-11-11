@@ -7,3 +7,4 @@
 | 2026-11-11 | Carrossel 7 slides + Story | 5 pontos para planejar antes do gesso | — | — | 18640592230013477 |
 | 2026-11-11 | Feed + Story | Cena "Cheguei" | — | — | 17956848048286010 |
 | 2026-11-11 | Stories | Bastidores da obra, orçamento | — | — | — |
+| 2026-11-11 | Feed + Story (premium, IA) | Home cinema privativo — ambiente conceito | — | — | 18342370000278659 |

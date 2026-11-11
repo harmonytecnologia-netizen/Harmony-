@@ -26,6 +26,19 @@ Manual que a rotina diária segue. Tudo aqui foi definido com o João.
 - Legendas numeradas (01, 02…) em caixa alta, Inter SemiBold, com animação de subida.
 - **Música diferente a cada post** — nunca repetir uma faixa do `historico.md`. Fonte: Biblioteca de áudio do YouTube Studio (já logado no navegador do app Claude), gêneros Jazz & Blues / vintage / soul. Baixa para `C:\Users\PC\Downloads`.
 
+## PADRÃO PREMIUM (obrigatório desde 11/11/2026)
+Público de ALTO PADRÃO. Nada de desenho simples/casinha. Visual realista, ultra fino, estilo revista de arquitetura:
+- Foto em tela cheia (real da obra/projeto, ou gerada no ChatGPT), luz quente e baixa, materiais nobres, muito respiro.
+- Título em serif elegante (automacao/fonts/Playfair-400-normal.ttf), texto curto; detalhes em Inter Light com espaçamento largo; kicker em verde-menta.
+- Logo MOVE pequeno no topo, @move.s.a discreto embaixo. Ver automacao/scripts/premium.py (feed 1080x1350 e story 1080x1920).
+- Marcas (JBL, Bose, Klipsch, Harman Kardon, etc.): podem ser citadas como referência no texto. NUNCA usar logos ou fotos oficiais das marcas.
+- Imagens geradas por IA: sempre escrever "Ambiente conceito." na legenda. Nunca apresentar como obra real.
+
+## Gerar imagens realistas (ChatGPT do João)
+- No navegador do app Claude (aba chatgpt.com, já logada na conta Plus do João), escrever o prompt e pedir a imagem.
+- Prompt base: "Crie uma imagem fotográfica ultrarrealista, formato vertical 4:5. [ambiente de alto padrão: home cinema, living com som embutido, área gourmet, suíte com automação de cortinas, adega...]. Luz quente e baixa, contraste cinematográfico, atmosfera de revista de arquitetura (Architectural Digest), lente 24mm, materiais nobres com textura real. Sem pessoas, sem textos, sem logotipos e sem marcas visíveis."
+- Abrir a imagem e clicar no ícone de download (topo). O arquivo cai em C:\Users\PC\Downloads como .png ou .tmp (o .tmp já é o PNG completo). Trazer com device_stage_files.
+
 ## Identidade visual
 - Cores: verde-menta `#54DFAE`, fundo `#0D1B17`, texto `#F2F5EF`, secundário `#A9BBB3`, contorno `#2C443A`.
 - Fonte: Inter (títulos Bold/SemiBold). Logo sempre como imagem (`assets/logo_claro.png` em fundo escuro, `assets/logo_escuro.png` em fundo claro).
