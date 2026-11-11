@@ -67,3 +67,23 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - Aba "Cronograma": cada dia tem 12h (Reel + story) e 19h (feed/carrossel + 2 stories), com tema, título, status e música.
 - Ao produzir um lote, seguir os temas da planilha, na ordem, e atualizar a coluna Status ("Pronto (na fila)", depois "Publicado").
 - Dias marcados "Aguardando vídeo": usar vídeos da pasta MOVE para postar; se não houver, fazer Reel conceito do mesmo tema.
+
+## Dica da Iamin (Reel semanal)
+- 1 Reel por semana com a Iamin ilustrada explicando um tema (ver lista de temas). Modelo: `fila`/reel `reels/iamin_dica_01_home_theater.mp4`.
+- Estrutura: cena 1 Iamin de corpo inteiro (`iamin/iamin_full_pad.png`) com a pergunta-gancho; 4 cenas de ambiente com dica numerada e selo da Iamin (`"badge": "automacao/iamin/avatar.png"` no cfg do `scripts/reel_premium.py`); cena final Iamin mais próxima (`iamin/iamin_close_pad.png`) com "Salve para a sua obra"; tela final.
+- Ela explica, não dá depoimento nem diz que instalou nada. Legenda termina com pergunta + "Salve" + "Ambientes conceito.".
+- Quando houver ferramenta de vídeo falado, os roteiros estão em `iamin/roteiros.md`.
+
+## Engajamento (todas as legendas)
+- Primeira linha = gancho (pergunta ou afirmação forte), antes do "mais".
+- Terminar com: uma pergunta simples para comentar ("Qual você escolheria: A ou B?"), um pedido de salvar/enviar, e o convite para o direct.
+- Stories: usar enquete/pergunta no texto da arte ("Responda: sua sala já tem…?") e repostar o Reel do dia.
+- Responder comentários 2x por dia (tarefa agendada). Registro em `automacao/comentarios.md`.
+
+## Respostas a comentários (regras)
+- Tom: educado, sofisticado e próximo, 1–2 frases, chamar pelo nome quando der, no máximo 1 emoji.
+- Nunca falar preço, prazo ou prometer resultado; para orçamento: "Te chamamos no direct" / "Chama a gente no direct".
+- Elogio → agradecer. Dúvida técnica simples → responder curto e convidar para o direct. Pergunta de preço → direct.
+- Reclamação, crítica, spam, ofensa ou assunto delicado → NÃO responder, NÃO ocultar, NÃO apagar: só registrar e avisar o João.
+- Nunca responder comentários da própria conta (move.s.a). Responder cada comentário uma única vez.
+- Direct (DM) não é acessível pelo conector; esses o João responde no app.
