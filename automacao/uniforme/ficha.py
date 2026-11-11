@@ -22,9 +22,9 @@ for c,n,code in sw:
     d.rounded_rectangle([160,y,260,y+70],12,fill=c,outline=(200,200,200)); d.text((300,y+12),n,font=ImageFont.truetype(IM,38),fill=TXT); d.text((760,y+12),code,font=ImageFont.truetype(IR,38),fill=TXT); y+=100
 d.text((160,y),'Malha off-white: usar MOVE_logo_escuro_vetor.svg (verde-escuro #0D1B17 + verde-menta).',font=ImageFont.truetype(IL,36),fill=GR); y+=90
 h('Peças e posição do logo')
-rows=[('Camiseta manga curta','Frente: peito esquerdo, 9 cm de largura, 8 cm abaixo da gola.','Costas: arte completa (logo + onda sonora + serviços), 28 cm de largura, 8 cm abaixo da gola.'),
+rows=[('Camiseta manga curta','Frente: peito esquerdo, 9 cm de largura, 8 cm abaixo da gola.','Costas (parte alta): AUTOMAÇÃO / SOM / SEGURANÇA + onda + MOVE, 28 cm de largura, topo 6 cm abaixo da gola.'),
 ('Camiseta manga longa','Igual à manga curta.','Opcional: "SOM · AUTOMAÇÃO · SEGURANÇA" na manga esquerda, 2 cm de altura.'),
-('Moletom com capuz','Frente: peito esquerdo, 10 cm (bordado recomendado).','Costas: arte completa, 30 cm de largura, 10 cm abaixo da costura do capuz.'),
+('Moletom com capuz','Frente: peito esquerdo, 10 cm (bordado recomendado).','Costas (parte alta): mesma arte, 30 cm de largura, topo 8 cm abaixo da costura do capuz.'),
 ('Calça jogger moletom','Coxa esquerda, abaixo do bolso: 8 cm de largura.',''),
 ('Bermuda moletom','Perna esquerda, 5 cm acima da barra: 7 cm de largura.','')]
 for t,a,b in rows:
