@@ -99,3 +99,8 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - Reclamação, crítica, spam, ofensa ou assunto delicado → NÃO responder, NÃO ocultar, NÃO apagar: só registrar e avisar o João.
 - Nunca responder comentários da própria conta (move.s.a). Responder cada comentário uma única vez.
 - Direct (DM) não é acessível pelo conector; esses o João responde no app.
+
+## Aprendizados das métricas (11/11/2026)
+- Reels com 71–100% de pulo nos 3 primeiros segundos: o gancho tem que aparecer no 1º segundo. A intro do logo NÃO abre mais o Reel: começar direto na imagem mais forte + frase-gancho; logo MOVE só na tela final.
+- Público real: 56% homens, 35–54 anos (60%), litoral norte de SC (Balneário Camboriú, Itapema, Itajaí, Camboriú, Blumenau, Florianópolis, Brusque, Joinville). Citar essas cidades nas legendas/obras.
+- Melhores posicionamentos no anúncio: Reels e Feed do Facebook (~R$ 15 por conversa).
