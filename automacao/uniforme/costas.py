@@ -18,7 +18,7 @@ def text_path(txt,font_path,size,track):
 IM='/usr/share/fonts/opentype/inter/Inter-Medium.otf'; IL='/usr/share/fonts/opentype/inter/Inter-Light.otf'
 def build(cream,mint,name):
     els=[]; y=0
-    sc=W*0.48/LW; lx=(W-LW*sc)/2
+    sc=W*0.40/LW; lx=(W-LW*sc)/2
     y=40
     for fill,d in paths:
         col=cream if fill!='#46DAA7' else mint
@@ -39,9 +39,12 @@ def build(cream,mint,name):
         pts2.append(f"{x:.1f},{y+150+a*math.sin(2*math.pi*t*7+0.8):.1f}")
     els.append(f'<polyline points="{" ".join(pts2)}" fill="none" stroke="{cream}" stroke-opacity="0.55" stroke-width="9" stroke-linecap="round"/>')
     y+=300+150
-    for s in ['SONORIZAÇÃO E SOM AMBIENTE','HOME THEATER E CINEMA EM CASA','AUTOMAÇÃO RESIDENCIAL','SEGURANÇA E REDES']:
-        d,tw=text_path(s,IM,140,26); els.append(f'<path transform="translate({(W-tw)/2:.1f},{y})" fill="{cream}" d="{d}"/>'); y+=225
-    y+=60
+    IB='/usr/share/fonts/opentype/inter/Inter-SemiBold.otf'
+    d,tw=text_path('AUTOMAÇÃO',IB,100,8); size=100*(W*0.80)/tw
+    for word in ['AUTOMAÇÃO','SOM','SEGURANÇA']:
+        d,tw=text_path(word,IB,size,8*size/100); y+=size*0.78
+        els.append(f'<path transform="translate({(W-tw)/2:.1f},{y:.1f})" fill="{cream}" d="{d}"/>'); y+=size*0.22
+    y+=size*0.35
     d,tw=text_path('@move.s.a   ·   (47) 99909-4744',IL,95,10); els.append(f'<path transform="translate({(W-tw)/2:.1f},{y})" fill="{mint}" d="{d}"/>')
     H=y+60
     open(name,'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H:.0f}" width="300mm" height="{H/10:.0f}mm">'+''.join(els)+'</svg>')
