@@ -72,7 +72,16 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - 1 Reel por semana com a Iamin ilustrada explicando um tema (ver lista de temas). Modelo: `fila`/reel `reels/iamin_dica_01_home_theater.mp4`.
 - Estrutura: cena 1 Iamin de corpo inteiro (`iamin/iamin_full_pad.png`) com a pergunta-gancho; 4 cenas de ambiente com dica numerada e selo da Iamin (`"badge": "automacao/iamin/avatar.png"` no cfg do `scripts/reel_premium.py`); cena final Iamin mais próxima (`iamin/iamin_close_pad.png`) com "Salve para a sua obra"; tela final.
 - Ela explica, não dá depoimento nem diz que instalou nada. Legenda termina com pergunta + "Salve" + "Ambientes conceito.".
-- Quando houver ferramenta de vídeo falado, os roteiros estão em `iamin/roteiros.md`.
+- Versão GRÁTIS (decisão do João em 11/11): Iamin em imagem com movimento de câmera, sem voz. Vídeo com ela andando/falando (Veo/Kling) só mais para frente, se ele decidir assinar. Roteiros falados prontos em `iamin/roteiros.md`.
+- Temas da série, em ordem (1 por semana, sem repetir):
+  1. (feito 11/11) Home theater: posição das caixas
+  2. Caixa de embutir × caixa aparente: o que muda no som e na decoração
+  3. Qualidade de som: por que caixa boa sozinha não basta (amplificador, cabo, acústica)
+  4. Cenas de automação: "Cheguei", "Boa noite", "Cinema" (uma por cena)
+  5. Som por zonas: cada ambiente com sua música
+  6. Níveis de projeto: de bom a referência (marcas só no texto, nunca logos)
+  7. Telão × TV: quando cada um vale a pena
+  8. Automação de cortinas e luz: o que pensar antes da obra
 
 ## Engajamento (todas as legendas)
 - Primeira linha = gancho (pergunta ou afirmação forte), antes do "mais".
