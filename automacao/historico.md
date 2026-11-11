@@ -1,0 +1,9 @@
+# Histórico de publicações — @move.s.a
+
+| Data | Tipo | Tema | Vídeos usados | Música | Media id |
+|---|---|---|---|---|---|
+| 2026-11-11 | Reel (sem música, apagar) | Passagem de cabeamento | WhatsApp Video 2026-11-06 at 08.29.46 + 08.30.21 | — | 18109358141337933 |
+| 2026-11-11 | Reel PRO + Story | Passagem de cabeamento | WhatsApp Video 2026-11-06 at 08.29.46 + 08.30.21 | If You're Asking My Advice — Asher Fulero | 18359086219175580 |
+| 2026-11-11 | Carrossel 7 slides + Story | 5 pontos para planejar antes do gesso | — | — | 18640592230013477 |
+| 2026-11-11 | Feed + Story | Cena "Cheguei" | — | — | 17956848048286010 |
+| 2026-11-11 | Stories | Bastidores da obra, orçamento | — | — | — |
