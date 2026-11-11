@@ -5,7 +5,7 @@ from fontTools.pens.transformPen import TransformPen
 logo_svg=open('MOVE_logo_claro_vetor.svg').read()
 LW,LH=map(float,re.search(r'viewBox="0 0 (\S+) (\S+)"',logo_svg).groups())
 paths=re.findall(r'<path fill="([^"]+)" fill-rule="evenodd" d="([^"]+)"/>',logo_svg)
-W=3000  # unidades = 0.1 mm  -> 300 mm de largura
+W=3300  # unidades = 0.1 mm  -> 300 mm de largura
 def text_path(txt,font_path,size,track):
     f=TTFont(font_path); gs=f.getGlyphSet(); cmap=f.getBestCmap(); upm=f['head'].unitsPerEm; s=size/upm
     x=0; out=[]
@@ -18,7 +18,8 @@ def text_path(txt,font_path,size,track):
 IM='/usr/share/fonts/opentype/inter/Inter-Medium.otf'; IL='/usr/share/fonts/opentype/inter/Inter-Light.otf'
 def build(cream,mint,name):
     els=[]; y=0
-    sc=W*0.78/LW; lx=(W-LW*sc)/2
+    sc=W*0.48/LW; lx=(W-LW*sc)/2
+    y=40
     for fill,d in paths:
         col=cream if fill!='#46DAA7' else mint
         els.append(f'<path transform="translate({lx:.1f},{y}) scale({sc:.5f})" fill="{col}" fill-rule="evenodd" d="{d}"/>')
@@ -39,9 +40,9 @@ def build(cream,mint,name):
     els.append(f'<polyline points="{" ".join(pts2)}" fill="none" stroke="{cream}" stroke-opacity="0.55" stroke-width="9" stroke-linecap="round"/>')
     y+=300+150
     for s in ['SONORIZAÇÃO E SOM AMBIENTE','HOME THEATER E CINEMA EM CASA','AUTOMAÇÃO RESIDENCIAL','SEGURANÇA E REDES']:
-        d,tw=text_path(s,IM,95,22); els.append(f'<path transform="translate({(W-tw)/2:.1f},{y})" fill="{cream}" d="{d}"/>'); y+=165
+        d,tw=text_path(s,IM,140,26); els.append(f'<path transform="translate({(W-tw)/2:.1f},{y})" fill="{cream}" d="{d}"/>'); y+=225
     y+=60
-    d,tw=text_path('@move.s.a   ·   (47) 99909-4744',IL,80,10); els.append(f'<path transform="translate({(W-tw)/2:.1f},{y})" fill="{mint}" d="{d}"/>')
+    d,tw=text_path('@move.s.a   ·   (47) 99909-4744',IL,95,10); els.append(f'<path transform="translate({(W-tw)/2:.1f},{y})" fill="{mint}" d="{d}"/>')
     H=y+60
     open(name,'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H:.0f}" width="300mm" height="{H/10:.0f}mm">'+''.join(els)+'</svg>')
 build('#F8F4EB','#46DAA7','MOVE_costas_claro.svg')
