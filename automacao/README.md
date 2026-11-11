@@ -58,3 +58,9 @@ Público de ALTO PADRÃO. Nada de desenho simples/casinha. Visual realista, ultr
 10. Cenas de automação: "Cheguei", "Boa noite", "Cinema"
 11. Cuidados com o rack: ventilação e organização
 12. Antes e depois de uma obra
+
+## Cronograma (fonte da verdade)
+Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVRFHhDJE8
+- Aba "Cronograma": cada dia tem 12h (Reel + story) e 19h (feed/carrossel + 2 stories), com tema, título, status e música.
+- Ao produzir um lote, seguir os temas da planilha, na ordem, e atualizar a coluna Status ("Pronto (na fila)", depois "Publicado").
+- Dias marcados "Aguardando vídeo": usar vídeos da pasta MOVE para postar; se não houver, fazer Reel conceito do mesmo tema.
