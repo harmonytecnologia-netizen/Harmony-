@@ -95,14 +95,14 @@ def main(cfg_path, out):
         inputs += ['-loop', '1', '-framerate', '30', '-t', f'{L:.3f}', '-i', f'{wd}cap{k}.png']; ci = idx; idx += 1
         zin = sc.get('zoom', 'in') == 'in'
         z = "1.0+0.0009*on" if zin else f"{1.0 + 0.0009 * nf:.4f}-0.0009*on"
-        fc.append(f"[{ii}:v]zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps=30,"
-                  f"trim=0:{L:.3f},setpts=PTS-STARTPTS,format=yuv420p,noise=alls=3:allf=t[b{k}]")
+        fc.append(f"[{ii}:v]scale={W*4}:-1:flags=lanczos,zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W*2}x{H*2}:fps=30,"
+                  f"scale={W}:{H}:flags=lanczos,trim=0:{L:.3f},setpts=PTS-STARTPTS,format=yuv420p,noise=alls=3:allf=t[b{k}]")
         t0 = T / 2 + 0.25; t1 = L - T / 2 - 0.35
         fc.append(f"[{ci}:v]format=rgba,fade=t=in:st={t0:.2f}:d=0.6:alpha=1,fade=t=out:st={t1:.2f}:d=0.3:alpha=1[c{k}]")
         fc.append(f"[b{k}][c{k}]overlay=0:0:shortest=1,format=yuv420p,settb=1/30[s{k + 1}]")
     end_card(cfg.get('end_title', 'Agende uma conversa.'), cfg.get('end_sub', 'Projetos de som, cinema e automação.'), f'{wd}end.jpg')
     inputs += ['-loop', '1', '-framerate', '30', '-t', f'{END}', '-i', f'{wd}end.jpg']
-    fc.append(f"[{idx}:v]zoompan=z='1.0+0.0006*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps=30,trim=0:{END},setpts=PTS-STARTPTS,format=yuv420p,settb=1/30[s{n + 1}]")
+    fc.append(f"[{idx}:v]scale={W*4}:-1:flags=lanczos,zoompan=z='1.0+0.0006*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W*2}x{H*2}:fps=30,scale={W}:{H}:flags=lanczos,trim=0:{END},setpts=PTS-STARTPTS,format=yuv420p,settb=1/30[s{n + 1}]")
     idx += 1
     trans = ['fade', 'smoothup', 'fade', 'smoothleft', 'fade', 'fadeblack', 'fade', 'smoothup']
     prev = 's0'
