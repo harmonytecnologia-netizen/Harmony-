@@ -90,16 +90,20 @@ def main(cfg_path, out):
     os.makedirs(wd, exist_ok=True)
     scenes = cfg['scenes']; n = len(scenes)
     bt = beats(cfg['music'], cfg.get('music_start', 0), 40)
-    # cut points: intro ends ~4.2s, then every ~4s snapped to nearest beat
-    cuts, t = [], 4.2
-    for k in range(n + 1):
-        cuts.append(min(bt, key=lambda b: abs(b - t)) if bt else t); t = cuts[-1] + 4.0
+    has_intro = bool(cfg.get('intro'))
+    first = cfg.get('intro_len', 4.2) if has_intro else cfg.get('first_len', 3.4)
+    nseg = n + 1 if has_intro else n          # segments before end card
+    cuts, t = [], first
+    for k in range(nseg):
+        cuts.append(min(bt, key=lambda b: abs(b - t)) if bt else t); t = cuts[-1] + cfg.get('scene_len', 4.0)
     END = 3.8; total = cuts[-1] - T / 2 + END
-    lens = [cuts[0] + T / 2] + [cuts[i + 1] - cuts[i] + T for i in range(n)] + [END]
-    inputs, fc = ['-i', cfg['intro']], [f"[0:v]trim=0:{lens[0]:.3f},setpts=PTS-STARTPTS,format=yuv420p,settb=1/30[s0]"]
-    idx = 1
+    seglens = [cuts[0] + T / 2] + [cuts[i + 1] - cuts[i] + T for i in range(nseg - 1)] + [END]
+    inputs, fc, idx = [], [], 0
+    if has_intro:
+        inputs += ['-i', cfg['intro']]; fc.append(f"[0:v]trim=0:{seglens[0]:.3f},setpts=PTS-STARTPTS,format=yuv420p,settb=1/30[s0]"); idx = 1
+    off = 1 if has_intro else 0
     for k, sc in enumerate(scenes):
-        L = lens[k + 1]; nf = int(L * FPS) + 2
+        L = seglens[k + off]; nf = int(L * FPS) + 2
         prep_image(sc['img'], f'{wd}img{k}.jpg'); caption(sc['kicker'], sc['title'], f'{wd}cap{k}.png', sc.get('badge'), sc.get('nologo', False))
         inputs += ['-loop', '1', '-framerate', '30', '-t', f'{L:.3f}', '-i', f'{wd}img{k}.jpg']; ii = idx; idx += 1
         inputs += ['-loop', '1', '-framerate', '30', '-t', f'{L:.3f}', '-i', f'{wd}cap{k}.png']; ci = idx; idx += 1
@@ -107,17 +111,17 @@ def main(cfg_path, out):
         z = "1.0+0.0009*on" if zin else f"{1.0 + 0.0009 * nf:.4f}-0.0009*on"
         fc.append(f"[{ii}:v]scale={W*4}:-1:flags=lanczos,zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W*2}x{H*2}:fps=30,"
                   f"scale={W}:{H}:flags=lanczos,trim=0:{L:.3f},setpts=PTS-STARTPTS,format=yuv420p,noise=alls=3:allf=t[b{k}]")
-        t0 = T / 2 + 0.25; t1 = L - T / 2 - 0.35
-        fc.append(f"[{ci}:v]format=rgba,fade=t=in:st={t0:.2f}:d=0.6:alpha=1,fade=t=out:st={t1:.2f}:d=0.3:alpha=1[c{k}]")
-        fc.append(f"[b{k}][c{k}]overlay=0:0:shortest=1,format=yuv420p,settb=1/30[s{k + 1}]")
+        t0 = 0.05 if (k == 0 and not has_intro) else T / 2 + 0.25; t1 = L - T / 2 - 0.35
+        fc.append(f"[{ci}:v]format=rgba,fade=t=in:st={t0:.2f}:d={0.25 if t0 < 0.1 else 0.6}:alpha=1,fade=t=out:st={t1:.2f}:d=0.3:alpha=1[c{k}]")
+        fc.append(f"[b{k}][c{k}]overlay=0:0:shortest=1,format=yuv420p,settb=1/30[s{k + off}]")
     end_card(cfg.get('end_title', 'Agende uma conversa.'), cfg.get('end_sub', 'Projetos de som, cinema e automação.'), f'{wd}end.jpg')
     inputs += ['-loop', '1', '-framerate', '30', '-t', f'{END}', '-i', f'{wd}end.jpg']
-    fc.append(f"[{idx}:v]scale={W*4}:-1:flags=lanczos,zoompan=z='1.0+0.0006*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W*2}x{H*2}:fps=30,scale={W}:{H}:flags=lanczos,trim=0:{END},setpts=PTS-STARTPTS,format=yuv420p,settb=1/30[s{n + 1}]")
+    fc.append(f"[{idx}:v]scale={W*4}:-1:flags=lanczos,zoompan=z='1.0+0.0006*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W*2}x{H*2}:fps=30,scale={W}:{H}:flags=lanczos,trim=0:{END},setpts=PTS-STARTPTS,format=yuv420p,settb=1/30[s{nseg}]")
     idx += 1
     trans = ['fade', 'smoothup', 'fade', 'smoothleft', 'fade', 'fadeblack', 'fade', 'smoothup']
     prev = 's0'
     for j, c in enumerate(cuts):
-        tr = 'circleopen' if j == 0 else ('fadeblack' if j == len(cuts) - 1 else trans[j % len(trans)])
+        tr = ('circleopen' if has_intro else 'fade') if j == 0 else ('fadeblack' if j == len(cuts) - 1 else trans[j % len(trans)])
         fc.append(f"[{prev}][s{j + 1}]xfade=transition={tr}:duration={T}:offset={c - T / 2:.3f}[x{j}]"); prev = f'x{j}'
     ms = cfg.get('music_start', 0)
     inputs += ['-ss', f'{ms}', '-i', cfg['music']]
