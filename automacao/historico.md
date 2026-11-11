@@ -8,4 +8,5 @@
 | 2026-11-11 | Feed + Story | Cena "Cheguei" | — | — | 17956848048286010 |
 | 2026-11-11 | Stories | Bastidores da obra, orçamento | — | — | — |
 | 2026-11-11 | Feed + Story (premium, IA) | Home cinema privativo — ambiente conceito | — | — | 18342370000278659 |
-| 2026-11-12 (fila) | Reel premium IA + Story / Feed premium + 2 Stories | Caixa embutida no forro; varanda gourmet | — | Listen To Me — Asher Fulero | (a publicar) |
+| 2026-11-11 | Reel premium IA + Story | Caixa embutida no forro (medir, recortar, instalar, acabamento) | — | Listen To Me — Asher Fulero | 17963895915000099 |
+| 2026-11-11 19h (fila) | Feed premium + 2 Stories | Varanda gourmet; detalhe caixa embutida | — | — | (19h) |
