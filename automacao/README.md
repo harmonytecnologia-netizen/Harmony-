@@ -34,6 +34,9 @@ Público de ALTO PADRÃO. Nada de desenho simples/casinha. Visual realista, ultr
 - Marcas (JBL, Bose, Klipsch, Harman Kardon, etc.): podem ser citadas como referência no texto. NUNCA usar logos ou fotos oficiais das marcas.
 - Imagens geradas por IA: sempre escrever "Ambiente conceito." na legenda. Nunca apresentar como obra real.
 
+## REGRA: parte gráfica sempre pelo ChatGPT (pedido do João, 11/11/2026)
+Toda arte visual (fundos, ambientes, texturas, capas, cartões, peças impressas, personagem) é gerada no ChatGPT do João com prompt bem escrito. O logo MOVE e os textos pequenos são aplicados por cima no script (o ChatGPT deforma letras de logotipo e textos miúdos). Nada de desenho feito só com código quando o ChatGPT puder gerar.
+
 ## Gerar imagens realistas (ChatGPT do João)
 - No navegador do app Claude (aba chatgpt.com, já logada na conta Plus do João), escrever o prompt e pedir a imagem.
 - Prompt base: "Crie uma imagem fotográfica ultrarrealista, formato vertical 4:5. [ambiente de alto padrão: home cinema, living com som embutido, área gourmet, suíte com automação de cortinas, adega...]. Luz quente e baixa, contraste cinematográfico, atmosfera de revista de arquitetura (Architectural Digest), lente 24mm, materiais nobres com textura real. Sem pessoas, sem textos, sem logotipos e sem marcas visíveis."
