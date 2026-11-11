@@ -5,7 +5,7 @@ Referências: iamin_natural_living.png (rosto e cabelo aprovados — principal) 
 
 - Rosto: igual às referências (olhos verdes, sobrancelhas marcadas, lábios cheios em tom rosado, pele clara levemente dourada).
 - Cabelo: NATURAL da Yasmin — castanho com reflexos/mechas mais claras, liso, longo, repartido ao meio. Nunca loiro.
-- Corpo: 1,64 m. Em corpo inteiro: silhueta fina e alongada, pernas finas e longas, quadril estreito, cintura marcada; calça de cintura alta e corte reto; câmera na altura do peito, lente 50mm.
+- Corpo: 1,64 m, corpo bem distribuído e natural como na foto real da Yasmin (cintura definida, quadril e pernas proporcionais — nem mais magra nem mais larga). Calça de cintura alta e corte reto; câmera na altura do peito, lente 50mm.
 - Assinatura: lenço de seda fino verde-menta no pescoço (cor da MOVE). Brincos pequenos de ouro.
 - Looks: blazer preto sobre top preto (cinema/noite) ou blazer off-white com seda champanhe (living/dia).
 - Cenários: interiores de alto padrão (home cinema, living, varanda gourmet, suíte), luz quente.
