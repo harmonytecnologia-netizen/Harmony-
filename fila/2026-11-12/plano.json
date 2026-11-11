@@ -1,0 +1,32 @@
+{
+ "12h": [
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel.mp4",
+   "legenda": "Som que se ouve, mas não se vê.\n\nCaixas de embutir no forro são o caminho para um ambiente limpo, sem nada aparente. O segredo está nos detalhes:\n01 · Posição definida no projeto, pensando em cada área de escuta.\n02 · Recorte preciso no gesso, com gabarito.\n03 · Cabo passado antes do acabamento e caixa bem fixada.\n04 · Grade rente ao forro, quase invisível.\n\nVai construir ou reformar? Agende uma conversa com a MOVE e envie a planta do seu projeto.\n\nImagens conceito.\n\n#SomAmbiente #SomEmbutido #AutomaçãoResidencial #ArquiteturaDeInteriores #AltoPadrão #CasaInteligente #MOVE",
+   "thumb_offset": 5500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel.mp4"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Receber bem também é som.\n\nNa varanda gourmet, o som ambiente embutido no forro acompanha o jantar sem aparecer, e a luz entra em cena junto com a música. Tudo comandado por um toque.\n\nA MOVE projeta e integra som, iluminação e automação para os seus momentos em casa.\n\nAgende uma conversa e envie a planta do seu projeto.\n\nAmbiente conceito.\n\n#VarandaGourmet #SomAmbiente #AutomaçãoResidencial #DesignDeInteriores #AltoPadrão #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_extra.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "musica": "Listen To Me — Asher Fulero",
+ "tema": "Caixa de som embutida no forro (medir, recortar, instalar, acabamento) + varanda gourmet"
+}
