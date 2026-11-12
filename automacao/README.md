@@ -104,3 +104,22 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - Reels com 71–100% de pulo nos 3 primeiros segundos: o gancho tem que aparecer no 1º segundo. A intro do logo NÃO abre mais o Reel: começar direto na imagem mais forte + frase-gancho; logo MOVE só na tela final.
 - Público real: 56% homens, 35–54 anos (60%), litoral norte de SC (Balneário Camboriú, Itapema, Itajaí, Camboriú, Blumenau, Florianópolis, Brusque, Joinville). Citar essas cidades nas legendas/obras.
 - Melhores posicionamentos no anúncio: Reels e Feed do Facebook (~R$ 15 por conversa).
+
+## Referências de concorrentes (estilo a seguir)
+Pedido do João: acompanhar vídeos de concorrentes e fazer "engenharia inversa" (mesma estrutura, com cenários e pessoas diferentes, sempre no padrão MOVE de alto padrão). Nunca copiar vídeo, marca, música ou texto deles.
+
+### Ref. 1 — Hometree (Reel FB, 13/10/2026, 56 s) — https://www.facebook.com/share/r/1KhfonjzeQ/
+Formato "jornada da obra", filmado no celular, vertical, legenda curta em letras grandes:
+1. Gancho: instalador parafusando caixa de som de embutir no forro de gesso (ação real nos 2 primeiros segundos).
+2. Chegada: instalador de costas entrando no apartamento (porta com número) — sensação de bastidor.
+3. Configuração: técnico e cliente sentados, celular na mão, palavra na tela ("COMANDO").
+4. Demonstração: mão no celular, toca um botão e a cortina/luz responde na sala.
+5. Resultado: plano aberto do living pronto (cortina, painel de TV, som no forro) + tela final "Fale conosco".
+Legenda do post: benefício em 1 linha + "projeto personalizado, controle pelo app ou voz" + "Solicite seu orçamento".
+
+### Como a MOVE replica (engenharia inversa)
+- Mesma sequência gancho → bastidor → configuração → "um toque" → resultado, mas com cenários de alto padrão (BC, Itapema), luz âmbar e uniforme MOVE (verde/off-white).
+- Cenas reais da obra (vídeos do João) sempre que houver; quando faltar, cenas do ChatGPT marcadas "Ambiente conceito", com pessoas diferentes a cada vídeo (casal, família, executiva, instalador).
+- Momento "antes → depois" com um toque (luz/cortina/cinema) é obrigatório: é o que prende.
+- Texto na tela: 2–4 palavras por cena, grande, sem logo de abertura.
+- **Drone/tomadas aéreas** deixam mais profissional: abrir com plano aéreo do prédio/condomínio ou da orla (BC/Itapema). Se o João tiver filmagem de drone da obra, usar no 1º segundo; senão, imagem aérea do ChatGPT ("Ambiente conceito") com movimento lento de câmera (zoom/deslize).
