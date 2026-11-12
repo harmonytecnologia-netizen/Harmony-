@@ -41,3 +41,10 @@ Palavras negativas: grátis, barato, curso, emprego, vaga, usado, conserto, manu
 - Local: vincular o Perfil da Empresa (MOVE Som e Automação, Itapema)
 - Frases de destaque: Projeto sob medida · Instalação embutida · Integração com Alexa · Atendimento no litoral SC
 - Site/URL final: se não houver site ativo, usar página de destino = perfil/WhatsApp (definir com o João)
+
+## Situação real (11/11/2026, 23h)
+- Conta Google Ads já existia (ID cliente 7172586237, login joaoeinha) — renomeada para "MOVE Som e Automação"; reativada pelo João; pré-pago com recarga automática de R$ 40 (Mastercard final 0037).
+- Campanha existente era Smart ("Harmony google", R$ 12/dia) → renomeada "MOVE - Pesquisa Litoral SC", orçamento R$ 20/dia, títulos e descrições novos MOVE.
+- PAUSADA por mim: a página de destino https://harmonyaudiovideoautomacao.com/ está fora do ar ("página não encontrada"). Reativar só depois de ter página nova da MOVE.
+- Pendente: página de destino (Google Sites grátis na conta joaoeinha), local (hoje raio 25 km da empresa → trocar pelas cidades do litoral), temas de palavra-chave, reativar.
+- Crédito R$ 1.200 provavelmente NÃO se aplica (conta antiga).
