@@ -54,3 +54,5 @@ Palavras negativas: grátis, barato, curso, emprego, vaga, usado, conserto, manu
 - Google Ads: página de destino trocada para o site novo; temas: cinema em casa, home theaters, cortina motorizada, automação residencial, sonorização (ambiente), central de automação, empresa de automação de casas, soluções em automação. Local: raio 25 km de Itapema (cobre BC, Camboriú, Porto Belo, Bombinhas).
 - Campanha RETOMADA; aparece "Inativo/requer atenção" pelo aviso antigo de site fora do ar — some quando o Google reavaliar o site novo.
 - Perfil Google: site trocado para o Netlify (em revisão). Nome MOVE já publicado.
+- 12/11 00h40: Perfil Google virou "empresa de área de atendimento" (endereço oculto, sem local físico); cidades atendidas mantidas. Campanha agora "Pendente" (revisão de anúncio, até 1 dia útil). Raio de 25 km de Itapema mantido no Ads.
+- Atenção: horário no perfil = seg-sex 7h-19h30, sábado fechado; no site está sáb 8-12 → alinhar com o João.
