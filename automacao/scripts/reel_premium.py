@@ -62,7 +62,7 @@ def caption(kicker, title, out, badge=None, nologo=False):
         d = ImageDraw.Draw(im)
         d.text((226, by + 22), 'Iamin', font=ImageFont.truetype(SERIF, 40), fill=CREAM + (255,))
         tracked(d, 228, by + 74, 'DICA MOVE', ImageFont.truetype('/usr/share/fonts/opentype/inter/Inter-Medium.otf', 22), (110, 235, 190, 255), 6)
-    tracked(d, 0, H - 150, '@move.s.a', ImageFont.truetype(SANS_L, 24), (170, 162, 150, 255), 7, True)
+    tracked(d, 0, H - 150, os.environ.get('HANDLE', '@move.s.a'), ImageFont.truetype(SANS_L, 24), (170, 162, 150, 255), 7, True)
     im.save(out)
 
 def end_card(title, sub, out):
