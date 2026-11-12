@@ -123,3 +123,7 @@ Legenda do post: benefício em 1 linha + "projeto personalizado, controle pelo a
 - Momento "antes → depois" com um toque (luz/cortina/cinema) é obrigatório: é o que prende.
 - Texto na tela: 2–4 palavras por cena, grande, sem logo de abertura.
 - **Drone/tomadas aéreas** deixam mais profissional: abrir com plano aéreo do prédio/condomínio ou da orla (BC/Itapema). Se o João tiver filmagem de drone da obra, usar no 1º segundo; senão, imagem aérea do ChatGPT ("Ambiente conceito") com movimento lento de câmera (zoom/deslize).
+
+### Hometree na Biblioteca de Anúncios (11/11/2026)
+Rede de franquias com ~170 anúncios ativos no Brasil (inclui Hometree Joinville — concorrente perto de nós). Padrão: vídeos reais de 39–56 s, CTA "Enviar mensagem pelo WhatsApp", mesmo texto reaproveitado em várias unidades. Argumentos deles: "sem quebrar parede", "instalação em 1 dia", "sem mensalidade", "controle por app ou voz". MOVE se diferencia por PROJETO sob medida de alto padrão + som/cinema de referência + acabamento (não competir em "rápido e barato").
+Para revisar de tempos em tempos: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BR&q=Hometree
