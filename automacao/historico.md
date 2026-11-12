@@ -13,3 +13,4 @@
 | 2026-11-11 16h30 | Reel Dica da Iamin + Story | Home theater: posição das caixas (central, frontais, surround, sub) | — | Running The Night — Patrick Jordan Patrikios | 18000989823046075 / story 18227686741328814 |
 | 2026-11-12 (fila) | Reel premium IA + Story / Feed premium + 2 Stories | Cena Cinema; suíte com cortinas automatizadas | — | Shake That Thing — Patrick Jordan Patrikios | (a publicar) |
 | 2026-11-12 12h | Reel premium IA + Story | Cena Cinema (luz, tela, cortinas, som) | — | Shake That Thing — Patrick Jordan Patrikios | 18122214206055657 / story 18103768541379011 |
+| 2026-11-12 19h | Feed premium + 2 Stories | Suíte master com cortinas automatizadas | — | — (imagens; música do dia: Shake That Thing — Patrick Jordan Patrikios) | feed 18056605685592084 / stories 18134666789493502, 18099610487229857 |
