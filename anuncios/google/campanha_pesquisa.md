@@ -48,3 +48,9 @@ Palavras negativas: grátis, barato, curso, emprego, vaga, usado, conserto, manu
 - PAUSADA por mim: a página de destino https://harmonyaudiovideoautomacao.com/ está fora do ar ("página não encontrada"). Reativar só depois de ter página nova da MOVE.
 - Pendente: página de destino (Google Sites grátis na conta joaoeinha), local (hoje raio 25 km da empresa → trocar pelas cidades do litoral), temas de palavra-chave, reativar.
 - Crédito R$ 1.200 provavelmente NÃO se aplica (conta antiga).
+
+## Atualização 12/11/2026 00h30
+- Site no ar (grátis, Netlify, conta do João): https://move-som-automacao.netlify.app/ — arquivos em /site do repo; para atualizar, arrastar novo zip no projeto "move-som-automacao" do Netlify.
+- Google Ads: página de destino trocada para o site novo; temas: cinema em casa, home theaters, cortina motorizada, automação residencial, sonorização (ambiente), central de automação, empresa de automação de casas, soluções em automação. Local: raio 25 km de Itapema (cobre BC, Camboriú, Porto Belo, Bombinhas).
+- Campanha RETOMADA; aparece "Inativo/requer atenção" pelo aviso antigo de site fora do ar — some quando o Google reavaliar o site novo.
+- Perfil Google: site trocado para o Netlify (em revisão). Nome MOVE já publicado.
