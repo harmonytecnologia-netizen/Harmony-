@@ -1,0 +1,51 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Luz que desenha a cozinha.\n\nNeste projeto, a iluminação em LED foi embutida na marcenaria e nos nichos: valoriza os materiais, ilumina a bancada na medida certa e entra em cena com um toque, junto com o som ambiente.\n\nLuz quente ou luz neutra na cozinha: qual você prefere? Conte aqui e salve para a sua reforma.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\n#IluminaçãoLED #CozinhaPlanejada #Marcenaria #CasaInteligente #Itajaí #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "O detalhe da obra que libera a automação.\n\nMuitos interruptores inteligentes precisam do fio neutro na caixinha. Quando ele não é previsto, a automação fica limitada depois:\n01 · O que é o neutro na caixinha.\n02 · Por que muitos módulos precisam dele.\n03 · Quando prever: antes da fiação.\n04 · Como conferir com o eletricista.\n05 · Um item simples que evita retrabalho.\n\nSalve e envie para o seu eletricista. Dúvidas? Chama a gente no direct.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nImagem conceito na capa.\n\n#FioNeutro #InstalaçãoElétrica #AutomaçãoResidencial #DicaDeObra #Blumenau #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "plano_b": true
+}

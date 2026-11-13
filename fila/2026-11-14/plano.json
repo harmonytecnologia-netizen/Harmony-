@@ -1,0 +1,55 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_2.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "O verão começa no som. ☀️\n\nNesta área gourmet, som ambiente, iluminação e a piscina respondem ao mesmo aplicativo. Música para o dia todo, luz certa ao anoitecer e nenhum fio aparente.\n\nPiscina com música: indispensável ou dispensável? Conte nos comentários e salve para o seu projeto de verão.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\n#ÁreaGourmet #SomAmbiente #CasaDePraia #AutomaçãoResidencial #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "5 cuidados com a central da sua casa.\n\nO rack é onde som, rede, câmeras e automação se encontram. Bem planejado, a casa funciona melhor e a manutenção fica simples:\n01 · Ventilação de verdade.\n02 · Cabos identificados nas duas pontas.\n03 · Energia protegida.\n04 · Espaço para crescer.\n05 · Acesso fácil para manutenção.\n\nQual desses cuidados a sua obra já tem? Arraste, salve e mostre ao seu arquiteto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nImagem conceito.\n\n#RackTécnico #Infraestrutura #AutomaçãoResidencial #Sonorização #ObraDeAltoPadrão #Itapema #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "plano_b": true
+}
