@@ -56,3 +56,4 @@ Palavras negativas: grátis, barato, curso, emprego, vaga, usado, conserto, manu
 - Perfil Google: site trocado para o Netlify (em revisão). Nome MOVE já publicado.
 - 12/11 00h40: Perfil Google virou "empresa de área de atendimento" (endereço oculto, sem local físico); cidades atendidas mantidas. Campanha agora "Pendente" (revisão de anúncio, até 1 dia útil). Raio de 25 km de Itapema mantido no Ads.
 - Atenção: horário no perfil = seg-sex 7h-19h30, sábado fechado; no site está sáb 8-12 → alinhar com o João.
+- 12/11 23h40: Search Console verificado (conta joaoeinha, arquivo HTML + meta tag no site), sitemap.xml enviado (1 página). Pedido de indexação: cota diária excedida (conta nova) — tentar de novo outro dia. Atualizar site no Netlify: usar "choose a folder" com Downloads\MOVE_site_pasta (zip pelo navegador do app travou).
