@@ -4,7 +4,7 @@ description: Usar ao explicar, orçar mentalmente, roteirizar conteúdo ou respo
 ---
 
 # Som e home theater — conhecimento técnico MOVE
-Base: playlist "Home Theater na Prática" + vídeo de impedância (Audio Prime) + vídeo de impedância (Infinity Som); transcrições em automacao/cursos/ do repositório harmony- + conhecimento técnico geral. Preço/prazo exato só o João.
+Base: playlist "Home Theater na Prática" + vídeo de impedância (Audio Prime) + vídeo de impedância (Infinity Som) + série "Tudo sobre impedância" (Renato Brant); transcrições em automacao/cursos/ do repositório harmony- + conhecimento técnico geral. Preço/prazo exato só o João.
 
 ## 1. Composição mínima de um home theater de verdade
 - Receiver (cérebro: recebe HDMI, decodifica Dolby/DTS, divide o som entre as caixas) + 5 caixas + 1 subwoofer + condicionador de energia. = 5.1.
@@ -66,6 +66,19 @@ Base: playlist "Home Theater na Prática" + vídeo de impedância (Audio Prime) 
 - Bridge (ponte): junta 2 canais em 1; a impedância mínima dobra (estéreo 2 Ω → bridge 4 Ω) e a potência soma.
 - Subwoofer de bobina dupla (DVC): cada bobina é uma "caixa". DVC 2×4 Ω em paralelo = 2 Ω; em série = 8 Ω. Escolher a bobina pela impedância que o amplificador aceita.
 - Comprar na ordem certa: primeiro definir amplificador (potência e impedância mínima), depois caixas/falantes com impedância que case.
+
+## 5c. Impedância a fundo e como MEDIR (série Renato Brant)
+- Impedância ≠ resistência. Impedância (Z) = soma vetorial da resistência + reatância indutiva (bobina) + reatância capacitiva. Reatância só existe em corrente alternada (música), por isso Z VARIA com a frequência: a curva tem um pico na frequência de ressonância (Fs) e sobe nos agudos. Os "8 Ω" da caixa são a impedância NOMINAL (um valor de referência).
+- Multímetro na escala de Ω mede só a resistência DC da bobina (Re), sempre MENOR que a nominal (8 Ω costuma dar ~6–7,4 Ω; 4 Ω dá ~3–3,5 Ω). Útil assim mesmo: a impedância nunca é menor que o medido → serve para saber se o falante é de 4 ou 8 Ω, achar bobina aberta (infinito) ou curto (~0) e conferir o circuito antes de ligar.
+- Exemplo do perigo: amplificador que sai 28 V no máximo: em 8 Ω = 98 W (ok para 100 W/canal); em 4 Ω = 196 W (dobro → queima ou proteção); em 16 Ω = 49 W (frio e seguro, metade da potência). Diminuir a impedância = "abrir a torneira" de corrente.
+- Caixas de impedâncias DIFERENTES (evitar misturar):
+  - Série: Zeq = soma; a corrente é a mesma; quem tem MAIOR impedância recebe MAIS potência. Ex.: 8+6+4 = 18 Ω → 44% / 33% / 22% da potência.
+  - Paralelo: 1/Zeq = 1/Z1 + 1/Z2 + 1/Z3; a tensão é a mesma; quem tem MENOR impedância recebe MAIS potência. Ex.: 8 ∥ 6 ∥ 4 = 1,85 Ω → 23% / 31% / 46%.
+  - Sistemas mistos: resolver por partes (cada grupo vira uma impedância equivalente e depois combina).
+- Medir a curva de impedância (método barato): gerador de tom (app de celular ou PC, 20 Hz–20 kHz) → amplificador → resistor de referência conhecido em série (ex.: 100 Ω) → falante. Com multímetro em AC medir a tensão na saída do amplificador (Va) e no falante (Vs) em cada frequência: corrente I = (Va − Vs) ÷ Rref; Z = Vs ÷ I (= Va ÷ I − Rref). Repetir frequência por frequência e plotar.
+- Método profissional: software ARTA/LIMP (ou REW) + placa de som + caixinha de medição ("jig") com resistor de referência, calibração e proteção da entrada → curva automática e parâmetros Thiele‑Small (Fs, Re, Qts, Vas…) para projetar caixa.
+- Caixa com divisor de frequência (crossover passivo): cada falante recebe só a sua faixa, então NÃO se soma a impedância dos falantes; a impedância da caixa depende da frequência e do divisor → usar a nominal do fabricante ou medir a curva.
+- Projetar caixa acústica do zero é ciência complexa (falante, divisor, volume, duto); na MOVE preferir caixas comerciais com especificação conhecida.
 
 ## 6. Vizinhos e acústica (pergunta comum em apartamento)
 - Volume muito alto sempre escapa; isolar 100% é caro. Grave atravessa laje; agudo escapa por janelas/portas.
