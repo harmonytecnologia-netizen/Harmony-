@@ -44,6 +44,22 @@ Base: playlist "Home Theater na Prática" (Audio Prime, 8 vídeos; transcriçõe
 - Crossover: 80 Hz é o ponto de partida (THX); 80–120 Hz integra melhor o sub e alivia o receiver, mesmo com caixas grandes. Caixas não "param" de tocar abaixo do corte (rampa suave). Exceção: sub de entrada fraco pode ficar estrondoso com corte alto.
 - Música de teste para demonstrar: gravações acústicas/ao vivo bem gravadas (ex.: shows acústicos), cenas de filme com efeitos surround.
 
+## 5b. Impedância (casamento série/paralelo) — evitar amplificador esquentando e desligando
+- Regra de ouro: a impedância final ligada no canal tem que ser IGUAL ou MAIOR que a mínima da saída do amplificador/receiver (ex.: amplificador 4 Ω, receiver normalmente 6 Ω). Abaixo disso o aparelho aquece, entra em proteção e desliga (sintoma clássico de ligação errada).
+- Caixas de som ambiente quase sempre são 8 Ω.
+- Paralelo (+ com +, − com −): divide. 2 × 8 Ω = 4 Ω. 4 × 8 Ω = 2 Ω (ERRADO em amplificador de 4 Ω e em receiver de 6 Ω).
+- Série (+ de uma no − da outra; sobra um + e um − para o amplificador): soma. 2 × 8 Ω = 16 Ω.
+- Série‑paralelo: dois pares em paralelo (4 Ω cada) ligados em série = 8 Ω → 4 caixas de 8 Ω num canal de 4 Ω ou 6 Ω com segurança.
+- Os 4 modos para caixas de 8 Ω:
+  1) 1 caixa direta = 8 Ω (ok em 4 Ω e 6 Ω);
+  2) 2 em paralelo = 4 Ω (ok só em amplificador de 4 Ω ou menos; NÃO em receiver 6 Ω);
+  3) 2 em série = 16 Ω (ok em qualquer um; toca um pouco mais baixo, distorce menos);
+  4) 4 em série‑paralelo = 8 Ω (ok em 4 Ω e 6 Ω).
+- Potência: maior impedância = menos potência (aprox.: 100 W em 4 Ω ≈ 60–70 W em 8 Ω). A potência do canal é dividida entre as caixas (100 W / 4 caixas ≈ 25 W cada).
+- Polaridade: definir um padrão para a obra toda (ex.: veia cobre = +, veia prata = −) e manter em todas as emendas; inversão de fase "come" o grave.
+- Muitas caixas/longas distâncias (comercial, casa grande): considerar amplificador multizona com mais canais ou sistema de linha 70 V/100 V com transformador, em vez de empilhar série/paralelo.
+- Ferramentas: alicate, fita isolante/conector de emenda, multímetro para medir a impedância do circuito antes de ligar no amplificador.
+
 ## 6. Vizinhos e acústica (pergunta comum em apartamento)
 - Volume muito alto sempre escapa; isolar 100% é caro. Grave atravessa laje; agudo escapa por janelas/portas.
 - Paliativos: tapete ou placa de EVA sob o sub; manta asfáltica ou lã de rocha densa (~1 m²) sobre cada caixa de embutir no forro (também reduz vazamento entre cômodos).

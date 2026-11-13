@@ -3,3 +3,4 @@
 
 Como estudar uma nova playlist: mandar o link; o navegador do app abre cada vídeo, liga "Mostrar transcrição" e salva o texto; depois vira manual em playbooks/.
 - audioprime_home_theater_transcricoes.txt — playlist "Home Theater na Prática" (Audio Prime, 8 vídeos) https://www.youtube.com/playlist?list=PLsu4ZyXslcji9fwHSMnJ_Xb6L4hec1avt. Resumo aplicado em ../playbooks/som-home-theater-move/SKILL.md.
+- Vídeo "Como fazer o casamento de impedância série e paralelo" (Audio Prime) https://www.youtube.com/watch?v=ariRoscEHl4 → seção 5b de ../playbooks/som-home-theater-move/SKILL.md.
