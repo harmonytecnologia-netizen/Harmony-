@@ -14,3 +14,4 @@
 | 2026-11-12 (fila) | Reel premium IA + Story / Feed premium + 2 Stories | Cena Cinema; suíte com cortinas automatizadas | — | Shake That Thing — Patrick Jordan Patrikios | (a publicar) |
 | 2026-11-12 12h | Reel premium IA + Story | Cena Cinema (luz, tela, cortinas, som) | — | Shake That Thing — Patrick Jordan Patrikios | 18122214206055657 / story 18103768541379011 |
 | 2026-11-12 19h | Feed premium + 2 Stories | Suíte master com cortinas automatizadas | — | — (imagens; música do dia: Shake That Thing — Patrick Jordan Patrikios) | feed 18056605685592084 / stories 18134666789493502, 18099610487229857 |
+| 2026-11-13 19h | Reel + Story | MOVE Explica 3D: impedância (série x paralelo) | — | If You're Asking My Advice — Asher Fulero | 18136253698663801 / story 18143086378619738 |
