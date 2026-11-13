@@ -14,5 +14,15 @@
  "videos_usados": [],
  "musica": "If You're Asking My Advice — Asher Fulero",
  "tema": "MOVE Explica 3D: impedância (série x paralelo)",
- "publicado_19h": true
+ "publicado_19h": true,
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_2.jpg"
+  }
+ ]
 }
