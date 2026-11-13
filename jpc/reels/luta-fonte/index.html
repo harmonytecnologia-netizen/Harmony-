@@ -1,0 +1,144 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:B;src:url(bangers-latin-400-normal.woff2)}
+@font-face{font-family:A;src:url(anton-latin-400-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#07040f;color:#fff}
+#stage{position:absolute;inset:0}
+.ann{position:absolute;left:0;right:0;text-align:center;font-family:B;letter-spacing:4px;opacity:0;
+ -webkit-text-stroke:8px #120822;paint-order:stroke fill;text-shadow:0 10px 0 #120822,0 0 40px rgba(255,225,79,.6)}
+.cap{position:absolute;left:70px;right:70px;top:1380px;background:rgba(10,6,24,.88);border:5px solid #ffe14f;border-radius:22px;padding:26px 30px;font-family:A;font-size:50px;line-height:1.2;text-align:center;opacity:0;box-shadow:0 10px 0 #000}
+.hp{position:absolute;top:300px;height:54px;width:400px;background:#2a0d12;border:5px solid #fff;border-radius:8px;overflow:hidden;box-shadow:0 6px 0 #000}
+.hp i{position:absolute;top:0;bottom:0;display:block}
+.nm{position:absolute;top:366px;font-family:A;font-size:38px;letter-spacing:2px;text-shadow:3px 3px 0 #000}
+</style></head><body><div id="stage">
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" style="position:absolute;inset:0">
+ <defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12052e"/><stop offset=".55" stop-color="#3b0f6b"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a0b3a"/><stop offset="1" stop-color="#05020c"/></linearGradient>
+  <linearGradient id="rgb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+  <radialGradient id="orb"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#7dffb8"/><stop offset="1" stop-color="#22ee8c" stop-opacity="0"/></radialGradient>
+  <radialGradient id="aura"><stop offset="0" stop-color="#22ee8c" stop-opacity=".0"/><stop offset=".6" stop-color="#22ee8c" stop-opacity=".35"/><stop offset="1" stop-color="#22ee8c" stop-opacity="0"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1080" height="1300" fill="url(#sky)"/>
+ <circle cx="540" cy="900" r="260" fill="#ffb3f0" opacity=".25"/>
+ <g id="city"></g>
+ <rect y="1240" width="1080" height="680" fill="url(#floor)"/>
+ <g id="grid" stroke="#ff4fd8" stroke-opacity=".35" stroke-width="3"></g>
+ <ellipse cx="250" cy="1255" rx="180" ry="22" fill="#000" opacity=".5"/>
+ <ellipse id="shF" cx="790" cy="1255" rx="210" ry="22" fill="#000" opacity=".5"/>
+ <circle id="aur" cx="300" cy="1080" r="0" fill="url(#aura)"/>
+ <!-- GABI -->
+ <g id="gabi"><g transform="translate(-135,-340) scale(.75)">
+  <rect x="40" y="20" width="280" height="400" rx="34" fill="url(#rgb)" filter="url(#glow)"/>
+  <rect x="52" y="32" width="256" height="376" rx="26" fill="#120a26"/>
+  <rect x="40" y="70" width="280" height="26" fill="#ff3c5a"/><path d="M40 83 L0 60 L6 100 Z" fill="#ff3c5a"/>
+  <path id="geyes" d="M118 160 l44 -8 M198 152 l44 8" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="142" cy="175" r="12" fill="#fff"/><circle cx="218" cy="175" r="12" fill="#fff"/>
+  <path id="gmouth" d="M150 215 q30 20 60 0" stroke="#ff4fd8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="180" cy="310" r="46" fill="none" stroke="url(#rgb)" stroke-width="8"/>
+  <g id="gfan"><path d="M180 272 q16 22 0 38 q-16 -22 0 -38" fill="#8b5cff"/><path d="M218 310 q-22 16 -38 0 q22 -16 38 0" fill="#22d3ee"/><path d="M180 348 q-16 -22 0 -38 q16 22 0 38" fill="#ff4fd8"/><path d="M142 310 q22 -16 38 0 q-22 16 -38 0" fill="#8b5cff"/></g>
+  <rect x="110" y="410" width="40" height="40" rx="8" fill="#22324f"/><rect x="210" y="410" width="40" height="40" rx="8" fill="#22324f"/>
+ </g>
+ <g id="gArmB"><circle cx="-150" cy="-175" r="40" fill="#c4122e" stroke="#120822" stroke-width="6"/></g>
+ <g id="gArmF"><circle cx="120" cy="-170" r="46" fill="#ff3c5a" stroke="#120822" stroke-width="6"/><path d="M95 -185 h40" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".6"/></g>
+ </g>
+ <!-- FONTE GENERICA -->
+ <g id="fonte"><g transform="translate(-160,-300)">
+  <rect x="20" y="250" width="40" height="50" rx="8" fill="#333"/><rect x="260" y="250" width="40" height="50" rx="8" fill="#333"/>
+  <rect x="0" y="40" width="320" height="220" rx="18" fill="#6b6f78" stroke="#120822" stroke-width="8"/>
+  <rect x="14" y="54" width="292" height="192" rx="12" fill="#585c64"/>
+  
+  <circle cx="230" cy="160" r="62" fill="#2b2d33" stroke="#120822" stroke-width="6"/>
+  <g stroke="#6b6f78" stroke-width="5"><path d="M175 160 h110 M230 105 v110 M190 120 l80 80 M270 120 l-80 80"/></g>
+  <rect x="34" y="70" width="120" height="70" rx="6" fill="#ffe14f" stroke="#120822" stroke-width="4" transform="rotate(-6 94 105)"/>
+  <text x="94" y="118" text-anchor="middle" font-family="A" font-size="40" fill="#120822" transform="rotate(-6 94 105)">500W*</text>
+  <path d="M40 175 l46 14 M128 189 l46 -14" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  <path id="fmouth" d="M60 225 q50 -26 100 0" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="64" cy="200" r="10" fill="#ff3c5a"/><circle cx="150" cy="200" r="10" fill="#ff3c5a"/>
+  <path d="M320 150 q60 20 40 80 q-20 60 30 80" stroke="#222" stroke-width="16" fill="none" stroke-linecap="round"/>
+ </g></g>
+ <g id="fx"></g>
+</svg>
+<div id="flash" style="position:absolute;inset:0;background:#fff;opacity:0"></div>
+<div id="black" style="position:absolute;inset:0;background:#000;opacity:0"></div>
+</div>
+<div class="hp" style="left:60px"><i id="hpG" style="right:0;left:0;background:linear-gradient(90deg,#22ee8c,#ffe14f)"></i></div>
+<div class="hp" style="right:60px"><i id="hpF" style="left:0;right:0;background:linear-gradient(270deg,#22ee8c,#ffe14f)"></i></div>
+<div style="position:absolute;top:288px;left:470px;width:140px;text-align:center;font-family:A;font-size:70px;text-shadow:4px 4px 0 #000" id="tm">99</div>
+<div class="nm" style="left:64px">SEU PC</div><div class="nm" style="right:64px;text-align:right">FONTE GENÉRICA</div>
+<div class="ann" id="a1" style="top:560px;font-size:170px;color:#ffe14f">ROUND 1</div>
+<div class="ann" id="a2" style="top:540px;font-size:230px;color:#ff3c5a">FIGHT!</div>
+<div class="ann" id="a3" style="top:520px;font-size:120px;color:#ffe14f">SOBRECARGA!</div>
+<div class="ann" id="a4" style="top:520px;font-size:150px;color:#ff4fd8">COMBO x3!</div>
+<div class="ann" id="a5" style="top:640px;font-size:120px;color:#fff;z-index:5">TELA PRETA!</div>
+<div class="ann" id="a6" style="top:520px;font-size:96px;color:#22ee8c">ESPECIAL<br>CARREGADO</div>
+<div class="ann" id="a7" style="top:520px;font-size:130px;color:#22ee8c">SELO 80 PLUS!</div>
+<div class="ann" id="a8" style="top:520px;font-size:300px;color:#ff3c5a">K.O.!</div>
+<div class="ann" id="a9" style="top:480px;font-size:130px;color:#ffe14f">VOCÊ VENCEU!</div>
+<div class="cap" id="c1">Fonte genérica: o "500 W" é só no <span style="color:#ffe14f">adesivo</span></div>
+<div class="cap" id="c2">No jogo pesado ela não segura: o PC <span style="color:#ff3c5a">desliga</span> e pode levar peça junto</div>
+<div class="cap" id="c3">O golpe certo: fonte de <span style="color:#22ee8c">marca</span>, com selo 80 Plus</div>
+<div class="cap" id="c4" style="top:1330px;text-align:left;font-size:50px;border-color:#22ee8c">✔ Marca conhecida<br>✔ Selo 80 Plus<br>✔ Potência certa pra sua placa</div>
+<div id="cta" style="position:absolute;inset:0;opacity:0;background:rgba(7,4,15,.82)">
+ <div class="ann" style="opacity:1;top:430px;font-size:110px;color:#ffe14f">NOVO DESAFIANTE?</div>
+ <div style="position:absolute;left:80px;right:80px;top:640px;text-align:center;font-family:A;font-size:66px;line-height:1.2">Monte seu PC com a <span style="color:#22d3ee">JPC</span><br>e não perca mais nenhuma luta</div>
+ <div id="ctab" style="position:absolute;left:150px;right:150px;top:900px;text-align:center;font-family:B;font-size:84px;letter-spacing:3px;padding:26px;border-radius:26px;background:linear-gradient(90deg,#8b5cff,#ff4fd8);border:6px solid #fff;box-shadow:0 12px 0 #120822">MANDA "ORÇAMENTO"<br>NO DIRECT</div>
+ <div style="position:absolute;left:0;right:0;top:1230px;text-align:center;font-family:A;font-size:48px;color:#b9a8ff">Salva e manda pro seu duo · Enviamos pra todo o Brasil</div>
+</div>
+<script>
+const $=id=>document.getElementById(id), E=x=>Math.max(0,Math.min(1,x)), ease=x=>{x=E(x);return 1-Math.pow(1-x,3)};
+// cidade
+(()=>{let s='',x=0,i=0;while(x<1080){const w=60+((i*37)%70),h=180+((i*53)%260);s+=`<rect x="${x}" y="${1240-h}" width="${w}" height="${h}" fill="#1b0938"/>`;for(let yy=1240-h+20;yy<1220;yy+=36)for(let xx=x+10;xx<x+w-14;xx+=24)if(((xx*7+yy*3+i)%5)==0)s+=`<rect x="${xx}" y="${yy}" width="10" height="16" fill="${['#22d3ee','#ff4fd8','#ffe14f'][(xx+yy)%3]}" opacity=".8"/>`;x+=w+6;i++;}$('city').innerHTML=s;
+ let g='';for(let k=0;k<12;k++){const y=1240+Math.pow(k/11,2)*680;g+=`<path d="M0 ${y} H1080"/>`;}for(let k=-8;k<=8;k++)g+=`<path d="M${540+k*40} 1240 L${540+k*260} 1920"/>`;$('grid').innerHTML=g;})();
+function ann(id,t,a,z,pop=1){const el=$(id);const o=E((t-a)/0.12)*E((z-t)/0.2);el.style.opacity=o;const s=pop?(1+0.6*(1-ease((t-a)/0.25))):1;el.style.transform=`scale(${s}) rotate(${-3+3*E((t-a)/0.3)}deg)`;}
+function cap(id,t,a,z){$(id).style.opacity=E((t-a)/0.2)*E((z-t)/0.2);}
+function bolt(x1,y1,x2,y2,seed){let p=`M${x1} ${y1}`;for(let i=1;i<=7;i++){const k=i/7;p+=` L${x1+(x2-x1)*k+((i*seed*37)%60-30)} ${y1+(y2-y1)*k+((i*seed*53)%80-40)}`;}return `<path d="${p}" stroke="#ffe14f" stroke-width="14" fill="none" filter="url(#glow)"/><path d="${p}" stroke="#fff" stroke-width="5" fill="none"/>`;}
+function spark(x,y,r,c){let s='';for(let i=0;i<10;i++){const a=i/10*6.283;s+=`<path d="M${x} ${y} L${x+Math.cos(a)*r} ${y+Math.sin(a)*r}" stroke="${c}" stroke-width="${14-i%2*6}" stroke-linecap="round" filter="url(#glow)"/>`;}return s+`<circle cx="${x}" cy="${y}" r="${r*.35}" fill="#fff"/>`;}
+function render(t){
+ let fx='', shake=0, flash=0;
+ // HP
+ const hits=[3.2,5.2,5.6,6.0]; const dmg=[30,15,15,15]; let hg=100; hits.forEach((h,i)=>{if(t>h)hg-=dmg[i]*ease((t-h)/0.3);});
+ const hf=100-100*ease((t-13.3)/0.8);
+ $('hpG').style.right=(100-hg)+'%'; $('hpF').style.left=(100-hf)+'%';
+ $('tm').textContent=Math.max(0,99-Math.floor(t*1.5));
+ // posições
+ let gx=250,gy=1250,gr=0,fxp=820,fy=1250,fr=0,fsy=1;
+ const idle=Math.sin(t*6)*8;
+ gy+=idle; fy+=Math.sin(t*6+1)*8;
+ hits.forEach(h=>{const k=t-h;if(k>0&&k<0.35){gx-=40*Math.sin(k/0.35*Math.PI);fx+=spark(gx+90,980,110,'#ffe14f');shake=Math.max(shake,18*(1-k/0.35));}});
+ if(t>6.0&&t<9.6){const k=E((t-6.0)/0.5),u=E((t-8.8)/0.8);gr=-80*k*(1-u);gx-=60*k*(1-u);gy+=60*k*(1-u);}
+ // ataques da fonte
+ [[2.6,3.2,1],[4.9,5.2,2],[5.3,5.6,3],[5.7,6.0,4]].forEach(([a,z,s])=>{if(t>a&&t<z+0.15){const k=E((t-a)/(z-a));fx+=bolt(fxp-200,1000,fxp-200-(fxp-200-gx-80)*k,1000+20*Math.sin(t*40),s+Math.floor(t*20));}});
+ // fonte golpeia: tremor
+ if((t>2.4&&t<3.3)||(t>4.8&&t<6.1)) fxp+=Math.sin(t*90)*6;
+ // carga especial
+ const ch=E((t-10.4)/1.6); $('aur').setAttribute('r', t>10.4&&t<13.3? 120+200*ch+10*Math.sin(t*30):0); $('aur').setAttribute('cy',1020);$('aur').setAttribute('cx',gx);
+ // gabi punch/special
+ let armF=`translate(0,0)`; if(t>12.0&&t<12.6){const k=ease((t-12.0)/0.25);armF=`translate(${110*k},${20*k})`;}
+ if(t>12.2&&t<13.4){const k=E((t-12.2)/1.0); const ox=gx+260+(fxp-300-gx)*k; fx+=`<circle cx="${ox}" cy="1010" r="${120+10*Math.sin(t*40)}" fill="url(#orb)"/><text x="${ox}" y="1032" text-anchor="middle" font-family="B" font-size="64" fill="#073" >80+</text>`;
+   for(let i=1;i<6;i++)fx+=`<circle cx="${ox-i*55}" cy="${1010+Math.sin(i+t*20)*10}" r="${60-i*9}" fill="#22ee8c" opacity="${.5-i*.08}"/>`;}
+ if(t>13.3&&t<14.2){const k=t-13.3;fx+=spark(fxp-100,1010,180*(1-k)+60,'#22ee8c');shake=Math.max(shake,30*(1-k));flash=Math.max(flash,.7*(1-k/0.25));}
+ if(t>13.3){const k=ease((t-13.3)/1.2);fr=70*k;fxp+=120*k;fy+=40*k;fsy=1;
+   if(t>14.5){for(let i=0;i<4;i++){const yy=900-((t*200+i*80)%300);fx+=`<circle cx="${fxp-40+i*30}" cy="${yy}" r="${30+i*6}" fill="#888" opacity="${.5-((t*200+i*80)%300)/700}"/>`;}}}
+ $('gabi').setAttribute('transform',`translate(${gx},${gy}) rotate(${gr}) scale(1.35)`);
+ $('gArmF').setAttribute('transform',armF);
+ $('fonte').setAttribute('transform',`translate(${fxp},${fy}) rotate(${fr}) scale(${1.35*fsy})`);
+ $('shF').setAttribute('cx',fxp);
+ $('gfan').setAttribute('transform',`rotate(${t*400} 180 310)`);
+ // expressões
+ $('gmouth').setAttribute('d', (t>3.2&&t<10)?'M150 225 q30 -22 60 0':'M150 215 q30 20 60 0');
+ $('fmouth').setAttribute('d', t>13.3?'M60 235 q50 26 100 0':'M60 225 q50 -26 100 0');
+ // tela preta (PC desligou)
+ $('black').style.opacity = (t>6.2&&t<7.6)? (Math.floor(t*14)%3?0.92:0.6):0;
+ $('fx').innerHTML=fx;
+ $('stage').style.transform=`translate(${(Math.random()*2-1)*shake}px,${(Math.random()*2-1)*shake}px)`;
+ $('flash').style.opacity=flash;
+ ann('a1',t,0.1,1.2); ann('a2',t,1.25,2.4); ann('a3',t,2.9,4.4); ann('a4',t,5.2,6.3); ann('a5',t,6.3,7.6,0);
+ ann('a6',t,10.5,12.0,0); ann('a7',t,12.1,13.3); ann('a8',t,14.1,16.3); ann('a9',t,16.4,18.2);
+ $('a6').style.opacity=t>10.5&&t<12?((Math.floor(t*6)%2)?1:.55):0;
+ cap('c1',t,2.6,5.0); cap('c2',t,7.4,10.4); cap('c3',t,12.1,16.2); cap('c4',t,16.4,21.3);
+ $('cta').style.opacity=E((t-21.3)/0.4);
+ $('ctab').style.transform=`scale(${1+0.04*Math.sin(t*8)})`;
+}
+</script></body></html>
