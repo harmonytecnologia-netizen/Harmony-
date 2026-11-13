@@ -1,0 +1,63 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "A TV desce do forro. E some depois.\n\nNesta varanda, a TV fica guardada no forro de madeira e desce com um toque, no ângulo certo para quem está no sofá. Fim do filme, ela volta e a vista fica livre de novo.\n\nVocê esconderia a TV na sua sala ou varanda? Conte nos comentários.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\n#TVRetrátil #AutomaçãoResidencial #Varanda #DesignDeInteriores #AltoPadrão #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel.mp4",
+   "legenda": "Do projeto ao dia a dia. 🎬\n\nAlguns projetos entregues pela MOVE no litoral norte de SC:\n01 · Área gourmet integrada à piscina, tudo pelo app.\n02 · Sala integrada com luz embutida em cena.\n03 · Piscina e fachada iluminadas.\n04 · A casa inteira controlada pelo app.\n05 · Sistema hi-fi para ouvir música do jeito certo.\n\nQual desses ambientes você quer na sua casa? Conte aqui e salve para o seu projeto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\n#ProjetosMOVE #AutomaçãoResidencial #HomeTheater #Iluminação #BalneárioCamboriú #CasaInteligente #MOVE",
+   "thumb_offset": 1500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel.mp4"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "Cada ambiente com a sua música.\n\nO som por zonas (multiroom) deixa a casa inteira sonorizada, mas com liberdade:\n01 · Músicas diferentes em cada ambiente.\n02 · Volume próprio em cada zona.\n03 · Caixas embutidas, sem nada à vista.\n04 · Controle pelo celular ou pela voz.\n05 · Tudo pensado na planta, antes da obra.\n\nEm qual ambiente você mais ouve música? Arraste, salve e envie para quem está construindo.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nImagem conceito na capa.\n\n#SomAmbiente #Multiroom #Sonorização #CasaInteligente #Florianópolis #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "plano_b": true,
+ "musica": "MOVE Original — Âmbar 86 bpm (trilha sintetizada própria, automacao/musicas)",
+ "tema": "Reel Projetos MOVE realizados + feed TV retrátil + carrossel som por zonas"
+}
