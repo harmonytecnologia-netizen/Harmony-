@@ -8,3 +8,14 @@ Como estudar uma nova playlist: mandar o link; o navegador do app abre cada víd
 - Playlist "RB: Tudo sobre Impedância de alto falantes" (Renato Brant, 8 vídeos) https://www.youtube.com/playlist?list=PLX2YtMdpQuUmsQPJIeAF5O5oZBYxe_l5l → seção 5c de ../playbooks/som-home-theater-move/SKILL.md (transcrição lida no navegador, não salva em arquivo).
 - Playlist "CURSO REDES WIFI" (NASeros, 17 vídeos, espanhol) https://www.youtube.com/playlist?list=PLSvxAUzJ-XSd1FdOTeAIQuyTmccuv5RyS → seção 7 de ../playbooks/redes-move/SKILL.md (lidas as aulas técnicas principais; 1 aula sem transcrição).
 - Vídeo "Automação Residencial: Wi-Fi, Zigbee ou Cabeada?" (Play Casa Inteligente) https://www.youtube.com/watch?v=ajG-tjjZmgk → seção 3b de ../playbooks/automacao-residencial-move/SKILL.md.
+
+## Monetização e crescimento (nov/2026)
+- DNiTdcZQoPs e WGXv1_rKTJ4 — monetização Instagram 2026 (qualificação, conteúdo de marca, Creator Marketplace, presentes, 10k para assinaturas/selos, pagamento e impostos).
+- NhNMIGhnT2M — monetizar no YouTube sem papo de guru (vídeo julgado sozinho, clique + retenção, sistema, vídeo com "missões").
+- iJiBJAJRRkk — Shorts sem rosto US$ 30k/mês (ranking de clipes do TikTok; avaliado como arriscado).
+- pHgkwULI3Cc — canal dark infantil com IA (avaliado: não fazer).
+- 3sUc3u5gQgU — política de conteúdo inautêntico do YouTube (15/07/2025).
+- 5-CO28DOZro — verdade sobre automação no YouTube (stock + voz + edição em vez de imagem parada).
+- 0QYc4hF-Ncg — documentário 3D com IA (storyboard, imagem→vídeo, SFX).
+- Playlist "AI Money Making" (PLqwvVy1_WmUoXvdJJ77SmkHwAJUCXtUAJ) — mapeada (~190 vídeos de nichos sem rosto).
+→ Playbook: playbooks/monetizacao-crescimento-move/SKILL.md
