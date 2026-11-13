@@ -11,6 +11,15 @@ Manual que a rotina diária segue. Tudo aqui foi definido com o João.
 - Publicar direto, sem esperar aprovação (pedido do João).
 - Post diário às **12h** (horário de Brasília).
 
+## FREQUÊNCIA OBRIGATÓRIA (combinado com o João em 13/11/2026 — vale acima de qualquer outra regra)
+TODOS OS DIAS, sem falhar nenhum dia:
+- **1 post de feed** (imagem 1080x1350) — publica às 12h.
+- **1 carrossel** (5 a 7 slides) — publica às 19h.
+- **No mínimo 3 stories PRÓPRIOS** (de 3 a 8), feitos para story (1080x1920): bastidor de obra, dica rápida, pergunta/enquete em arte ("responde no direct"), antes/depois, detalhe de produto, agenda aberta, cena conceito. Reel repostado NÃO conta como story próprio. Horários: 09h, 15h e 21h (pode haver mais de um por horário).
+- **Tudo que for publicado no feed (feed, carrossel, Reel) também vai para o story** — isso é ALÉM dos 3 stories próprios.
+- **Reels: 3 por semana** (segunda, quarta e sexta, às 12h junto com o feed), de obra real ou de dica (inclui MOVE Explica e Dica da Iamin).
+- A fila (fila/AAAA-MM-DD/plano.json) deve ter sempre hoje + 3 dias prontos. Chaves do plano: "09h", "12h", "15h", "19h", "21h".
+
 ## Fluxo diário
 1. Verificar `C:\Users\PC\Videos\MOVE para postar` no computador do João.
    Comparar com `historico.md` para saber quais vídeos já foram usados.
@@ -67,7 +76,7 @@ Ver automacao/iamin/FICHA.md. Estilo pintura digital aprovado. Story "Dica da Ia
 
 ## Cronograma (fonte da verdade)
 Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVRFHhDJE8
-- Aba "Cronograma": cada dia tem 12h (Reel + story) e 19h (feed/carrossel + 2 stories), com tema, título, status e música.
+- Aba "Cronograma": cada dia tem 09h (story próprio), 12h (feed + story; Reel + story às seg/qua/sex), 15h (story próprio), 19h (carrossel + story) e 21h (story próprio), com tema, título, status e música. Ver FREQUÊNCIA OBRIGATÓRIA.
 - Ao produzir um lote, seguir os temas da planilha, na ordem, e atualizar a coluna Status ("Pronto (na fila)", depois "Publicado").
 - Dias marcados "Aguardando vídeo": usar vídeos da pasta MOVE para postar; se não houver, fazer Reel conceito do mesmo tema.
 
