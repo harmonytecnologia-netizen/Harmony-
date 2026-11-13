@@ -1,0 +1,8 @@
+# JPC (@harmony_computer) — conteúdo
+- Conta Instagram (Windsor): 17841445277894628. NUNCA publicar em MOVE/Metalize.
+- Mascote Gabi: scripts/mascote.py (gabinete com rosto). Carrossel: scripts/carrossel.py.
+- Reel animado: reels/<nome>/index.html (render(t)) + render.py + trilha.py (música sintetizada própria) → ffmpeg.
+- Hospedagem p/ publicar: https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/<caminho>
+- Cronograma: Sheets "JPC — Cronograma de 30 dias" https://claude.ai/artifact/9bCDXSRdbyL66DzPwpfjhc
+- Manual/pautas: Doc https://claude.ai/artifact/PX9oAS8KTa7R6CDPJmsyXK
+- historico.md: o que foi postado.
