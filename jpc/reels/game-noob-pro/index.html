@@ -1,0 +1,115 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:P;src:url(press-start-2p-latin-400-normal.woff2)}
+@font-face{font-family:V;src:url(vt323-latin-400-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;color:#fff}
+.L{position:absolute;inset:0;opacity:0}
+.px{font-family:P;line-height:1.35;text-align:center;position:absolute;left:60px;right:60px}
+.v{font-family:V;text-align:center;position:absolute;left:60px;right:60px}
+.box{position:absolute;left:60px;right:60px;background:rgba(7,4,15,.82);border:8px solid #8b5cff;box-shadow:0 0 0 8px #07040f,0 0 40px #8b5cff88;padding:34px}
+.sh{text-shadow:6px 6px 0 #000}
+.cy{color:#22d3ee}.pk{color:#ff4fd8}.rd{color:#ff3c5a}.gr{color:#22ee8c}.yl{color:#ffe14f}
+#hud{position:absolute;top:270px;left:60px;right:60px;display:flex;justify-content:space-between;font-family:P;font-size:26px}
+canvas{position:absolute;image-rendering:pixelated}
+</style></head><body>
+<div id="hud" class="sh"><span>JPC</span><span id="score">SCORE 000000</span><span>❤❤❤</span></div>
+
+<div class="L" id="s0">
+ <div class="px sh yl" style="top:420px;font-size:44px">PLAYER 1</div>
+ <div class="px sh" style="top:520px;font-size:76px">SEU PC<br>É <span class="rd">NOOB</span><br>OU <span class="gr">PRO</span>?</div>
+ <div class="px sh cy" id="press" style="top:1460px;font-size:34px">▶ PRESS START</div>
+</div>
+
+<div class="L" id="s1">
+ <div class="px sh yl" style="top:370px;font-size:34px">FASE 1</div>
+ <div class="px sh" style="top:440px;font-size:52px">PC SEM<br>VENTILAÇÃO</div>
+ <div class="px sh rd" id="temp" style="top:1020px;font-size:58px">95°C</div>
+ <div class="px sh rd" id="go1" style="top:1110px;font-size:84px;opacity:0">GAME OVER</div>
+ <div class="box" id="fix1" style="top:1250px;opacity:0"><div class="v gr" style="position:static;font-size:58px">✔ FAN NA FRENTE PUXANDO,<br>ATRÁS SOLTANDO + LIMPEZA</div></div>
+</div>
+
+<div class="L" id="s2">
+ <div id="bsod" style="position:absolute;inset:0;background:#1a4fd6"></div>
+ <div class="px sh" style="top:380px;font-size:120px;text-align:left;left:110px">:(</div>
+ <div class="px sh" style="top:600px;font-size:52px;text-align:left;left:110px">TELA AZUL!</div>
+ <div class="v" style="top:700px;font-size:56px;text-align:left;left:110px;right:110px">Fonte genérica ou driver<br>errado = PC reiniciando<br>no meio da partida.</div>
+ <div class="box" id="fix2" style="top:1240px;opacity:0;border-color:#22ee8c;box-shadow:0 0 0 8px #07040f"><div class="v gr" style="position:static;font-size:58px">✔ FONTE DE MARCA (80 PLUS)<br>+ DRIVER DO SITE OFICIAL</div></div>
+</div>
+
+<div class="L" id="s3">
+ <div class="px sh yl" style="top:370px;font-size:34px">FASE 3</div>
+ <div class="px sh" style="top:440px;font-size:52px">JOGO NO HD</div>
+ <div class="px sh" style="top:600px;font-size:40px">LOADING<span id="dots"></span></div>
+ <div style="position:absolute;left:150px;right:150px;top:690px;height:56px;border:6px solid #fff;background:#07040f"><div id="load" style="height:100%;width:5%;background:#ff3c5a"></div></div>
+ <div class="px sh rd" id="lag" style="top:800px;font-size:64px">LAG!!</div>
+ <div class="box" id="fix3" style="top:1300px;opacity:0;border-color:#22ee8c"><div class="v gr" style="position:static;font-size:60px">✔ WINDOWS E JOGOS NO SSD:<br>CARREGA EM SEGUNDOS</div></div>
+</div>
+
+<div class="L" id="s4">
+ <div class="px sh yl" id="lvl" style="top:420px;font-size:80px">LEVEL UP!</div>
+ <div class="px sh gr" style="top:560px;font-size:44px">+FPS  +XP  -LAG</div>
+ <div class="px sh" style="top:1300px;font-size:46px">AGORA SIM:<br><span class="gr">PRO PLAYER</span></div>
+</div>
+
+<div class="L" id="s5">
+ <div class="box" style="top:420px;text-align:center">
+  <div class="px yl" style="position:static;font-size:40px">CONTINUE?</div>
+  <div class="px" style="position:static;font-size:48px;margin-top:30px">QUER UM PC<br><span class="gr">NIVEL PRO</span>?</div>
+  <div class="v" style="position:static;font-size:64px;margin-top:30px">A JPC monta e envia pra todo o Brasil</div>
+  <div class="px pk" id="cta" style="position:static;font-size:40px;margin-top:34px">MANDA "ORÇAMENTO"<br>NO DIRECT</div>
+ </div>
+ <div class="px sh cy" style="top:1460px;font-size:30px">SALVA E MANDA PRO DUO</div>
+</div>
+
+<canvas id="c" width="1080" height="1920" style="left:0;top:0"></canvas>
+<script>
+const E=x=>Math.max(0,Math.min(1,x));
+const S=[[0,3.6],[3.6,10.2],[10.2,16.6],[16.6,22.4],[22.4,27.2],[27.2,31.5]];
+// sprites 12x16: . vazio, k preto, s pele, c boné, b camisa, p calça, w branco, y coroa, g óculos
+const NOOB=["....cccc....","...cccccc...","..cccccccc..","...ssssss...","...swksswk..","...ssssss...","....s..s....","....ssss....","...bbbbbb...","..bbbbbbbb..","..sbbbbbbs..","..sbbbbbbs..","...pppppp...","...pp..pp...","...pp..pp...","..kkk..kkk.."];
+const PRO =["...y.yy.y...","...yyyyyy...","...ssssss...","..sggggggs..","...gg..gg...","...ssssss...","....s..s....","....ssss....","...bbbbbb...","..bbbbbbbb..","..sbbbbbbs..","..sbbbbbbs..","...pppppp...","...pp..pp...","...pp..pp...","..kkk..kkk.."];
+const COL={k:'#111',s:'#f2c49b',c:'#ff3c5a',b:'#8b5cff',p:'#22324f',w:'#fff',y:'#ffe14f',g:'#111'};
+function sprite(ctx,sp,x,y,sc,tint){sp.forEach((r,j)=>[...r].forEach((ch,i)=>{if(ch=='.')return;ctx.fillStyle=(tint&&ch=='b')?tint:COL[ch];ctx.fillRect(x+i*sc,y+j*sc,sc,sc);}));}
+function pcSprite(ctx,x,y,sc,hot,t){ // gabinete pixel
+ ctx.fillStyle='#222';ctx.fillRect(x,y,10*sc,14*sc);ctx.fillStyle=hot?'#ff3c5a':'#22d3ee';ctx.fillRect(x+sc,y+sc,8*sc,12*sc);
+ ctx.fillStyle='#07040f';ctx.fillRect(x+2*sc,y+2*sc,6*sc,10*sc);
+ ctx.fillStyle=hot?'#ff7a3c':'#8b5cff';const a=Math.floor(t*12)%2;ctx.fillRect(x+3*sc,y+(4+a)*sc,4*sc,2*sc);ctx.fillRect(x+3*sc,y+(8-a)*sc,4*sc,2*sc);
+ if(hot){for(let i=0;i<5;i++){const yy=y-((t*300+i*90)%150);ctx.fillStyle=`rgba(200,200,200,${0.7-((t*300+i*90)%150)/400})`;ctx.fillRect(x+(2+i*2)*sc-8,yy,3*sc,3*sc);}}
+}
+function show(i,t){const[a,z]=S[i];return E((t-a)/0.2)*E((z-t)/0.2);}
+function render(t){
+ const ctx=document.getElementById('c').getContext('2d');ctx.clearRect(0,0,1080,1920);
+ S.forEach((s,i)=>document.getElementById('s'+i).style.opacity=show(i,t));
+ document.getElementById('score').textContent='SCORE '+String(Math.floor(t*3217)).padStart(6,'0');
+ document.getElementById('hud').style.opacity=t>30.8?E((31.5-t)/0.7):1;
+ document.getElementById('press').style.opacity=(Math.floor(t*3)%2)?1:0.15;
+ // s0: noob andando
+ if(show(0,t)>0){ctx.globalAlpha=show(0,t);sprite(ctx,NOOB,380+Math.sin(t*4)*30,960+(Math.floor(t*6)%2)*8,26);ctx.globalAlpha=1;}
+ // s1
+ const p1=t-3.6; if(show(1,t)>0){ctx.globalAlpha=show(1,t);
+   pcSprite(ctx,560,620,26,true,t); sprite(ctx,NOOB,220,690+(p1>3.2?Math.min(160,(p1-3.2)*120):0),18,p1>3.2?'#555':null);
+   ctx.globalAlpha=1;
+   document.getElementById('temp').textContent=Math.min(99,Math.floor(60+p1*12))+'°C';
+   document.getElementById('go1').style.opacity=p1>3.0?((Math.floor(t*6)%2)?1:.6):0;
+   document.getElementById('fix1').style.opacity=E((p1-4.4)/0.3);}
+ // s2
+ const p2=t-10.2; document.getElementById('fix2').style.opacity=E((p2-3.6)/0.3);
+ document.getElementById('bsod').style.background=p2<0.3?'#fff':'#1a4fd6';
+ // s3
+ const p3=t-16.6; if(show(3,t)>0){
+   const ld=p3<3.6?Math.min(22,5+p3*4):22+(p3-3.6)*400;
+   document.getElementById('load').style.width=Math.min(100,ld)+'%';
+   document.getElementById('load').style.background=p3<3.6?'#ff3c5a':'#22ee8c';
+   document.getElementById('dots').textContent='.'.repeat(Math.floor(t*3)%4);
+   document.getElementById('lag').style.opacity=p3<3.6?((Math.floor(t*5)%2)?1:0):0;
+   document.getElementById('fix3').style.opacity=E((p3-3.6)/0.3);
+   ctx.globalAlpha=show(3,t);sprite(ctx,NOOB,430,920,22);ctx.globalAlpha=1;}
+ // s4 level up: noob vira pro
+ const p4=t-22.4; if(show(4,t)>0){ctx.globalAlpha=show(4,t);
+   const sp=p4<1.2?((Math.floor(t*10)%2)?NOOB:PRO):PRO; sprite(ctx,sp,384,760+Math.abs(Math.sin(t*5))*-40,26);
+   for(let i=0;i<14;i++){const ang=i/14*6.28+t;const r=200+((t*200)%120);ctx.fillStyle=['#ffe14f','#22d3ee','#ff4fd8','#22ee8c'][i%4];ctx.fillRect(540+Math.cos(ang)*r-10,960+Math.sin(ang)*r-10,20,20);}
+   ctx.globalAlpha=1; document.getElementById('lvl').style.transform=`scale(${1+0.08*Math.sin(t*10)})`;}
+ if(show(5,t)>0){ctx.globalAlpha=show(5,t);sprite(ctx,PRO,404,1070+Math.abs(Math.sin(t*4))*-20,22);ctx.globalAlpha=1;
+   document.getElementById('cta').style.opacity=(Math.floor(t*2.5)%2)?1:0.55;}
+}
+</script></body></html>

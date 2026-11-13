@@ -6,3 +6,5 @@
 - Cronograma: Sheets "JPC — Cronograma de 30 dias" https://claude.ai/artifact/9bCDXSRdbyL66DzPwpfjhc
 - Manual/pautas: Doc https://claude.ai/artifact/PX9oAS8KTa7R6CDPJmsyXK
 - historico.md: o que foi postado.
+- Série GAME (pixel 2D): reels/game-noob-pro (index.html sprites NOOB/PRO, fontes Press Start 2P/VT323 OFL). Fundo: vídeos livres do Pexels (licença Pexels, uso comercial ok) baixados pelo navegador do João.
+- NUNCA usar foto/vídeo de outros perfis/Google: só Pexels/Pixabay, IA marcada como ilustrativa, ou material da JPC.
