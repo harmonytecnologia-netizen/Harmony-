@@ -17,6 +17,22 @@
  "publicado_19h": true,
  "21h": [
   {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "Projetor ou TV? A resposta está na sua sala.\n\nOs dois funcionam muito bem, desde que combinem com o ambiente:\n01 · Tamanho de imagem que você quer.\n02 · Quanta luz natural a sala recebe.\n03 · Uso no dia a dia ou sessões de cinema.\n04 · Espaço e distância, medidos no projeto.\n05 · Integração com som, luz e cortinas.\n\nE você, time projetor ou time TV? Conte nos comentários e salve para o seu projeto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nImagens conceito e projetos MOVE.\n\n#Projetor #HomeCinema #CinemaEmCasa #HomeTheater #AltoPadrão #Itapema #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  },
+  {
    "acao": "create_story",
    "arquivo": "story_21h_1.jpg"
   },
