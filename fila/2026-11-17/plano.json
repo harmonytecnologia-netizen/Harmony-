@@ -1,0 +1,53 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Pontual, limpo e sem improviso.\n\nDia de instalação na MOVE começa muito antes de entrarmos no apartamento: projeto aprovado, lista de equipamentos conferida, pontos marcados na planta. Na obra, cuidado com o acabamento, organização e teste de cada ambiente antes da entrega.\n\nO que mais pesa para você na hora de escolher quem instala: projeto, acabamento ou prazo? Conte nos comentários.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nAmbiente conceito.\n\n#BastidoresMOVE #InstalaçãoProfissional #AutomaçãoResidencial #Sonorização #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg",
+    "carrossel_7.jpg"
+   ],
+   "legenda": "6 itens para conferir antes de fechar o forro.\n\nDepois do gesso, qualquer mudança vira quebra-quebra. Por isso, na obra a gente confere:\n01 · Cabo de som com bitola certa até cada caixa.\n02 · Eletroduto para rede (TV, rack e Wi-Fi no forro).\n03 · Pontos das caixas marcados na planta.\n04 · Reforço para TV, projetor e tela.\n05 · Alçapão onde vai precisar de acesso.\n06 · Tudo chegando organizado ao rack.\n\nSalve e envie para o seu arquiteto ou mestre de obras. Dúvidas? Chama a gente no direct.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\n#ChecklistDeObra #AntesDoForro #Infraestrutura #AutomaçãoResidencial #ObraDeAltoPadrão #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "plano_b": true,
+ "tema": "Portão pelo app (real) + dia de instalação + Dica da Iamin + carrossel checklist antes do forro"
+}
