@@ -1,0 +1,17 @@
+{
+  "_ajuda": "Preencha com os dados da empresa. Cores em hexadecimal. O logo deve ser PNG com fundo transparente.",
+  "nome": "Minha Empresa",
+  "handle": "@minhaempresa",
+  "serie_explica": "MINHA EMPRESA EXPLICA",
+  "logo": "logo.png",
+  "cor_destaque": "#46DAA7",
+  "cor_erro": "#FF5A4E",
+  "cor_fundo": "#0A0D0C",
+  "cor_texto": "#F2F0EA",
+  "cor_secundaria": "#A9A296",
+  "estilo": "premium",
+  "_estilo": "premium = titulo serifado elegante (alto padrao) | direto = titulo sans grosso (popular, oficina, comercio)",
+  "frase_final": "Fale com a gente.",
+  "sub_final": "Orcamento pelo direct ou WhatsApp.",
+  "legenda_ia": "Ambiente conceito."
+}

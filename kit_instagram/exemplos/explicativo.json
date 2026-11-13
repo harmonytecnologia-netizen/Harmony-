@@ -1,0 +1,4 @@
+{"quadros":"q/%04d.jpg","fps":24,"segurar_fim":1.0,"musica":"musica.mp3","efeitos":"sfx.wav","duracao":7.2,
+ "cartoes":[{"de":0,"ate":3.5,"titulo":"PORTÃO","titulo2":"RANGENDO?","cor2":"erro"},
+            {"de":3.5,"ate":7.2,"titulo":"Jeito certo:","titulo2":"LUBRIFICAR","pilula":"✓ CERTO","rodape":"a cada 3 meses"}],
+ "falas":[{"arquivo":"f1.wav","t":0.3},{"arquivo":"f2.wav","t":4.0}]}

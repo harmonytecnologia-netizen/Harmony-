@@ -1,0 +1,240 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Arch;font-weight:800;src:url(fonts/archivo-latin-800-normal.woff2)}
+@font-face{font-family:Arch;font-weight:900;src:url(fonts/archivo-latin-900-normal.woff2)}
+html,body{margin:0;background:#0A0D0C;width:1080px;height:1920px;overflow:hidden}
+svg{display:block}
+text{font-family:Arch,Inter,sans-serif}
+.t{font-weight:900;fill:#EEEAE2}
+.m{fill:#46DAA7}
+.r{fill:#FF5A4E}
+.s{font-family:Inter,sans-serif;font-weight:600;fill:#EEEAE2}
+</style></head>
+<body>
+<svg id="v" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#16201D" stroke-width="2"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#46DAA7" stop-opacity=".16"/><stop offset="1" stop-color="#46DAA7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hot" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#FF5A4E" stop-opacity=".28"/><stop offset="1" stop-color="#FF5A4E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="#0A0D0C"/>
+  <rect width="1080" height="1920" fill="url(#grid)"/>
+  <rect id="bgGlow" width="1080" height="1920" fill="url(#glow)"/>
+  <rect id="bgHot" width="1080" height="1920" fill="url(#hot)" opacity="0"/>
+
+  <!-- top brand -->
+  <text x="70" y="140" class="t" font-size="40" letter-spacing="6">MOVE<tspan class="m"> EXPLICA</tspan></text>
+  <text x="1010" y="140" class="s" font-size="30" text-anchor="end" opacity=".6">@move.s.a</text>
+
+  <!-- title area -->
+  <g id="title" transform="translate(540,300)">
+    <text id="t1" class="t" font-size="86" text-anchor="middle" y="0"></text>
+    <text id="t2" class="t" font-size="86" text-anchor="middle" y="100"></text>
+  </g>
+
+  <!-- wires layer -->
+  <g id="wires" fill="none" stroke-linecap="round" stroke-linejoin="round"></g>
+
+  <!-- amplifier -->
+  <g id="amp" transform="translate(540,700)">
+    <g id="ampInner">
+      <rect x="-230" y="-120" width="460" height="240" rx="34" fill="#1A2220" stroke="#46DAA7" stroke-width="6" id="ampBody"/>
+      <rect x="-150" y="-80" width="300" height="120" rx="20" fill="#0F1514" stroke="#2C3A36" stroke-width="4"/>
+      <g id="ampFace">
+        <ellipse id="eL" cx="-55" cy="-30" rx="18" ry="22" fill="#46DAA7"/>
+        <ellipse id="eR" cx="55" cy="-30" rx="18" ry="22" fill="#46DAA7"/>
+        <path id="mouth" d="M-45 10 Q0 40 45 10" stroke="#46DAA7" stroke-width="9" fill="none" stroke-linecap="round"/>
+      </g>
+      <circle cx="-185" cy="-40" r="20" fill="#2C3A36"/><circle cx="185" cy="-40" r="20" fill="#2C3A36"/>
+      <circle cx="-185" cy="30" r="12" fill="#2C3A36"/><circle cx="185" cy="30" r="12" fill="#2C3A36"/>
+      <text x="0" y="95" class="s" font-size="28" text-anchor="middle" opacity=".8">AMPLIFICADOR · mín. 4 Ω</text>
+      <circle cx="-60" cy="120" r="16" fill="#FF5A4E"/><text x="-60" y="130" font-size="30" text-anchor="middle" class="t">+</text>
+      <circle cx="60" cy="120" r="16" fill="#EEEAE2"/><text x="60" y="129" font-size="34" text-anchor="middle" fill="#0A0D0C" font-weight="900">−</text>
+      <!-- sweat -->
+      <path id="sweat" d="M215 -110 q14 22 0 34 q-14 -12 0 -34z" fill="#7CC8FF" opacity="0"/>
+      <!-- smoke -->
+      <g id="smoke" opacity="0">
+        <circle cx="-120" cy="-150" r="26" fill="#3A3F3E"/><circle cx="-90" cy="-195" r="34" fill="#2F3534"/>
+        <circle cx="110" cy="-160" r="24" fill="#3A3F3E"/><circle cx="140" cy="-205" r="30" fill="#2F3534"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- thermometer -->
+  <g id="thermo" transform="translate(910,560)" opacity="0">
+    <rect x="-22" y="0" width="44" height="240" rx="22" fill="#1A2220" stroke="#EEEAE2" stroke-width="5"/>
+    <circle cx="0" cy="265" r="40" fill="#1A2220" stroke="#EEEAE2" stroke-width="5"/>
+    <rect id="mercury" x="-11" y="200" width="22" height="70" rx="11" fill="#46DAA7"/>
+    <circle id="bulb" cx="0" cy="265" r="28" fill="#46DAA7"/>
+  </g>
+
+  <!-- speakers -->
+  <g id="spk"></g>
+
+  <!-- formula / status -->
+  <g id="status" transform="translate(540,1630)" opacity="0">
+    <rect id="statusBg" x="-470" y="-80" width="940" height="160" rx="40" fill="#2A1513" stroke="#FF5A4E" stroke-width="5"/>
+    <text id="statusTxt" class="t" font-size="62" text-anchor="middle" y="22"></text>
+  </g>
+  <text id="sub" x="540" y="1785" class="s" font-size="40" text-anchor="middle" opacity="0"></text>
+
+  <!-- rule card -->
+  <g id="rule" opacity="0">
+    <rect x="70" y="560" width="940" height="760" rx="48" fill="#121917" stroke="#46DAA7" stroke-width="6"/>
+    <text x="540" y="690" class="t m" font-size="56" text-anchor="middle" letter-spacing="4">REGRA DE OURO</text>
+    <text x="540" y="840" class="t" font-size="70" text-anchor="middle">Impedância final</text>
+    <text x="540" y="950" class="t m" font-size="120" text-anchor="middle">≥</text>
+    <text x="540" y="1060" class="t" font-size="70" text-anchor="middle">mínima do</text>
+    <text x="540" y="1150" class="t" font-size="70" text-anchor="middle">amplificador</text>
+    <text x="540" y="1250" class="s" font-size="34" text-anchor="middle" opacity=".75">Abaixo disso: esquenta, entra em proteção e desliga.</text>
+  </g>
+
+  <!-- CTA -->
+  <g id="cta" opacity="0">
+    <text x="540" y="1380" class="t" font-size="64" text-anchor="middle">Ficou com dúvida?</text>
+    <text x="540" y="1470" class="t m" font-size="64" text-anchor="middle">Manda no direct.</text>
+    <text x="540" y="1560" class="s" font-size="38" text-anchor="middle">A gente te ajuda — mesmo que</text>
+    <text x="540" y="1612" class="s" font-size="38" text-anchor="middle">você vá fazer sozinho.</text>
+    <text x="540" y="1740" class="t" font-size="50" text-anchor="middle" letter-spacing="3">@move.s.a</text>
+  </g>
+</svg>
+<script>
+window.DURACAO=28;
+const NS='http://www.w3.org/2000/svg';
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>{x=clamp(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const back=x=>{x=clamp(x);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const seg=(t,a,b)=>clamp((t-a)/(b-a));
+const SX=[180,420,660,900], SY=1250;
+
+// build speakers
+const spk=$('spk'); const S=[];
+SX.forEach((x,i)=>{
+  const g=document.createElementNS(NS,'g'); g.setAttribute('transform',`translate(${x},${SY})`);
+  g.innerHTML=`<g class="in">
+   <rect x="-82" y="-130" width="164" height="230" rx="26" fill="#1C2422" stroke="#46DAA7" stroke-width="5"/>
+   <ellipse cx="-30" cy="-82" rx="15" ry="19" fill="#EEEAE2"/><ellipse cx="30" cy="-82" rx="15" ry="19" fill="#EEEAE2"/>
+   <circle class="pl" cx="-27" cy="-78" r="7" fill="#0A0D0C"/><circle class="pr" cx="33" cy="-78" r="7" fill="#0A0D0C"/>
+   <circle cx="0" cy="10" r="56" fill="#0F1514" stroke="#2C3A36" stroke-width="6"/>
+   <circle class="cone" cx="0" cy="10" r="22" fill="#2C3A36"/>
+   <rect x="-38" y="72" width="76" height="40" rx="20" fill="#46DAA7"/>
+   <text x="0" y="101" font-size="28" text-anchor="middle" font-weight="900" fill="#0A0D0C" font-family="Arch">8 Ω</text>
+   <circle cx="-30" cy="128" r="11" fill="#FF5A4E"/><circle cx="30" cy="128" r="11" fill="#EEEAE2"/>
+  </g>`;
+  spk.appendChild(g); S.push(g);
+});
+
+// wire helpers
+const wires=$('wires');
+function wire(d,color,w=10){const p=document.createElementNS(NS,'path');p.setAttribute('d',d);p.setAttribute('stroke',color);p.setAttribute('stroke-width',w);wires.appendChild(p);const L=p.getTotalLength();p.style.strokeDasharray=L;p.style.strokeDashoffset=L;return {p,L};}
+function draw(w,k){w.p.style.strokeDashoffset=w.L*(1-clamp(k));}
+const RED='#FF5A4E', WHITE='#EEEAE2', ORG='#F5B24A';
+const AP=[480,820], AN=[600,820];  // amp + / − terminals
+const TY=SY+128; // speaker terminals y
+// PARALLEL (wrong)
+const P=[
+ wire(`M${AP[0]} ${AP[1]} V1040 M150 1040 H930`,RED),
+ wire(`M${AN[0]} ${AN[1]} V1100 M150 1100 H930`,WHITE),
+ ...SX.map(x=>wire(`M${x-30} ${TY} V${TY+40} H${x-60} V1040`,RED,8)),
+ ...SX.map(x=>wire(`M${x+30} ${TY} V${TY+70} H${x+62} V1100`,WHITE,8)),
+];
+// SERIES-PARALLEL (right): branch A: S1,S2 ; branch B: S3,S4
+const Q=[
+ wire(`M${AP[0]} ${AP[1]} V1040 M150 1040 H630`,RED),
+ wire(`M${SX[0]-30} ${TY} V${TY+40} H${SX[0]-60} V1040`,RED,8),
+ wire(`M${SX[2]-30} ${TY} V${TY+40} H${SX[2]-60} V1040`,RED,8),
+ wire(`M${SX[0]+30} ${TY} V${TY+55} H${SX[1]-30} V${TY}`,ORG,8),
+ wire(`M${SX[2]+30} ${TY} V${TY+55} H${SX[3]-30} V${TY}`,ORG,8),
+ wire(`M${AN[0]} ${AN[1]} V1100 M450 1100 H930`,WHITE),
+ wire(`M${SX[1]+30} ${TY} V${TY+80} H${SX[1]+62} V1100`,WHITE,8),
+ wire(`M${SX[3]+30} ${TY} V${TY+80} H${SX[3]+62} V1100`,WHITE,8),
+];
+// labels for series
+const lab=document.createElementNS(NS,'g'); lab.innerHTML=
+ `<text x="300" y="${TY+120}" text-anchor="middle" font-family="Arch" font-weight="900" font-size="34" fill="${ORG}">SÉRIE 16 Ω</text>
+  <text x="780" y="${TY+120}" text-anchor="middle" font-family="Arch" font-weight="900" font-size="34" fill="${ORG}">SÉRIE 16 Ω</text>`;
+lab.setAttribute('opacity',0); wires.appendChild(lab);
+
+function setText(id,s){$(id).textContent=s;}
+function title(a,b,k){setText('t1',a);setText('t2',b);const g=$('title');g.style.opacity=clamp(k*3);g.setAttribute('transform',`translate(540,${300+ (1-back(k))*40})`);}
+function face(mood,blink){ // mood 0 happy .. 1 panic
+  const m=$('mouth'); const c=10+30*(1-mood)-28*mood; m.setAttribute('d',`M-45 ${10+mood*15} Q0 ${c+mood*15} 45 ${10+mood*15}`);
+  const col= mood>.5? '#FF5A4E':'#46DAA7';
+  ['eL','eR'].forEach(e=>{$(e).setAttribute('fill',col);$(e).setAttribute('ry', blink?3:22+mood*6)}); m.setAttribute('stroke',col);
+  $('ampBody').setAttribute('stroke',col);
+}
+function thermo(level,hot){ // level 0..1
+  const h=40+level*200; const r=$('mercury'); r.setAttribute('y',270-h); r.setAttribute('height',h);
+  const c=hot?'#FF5A4E':'#46DAA7'; r.setAttribute('fill',c); $('bulb').setAttribute('fill',c);
+}
+function status(txt,good,k,sub){ const g=$('status'); g.style.opacity=clamp(k*3); g.setAttribute('transform',`translate(540,1630) scale(${0.85+0.15*back(k)})`);
+  setText('statusTxt',txt); $('statusTxt').setAttribute('class','t '+(good?'m':'r'));
+  $('statusBg').setAttribute('fill',good?'#0F2A21':'#2A1513'); $('statusBg').setAttribute('stroke',good?'#46DAA7':'#FF5A4E');
+  const s=$('sub'); s.textContent=sub||''; s.style.opacity=clamp((k-.2)*3);
+}
+function speakers(vis,t,mood){ S.forEach((g,i)=>{const k=back(seg(vis,i*.12,i*.12+.5)); const bob=Math.sin(t*6+i)*4*(1-mood) + (mood>.5?Math.sin(t*40+i)*3:0);
+  g.setAttribute('transform',`translate(${SX[i]},${SY+(1-k)*400+bob}) scale(${0.6+0.4*k})`); g.style.opacity=k;
+  g.querySelector('.cone').setAttribute('r', 22+ (mood<.5? Math.abs(Math.sin(t*9+i))*8:0));
+ });}
+
+window.render=function(t){
+  // reset
+  $('rule').style.opacity=0; $('cta').style.opacity=0; $('status').style.opacity=0; $('sub').style.opacity=0;
+  lab.setAttribute('opacity',0); P.forEach(w=>draw(w,0)); Q.forEach(w=>draw(w,0));
+  $('thermo').style.opacity=0; $('smoke').style.opacity=0; $('sweat').style.opacity=0; $('bgHot').style.opacity=0;
+  $('amp').style.opacity=1; $('title').style.opacity=1; S.forEach(g=>g.style.opacity=0);
+  const blink = (t%3.1)<0.12;
+  let shake=0;
+
+  if(t<4){ // HOOK
+    const k=seg(t,0,.6); title('Seu amplificador','DESLIGA sozinho?',k);
+    const panic=ease(seg(t,.8,2)); face(panic,blink); shake=panic*8*Math.sin(t*50);
+    $('bgHot').style.opacity=panic; $('sweat').style.opacity=panic; $('sweat').setAttribute('transform',`translate(0,${(t*60)%40})`);
+    $('smoke').style.opacity=ease(seg(t,2,3))*.9; $('smoke').setAttribute('transform',`translate(0,${-ease(seg(t,2,4))*40})`);
+    if(t>2.6){ setText('t1','Pode ser a'); setText('t2','IMPEDÂNCIA'); $('t2').setAttribute('class','t r'); } else { $('t2').setAttribute('class','t'); }
+  } else if(t<11.5){ // WRONG: parallel
+    $('t2').setAttribute('class','t'); const k=seg(t,4,4.6); title('4 caixas de 8 Ω','em PARALELO',k);
+    speakers(seg(t,4.2,5.6),t,0);
+    P.forEach((w,i)=>draw(w,seg(t,5.4+i*.15,6.4+i*.15)));
+    const hot=ease(seg(t,7.6,10)); $('thermo').style.opacity=seg(t,7.2,7.6); thermo(hot,hot>.4);
+    face(hot,blink); shake=hot>.6?6*Math.sin(t*55):0; $('bgHot').style.opacity=hot*.9; $('sweat').style.opacity=hot;
+    $('sweat').setAttribute('transform',`translate(0,${(t*60)%40})`);
+    $('smoke').style.opacity=ease(seg(t,9.5,10.5))*.8;
+    if(t>7.2) status('= 2 Ω  ✗  ERRADO',false,seg(t,7.2,7.8),'8 Ω ÷ 4 caixas = 2 Ω → abaixo dos 4 Ω do amplificador');
+  } else if(t<19.5){ // RIGHT: series-parallel
+    const k=seg(t,11.5,12.1); title('O jeito certo:','SÉRIE + PARALELO',k);
+    speakers(1,t,0);
+    Q.forEach((w,i)=>draw(w,seg(t,12.2+i*.25,13.2+i*.25)));
+    lab.setAttribute('opacity',seg(t,14.2,14.8));
+    const cool=ease(seg(t,15.5,17)); const lvl=1-cool*0.8; $('thermo').style.opacity=1; thermo(lvl,lvl>.6);
+    face(1-cool,blink); $('bgHot').style.opacity=(1-cool)*.6; $('sweat').style.opacity=(1-cool);
+    if(t>15.6) status('= 8 Ω  ✓  CERTO',true,seg(t,15.6,16.2),'16 Ω ∥ 16 Ω = 8 Ω → amplificador frio e seguro');
+  } else if(t<24){ // RULE
+    const k=seg(t,19.5,20.1);
+    $('title').style.opacity=0; $('amp').style.opacity=1-k;
+    const r=$('rule'); r.style.opacity=k; r.setAttribute('transform',`translate(540,940) scale(${0.85+0.15*back(k)}) translate(-540,-940)`);
+    face(0,blink);
+  } else { // CTA
+    const k=seg(t,24,24.6);
+    $('title').style.opacity=0;
+    $('amp').setAttribute('transform',`translate(540,${800-ease(k)*60}) scale(${1-0.1*ease(k)})`);
+    face(0,blink); speakers(1,t,0);
+    S.forEach((g,i)=>{g.setAttribute('transform',`translate(${SX[i]},${SY-20+Math.sin(t*5+i)*10}) scale(.75)`); g.style.opacity=1;});
+    $('cta').style.opacity=k;
+    $('cta').setAttribute('transform',`translate(0,${(1-ease(k))*40})`);
+    $('spk').setAttribute('transform','translate(0,-180)');
+  }
+  if(t<24){ $('spk').setAttribute('transform',''); $('amp').setAttribute('transform','translate(540,700)'); }
+  $('ampInner').setAttribute('transform',`translate(${shake},0)`);
+};
+window.render(0);
+</script>
+</body></html>

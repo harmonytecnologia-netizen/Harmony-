@@ -6,6 +6,8 @@ description: Usar quando alguém quer montar do zero (ou profissionalizar) o Ins
 # Kit de crescimento no Instagram — passo a passo (qualquer nicho)
 Método testado na MOVE (som/automação, litoral SC) e generalizado. Claude FAZ o trabalho com as ferramentas que tiver (navegador, computador da pessoa, conectores, scripts) e só pede à pessoa o que só ela pode fazer (login, senha, pagamento, aprovar permissão no app). Linguagem simples, um passo por vez, confirmando o resultado de cada um.
 
+Adaptação contínua: o kit é o ponto de partida, não um molde fixo. A cada etapa, quando surgir dúvida sobre a empresa (serviço, público, tom, o que pode ou não mostrar, horário, verba), PERGUNTAR antes de produzir em vez de supor; anotar cada resposta em `perfil-<empresa>.md` e usar dali em diante. Se uma resposta mudar algo já feito (ex.: público mais popular, sem rosto, outro nicho), refazer as pautas, cores, estilo e roteiros conforme ela. Depois de cada entrega, perguntar o que a pessoa achou e ajustar o padrão.
+
 ## 0. Antes de tudo: entrevista (OBRIGATÓRIO — nada é igual entre nichos)
 Fazer estas perguntas (AskUserQuestion quando disponível, até 4 por vez; senão em texto) e registrar as respostas num arquivo `perfil-<empresa>.md`:
 1. Empresa: nome, @ do Instagram, página do Facebook, cidade/região que atende, site (tem?), WhatsApp comercial.
@@ -96,3 +98,6 @@ Todo mês: revisar o que gerou conversa e orçamento; repetir o que funcionou.
 
 ## 12. Entregáveis que Claude deve deixar salvos
 `perfil-<empresa>.md` (entrevista), `manual.md` (identidade e regras), planilha Cronograma, pasta de scripts de vídeo, `historico.md` (o que foi postado e com qual música), `comentarios.md`, relatório semanal.
+
+## 13. Pacote de ferramentas (Kit_Crescimento_Instagram.zip)
+Se a pessoa anexar o .zip do kit: descompactar, rodar `bash instalar.sh`, preencher `marca.json` + `logo.png` com as respostas da entrevista e usar os scripts prontos (LEIA-ME.md do pacote): reel_videos.py (Reel PRO de vídeos reais), reel_imagens.py (Reel de fotos), arte_post.py (feed + story), narracao.py (voz grátis, modelo incluso), efeitos_sonoros.py, montar_explicativo.py (série Explica com cartões, voz, efeitos e música), animacao2d/ (HTML/SVG quadro a quadro) e animacao3d/ (Blender + render na placa de vídeo do PC). Sem o .zip, recriar essas ferramentas com ffmpeg/Python seguindo as descrições da seção 5.
