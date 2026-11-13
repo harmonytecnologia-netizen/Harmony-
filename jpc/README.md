@@ -8,3 +8,5 @@
 - historico.md: o que foi postado.
 - Série GAME (pixel 2D): reels/game-noob-pro (index.html sprites NOOB/PRO, fontes Press Start 2P/VT323 OFL). Fundo: vídeos livres do Pexels (licença Pexels, uso comercial ok) baixados pelo navegador do João.
 - NUNCA usar foto/vídeo de outros perfis/Google: só Pexels/Pixabay, IA marcada como ilustrativa, ou material da JPC.
+- PADRÃO NOVO (13/11, pedido do João): arte desenhada no ChatGPT dele (estilos: luta arcade, historinha pixel art, apresentador cartoon, PC real), animada aqui (câmera/zoom, tremida, flash, chuva, faíscas, HUD, legendas) + narração Piper pt_BR-faber + trilha sintetizada. Nada de desenho "quadrado" feito só em código. Personagens/golpes originais (sem copiar SF/MK/Mario).
+- Exemplo: reels/luta-arcade (cenas s_*.png do ChatGPT, index.html render(t)).

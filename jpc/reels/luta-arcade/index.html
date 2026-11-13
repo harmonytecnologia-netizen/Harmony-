@@ -1,0 +1,118 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:B;src:url(bangers-latin-400-normal.woff2)}
+@font-face{font-family:A;src:url(anton-latin-400-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000;color:#fff}
+#cam{position:absolute;inset:0;overflow:hidden}
+.sh{position:absolute;inset:0;opacity:0}
+.sh img{position:absolute;left:50%;top:50%;width:1080px;height:1920px;object-fit:cover;transform-origin:50% 50%}
+canvas{position:absolute;inset:0}
+.grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 62%,rgba(0,0,0,.75) 100%)}
+.ann{position:absolute;left:0;right:0;text-align:center;font-family:B;letter-spacing:6px;opacity:0;
+ background:linear-gradient(180deg,#fff7c2 0%,#ffe14f 45%,#ff8a00 100%);-webkit-background-clip:text;color:transparent;
+ -webkit-text-stroke:10px #1a0610;paint-order:stroke fill;filter:drop-shadow(0 14px 0 #1a0610) drop-shadow(0 0 30px rgba(255,170,0,.7))}
+.ann.g{background-image:linear-gradient(180deg,#eafff3,#3dff9a 50%,#00a65a)} .ann.r{background-image:linear-gradient(180deg,#ffe0e0,#ff3c5a 55%,#8a0018)}
+.ann.c{background-image:linear-gradient(180deg,#e9fdff,#22d3ee 55%,#7a3cff)}
+.cap{position:absolute;left:60px;right:60px;top:1395px;opacity:0;text-align:center;font-family:A;font-size:54px;line-height:1.18;
+ padding:26px 34px;background:linear-gradient(90deg,rgba(20,6,40,.92),rgba(40,10,70,.92));border-left:12px solid #ffe14f;border-radius:6px 30px 6px 30px;
+ box-shadow:0 12px 30px rgba(0,0,0,.6);text-shadow:0 3px 0 #000}
+.y{color:#ffe14f}.gn{color:#3dff9a}.rd{color:#ff5c74}
+#hud{position:absolute;top:262px;left:40px;right:40px;height:150px}
+.bar{position:absolute;top:28px;width:420px;height:58px;background:#1a0610;border:5px solid #fff;transform:skewX(-18deg);overflow:hidden;box-shadow:0 8px 0 rgba(0,0,0,.6)}
+.bar.r{right:0;transform:skewX(18deg)}
+.bar .dmg{position:absolute;top:0;bottom:0;background:#ff3c5a}
+.bar .hp{position:absolute;top:0;bottom:0;background:linear-gradient(180deg,#fff7a8,#ffd400 45%,#ff9d00)}
+.nm{position:absolute;top:96px;font-family:A;font-size:40px;letter-spacing:3px;text-shadow:0 4px 0 #000}
+#timer{position:absolute;left:50%;top:6px;transform:translateX(-50%);width:130px;height:110px;font-family:A;font-size:78px;text-align:center;line-height:110px;
+ background:#1a0610;border:5px solid #fff;clip-path:polygon(15% 0,85% 0,100% 50%,85% 100%,15% 100%,0 50%)}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#tag{position:absolute;left:0;right:0;top:440px;text-align:center;font-family:A;font-size:46px;letter-spacing:4px;opacity:0;text-shadow:0 4px 0 #000}
+</style></head><body>
+<div id="cam">
+ <div class="sh" id="h0"><img src="s_ataque.png"></div>
+ <div class="sh" id="h1"><img src="s_apagao.png"></div>
+ <div class="sh" id="h2"><img src="s_power.png"></div>
+ <div class="sh" id="h3"><img src="s_especial.png"></div>
+ <div class="sh" id="h4"><img src="s_vitoria.png"></div>
+ <canvas id="fx" width="1080" height="1920"></canvas>
+ <div class="grad"></div>
+</div>
+<div id="hud">
+ <div class="bar" style="left:0"><div class="dmg" id="dG" style="right:0;left:0"></div><div class="hp" id="hG" style="right:0;left:0"></div></div>
+ <div class="bar r"><div class="dmg" id="dF" style="left:0;right:0"></div><div class="hp" id="hF" style="left:0;right:0"></div></div>
+ <div id="timer">99</div>
+ <div class="nm" style="left:10px">GAMER <span class="y">JPC</span></div>
+ <div class="nm" style="right:10px;text-align:right">FONTE <span class="rd">GENÉRICA</span></div>
+</div>
+<div id="tag">SEU PC  <span class="y">VS</span>  FONTE GENÉRICA</div>
+<div class="ann" id="a_round" style="top:600px;font-size:190px">ROUND 1</div>
+<div class="ann r" id="a_fight" style="top:580px;font-size:260px">FIGHT!</div>
+<div class="ann" id="a_sobre" style="top:600px;font-size:150px">SOBRECARGA!</div>
+<div class="ann r" id="a_black" style="top:640px;font-size:140px">TELA PRETA...</div>
+<div class="ann g" id="a_esp" style="top:560px;font-size:118px;line-height:1">ESPECIAL:<br>SELO 80 PLUS!</div>
+<div class="ann r" id="a_ko" style="top:560px;font-size:330px">K.O.!</div>
+<div class="ann c" id="a_win" style="top:540px;font-size:150px">VOCÊ VENCEU!</div>
+<div class="cap" id="c1">Fonte genérica: o <span class="y">"500 W"</span> é só no adesivo</div>
+<div class="cap" id="c2">No jogo pesado ela não aguenta: o PC <span class="rd">desliga</span> e pode queimar peça</div>
+<div class="cap" id="c3">O golpe certo: fonte de <span class="gn">marca</span>, com selo <span class="gn">80 Plus</span></div>
+<div class="cap" id="c4" style="text-align:left;border-left-color:#3dff9a">✔ Marca conhecida<br>✔ Selo 80 Plus<br>✔ Potência certa pra sua placa de vídeo</div>
+<div id="cta" style="position:absolute;inset:0;opacity:0">
+ <div style="position:absolute;inset:0;background:radial-gradient(circle at 50% 45%,rgba(30,8,60,.55),rgba(5,2,12,.92))"></div>
+ <div class="ann c" id="a_new" style="opacity:1;top:470px;font-size:120px">NOVO DESAFIANTE?</div>
+ <div style="position:absolute;left:70px;right:70px;top:680px;text-align:center;font-family:A;font-size:66px;line-height:1.2;text-shadow:0 4px 0 #000">Monte seu PC com a <span style="color:#22d3ee">JPC</span><br>e não perca mais nenhuma luta</div>
+ <div id="ctab" style="position:absolute;left:120px;right:120px;top:930px;text-align:center;font-family:B;font-size:86px;letter-spacing:3px;padding:30px 20px;border-radius:24px;
+   background:linear-gradient(90deg,#7a3cff,#ff4fd8);border:6px solid #fff;box-shadow:0 14px 0 #1a0610,0 0 60px rgba(255,79,216,.6)">MANDA "ORÇAMENTO"<br>NO DIRECT</div>
+ <div style="position:absolute;left:0;right:0;top:1260px;text-align:center;font-family:A;font-size:46px;color:#d7c8ff">💾 Salva e manda pro seu duo · Enviamos pra todo o Brasil</div>
+</div>
+<div id="flash"></div>
+<script>
+const $=id=>document.getElementById(id),E=x=>Math.max(0,Math.min(1,x)),eo=x=>1-Math.pow(1-E(x),3),eio=x=>{x=E(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+let seed=1;const rnd=()=>{seed=(seed*16807)%2147483647;return seed/2147483647};
+// shots: [id, start, end, zoom0, zoom1, x0,x1, y0,y1]
+const SH=[['h0',0,6.6,1.32,1.12,60,-20,40,0],['h1',6.6,11.6,1.05,1.2,0,0,0,-40],['h2',11.6,14.4,1.25,1.08,0,0,-30,0],['h3',14.4,17.2,1.12,1.3,-30,60,0,0],['h4',17.2,25.5,1.25,1.05,0,0,40,0]];
+const drops=[...Array(140)].map(()=>[rnd()*1080,rnd()*1920,18+rnd()*30,0.6+rnd()*0.8]);
+const sparks=[...Array(60)].map(()=>[rnd()*6.283,200+rnd()*700,rnd()]);
+function ann(id,t,a,z,big=1.8){const el=$(id);const k=E((t-a)/0.18);el.style.opacity=k*E((z-t)/0.2);const s=1+(big-1)*(1-eo((t-a)/0.22));const wob=Math.sin((t-a)*30)*Math.max(0,1-(t-a)*3)*6;el.style.transform=`scale(${s}) rotate(${-4+wob}deg)`;}
+function cap(id,t,a,z){const el=$(id);const k=eo((t-a)/0.3);el.style.opacity=k*E((z-t)/0.2);el.style.transform=`translateX(${(1-k)*-120}px)`;}
+function render(t){
+ seed=Math.floor(t*30)+7;
+ let shake=0,flash=0,speed=0,dark=0,green=0;
+ SH.forEach(([id,a,z,z0,z1,x0,x1,y0,y1])=>{const el=$(id);const o=E((t-a)/0.12)*E((z-t)/0.12);el.style.opacity=(t>=a&&t<z+0.12)?Math.max(o, id=='h0'&&t<0.12?1:0):0;
+   const k=eio((t-a)/(z-a));const img=el.firstElementChild;img.style.transform=`translate(-50%,-50%) translate(${x0+(x1-x0)*k}px,${y0+(y1-y0)*k}px) scale(${z0+(z1-z0)*k})`;});
+ // eventos
+ if(t<0.35){flash=1-t/0.35;shake=30;speed=1;}
+ if(t>1.55&&t<1.9)shake=Math.max(shake,22*(1.9-t)/0.35);
+ if(t>3.3&&t<4.0){shake=Math.max(shake,26*(4.0-t)/0.7);speed=Math.max(speed,1-(t-3.3)/0.7);flash=Math.max(flash,.6*(1-(t-3.3)/0.15));}
+ if(t>6.6&&t<11.6){const k=t-6.6;dark=(k<1.2)?((Math.floor(t*14)%3==0)?0.85:0.25):0.15;}
+ if(t>11.6&&t<14.4){green=.25+.15*Math.sin(t*14);if(t<11.9)flash=Math.max(flash,(11.9-t)/0.3*.8);}
+ if(t>14.4&&t<15.4){const k=t-14.4;shake=Math.max(shake,40*(1-k));speed=Math.max(speed,1-k);flash=Math.max(flash,k<0.12?1:0);}
+ if(t>16.1&&t<16.6){shake=Math.max(shake,34*(16.6-t)/0.5);flash=Math.max(flash,(16.25-t)>0?.9:0);}
+ if(t>17.2&&t<17.5)flash=Math.max(flash,(17.5-t)/0.3*.7);
+ $('cam').style.transform=`translate(${(rnd()*2-1)*shake}px,${(rnd()*2-1)*shake}px) rotate(${(rnd()*2-1)*shake*0.02}deg)`;
+ $('flash').style.opacity=flash;
+ // canvas fx
+ const c=$('fx').getContext('2d');c.clearRect(0,0,1080,1920);
+ if(dark>0){c.fillStyle=`rgba(0,0,0,${dark})`;c.fillRect(0,0,1080,1920);}
+ if(green>0){const g=c.createRadialGradient(540,1000,100,540,1000,900);g.addColorStop(0,`rgba(61,255,154,${green})`);g.addColorStop(1,'rgba(61,255,154,0)');c.fillStyle=g;c.fillRect(0,0,1080,1920);}
+ // chuva (exceto vitória/cta)
+ if(t<17.2){c.strokeStyle='rgba(200,220,255,.35)';c.lineWidth=2;drops.forEach(([x,y,l,v])=>{const yy=(y+t*1900*v)%1920;const xx=(x-t*300*v)%1080;c.beginPath();c.moveTo((xx+1080)%1080,yy);c.lineTo((xx+1080)%1080-8,yy+l*2);c.stroke();});}
+ if(speed>0){c.save();c.translate(540,1000);for(let i=0;i<70;i++){const a=i/70*6.283+t*.3;const r1=380+((i*97)%200);c.strokeStyle=`rgba(255,255,255,${.5*speed})`;c.lineWidth=3+(i%3)*3;c.beginPath();c.moveTo(Math.cos(a)*r1,Math.sin(a)*r1);c.lineTo(Math.cos(a)*1500,Math.sin(a)*1500);c.stroke();}c.restore();}
+ // faíscas no especial e no K.O.
+ if(t>14.4&&t<17.2){const k=t-14.4;sparks.forEach(([a,r,s])=>{const rr=r*eo(k/1.2);const x=640+Math.cos(a)*rr,y=900+Math.sin(a)*rr+k*k*200;c.fillStyle=s>.5?'#3dff9a':'#fff7a8';c.globalAlpha=Math.max(0,1-k/2.5);c.fillRect(x,y,8,8);});c.globalAlpha=1;}
+ // vitória: confete
+ if(t>17.2){for(let i=0;i<80;i++){const x=(i*137+t*60*(i%3+1))%1080,y=((i*251)+(t-17.2)*300*(1+i%4))%1920;c.fillStyle=['#ffe14f','#22d3ee','#ff4fd8','#3dff9a'][i%4];c.save();c.translate(x,y);c.rotate(t*3+i);c.fillRect(-7,-12,14,24);c.restore();}}
+ // HUD
+ const hits=[[3.35,35],[7.0,25]];let hg=100;hits.forEach(([h,d])=>{if(t>h)hg-=d*eo((t-h)/0.25);});
+ const hf=t<14.5?100:100-100*eo((t-14.5)/1.3);
+ const lag=(v,t0)=>v; $('hG').style.left=(100-hg)+'%';$('dG').style.left=(100-Math.min(100,hg+ (t>3.35&&t<4.3?10:0)))+'%';
+ $('hF').style.right=(100-hf)+'%';$('dF').style.right=(100-Math.min(100,hf+(t>14.5&&t<16?15:0)))+'%';
+ $('timer').textContent=String(Math.max(0,99-Math.floor(t*2))).padStart(2,'0');
+ const hudO=E((t-0.2)/0.3)*E((21-t)/0.3);$('hud').style.opacity=hudO;
+ $('tag').style.opacity=E((t-0.3)/0.3)*E((3.2-t)/0.3);
+ ann('a_round',t,0.35,1.5);ann('a_fight',t,1.55,2.9,2.4);ann('a_sobre',t,3.4,5.2);ann('a_black',t,7.0,9.0,1.2);
+ ann('a_esp',t,11.75,14.2);ann('a_ko',t,16.1,17.6,2.6);ann('a_win',t,17.4,20.8);
+ cap('c1',t,2.6,6.5);cap('c2',t,6.9,11.5);cap('c3',t,12.0,16.0);cap('c4',t,17.6,20.9);
+ const ct=E((t-21)/0.4);$('cta').style.opacity=ct;$('ctab').style.transform=`scale(${1+0.04*Math.sin(t*7)})`;
+ $('a_new').style.transform=`scale(${1+0.6*(1-eo((t-21)/0.3))})`;
+}
+</script></body></html>
