@@ -83,6 +83,30 @@ Pautas da série (uma por semana):
 - Erro comum: caixa sem neutro / driver de LED incompatível piscando.
 - Como usar: "Alexa, modo cinema" (cliente final aprendendo).
 
+## 6c. Série "MOVE Explica" — desenho animado educativo (feito em código, sem IA de vídeo)
+Missão: transparência e ajudar de verdade, inclusive quem não pode pagar mão de obra. A pessoa aprende, confia, segue e, quando precisar, chama a MOVE.
+- Estilo: personagens próprios da MOVE (amplificador com rosto no display, caixas de som com olhos, cabo de rede, interruptor, roteador), fundo escuro #0A0D0C, verde-menta #46DAA7, vermelho #FF5A4E para erro. Cenas: gancho com o problema → ERRADO (vermelho, personagem sofrendo) → CERTO (verde, personagem feliz) → regra de ouro → CTA "manda no direct, a gente te ajuda mesmo que você vá fazer sozinho".
+- 20–35 s, texto grande, efeitos sonoros (pop, buzz de erro, ding de acerto) + música. Modelo pronto: automacao/animacoes/explica_impedancia (index.html + render.js) no repositório harmony-.
+- Precisão técnica: diagramas desenhados por nós (não IA). Conferir contas e normas antes de publicar.
+- Segurança: em tema elétrico (terra, disjuntor, fio solto, DR/DPS) sempre "desligue o disjuntor" e "na dúvida, chame um eletricista"; ensinar a RECONHECER o perigo, não a fazer gambiarra.
+Pautas (priorizar as que salvam equipamento ou evitam acidente):
+- Amplificador desliga sozinho (impedância) ✔ piloto feito.
+- Tomada sem fio TERRA: choque na carcaça, equipamento queimando, por que usar condicionador/DPS.
+- Fio solto/mal apertado no borne: aquece, chia, derrete.
+- Fio de cobre encostando na carcaça da caixa = curto.
+- Polaridade invertida: o grave "some".
+- Cabo de rede crimpado fora do padrão (T568A/B): internet lenta/caindo.
+- Wi-Fi sem cobertura: repetidor x access point no teto; por que o celular "gruda".
+- Roteador dentro do armário/rack fechado: superaquecimento.
+- Receiver/amplificador sem ventilação.
+- Sub dentro do móvel: vibra e embola o grave.
+- Caixa de interruptor sem neutro: módulo inteligente não funciona.
+- LED piscando com dimmer errado.
+- Muitos dispositivos Wi-Fi na rede: lentidão (Zigbee/hub).
+- Crossover em 80 Hz.
+- Vizinho reclamando do grave: tapete/EVA e manta.
+Frequência sugerida: 1–2 por semana, alternando com obras reais e "Mão na massa".
+
 ## 7. Depois de postar
 - Responder comentários na primeira hora (conversa real, não emoji).
 - Ver em 48 h: retenção 3 s, % assistido, envios, salvamentos. Repetir o formato que ganhou; trocar gancho do que perdeu.
