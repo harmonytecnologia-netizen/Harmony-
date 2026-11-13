@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://move-som-automacao.netlify.app/sitemap.xml
