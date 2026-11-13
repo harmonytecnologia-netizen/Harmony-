@@ -60,6 +60,29 @@ description: Usar ao planejar, roteirizar, editar ou publicar Reels/vídeos/post
 - Dica da Iamin (personagem ilustrada, 1x/semana).
 - Imagens de IA só como "Ambiente conceito", nunca como obra real.
 
+## 6b. Série "Mão na massa" — tutoriais POV sem rosto (referência: Shorts da Azoula, ~24 s)
+Formato: só as mãos, câmera de cima/primeira pessoa, sem falar (música + texto na tela + som real da ferramenta/clique). Fácil de gravar em toda obra e ótimo para busca ("como instalar módulo zigbee").
+Estrutura (15–30 s):
+1. 0–2 s: flat lay dos materiais numa superfície limpa (módulo, interruptor, fios, chave) + texto "Instalando módulo inteligente em 30 s".
+2. 2–5 s: aviso na tela "Disjuntor DESLIGADO" (mostrar a mão desligando o disjuntor).
+3. 5–18 s: close na ligação (L, N, carga/retorno, botão S1/S2), parafuso apertando, texto curto em cada passo ("Fase no L", "Neutro no N", "Lâmpada no L1").
+4. 18–22 s: módulo entrando na caixa 4x2, espelho fechando.
+5. 22–28 s: resultado: luz acendendo pelo interruptor E pelo celular/voz (o "wow").
+6. Final: "Siga @move.s.a para mais" ou "Manda INSTALAR no direct".
+Regras: fundo neutro (bancada preta/madeira ou parede da obra limpa), boa luz, vertical 4K 60 fps, câmera travada (suporte de cabeça/peito ou tripé de cima), lente limpa. Sem rosto de cliente, sem endereço, sem telas com dados. Sempre mostrar segurança (disjuntor) e colocar na legenda "Instalação elétrica deve ser feita por profissional qualificado". Não ensinar gambiarra.
+Pautas da série (uma por semana):
+- Como ligar módulo Zigbee/Wi-Fi atrás do interruptor (com e sem neutro).
+- Interruptor inteligente touch: antes x depois.
+- Como parear o módulo no app e criar a cena "Cheguei".
+- Motor de cortina: instalação no trilho + teste no app.
+- Caixa de som de embutir: recorte no gesso, ligação +/−, encaixe (com teste da pilha!).
+- Ligação série/paralelo de 4 caixas (8 Ω) no amplificador.
+- Ajuste de crossover do sub em 80 Hz.
+- Access point no teto: cabo, PoE, fixação.
+- Keypad: programar 1 toque / segurar / 2 toques.
+- Erro comum: caixa sem neutro / driver de LED incompatível piscando.
+- Como usar: "Alexa, modo cinema" (cliente final aprendendo).
+
 ## 7. Depois de postar
 - Responder comentários na primeira hora (conversa real, não emoji).
 - Ver em 48 h: retenção 3 s, % assistido, envios, salvamentos. Repetir o formato que ganhou; trocar gancho do que perdeu.
