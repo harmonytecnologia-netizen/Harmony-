@@ -59,6 +59,13 @@ Base: playlist "Home Theater na Prática" (Audio Prime, 8 vídeos; transcriçõe
 - Polaridade: definir um padrão para a obra toda (ex.: veia cobre = +, veia prata = −) e manter em todas as emendas; inversão de fase "come" o grave.
 - Muitas caixas/longas distâncias (comercial, casa grande): considerar amplificador multizona com mais canais ou sistema de linha 70 V/100 V com transformador, em vez de empilhar série/paralelo.
 - Ferramentas: alicate, fita isolante/conector de emenda, multímetro para medir a impedância do circuito antes de ligar no amplificador.
+- A física por trás (Infinity Som): potência = tensão × corrente; com a mesma tensão de saída, P = V²/R. Dobrar a impedância ≈ cortar a potência pela metade. Ex.: canal de 500 W @ 2 Ω (~31,6 V) entrega ~250 W em 4 Ω (na prática ~60%, a fonte sobe um pouco a tensão) e ~125 W em 8 Ω (~30%). Trabalhar NA impedância mínima = aproveitamento total; abaixo dela = queima/proteção.
+- Fórmulas: paralelo de caixas iguais = Z ÷ número de caixas (8 Ω ÷ 3 = 2,67 Ω; ÷ 4 = 2 Ω). Série = soma (8+8+8+8 = 32 Ω). Série‑paralelo = calcular cada ramo em série e depois dividir pelos ramos.
+- Série‑paralelo SEGURO: primeiro ligar em série, depois os ramos em paralelo. Fazer o contrário (paralelo primeiro, depois série) desequilibra se uma caixa queimar e derruba as outras em cascata.
+- Série serve para "domar" amplificador muito forte em transdutores pequenos (ex.: tweeters/drivers em série para não receberem tensão demais).
+- Bridge (ponte): junta 2 canais em 1; a impedância mínima dobra (estéreo 2 Ω → bridge 4 Ω) e a potência soma.
+- Subwoofer de bobina dupla (DVC): cada bobina é uma "caixa". DVC 2×4 Ω em paralelo = 2 Ω; em série = 8 Ω. Escolher a bobina pela impedância que o amplificador aceita.
+- Comprar na ordem certa: primeiro definir amplificador (potência e impedância mínima), depois caixas/falantes com impedância que case.
 
 ## 6. Vizinhos e acústica (pergunta comum em apartamento)
 - Volume muito alto sempre escapa; isolar 100% é caro. Grave atravessa laje; agudo escapa por janelas/portas.
