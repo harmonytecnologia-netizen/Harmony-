@@ -4,7 +4,7 @@ description: Usar ao explicar, orçar mentalmente, roteirizar conteúdo ou respo
 ---
 
 # Som e home theater — conhecimento técnico MOVE
-Base: playlist "Home Theater na Prática" + vídeo de impedância (Audio Prime) + vídeo de impedância (Infinity Som); transcrições em automacao/cursos/ do repositório harmony-) + conhecimento técnico geral. Preço/prazo exato só o João.
+Base: playlist "Home Theater na Prática" + vídeo de impedância (Audio Prime) + vídeo de impedância (Infinity Som); transcrições em automacao/cursos/ do repositório harmony- + conhecimento técnico geral. Preço/prazo exato só o João.
 
 ## 1. Composição mínima de um home theater de verdade
 - Receiver (cérebro: recebe HDMI, decodifica Dolby/DTS, divide o som entre as caixas) + 5 caixas + 1 subwoofer + condicionador de energia. = 5.1.
