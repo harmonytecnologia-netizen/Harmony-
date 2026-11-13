@@ -1,10 +1,10 @@
 ---
 name: som-home-theater-move
-description: Usar ao explicar, orçar mentalmente, roteirizar conteúdo ou responder dúvidas técnicas sobre home theater, som ambiente, caixas, receiver, subwoofer, crossover e infraestrutura de obra da MOVE.
+description: Usar ao explicar, orçar mentalmente, roteirizar conteúdo ou responder dúvidas técnicas sobre home theater, som ambiente, caixas, receiver, subwoofer, crossover, impedância e infraestrutura de obra da MOVE.
 ---
 
 # Som e home theater — conhecimento técnico MOVE
-Base: playlist "Home Theater na Prática" (Audio Prime, 8 vídeos; transcrições em automacao/cursos/ do repositório harmony-) + conhecimento técnico geral. Preço/prazo exato só o João.
+Base: playlist "Home Theater na Prática" + vídeo de impedância (Audio Prime) + vídeo de impedância (Infinity Som); transcrições em automacao/cursos/ do repositório harmony-) + conhecimento técnico geral. Preço/prazo exato só o João.
 
 ## 1. Composição mínima de um home theater de verdade
 - Receiver (cérebro: recebe HDMI, decodifica Dolby/DTS, divide o som entre as caixas) + 5 caixas + 1 subwoofer + condicionador de energia. = 5.1.
@@ -49,7 +49,7 @@ Base: playlist "Home Theater na Prática" (Audio Prime, 8 vídeos; transcriçõe
 - Caixas de som ambiente quase sempre são 8 Ω.
 - Paralelo (+ com +, − com −): divide. 2 × 8 Ω = 4 Ω. 4 × 8 Ω = 2 Ω (ERRADO em amplificador de 4 Ω e em receiver de 6 Ω).
 - Série (+ de uma no − da outra; sobra um + e um − para o amplificador): soma. 2 × 8 Ω = 16 Ω.
-- Série‑paralelo: dois pares em paralelo (4 Ω cada) ligados em série = 8 Ω → 4 caixas de 8 Ω num canal de 4 Ω ou 6 Ω com segurança.
+- Série‑paralelo: dois pares em série (16 Ω cada) ligados em paralelo = 8 Ω → 4 caixas de 8 Ω num canal de 4 Ω ou 6 Ω com segurança. (Dois pares em paralelo ligados em série também dá 8 Ω, mas é menos seguro — ver abaixo.)
 - Os 4 modos para caixas de 8 Ω:
   1) 1 caixa direta = 8 Ω (ok em 4 Ω e 6 Ω);
   2) 2 em paralelo = 4 Ω (ok só em amplificador de 4 Ω ou menos; NÃO em receiver 6 Ω);
@@ -84,6 +84,7 @@ Base: playlist "Home Theater na Prática" (Audio Prime, 8 vídeos; transcriçõe
 - "Embutir, bookshelf ou torre?" / "5.1 com caixas de embutir vale a pena?" / "Home theater x soundbar".
 - "Como ter home theater potente sem incomodar o vizinho".
 - "Esse ajuste de crossover muda o seu som" (dica rápida = Reel).
+- "Seu amplificador desliga sozinho? Pode ser a impedância" (Reel didático com as ligações série/paralelo).
 - React de projetos de clientes (com autorização) e depoimentos REAIS em vídeo.
 - Antes/depois: sala vazia → home theater pronto.
 Ver skills conteudo-viral-move (gancho/roteiro) e edicao-video-move (execução).
