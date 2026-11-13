@@ -1,0 +1,17 @@
+{
+ "19h": [
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel.mp4",
+   "legenda": "Seu amplificador desliga sozinho? Pode ser a impedância. ⚡\n\nQuatro caixas de 8 Ω ligadas em paralelo no mesmo canal derrubam a carga para 2 Ω. O amplificador esquenta e entra em proteção.\n\nO jeito certo: ligue as caixas em série, duas a duas (16 Ω cada par), e depois junte os pares em paralelo. Resultado: 8 Ω, amplificador frio e som limpo.\n\nNa dúvida, manda no nosso direct: a gente te ajuda, mesmo que você vá fazer sozinho.\n\nSalve para consultar na hora da instalação.\n\n#SomAmbiente #HomeTheater #Impedância #Amplificador #SonorizaçãoResidencial #DicaTécnica #MOVE",
+   "thumb_offset": 12000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel.mp4"
+  }
+ ],
+ "videos_usados": [],
+ "musica": "If You're Asking My Advice — Asher Fulero",
+ "tema": "MOVE Explica 3D: impedância (série x paralelo)"
+}
