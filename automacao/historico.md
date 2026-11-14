@@ -27,3 +27,4 @@
 | 2026-11-19 (fila) | 3 Stories próprios + Feed + Carrossel 6 + stories | Bastidor rede antes do forro (quadro real), adega com luz em cena (ChatGPT), enquete Wi-Fi, carrossel Wi-Fi em toda a casa (ChatGPT), sessão de quinta (cinema conceito) | quadros reais de obra (fotos) | — | (a publicar) |
 | 2026-11-14 09h | 2 Stories próprios | Bastidor obra (quadro real); dica caixa de embutir | — | — | stories 18148523827586878, 17891893767478611 |
 | 2026-11-14 12h | Feed premium + Story | Área gourmet: o verão começa no som (projeto real) | — | — | feed 17925074763442556 / story 18200505046390260 |
+- 2026-11-14 | 15h | story (imagem) | Área gourmet (projeto real) + carrossel rack técnico | media id 17980525704133900
