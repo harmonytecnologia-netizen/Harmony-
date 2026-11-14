@@ -11,3 +11,5 @@
 | 2026-11-14 | 12h | feed (imagem) | fila/2026-11-14/feed.jpg (feed001) | — | 17968606251212284 |
 | 2026-11-14 | 12h | story do feed | fila/2026-11-14/story_feed.jpg | — | 18048751040684390 |
 | 2026-11-14 | 15h | story próprio | fila/2026-11-14/story_3.jpg (st007) | — | 18399274426163656 |
+| 2026-11-14 | 19h | carrossel (7 slides) | fila/2026-11-14/car_01..07.jpg (car001) | — | 18162065434502490 |
+| 2026-11-14 | 19h | story do carrossel | fila/2026-11-14/story_car.jpg | — | 17938289220409427 |
