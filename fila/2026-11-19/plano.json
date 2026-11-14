@@ -1,0 +1,52 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "O vinho também merece luz certa.\n\nNa adega integrada ao living, a iluminação em LED quente valoriza cada prateleira sem aquecer as garrafas, e entra em cena junto com o som ambiente quando os convidados chegam. Tudo pelo app, ou numa cena só: \"Receber\".\n\nTinto, branco ou espumante: qual não pode faltar na sua adega? Conte nos comentários e salve para o seu projeto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nAmbiente conceito.\n\n#Adega #IluminaçãoLED #SomAmbiente #ArquiteturaDeInteriores #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "Wi-Fi forte em cada canto da casa.\n\nEm casas e apartamentos grandes, um roteador sozinho não dá conta. O caminho é projetar a rede:\n01 · Paredes, lajes e distância enfraquecem o sinal.\n02 · Access points discretos no teto, por ambiente ou andar.\n03 · Cada ponto ligado ao rack por cabo de rede, em eletroduto.\n04 · Uma rede só, com o mesmo nome na casa toda.\n05 · Sinal também na varanda, na área gourmet e na piscina.\n\nEm qual cômodo o seu Wi-Fi mais falha? Conte aqui, salve e envie para quem está construindo.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nImagens conceito (capa e slides 2 e 4).\n\n#WiFi #RedeDomestica #CasaConectada #AutomaçãoResidencial #Infraestrutura #Camboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "plano_b": false,
+ "tema": "Adega (ChatGPT) + carrossel Wi-Fi em toda a casa (ChatGPT) + 3 stories próprios"
+}
