@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-13",
+ "perfil": "harmony_computer",
+ "conta_windsor": "17841445277894628",
+ "09h": [],
+ "12h": [],
+ "15h": [],
+ "19h": [],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-13/story_4.jpg",
+   "pauta": "st003"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-13/story_5.jpg",
+   "pauta": "st004"
+  }
+ ],
+ "obs": "Automação começou às 21h de 13/11: só o horário das 21h vale hoje. Hoje já saiu um carrossel às 07h (5 erros)."
+}

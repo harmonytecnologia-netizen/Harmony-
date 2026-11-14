@@ -1,0 +1,547 @@
+{
+ "hashtags": "#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
+ "feed": [
+  {
+   "titulo": "SSD muda TUDO",
+   "destaque": "SSD",
+   "sub": "Windows e jogos no SSD carregam em segundos. HD só pra guardar arquivo.",
+   "legenda": "Se o seu PC demora 2 minutos pra ligar, o culpado tem nome: HD. 🐢\n\nColoca o Windows e os jogos num SSD (de preferência NVMe) e sente a diferença no primeiro boot. O HD fica só pra guardar foto e vídeo.\n\nSeu PC já tem SSD? Conta aqui 👇",
+   "id": "feed000"
+  },
+  {
+   "titulo": "2 pentes > 1 pente",
+   "destaque": "2 pentes",
+   "sub": "Dual channel: o mesmo PC com mais FPS, sem trocar nada caro.",
+   "legenda": "1 pente de 16 GB ou 2 de 8 GB? Pra jogo, quase sempre 2 de 8. 🎯\n\nCom dois pentes a memória trabalha em dual channel e o processador recebe dados mais rápido — principalmente em PC sem placa de vídeo ou com processador mais simples.\n\nQuantos pentes tem no seu? 👇",
+   "id": "feed001"
+  },
+  {
+   "titulo": "Liga o XMP",
+   "destaque": "XMP",
+   "sub": "Sua memória pode estar rodando abaixo da velocidade que você pagou.",
+   "legenda": "Comprou memória de 3200 MHz e ela tá rodando a 2133? 😬\n\nIsso acontece quando o XMP (ou EXPO, na AMD) está desligado na BIOS. É uma opção só: liga, salva, reinicia.\n\nJá conferiu o seu? 👇",
+   "id": "feed002"
+  },
+  {
+   "titulo": "Fonte não é detalhe",
+   "destaque": "Fonte",
+   "sub": "É ela que protege todas as outras peças. Marca boa + selo 80 Plus.",
+   "legenda": "A peça mais esquecida do PC é a que protege todas as outras: a fonte. ⚡\n\nFonte genérica pode desligar no jogo pesado e até queimar peça. Prefira marca conhecida, selo 80 Plus e potência certa pra sua placa.\n\nQual fonte tem no seu? 👇",
+   "id": "feed003"
+  },
+  {
+   "titulo": "Cabo no lugar certo",
+   "destaque": "lugar certo",
+   "sub": "Monitor na saída da PLACA DE VÍDEO, não na placa-mãe.",
+   "legenda": "Erro clássico: cabo do monitor na saída da placa-mãe. 😱\n\nAssim a placa de vídeo fica parada. O certo é ligar nas saídas deitadas, lá embaixo — essas são da placa de vídeo.\n\nConfere aí e conta: o seu tava certo? 👇",
+   "id": "feed004"
+  },
+  {
+   "titulo": "Poeira rouba FPS",
+   "destaque": "Poeira",
+   "sub": "PC quente = PC lento. Limpeza a cada 6 meses.",
+   "legenda": "Poeira não é só sujeira: ela esquenta o PC, e PC quente baixa o desempenho sozinho pra se proteger. 🔥\n\nLimpeza a cada 6 meses e fluxo de ar certo (frente puxando, trás soltando) fazem diferença.\n\nQuando foi a última limpeza do seu? 👇",
+   "id": "feed005"
+  },
+  {
+   "titulo": "Gargalo existe",
+   "destaque": "Gargalo",
+   "sub": "Placa top com processador fraco = dinheiro jogado fora.",
+   "legenda": "Não adianta só a placa de vídeo ser forte. 🤝\n\nSe o processador não acompanha, a placa fica esperando e o FPS trava. PC bom é PC equilibrado.\n\nQuer saber se o seu tem gargalo? Manda as peças no Direct 👇",
+   "id": "feed006"
+  },
+  {
+   "titulo": "RGB dá FPS?",
+   "destaque": "RGB",
+   "sub": "Não. Mas deixa o setup lindo — e tudo bem gostar.",
+   "legenda": "Mito ou verdade: RGB dá FPS? 🌈\n\nMito. Luz não muda desempenho. Mas setup bonito dá vontade de jogar — e isso a gente respeita. 😂\n\nTime RGB ou time discreto? 👇",
+   "id": "feed007"
+  },
+  {
+   "titulo": "Driver do site oficial",
+   "destaque": "site oficial",
+   "sub": "Atualize o driver da placa direto no site do fabricante.",
+   "legenda": "Tela azul, jogo fechando sozinho, FPS caindo do nada? Muitas vezes é driver. 🛠️\n\nBaixe o driver da placa de vídeo direto no site oficial do fabricante e evite programas 'milagrosos'.\n\nVocê atualiza com que frequência? 👇",
+   "id": "feed008"
+  },
+  {
+   "titulo": "Monitor certo",
+   "destaque": "144 Hz",
+   "sub": "Placa que faz 140 FPS num monitor de 60 Hz = FPS desperdiçado.",
+   "legenda": "Seu PC faz 140 FPS mas o monitor é de 60 Hz? Você só vê 60. 👀\n\nPra jogo competitivo, monitor de 144 Hz ou mais faz o PC valer o que custou. E confere se a taxa tá ativada nas configurações do Windows.\n\nQual o seu? 👇",
+   "id": "feed009"
+  },
+  {
+   "titulo": "Pasta térmica vence",
+   "destaque": "Pasta térmica",
+   "sub": "Depois de 2 a 3 anos ela seca e o processador esquenta.",
+   "legenda": "Processador esquentando do nada? Pode ser a pasta térmica seca. 🌡️\n\nEm média ela dura de 2 a 3 anos. Trocar é rápido e pode baixar vários graus.\n\nJá trocou a do seu? 👇",
+   "id": "feed010"
+  },
+  {
+   "titulo": "Energia estável",
+   "destaque": "Filtro",
+   "sub": "Queda de luz e pico de energia matam peça. Use filtro de linha bom ou nobreak.",
+   "legenda": "Aqui no litoral a luz pisca, né? ⚡\n\nPico e queda de energia podem queimar fonte, placa-mãe e SSD. Um filtro de linha de qualidade ou um nobreak protege seu investimento.\n\nO seu tá protegido? 👇",
+   "id": "feed011"
+  },
+  {
+   "titulo": "PC montado e testado",
+   "destaque": "testado",
+   "sub": "Cada PC da JPC sai montado, organizado e testado antes de ir pra você.",
+   "legenda": "Montar PC não é só encaixar peça. 🧩\n\nNa JPC cada máquina sai com cabos organizados, drivers instalados e testada antes de ir pra você. Enviamos para todo o Brasil.\n\nQuer o seu? Manda ORÇAMENTO no Direct 🚚",
+   "id": "feed012"
+  },
+  {
+   "titulo": "Upgrade inteligente",
+   "destaque": "Upgrade",
+   "sub": "Nem sempre precisa trocar o PC inteiro. Às vezes 1 peça resolve.",
+   "legenda": "Antes de trocar o PC inteiro, vale ver o que dá pra melhorar. 💡\n\nÀs vezes um SSD, mais memória ou uma placa de vídeo nova resolvem — e custam bem menos.\n\nManda as peças do seu no Direct que a gente te fala o melhor upgrade 👇",
+   "id": "feed013"
+  }
+ ],
+ "carrosseis": [
+  {
+   "id": "car000",
+   "capa": "5 sinais de que seu PC precisa de upgrade",
+   "slides": [
+    {
+     "t": "Demora pra ligar",
+     "b": "Mais de 1 minuto no boot? Provavelmente ainda está no HD."
+    },
+    {
+     "t": "Jogo travando",
+     "b": "FPS caindo em jogo leve pode ser memória pouca ou em 1 pente só."
+    },
+    {
+     "t": "Barulho de turbina",
+     "b": "Cooler gritando = PC quente. Limpeza e pasta térmica."
+    },
+    {
+     "t": "Tela azul",
+     "b": "Pode ser driver, fonte ou memória. Não ignore."
+    },
+    {
+     "t": "Não roda o jogo novo",
+     "b": "Aí sim é hora de pensar em placa de vídeo ou processador."
+    }
+   ]
+  },
+  {
+   "id": "car001",
+   "capa": "Checklist antes de ligar o PC novo",
+   "slides": [
+    {
+     "t": "Cabo 8 pinos da CPU",
+     "b": "Esqueceu ele? O PC nem liga."
+    },
+    {
+     "t": "Memória bem encaixada",
+     "b": "Clique dos dois lados. E nos slots certos (veja o manual)."
+    },
+    {
+     "t": "Cabo da placa de vídeo",
+     "b": "Todos os conectores de energia ligados."
+    },
+    {
+     "t": "Monitor na placa de vídeo",
+     "b": "Saídas deitadas, lá embaixo."
+    },
+    {
+     "t": "XMP ligado",
+     "b": "Depois de instalar o Windows, ative na BIOS."
+    }
+   ]
+  },
+  {
+   "id": "car002",
+   "capa": "HD x SSD SATA x SSD NVMe",
+   "slides": [
+    {
+     "t": "HD",
+     "b": "Barato e grande, mas lento. Bom só pra guardar arquivo."
+    },
+    {
+     "t": "SSD SATA",
+     "b": "Muito mais rápido que o HD. Ótimo custo-benefício."
+    },
+    {
+     "t": "SSD NVMe",
+     "b": "O mais rápido. Encaixa direto na placa-mãe."
+    },
+    {
+     "t": "O que usar",
+     "b": "Windows e jogos no SSD. Arquivos no HD."
+    },
+    {
+     "t": "Dica JPC",
+     "b": "Um SSD de 1 TB já resolve a vida da maioria dos gamers."
+    }
+   ]
+  },
+  {
+   "id": "car003",
+   "capa": "Mitos de PC gamer que você ainda acredita",
+   "slides": [
+    {
+     "t": "RGB dá FPS",
+     "b": "Mito. Mas é bonito, e tudo bem."
+    },
+    {
+     "t": "Mais memória = mais FPS",
+     "b": "Só até certo ponto. 16 GB atende a maioria dos jogos hoje."
+    },
+    {
+     "t": "Fonte qualquer serve",
+     "b": "Mito perigoso. Fonte ruim pode queimar peça."
+    },
+    {
+     "t": "Notebook gamer = PC gamer",
+     "b": "Mesmo preço, PC costuma render mais e esquentar menos."
+    },
+    {
+     "t": "Precisa formatar todo mês",
+     "b": "Não. Com cuidado, o Windows dura bem."
+    }
+   ]
+  },
+  {
+   "id": "car004",
+   "capa": "Como deixar seu PC mais rápido sem gastar",
+   "slides": [
+    {
+     "t": "Desative apps na inicialização",
+     "b": "Gerenciador de Tarefas > Inicializar."
+    },
+    {
+     "t": "Atualize os drivers",
+     "b": "Placa de vídeo direto do site oficial."
+    },
+    {
+     "t": "Plano de energia",
+     "b": "Coloque em Alto desempenho."
+    },
+    {
+     "t": "Limpe a poeira",
+     "b": "PC frio rende mais."
+    },
+    {
+     "t": "Modo de jogo",
+     "b": "Ative o Modo de Jogo do Windows."
+    }
+   ]
+  },
+  {
+   "id": "car005",
+   "capa": "O que olhar numa fonte antes de comprar",
+   "slides": [
+    {
+     "t": "Marca conhecida",
+     "b": "Fuja de fonte sem marca e sem ficha técnica."
+    },
+    {
+     "t": "Selo 80 Plus",
+     "b": "Bronze pra cima é um bom começo."
+    },
+    {
+     "t": "Potência real",
+     "b": "Some o consumo das peças e deixe folga."
+    },
+    {
+     "t": "Proteções",
+     "b": "OCP, OVP, SCP: protegem contra pico e curto."
+    },
+    {
+     "t": "Na dúvida",
+     "b": "Manda as peças no Direct que a gente calcula."
+    }
+   ]
+  },
+  {
+   "id": "car006",
+   "capa": "Seu PC esquenta? 5 motivos",
+   "slides": [
+    {
+     "t": "Poeira",
+     "b": "Filtros e coolers entupidos."
+    },
+    {
+     "t": "Fluxo de ar errado",
+     "b": "Frente puxa, trás e topo soltam."
+    },
+    {
+     "t": "Pasta térmica seca",
+     "b": "Troca a cada 2 a 3 anos."
+    },
+    {
+     "t": "Gabinete fechado demais",
+     "b": "Sem entrada de ar, não tem milagre."
+    },
+    {
+     "t": "Cooler fraco",
+     "b": "Processador forte pede cooler à altura."
+    }
+   ]
+  },
+  {
+   "id": "car007",
+   "capa": "Placa de vídeo: o que significa cada coisa",
+   "slides": [
+    {
+     "t": "Memória (VRAM)",
+     "b": "Quanto mais, melhor pra texturas em alta."
+    },
+    {
+     "t": "Saídas de vídeo",
+     "b": "HDMI e DisplayPort. Monitor vai aqui!"
+    },
+    {
+     "t": "Conector de energia",
+     "b": "Precisa vir da fonte, sempre."
+    },
+    {
+     "t": "Tamanho",
+     "b": "Confere se cabe no gabinete."
+    },
+    {
+     "t": "Consumo",
+     "b": "Escolha a fonte pensando nela."
+    }
+   ]
+  },
+  {
+   "id": "car008",
+   "capa": "Erros ao montar o primeiro PC",
+   "slides": [
+    {
+     "t": "Esquecer o espelho traseiro",
+     "b": "A tampinha das portas. Coloca antes da placa-mãe!"
+    },
+    {
+     "t": "Pasta térmica demais",
+     "b": "Um grão de ervilha basta."
+    },
+    {
+     "t": "Esquecer o cabo da CPU",
+     "b": "O 8 pinos lá em cima."
+    },
+    {
+     "t": "Não tirar o plástico do cooler",
+     "b": "Acontece mais do que você imagina."
+    },
+    {
+     "t": "Cabos bagunçados",
+     "b": "Atrapalham o ar e o visual."
+    }
+   ]
+  },
+  {
+   "id": "car009",
+   "capa": "Monte seu PC pelo orçamento",
+   "slides": [
+    {
+     "t": "Primeiro: os jogos",
+     "b": "Quais você quer jogar e em qual qualidade?"
+    },
+    {
+     "t": "Depois: o monitor",
+     "b": "Resolução e Hz definem a placa ideal."
+    },
+    {
+     "t": "Equilíbrio",
+     "b": "Processador e placa no mesmo nível."
+    },
+    {
+     "t": "Não economize na fonte",
+     "b": "É a segurança do conjunto."
+    },
+    {
+     "t": "A JPC monta pra você",
+     "b": "Manda ORÇAMENTO no Direct com seus jogos."
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "st000",
+   "tipo": "dica",
+   "texto": "Desliga os apps que abrem junto com o Windows. Gerenciador de Tarefas > Inicializar."
+  },
+  {
+   "id": "st001",
+   "tipo": "pergunta",
+   "texto": "Qual jogo você mais joga hoje?"
+  },
+  {
+   "id": "st002",
+   "tipo": "ab",
+   "texto": "Teclado mecânico|Teclado de membrana"
+  },
+  {
+   "id": "st003",
+   "tipo": "curiosidade",
+   "texto": "Um SSD NVMe pode ler dados mais de 20x mais rápido que um HD comum."
+  },
+  {
+   "id": "st004",
+   "tipo": "dica",
+   "texto": "Monitor de 144 Hz? Confere se a taxa tá ativada: Configurações > Tela > Vídeo avançado."
+  },
+  {
+   "id": "st005",
+   "tipo": "pergunta",
+   "texto": "Quanto tempo seu PC leva pra ligar?"
+  },
+  {
+   "id": "st006",
+   "tipo": "ab",
+   "texto": "PC branco|PC preto"
+  },
+  {
+   "id": "st007",
+   "tipo": "curiosidade",
+   "texto": "PC quente baixa o desempenho sozinho pra se proteger. Limpeza é FPS."
+  },
+  {
+   "id": "st008",
+   "tipo": "dica",
+   "texto": "Atualize o driver da placa de vídeo direto no site oficial do fabricante."
+  },
+  {
+   "id": "st009",
+   "tipo": "pergunta",
+   "texto": "Qual peça você trocaria primeiro no seu PC?"
+  },
+  {
+   "id": "st010",
+   "tipo": "ab",
+   "texto": "Mouse com fio|Mouse sem fio"
+  },
+  {
+   "id": "st011",
+   "tipo": "curiosidade",
+   "texto": "Dois pentes de memória (dual channel) podem dar mais FPS que um pente só do mesmo tamanho."
+  },
+  {
+   "id": "st012",
+   "tipo": "dica",
+   "texto": "Plano de energia em Alto desempenho ajuda nos jogos."
+  },
+  {
+   "id": "st013",
+   "tipo": "pergunta",
+   "texto": "Qual o setup dos seus sonhos?"
+  },
+  {
+   "id": "st014",
+   "tipo": "ab",
+   "texto": "Monitor 24\"|Monitor 27\""
+  },
+  {
+   "id": "st015",
+   "tipo": "curiosidade",
+   "texto": "A pasta térmica costuma durar de 2 a 3 anos antes de secar."
+  },
+  {
+   "id": "st016",
+   "tipo": "dica",
+   "texto": "Ative o Modo de Jogo do Windows: Configurações > Jogos."
+  },
+  {
+   "id": "st017",
+   "tipo": "pergunta",
+   "texto": "Já montou um PC sozinho? Como foi?"
+  },
+  {
+   "id": "st018",
+   "tipo": "ab",
+   "texto": "Water cooler|Air cooler"
+  },
+  {
+   "id": "st019",
+   "tipo": "curiosidade",
+   "texto": "RGB não dá FPS. Mas dá vontade de jogar. 😂"
+  },
+  {
+   "id": "st020",
+   "tipo": "dica",
+   "texto": "Filtro de linha de qualidade protege o PC dos picos de energia."
+  },
+  {
+   "id": "st021",
+   "tipo": "pergunta",
+   "texto": "Notebook ou PC: qual você usa pra jogar?"
+  },
+  {
+   "id": "st022",
+   "tipo": "ab",
+   "texto": "Headset|Caixa de som"
+  },
+  {
+   "id": "st023",
+   "tipo": "curiosidade",
+   "texto": "Fonte genérica pode desligar o PC no jogo pesado e até queimar peça."
+  },
+  {
+   "id": "st024",
+   "tipo": "dica",
+   "texto": "Limpe os filtros de poeira do gabinete a cada 2 meses."
+  },
+  {
+   "id": "st025",
+   "tipo": "pergunta",
+   "texto": "Qual a sua maior dúvida sobre PC gamer?"
+  },
+  {
+   "id": "st026",
+   "tipo": "ab",
+   "texto": "Jogo competitivo|Jogo história"
+  },
+  {
+   "id": "st027",
+   "tipo": "curiosidade",
+   "texto": "Cabo do monitor na placa-mãe faz a placa de vídeo ficar parada."
+  },
+  {
+   "id": "st028",
+   "tipo": "dica",
+   "texto": "Quer saber se seu PC roda um jogo? Manda as peças no Direct."
+  },
+  {
+   "id": "st029",
+   "tipo": "pergunta",
+   "texto": "Quantos FPS você tem no seu jogo favorito?"
+  },
+  {
+   "id": "st030",
+   "tipo": "ab",
+   "texto": "1080p 144 Hz|1440p 60 Hz"
+  },
+  {
+   "id": "st031",
+   "tipo": "curiosidade",
+   "texto": "Um SSD de 1 TB já resolve a vida da maioria dos gamers."
+  },
+  {
+   "id": "st032",
+   "tipo": "agenda",
+   "texto": "Montagens abertas essa semana. Manda ORÇAMENTO no Direct."
+  },
+  {
+   "id": "st033",
+   "tipo": "agenda",
+   "texto": "Seu PC pronto e testado, enviado pra todo o Brasil."
+  },
+  {
+   "id": "st034",
+   "tipo": "pergunta",
+   "texto": "Que conteúdo você quer ver aqui? Dica, montagem ou meme?"
+  },
+  {
+   "id": "st035",
+   "tipo": "ab",
+   "texto": "Intel|AMD"
+  }
+ ]
+}
