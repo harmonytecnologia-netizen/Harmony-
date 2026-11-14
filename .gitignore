@@ -2,3 +2,8 @@ kit_instagram/modelos/
 automacao/animacoes/*/frames/
 automacao/animacoes/*/frames24/
 automacao/animacoes/*/test_*
+automacao/animacoes/*/_tmp_*/
+automacao/animacoes/*/anim24.mp4
+automacao/animacoes/*/render.log
+automacao/animacoes/*/MOVE_explica_*.mp4
+__pycache__/
