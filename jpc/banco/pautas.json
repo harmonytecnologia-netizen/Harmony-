@@ -98,6 +98,27 @@
    "sub": "Nem sempre precisa trocar o PC inteiro. Às vezes 1 peça resolve.",
    "legenda": "Antes de trocar o PC inteiro, vale ver o que dá pra melhorar. 💡\n\nÀs vezes um SSD, mais memória ou uma placa de vídeo nova resolvem — e custam bem menos.\n\nManda as peças do seu no Direct que a gente te fala o melhor upgrade 👇",
    "id": "feed013"
+  },
+  {
+   "titulo": "Monitora a temperatura",
+   "destaque": "temperatura",
+   "sub": "Programa gratuito mostra quantos graus CPU e placa batem no jogo.",
+   "legenda": "Você sabe quantos graus seu PC bate jogando? 🌡️\n\nProgramas gratuitos como HWMonitor ou o overlay do driver da placa mostram a temperatura em tempo real. Se estiver sempre no limite, é hora de limpeza, pasta ou cooler melhor.\n\nQuantos graus o seu bate? 👇",
+   "id": "feed014"
+  },
+  {
+   "titulo": "Upscaling salva FPS",
+   "destaque": "Upscaling",
+   "sub": "DLSS, FSR e XeSS: mais FPS com pouca perda visual.",
+   "legenda": "Jogo pesado demais pro seu PC? Antes de baixar tudo pro mínimo, testa o upscaling. 🚀\n\nDLSS (NVIDIA), FSR (AMD) e XeSS (Intel) renderizam numa resolução menor e reconstroem a imagem. Resultado: mais FPS com pouca perda visual. FSR e XeSS funcionam em várias placas.\n\nVocê usa? 👇",
+   "id": "feed015"
+  },
+  {
+   "titulo": "VRAM importa",
+   "destaque": "VRAM",
+   "sub": "Pouca memória na placa de vídeo = textura borrada e travadinha.",
+   "legenda": "Sua placa de vídeo tem memória própria: a VRAM. 🎮\n\nQuando o jogo pede mais VRAM do que a placa tem, aparecem travadinhas e textura borrada. Nesses casos, baixar a qualidade de textura resolve mais que baixar o resto.\n\nQuantos GB tem a sua? 👇",
+   "id": "feed016"
   }
  ],
  "carrosseis": [
@@ -360,6 +381,110 @@
      "b": "Manda ORÇAMENTO no Direct com seus jogos."
     }
    ]
+  },
+  {
+   "id": "car010",
+   "capa": "Como medir o FPS do seu PC",
+   "slides": [
+    {
+     "t": "Overlay da placa",
+     "b": "NVIDIA e AMD têm overlay grátis no app do driver."
+    },
+    {
+     "t": "Barra de jogo",
+     "b": "No Windows, Win + G mostra desempenho."
+    },
+    {
+     "t": "Média não é tudo",
+     "b": "Olhe também as quedas (1% low)."
+    },
+    {
+     "t": "Compare igual",
+     "b": "Mesmo jogo, mesmo lugar, mesma configuração."
+    },
+    {
+     "t": "Manda pra gente",
+     "b": "Print do FPS + peças no Direct = diagnóstico."
+    }
+   ]
+  },
+  {
+   "id": "car011",
+   "capa": "Configurações de jogo que mais pesam",
+   "slides": [
+    {
+     "t": "Sombras",
+     "b": "Do ultra pro alto quase não muda o visual e ganha FPS."
+    },
+    {
+     "t": "Ray tracing",
+     "b": "Lindo, mas pesado. Liga só se a placa aguenta."
+    },
+    {
+     "t": "Resolução",
+     "b": "O que mais pesa. Use upscaling se precisar."
+    },
+    {
+     "t": "Texturas",
+     "b": "Pesam na VRAM, não tanto no FPS."
+    },
+    {
+     "t": "Anti-aliasing",
+     "b": "Teste os modos: alguns são bem leves."
+    }
+   ]
+  },
+  {
+   "id": "car012",
+   "capa": "Use IA pra cuidar do seu PC",
+   "slides": [
+    {
+     "t": "Explica o erro",
+     "b": "Copia a mensagem de erro e pede pra IA explicar em português simples."
+    },
+    {
+     "t": "Compara peças",
+     "b": "Pede uma comparação de especificações entre duas peças."
+    },
+    {
+     "t": "Passo a passo",
+     "b": "Pede um guia pra ativar XMP na sua placa-mãe."
+    },
+    {
+     "t": "Confira sempre",
+     "b": "IA erra. Confere no manual e no site oficial."
+    },
+    {
+     "t": "Dúvida de montagem?",
+     "b": "Manda pra JPC no Direct que a gente confirma."
+    }
+   ]
+  },
+  {
+   "id": "car013",
+   "capa": "Cuidados com o PC no verão",
+   "slides": [
+    {
+     "t": "Ambiente ventilado",
+     "b": "PC encostado na parede esquenta mais."
+    },
+    {
+     "t": "Limpeza em dia",
+     "b": "Poeira + calor = desempenho caindo."
+    },
+    {
+     "t": "Fluxo de ar",
+     "b": "Frente puxa, trás e topo soltam."
+    },
+    {
+     "t": "Monitore a temperatura",
+     "b": "Programa grátis mostra os graus no jogo."
+    },
+    {
+     "t": "Energia",
+     "b": "Verão tem chuva e pico de luz: use filtro ou nobreak."
+    }
+   ]
   }
  ],
  "stories": [
@@ -542,6 +667,181 @@
    "id": "st035",
    "tipo": "ab",
    "texto": "Intel|AMD"
+  },
+  {
+   "id": "st036",
+   "tipo": "dica",
+   "texto": "Win + G abre a Barra de Jogo do Windows e mostra o desempenho do PC."
+  },
+  {
+   "id": "st037",
+   "tipo": "pergunta",
+   "texto": "Você joga com fone ou sem fone?"
+  },
+  {
+   "id": "st038",
+   "tipo": "ab",
+   "texto": "Gabinete de vidro|Gabinete fechado"
+  },
+  {
+   "id": "st039",
+   "tipo": "curiosidade",
+   "texto": "Baixar sombras do ultra pro alto quase não muda o visual e pode dar bons FPS."
+  },
+  {
+   "id": "st040",
+   "tipo": "dica",
+   "texto": "Jogo pesado? Testa o upscaling (DLSS, FSR ou XeSS) antes de baixar tudo pro mínimo."
+  },
+  {
+   "id": "st041",
+   "tipo": "pergunta",
+   "texto": "Qual jogo seu PC sofre pra rodar?"
+  },
+  {
+   "id": "st042",
+   "tipo": "ab",
+   "texto": "Controle|Teclado e mouse"
+  },
+  {
+   "id": "st043",
+   "tipo": "curiosidade",
+   "texto": "A VRAM é a memória própria da placa de vídeo. Textura em alta pede mais VRAM."
+  },
+  {
+   "id": "st044",
+   "tipo": "dica",
+   "texto": "Use a IA pra explicar mensagem de erro do Windows. Mas confere no site oficial."
+  },
+  {
+   "id": "st045",
+   "tipo": "pergunta",
+   "texto": "Você prefere jogar sozinho ou com os amigos?"
+  },
+  {
+   "id": "st046",
+   "tipo": "ab",
+   "texto": "Setup gamer|Setup minimalista"
+  },
+  {
+   "id": "st047",
+   "tipo": "curiosidade",
+   "texto": "Monitor de 60 Hz mostra no máximo 60 quadros por segundo, mesmo que o PC faça mais."
+  },
+  {
+   "id": "st048",
+   "tipo": "dica",
+   "texto": "Deixa espaço atrás do gabinete. PC encostado na parede esquenta mais."
+  },
+  {
+   "id": "st049",
+   "tipo": "pergunta",
+   "texto": "Qual foi o primeiro jogo que você jogou no PC?"
+  },
+  {
+   "id": "st050",
+   "tipo": "ab",
+   "texto": "Jogar no ultra|Jogar com mais FPS"
+  },
+  {
+   "id": "st051",
+   "tipo": "curiosidade",
+   "texto": "O 1% low mostra as quedas de FPS. Ele diz mais sobre travadinha que a média."
+  },
+  {
+   "id": "st052",
+   "tipo": "dica",
+   "texto": "Antes de comprar peça nova, confere se ela é compatível com sua placa-mãe."
+  },
+  {
+   "id": "st053",
+   "tipo": "pergunta",
+   "texto": "Quantas horas por semana você joga?"
+  },
+  {
+   "id": "st054",
+   "tipo": "ab",
+   "texto": "Mousepad grande|Mousepad pequeno"
+  },
+  {
+   "id": "st055",
+   "tipo": "curiosidade",
+   "texto": "Uma das primeiras placas de vídeo 3D populares nos PCs chegou nos anos 90."
+  },
+  {
+   "id": "st056",
+   "tipo": "dica",
+   "texto": "Faz backup dos seus arquivos importantes antes de formatar ou trocar o SSD."
+  },
+  {
+   "id": "st057",
+   "tipo": "pergunta",
+   "texto": "Ray tracing: você liga ou deixa desligado?"
+  },
+  {
+   "id": "st058",
+   "tipo": "ab",
+   "texto": "Jogo online|Jogo offline"
+  },
+  {
+   "id": "st059",
+   "tipo": "curiosidade",
+   "texto": "Ray tracing simula o caminho da luz. Fica lindo, mas pesa bastante."
+  },
+  {
+   "id": "st060",
+   "tipo": "dica",
+   "texto": "Fecha o navegador antes de jogar. Muitas abas comem memória RAM."
+  },
+  {
+   "id": "st061",
+   "tipo": "pergunta",
+   "texto": "Qual periférico você mais quer trocar?"
+  },
+  {
+   "id": "st062",
+   "tipo": "ab",
+   "texto": "Cadeira gamer|Cadeira de escritório"
+  },
+  {
+   "id": "st063",
+   "tipo": "curiosidade",
+   "texto": "Gabinete com boa entrada de ar na frente ajuda a baixar a temperatura de tudo."
+  },
+  {
+   "id": "st064",
+   "tipo": "dica",
+   "texto": "Verão e chuva = pico de energia. Filtro de linha bom ou nobreak protegem o PC."
+  },
+  {
+   "id": "st065",
+   "tipo": "pergunta",
+   "texto": "PC gamer pra jogar, estudar ou trabalhar: qual o seu caso?"
+  },
+  {
+   "id": "st066",
+   "tipo": "ab",
+   "texto": "Um monitor|Dois monitores"
+  },
+  {
+   "id": "st067",
+   "tipo": "curiosidade",
+   "texto": "SSD NVMe encaixa direto na placa-mãe, sem cabo nenhum."
+  },
+  {
+   "id": "st068",
+   "tipo": "agenda",
+   "texto": "Quer montar ou fazer upgrade? Manda ORÇAMENTO no Direct."
+  },
+  {
+   "id": "st069",
+   "tipo": "pergunta",
+   "texto": "Qual a peça mais importante pra você num PC gamer?"
+  },
+  {
+   "id": "st070",
+   "tipo": "ab",
+   "texto": "Upgrade agora|Juntar e montar um novo"
   }
  ]
 }

@@ -2,12 +2,14 @@
  "feed": [
   "feed001",
   "feed002",
-  "feed003"
+  "feed003",
+  "feed000"
  ],
  "carrosseis": [
   "car001",
   "car002",
-  "car003"
+  "car003",
+  "car000"
  ],
  "stories": [
   "st000",
@@ -29,7 +31,12 @@
   "st016",
   "st017",
   "st018",
-  "st019"
+  "st019",
+  "st020",
+  "st021",
+  "st022",
+  "st023",
+  "st024"
  ],
  "fundos": [
   "pexels_pc_build_10405280.jpg",
@@ -59,7 +66,14 @@
   "ia_luta_2.jpg",
   "pexels_mouse_mesa.jpg",
   "pexels_homem_jogando.jpg",
-  "pexels_gamer_telas.jpg"
+  "pexels_gamer_telas.jpg",
+  "ia_luta_1.jpg",
+  "ia_teste_pixel.jpg",
+  "ia_teste_cartoon.jpg",
+  "pexels_pc_9571114.jpg",
+  "pexels_pc_rgb_2.jpg",
+  "ia_teste_luta.jpg",
+  "pexels_homem_jogando.jpg"
  ],
  "musicas": []
 }
