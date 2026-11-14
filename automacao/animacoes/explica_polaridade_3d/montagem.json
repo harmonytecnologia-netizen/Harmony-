@@ -1,0 +1,74 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/MOVE_original_noturno_94bpm.mp3",
+ "musica_vol": 0.45,
+ "efeitos": "sfx.wav",
+ "duracao": 22.8,
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.7,
+   "titulo": "SEU GRAVE",
+   "titulo2": "SUMIU?",
+   "cor2": "erro"
+  },
+  {
+   "de": 3.7,
+   "ate": 8.2,
+   "titulo": "POLARIDADE",
+   "titulo2": "INVERTIDA",
+   "cor2": "erro",
+   "rodape": "uma caixa empurra, a outra puxa"
+  },
+  {
+   "de": 8.2,
+   "ate": 12.0,
+   "titulo": "AS ONDAS",
+   "titulo2": "SE ANULAM",
+   "cor2": "erro",
+   "pilula": "GRAVE QUASE ZERO  ✗",
+   "cor_pilula": "erro"
+  },
+  {
+   "de": 12.0,
+   "ate": 16.6,
+   "titulo": "VERMELHO NO +",
+   "titulo2": "PRETO NO −",
+   "cor2": "destaque",
+   "rodape": "nas duas pontas do cabo"
+  },
+  {
+   "de": 16.6,
+   "ate": 22.8,
+   "titulo": "EM FASE:",
+   "titulo2": "GRAVE DE VOLTA",
+   "cor2": "destaque",
+   "pilula": "✓ CERTO",
+   "cor_pilula": "destaque",
+   "rodape": "Salva pra conferir na instalação"
+  }
+ ],
+ "falas": [
+  {
+   "arquivo": "voz/s1.wav",
+   "t": 0.3
+  },
+  {
+   "arquivo": "voz/s2.wav",
+   "t": 3.9
+  },
+  {
+   "arquivo": "voz/s3.wav",
+   "t": 8.4
+  },
+  {
+   "arquivo": "voz/s4.wav",
+   "t": 12.0
+  },
+  {
+   "arquivo": "voz/s5.wav",
+   "t": 16.7
+  }
+ ],
+ "video": "anim24.mp4"
+}
