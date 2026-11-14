@@ -1,11 +1,12 @@
 """Trilha original sintetizada (plano B, sem direitos de terceiros): jazz/soul suave, piano elétrico + baixo + bateria leve.
-uso: python3 musica_sintetizada.py saida.wav [bpm] [semente]"""
+uso: python3 musica_sintetizada.py saida.wav [bpm] [semente] [transpor_semitons]"""
 import sys, numpy as np, wave
 SR = 44100
 out = sys.argv[1]; BPM = float(sys.argv[2]) if len(sys.argv) > 2 else 86; seed = int(sys.argv[3]) if len(sys.argv) > 3 else 7
+TR = int(sys.argv[4]) if len(sys.argv) > 4 else 0
 rng = np.random.default_rng(seed); beat = 60 / BPM; bars = 16; L = int(SR * beat * 4 * bars) + SR * 3
 mix = np.zeros((L, 2))
-def midi(n): return 440 * 2 ** ((n - 69) / 12)
+def midi(n): return 440 * 2 ** ((n + TR - 69) / 12)
 def ep(f, dur, vel):  # piano elétrico (FM simples)
     t = np.arange(int(SR * dur)) / SR
     env = np.exp(-t * 2.2) * (1 - np.exp(-t * 200))

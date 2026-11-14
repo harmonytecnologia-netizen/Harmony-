@@ -1,0 +1,63 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Trabalhar em casa pode ser o melhor momento do dia.\n\nNo home office, o som fica embutido no forro, em volume baixo e só para aquele ambiente. A luz da estante entra em cena com um toque e a cortina acompanha o sol da tarde, sem tirar a vista do lugar.\n\nVocê trabalha ouvindo música ou prefere silêncio? Conte nos comentários e salve para o seu projeto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nAmbiente conceito.\n\n#HomeOffice #SomAmbiente #AutomaçãoResidencial #DesignDeInteriores #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel.mp4",
+   "legenda": "Antes do forro, o que ninguém vê. 🎬\n\nBastidores de uma obra acompanhada pela MOVE:\n01 · Eletrodutos para som, rede e automação.\n02 · Cada ponto marcado na planta.\n03 · Visita técnica em cada etapa.\n04 · Conferir agora para não quebrar depois.\nNo fim, o resultado: som embutido e nada aparente.\n\nSua obra está em qual etapa? Conte aqui e envie para quem está construindo com você.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\n#BastidoresDeObra #Infraestrutura #AntesDoForro #Sonorização #ObraDeAltoPadrão #Itapema #MOVE",
+   "thumb_offset": 1500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel.mp4"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "TV na medida certa: altura e distância do sofá.\n\nUm detalhe de projeto que muda o conforto de todos os dias:\n01 · Centro da tela na altura dos olhos de quem está sentado (em torno de 1 m a 1,10 m do piso).\n02 · Distância de 1 a 1,5 vez a diagonal da tela (TV 4K de 65\": algo entre 1,7 m e 2,5 m).\n03 · Nada de TV alta demais: o pescoço agradece.\n04 · Cuidado com o reflexo da janela de frente.\n05 · Reforço, energia e rede atrás da TV, com eletroduto até o rack.\n\nSua TV está na altura certa? Arraste, salve e envie para o seu arquiteto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nImagens conceito (capa e slides 1 e 3).\n\n#AlturaDaTV #HomeTheater #ProjetoDeInteriores #SalaDeTV #Itajaí #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "plano_b": "parcial: Reel com quadros reais já usados em novo enquadramento (pasta de vídeos não conectada) e trilha própria",
+ "tema": "Home office (ChatGPT) + Reel bastidores de obra (quadros reais) + carrossel altura/distância da TV + 3 stories",
+ "musica_reel": "MOVE Original — Noturno 94 bpm (trilha sintetizada própria, automacao/musicas)"
+}
