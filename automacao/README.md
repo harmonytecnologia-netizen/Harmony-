@@ -17,8 +17,19 @@ TODOS OS DIAS, sem falhar nenhum dia:
 - **1 carrossel** (5 a 7 slides) — publica às 19h.
 - **No mínimo 3 stories PRÓPRIOS** (de 3 a 8), feitos para story (1080x1920): bastidor de obra, dica rápida, pergunta/enquete em arte ("responde no direct"), antes/depois, detalhe de produto, agenda aberta, cena conceito. Reel repostado NÃO conta como story próprio. Horários: 09h, 15h e 21h (pode haver mais de um por horário).
 - **Tudo que for publicado no feed (feed, carrossel, Reel) também vai para o story** — isso é ALÉM dos 3 stories próprios.
-- **Reels: 3 por semana** (segunda, quarta e sexta, às 12h junto com o feed), de obra real ou de dica (inclui MOVE Explica e Dica da Iamin).
+- **Reels: 2 POR DIA a partir de 15/11/2026** (um às 12h junto com o feed e um às 19h junto com o carrossel), no estilo **MOVE Explica 3D premium** (ver seção abaixo): ensinar e envolver sobre sonorização e automação. Vídeo de obra real pode substituir um deles quando houver.
 - A fila (fila/AAAA-MM-DD/plano.json) deve ter sempre hoje + 3 dias prontos. Chaves do plano: "09h", "12h", "15h", "19h", "21h".
+
+
+## MOVE Explica 3D premium (padrão dos Reels desde 14/11/2026)
+Origem: o Reel 3D da impedância (13/11) fez 1.758 views / 1.474 contas (os outros Reels: 17–48), 90 curtidas, 8 salvamentos, 3 envios; pulo nos 3 s = 40% (outros 71–92%); tempo médio 12,7 s de 31 s → a maioria saiu na metade da explicação.
+Regras (melhorias a partir dessa análise):
+- Visual 3D PROFISSIONAL, não cartoon: produtos realistas (caixas com gabinete de madeira, cone, tweeter, bornes, cabos com ponta dourada, amplificador, rack, teclado, módulo, motor de cortina...), estúdio escuro, piso com reflexo, luz de recorte verde da marca + quente, profundidade de campo, câmera sempre em movimento lento. Erro em VERMELHO, certo em VERDE (anéis de som, ondas, LEDs).
+- 20 a 23 s no máximo. Gancho = pergunta-dor em 1 frase + close no produto (0–3 s). O "porquê" visual até 8 s. A correção até 13 s. Resultado + CTA "salva pra conferir" nos últimos 5 s.
+- Narração (Piper faber, velocidade 0.88–0.92) + texto grande em 2 linhas por cena (montar_explicativo.py) + efeitos (clique, batida de grave, erro, ding) + música baixa.
+- Um tema por vídeo, prático, que a pessoa consegue conferir em casa. Precisão técnica conferida.
+- Modelo: automacao/animacoes/explica_polaridade_3d (cena.py + montagem.json). Render: PC do João (GPU) quando ligado; plano B na nuvem a 12 qps (renderizar quadros pares, interpolar para 24) ~70 min por vídeo.
+- Pautas (ir rodando): impedância ✔, polaridade ✔, sub dentro do móvel, crossover 80 Hz, altura e ângulo das caixas surround, distância do sofá x tamanho da tela, cabo de caixa fino demais, ganho do amplificador saturando, tomada sem terra, fio solto no borne, Wi-Fi sem cobertura x access point, cabo de rede mal crimpado, roteador fechado no rack, módulo sem neutro, LED piscando com dimmer, Zigbee x Wi-Fi, cena "Cheguei", motor de cortina e sanca rasa, keypad x interruptor comum, som ambiente por zona, caixa de embutir no gesso (recorte e moldura), projetor x TV, tratamento acústico (eco), vizinho reclamando do grave.
 
 ## Fluxo diário
 1. Verificar `C:\Users\PC\Videos\MOVE para postar` no computador do João.
