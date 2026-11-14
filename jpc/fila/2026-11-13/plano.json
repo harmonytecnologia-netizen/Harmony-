@@ -18,5 +18,10 @@
    "pauta": "st004"
   }
  ],
- "obs": "Automação começou às 21h de 13/11: só o horário das 21h vale hoje. Hoje já saiu um carrossel às 07h (5 erros)."
+ "obs": "Automação começou às 21h de 13/11: só o horário das 21h vale hoje. Hoje já saiu um carrossel às 07h (5 erros).",
+ "publicado_09h": true,
+ "publicado_12h": true,
+ "publicado_15h": true,
+ "publicado_19h": true,
+ "publicado_21h": true
 }
