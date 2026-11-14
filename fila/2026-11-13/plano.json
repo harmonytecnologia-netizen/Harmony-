@@ -41,5 +41,21 @@
    "arquivo": "story_21h_2.jpg"
   }
  ],
- "publicado_21h": true
+ "publicado_21h": true,
+ "21h45_extra": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Um toque e a casa inteira se prepara para dormir.\n\nNa cena \"Boa noite\", um único botão apaga as luzes, fecha as cortinas, desliga o som e arma o alarme. Sem percorrer a casa conferindo interruptor por interruptor.\n\nQual seria o primeiro botão da sua casa: \"Cheguei\", \"Cinema\" ou \"Boa noite\"? Conte nos comentários e salve para o seu projeto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC: Itapema, Balneário Camboriú, Itajaí e região. Agende uma conversa pelo direct.\n\nAmbiente conceito.\n\n#AutomaçãoResidencial #CasaInteligente #CenaBoaNoite #AltoPadrão #Itapema #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_3.jpg"
+  }
+ ],
+ "obs_extra": "Rotina de conferência 13/11 ~21h50: faltavam 1 feed (imagem) e 1 story próprio; produzidos e publicados."
 }
