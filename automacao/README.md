@@ -39,6 +39,19 @@ Objetivo: mostrar que o cliente que compra sozinho muitas vezes leva "gato por l
 - Precisão técnica (conferir sempre): diferenciar watts RMS × PMPO/"pico"; potência total × por canal; potência medida em qual impedância (4 Ω × 8 Ω) e com quanta distorção. Caixas em paralelo dividem a potência do canal e baixam a impedância (risco para o amplificador); em série, a potência cai. Classe D não é "sempre melhor": a vantagem é eficiência (esquenta pouco, potência real em tamanho pequeno). O ganho de som vem de potência REAL e folga sem distorcer. Para o som parecer "o dobro" de alto é preciso bem mais potência — não prometer "dobro" em números; dizer "muito mais forte e limpo".
 - Pautas da série (ir rodando, intercalar com as outras): 60 W que viram 15 W por caixa (caso de 14/11) ✔ prioridade 1, RMS × PMPO na caixa do produto, amplificador digital pequeno × analógico grandão, potência total × por canal, ligar 4 caixas num amplificador de 2 canais, caixa "1000 W" de loja, caixa barata × caixa boa com o mesmo amplificador, receiver de home theater "7.1" que não aguenta as caixas, cabo de caixa fino demais, sub ativo × passivo, Alexa/smart speaker × som ambiente de verdade, kit automação de loja × projeto, lâmpada Wi-Fi × módulo no interruptor, roteador de operadora × rede bem feita.
 
+## Série em partes com suspense (pedido do João, 14/11/2026)
+- Alguns temas viram "Parte 1" e "Parte 2". A Parte 1 conta o problema e PARA no momento de maior tensão (ex.: "ele ia ligar esse fio no amplificador… o que acontece?"), com texto "PARTE 2 no perfil" e na legenda: "Parte 2 hoje às 19h no perfil — segue pra não perder".
+- A Parte 2 sai NO MESMO DIA (Parte 1 às 12h, Parte 2 às 19h — usa os 2 Reels do dia), começa com 2 s de recapitulação ("Na parte 1…") e entrega a resposta + CTA. Story às 15h e às 19h avisando "Parte 2 saindo".
+- Suspense honesto: a tensão tem que ser verdadeira. Nada de "vai explodir" se não explode; usar o risco real ("o amplificador entra em proteção", "pode queimar o canal", "o grave some").
+- No máximo 1 série em partes por semana, para não cansar. Bons temas: os casos "Gato por lebre", ligar 4 caixas num amplificador de 2 canais, caixas em paralelo abaixo de 4 Ω, módulo sem neutro.
+
+## Ler as métricas de cada vídeo (pedido do João, 14/11/2026)
+Todo Reel/post é estudado depois de 24–48 h e o aprendizado vale para o próximo:
+- Ver: views, contas alcançadas, pulo nos 3 s, tempo médio assistido × duração, retenção, curtidas, salvamentos, envios, comentários e seguidores ganhos.
+- Comparar com a média dos últimos Reels e anotar em `automacao/aprendizados.md` (criar se não existir): data | post | números | o que deu certo | o que deu errado | o que mudar no próximo.
+- Duração, gancho, ritmo e formato NÃO são fixos: ajustar pelo que os números mostrarem (hoje 20–23 s porque a maioria saiu na metade do Reel de 31 s). Testar uma mudança por vez para saber o que funcionou.
+- Antes de produzir qualquer Reel/carrossel novo, ler `automacao/aprendizados.md`.
+
 ## Plano de renda do Instagram (visão do João, 14/11/2026)
 1. Agora: conteúdo educativo + "Gato por lebre" para atrair cliente de obra (orçamento pelo direct). Ainda sem indicar produto específico.
 2. Depois (perfil mais forte): indicar produtos/ferramentas que a MOVE usa (ex.: ferramenta utilitária de instalação), com link — avaliar afiliado ou venda própria.
