@@ -21,3 +21,4 @@
 | 2026-11-16 (fila) | 3 Stories próprios + Feed + Reel + Carrossel 6 + stories | Semana nova (forro real), TV retrátil (real), Reel Projetos MOVE realizados, enquete app x voz, carrossel multiroom, dica cabos | fotos reais site/img/r_* | MOVE Original — Âmbar 86 bpm (trilha sintetizada própria, automacao/musicas) | (a publicar) — plano B |
 | 2026-11-13 21h (fila, extra) | Carrossel 6 + Story | Projetor ou TV: qual escolher | — | — | (a publicar) — plano B |
 | 2026-11-17 (fila) | 3 Stories próprios + Feed + Carrossel 7 + stories | Portão pelo app (real), dia de instalação (conceito), Dica da Iamin embutir x aparente, checklist antes do forro (quadros reais), agenda aberta | quadros de reels/move-reel-01.mp4 | — | (a publicar) — plano B |
+| 2026-11-13 21h | Carrossel 6 + 3 Stories | Projetor ou TV; agenda aberta verão 2027; enquete projetor x TV | — | — | carrossel 17957439174039215 / stories 17990236539074972, 18093083570688900, 18129616228844394 |
