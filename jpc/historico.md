@@ -17,3 +17,4 @@
 | 2026-11-14 | 21h | ajuste fila | fila/2026-11-16: Reel trocado por reel.mp4 novo (feed004, vídeos Pexels + Spontaneous – Rodina), pois o noob-pro já saiu hoje | — | — |
 | 2026-11-14 | 21h | story próprio | fila/2026-11-14/story_4.jpg (st008) | — | 17945389176370231 |
 | 2026-11-14 | 21h | story próprio | fila/2026-11-14/story_5.jpg (st009) | — | 17955828699342491 |
+| 2026-11-14 | 21h55 | conferência diária | Windsor OK: feed 12h, carrossel 19h, Reel 21h + 8 stories (5 próprios, 3 de post); fila 15–17/11 completa | — | — |
