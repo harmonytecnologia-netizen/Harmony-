@@ -26,6 +26,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "Seu amplificador desliga sozinho no volume alto? Confira os bornes.\n\nUm fiozinho solto do cabo da caixa pode encostar no borne vizinho. É um curto: o amplificador entra em proteção e desliga, e com o tempo pode danificar o canal.\nA correção: desencapar só o necessário (cerca de 1 cm), torcer bem os fios e apertar firme, ou usar pino banana. Nenhum fio sobrando para fora.\nResultado: som estável, sem desligar e sem susto.\n\nSalve para conferir no seu equipamento. Dúvida? Chama a gente no direct.\n\n#Amplificador #Sonorização #HomeTheater #DicaDeInstalação #SomAmbiente #BalneárioCamboriú #MOVE",
+   "thumb_offset": 1200
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
   }
  ],
  "19h": [
