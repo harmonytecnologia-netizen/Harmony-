@@ -23,3 +23,5 @@
 | 2026-11-15 | 08h | Reel pronto | reels/real-manutencao (trabalho real: teclado sujo→limpo→RGB, SSD, GPU) → reels/prontos/2026-11-15_real_manutencao.json | Bad News – Steve Kane | — |
 | 2026-11-15 | 09h | story próprio | fila/2026-11-15/story_1.jpg (st010) | — | 18030171554880236 |
 | 2026-11-15 | 09h | story próprio | fila/2026-11-15/story_2.jpg (st011) | — | 18223875040347005 |
+| 2026-11-15 | 12h | feed | fila/2026-11-15/feed.jpg (feed002 – XMP/EXPO memória) | — | 18105020942038853 |
+| 2026-11-15 | 12h | story do feed | fila/2026-11-15/story_feed.jpg | — | 18020446046747536 |
