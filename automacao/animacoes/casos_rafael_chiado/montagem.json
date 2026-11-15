@@ -1,0 +1,16 @@
+{"segurar_fim": 0.0, "duracao": 22.0,
+ "musica": "../../musicas/MOVE_original_ambar_86bpm.mp3", "musica_vol": 0.4, "efeitos": "sfx.wav",
+ "video": "anim24.mp4",
+ "cartoes": [
+  {"de": 0, "ate": 4.0, "titulo": "O SOM DO RAFAEL", "titulo2": "CHIAVA", "cor2": "erro"},
+  {"de": 4.0, "ate": 8.1, "titulo": "TROCOU CAIXA,", "titulo2": "TROCOU CABO...", "cor2": "erro", "pilula": "E NADA  ✗", "cor_pilula": "erro"},
+  {"de": 8.1, "ate": 12.7, "titulo": "ÁUDIO JUNTO", "titulo2": "DA ENERGIA", "cor2": "erro", "rodape": "no mesmo eletroduto = interferência"},
+  {"de": 12.7, "ate": 16.1, "titulo": "CADA UM", "titulo2": "NO SEU TUBO", "cor2": "destaque", "pilula": "✓ SEPARADOS", "cor_pilula": "destaque"},
+  {"de": 16.1, "ate": 22.0, "titulo": "CHIADO", "titulo2": "ZERO", "cor2": "destaque", "rodape": "Salva e manda pra quem vai reformar"},
+  {"de": 0.4, "ate": 3.9, "img": "ov_iamin1.png"},
+  {"de": 8.4, "ate": 12.6, "img": "ov_iamin2.png"},
+  {"de": 17.0, "ate": 22.0, "img": "ov_iamin3.png"}
+ ],
+ "falas": [{"arquivo": "voz/s1.wav", "t": 0.3}, {"arquivo": "voz/s2.wav", "t": 4.2}, {"arquivo": "voz/s3.wav", "t": 8.2},
+           {"arquivo": "voz/s4.wav", "t": 13.0}, {"arquivo": "voz/s5.wav", "t": 16.4}]
+}
