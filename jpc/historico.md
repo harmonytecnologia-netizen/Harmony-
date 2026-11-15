@@ -25,3 +25,4 @@
 | 2026-11-15 | 09h | story próprio | fila/2026-11-15/story_2.jpg (st011) | — | 18223875040347005 |
 | 2026-11-15 | 12h | feed | fila/2026-11-15/feed.jpg (feed002 – XMP/EXPO memória) | — | 18105020942038853 |
 | 2026-11-15 | 12h | story do feed | fila/2026-11-15/story_feed.jpg | — | 18020446046747536 |
+| 2026-11-15 | 15h | story próprio | fila/2026-11-15/story_3.jpg (st012) | — | 17968932948206865 |
