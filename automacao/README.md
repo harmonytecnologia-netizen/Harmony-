@@ -45,6 +45,17 @@ Objetivo: mostrar que o cliente que compra sozinho muitas vezes leva "gato por l
 - Suspense honesto: a tensão tem que ser verdadeira. Nada de "vai explodir" se não explode; usar o risco real ("o amplificador entra em proteção", "pode queimar o canal", "o grave some").
 - No máximo 1 série em partes por semana, para não cansar. Bons temas: os casos "Gato por lebre", ligar 4 caixas num amplificador de 2 canais, caixas em paralelo abaixo de 4 Ω, módulo sem neutro.
 
+## Série "Casos da MOVE" (historinha, desde 14/11/2026)
+- Formato: cliente com nome fictício tem um problema → tentativas que não resolvem → MOVE acha a causa → correção → resultado + "E você, o que faria? Comenta aí". 3D no padrão MOVE Explica, 20–23 s, cartões com série "CASOS DA MOVE" (marca_casos.json).
+- Iamin aparece em selo com balão (iamin_ov.py) no gancho, na virada e no final. Ela não diz que instalou nem que o caso é dela; se o caso não for real, legenda diz "Nome fictício, problema real (e muito comum)".
+- Modelo: animacoes/casos_rafael_chiado (cena.py, montagem.json, iamin_ov.py). 1º episódio: Rafael, som chiando (áudio junto da energia no eletroduto) — 14/11.
+- Render: na nuvem leva ~17 s/quadro (2 CPUs) → ~75 min com STEP=2; deixar com setsid nohup. No PC (GPU): Downloads\MOVE_render3D\RENDER_CASOS.bat (precisa abrir pelo Explorer — só clique; se houver janela "Salvar" aberta do Chrome/app, ela bloqueia o controle).
+
+## Destaques do Instagram (reorganizados em 14/11/2026)
+Ordem no perfil: Casos da MOVE, clientes (do João), Obras, Orçamento, Automação, Aprendendo sobre (nome cortado em 16 letras), Lanchas som, Projetos (antigo, Harmony).
+- Capas: automacao/destaques/capa_*.jpg (ícones do ChatGPT em destaques/icones_chatgpt.png). Para criar destaque pelo navegador: publicar a capa como story (Windsor), depois Perfil → Novo → marcar capa + stories → escolher a capa.
+- Cada Reel novo vai para o destaque do tema (Casos da MOVE ou Aprendendo sobre som) depois de publicado o story.
+
 ## Ler as métricas de cada vídeo (pedido do João, 14/11/2026)
 Todo Reel/post é estudado depois de 24–48 h e o aprendizado vale para o próximo:
 - Ver: views, contas alcançadas, pulo nos 3 s, tempo médio assistido × duração, retenção, curtidas, salvamentos, envios, comentários e seguidores ganhos.

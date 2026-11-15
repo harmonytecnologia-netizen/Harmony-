@@ -32,3 +32,5 @@
 | 2026-11-14 19h55 | Reel MOVE Explica 3D premium + Story | Polaridade invertida: o grave some (caixas realistas, anéis de som, onda) | — | MOVE original noturno 94bpm | 18505736059103523 / story 18139044395507533 |
 | 2026-11-14 21h | 1 Story próprio | Área gourmet / encerramento do dia (story_21h_1) | — | — | story 18105200330568291 |
 | 2026-11-14 21h50 (conferência) | Conferência Windsor | Dia 14/11 completo: 1 feed (12h05), 1 carrossel (19h12), 1 Reel 3D (19h57), 7 stories (4 próprios: 09h×2, 15h, 21h + 3 de divulgação) | — | — | nada faltou |
+| 2026-11-14 22h20 | 5 Stories (capas de destaque) | Capas dos destaques: Casos da MOVE, Aprendendo sobre som, Automação, Projetos/Obras, Orçamento (ícones gerados no ChatGPT, destaques/) | — | — | 18030067976930352, 17990298948118705, 18144120295624276, 18652578484024878, 18091576475262947 |
+| 2026-11-14 23h55 | Reel Casos da MOVE (3D) + Story | Rafael: som chiando — cabo de áudio no mesmo eletroduto da energia; separar os tubos; Iamin no gancho, virada e final pedindo comentário | — | MOVE Original — Âmbar 86 bpm (trilha própria) | 18081633566729387 / story 18202139563391601 |
