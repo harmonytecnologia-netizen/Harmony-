@@ -1,4 +1,48 @@
 [
-  {"arquivo": "bad_news_steve_kane.mp3", "nome": "Bad News", "autor": "Steve Kane", "genero": "Rock", "humor": "Angry", "fonte": "Biblioteca de áudio do YouTube", "atribuicao": "não exigida", "baixada_em": "2026-11-14", "usada_em": []},
-  {"arquivo": "spontaneous_rodina.mp3", "nome": "Spontaneous", "autor": "Rodina feat. Aoife Hearty", "genero": "Rock", "humor": "Dramatic", "fonte": "Biblioteca de áudio do YouTube", "atribuicao": "não exigida", "baixada_em": "2026-11-14", "usada_em": []}
+ {
+  "arquivo": "bad_news_steve_kane.mp3",
+  "nome": "Bad News",
+  "autor": "Steve Kane",
+  "genero": "Rock",
+  "humor": "Angry",
+  "fonte": "Biblioteca de áudio do YouTube",
+  "atribuicao": "não exigida",
+  "baixada_em": "2026-11-14",
+  "usada_em": [
+   "2026-11-15 reels/real-manutencao (fila prontos)"
+  ]
+ },
+ {
+  "arquivo": "spontaneous_rodina.mp3",
+  "nome": "Spontaneous",
+  "autor": "Rodina feat. Aoife Hearty",
+  "genero": "Rock",
+  "humor": "Dramatic",
+  "fonte": "Biblioteca de áudio do YouTube",
+  "atribuicao": "não exigida",
+  "baixada_em": "2026-11-14",
+  "usada_em": []
+ },
+ {
+  "arquivo": "ego_chall_blue_deer.mp3",
+  "nome": "Ego Chall",
+  "autor": "Blue Deer Studio",
+  "genero": "Dance & Electronic",
+  "humor": "Dramatic",
+  "fonte": "Biblioteca de áudio do YouTube",
+  "atribuicao": "não exigida",
+  "baixada_em": "2026-11-15",
+  "usada_em": []
+ },
+ {
+  "arquivo": "survival_mode_blue_deer.mp3",
+  "nome": "Survival Mode",
+  "autor": "Blue Deer Studio",
+  "genero": "Dance & Electronic",
+  "humor": "Inspirational",
+  "fonte": "Biblioteca de áudio do YouTube",
+  "atribuicao": "não exigida",
+  "baixada_em": "2026-11-15",
+  "usada_em": []
+ }
 ]

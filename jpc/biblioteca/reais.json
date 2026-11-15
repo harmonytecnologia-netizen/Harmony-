@@ -1,1 +1,274 @@
-{"pasta": "C:\\Users\\PC\\Documents\\JPC para postar", "ultima_verificacao": "2026-11-14", "arquivos": []}
+{
+ "pasta": "C:\\Users\\PC\\Documents\\JPC para postar",
+ "ultima_verificacao": "2026-11-15",
+ "arquivos": [
+  {
+   "original": "20260506_121216.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260506_121216.mp4",
+   "descricao": "teclado Redragon branco sujo, sem teclas (antes)",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": [
+    "reels/real-manutencao"
+   ]
+  },
+  {
+   "original": "20260506_125031.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260506_125031.mp4",
+   "descricao": "teclado limpo, teclas recolocadas (depois)",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": [
+    "reels/real-manutencao"
+   ]
+  },
+  {
+   "original": "20260506_175215.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260506_175215.mp4",
+   "descricao": "teclado limpo com RGB vermelho aceso",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": [
+    "reels/real-manutencao"
+   ]
+  },
+  {
+   "original": "20260521_202918.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260521_202918.mp4",
+   "descricao": "parafusando SSD Kingston no gabinete",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": [
+    "reels/real-manutencao"
+   ]
+  },
+  {
+   "original": "20260521_202944.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260521_202944.mp4",
+   "descricao": "SSD Kingston parafusado (curto)",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260525_095620.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260525_095620.mp4",
+   "descricao": "GPU EVGA GTX com RGB + Gerenciador de Dispositivos",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": [
+    "reels/real-manutencao"
+   ]
+  },
+  {
+   "original": "20260530_235102.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260530_235102.mp4",
+   "descricao": "bancada/setup com ferramentas (tem copo de bebida: evitar esse trecho)",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260605_150826.mp4",
+   "tipo": "video",
+   "arquivo": "biblioteca/reais/20260605_150826.mp4",
+   "descricao": "caixa do gabinete CV100 White chegando",
+   "formato": "1080x1920 sem áudio",
+   "trazido_em": "2026-11-15",
+   "usado_em": [
+    "reels/real-manutencao"
+   ]
+  },
+  {
+   "original": "20260512_104846.mp4",
+   "tipo": "video",
+   "descartado": "boneco de personagem famoso de anime em destaque (regra: nada de personagem famoso)",
+   "trazido_em": "2026-11-15"
+  },
+  {
+   "original": "20260530_235131.mp4",
+   "tipo": "video",
+   "descartado": "aparece pessoa dormindo na cama (privacidade)",
+   "trazido_em": "2026-11-15"
+  },
+  {
+   "original": "20260506_125024.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260506_125024.jpg",
+   "fundo": "biblioteca/fundos/real_20260506_125024.jpg",
+   "descricao": "teclado Redragon + cooler vermelho",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260522_212954.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260522_212954.jpg",
+   "fundo": "biblioteca/fundos/real_20260522_212954.jpg",
+   "descricao": "caixa gabinete Target aberta",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260522_213010.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260522_213010.jpg",
+   "fundo": "biblioteca/fundos/real_20260522_213010.jpg",
+   "descricao": "caixa gabinete Target",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260525_095610.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260525_095610.jpg",
+   "fundo": "biblioteca/fundos/real_20260525_095610.jpg",
+   "descricao": "PC com water cooler RGB e GTX 1060",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_104832.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_104832.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_104832.jpg",
+   "descricao": "processador Ryzen 5 na embalagem",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105029.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105029.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105029.jpg",
+   "descricao": "SSD Goldenfir frente",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105038.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105038.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105038.jpg",
+   "descricao": "SSD Goldenfir verso",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105051.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105051.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105051.jpg",
+   "descricao": "SSD Hiksemi verso",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105101.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105101.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105101.jpg",
+   "descricao": "SSD Hiksemi frente",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105246.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105246.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105246.jpg",
+   "descricao": "SSD Hiksemi frente 2",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105252.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105252.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105252.jpg",
+   "descricao": "SSD Hiksemi verso 2",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105318.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105318.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105318.jpg",
+   "descricao": "SSD Lexar frente",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_105325.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_105325.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_105325.jpg",
+   "descricao": "SSD Lexar NQ100 verso",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260526_120255.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260526_120255.jpg",
+   "fundo": "biblioteca/fundos/real_20260526_120255.jpg",
+   "descricao": "placa-mãe ASUS + espelho traseiro",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260530_113330.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260530_113330.jpg",
+   "fundo": "biblioteca/fundos/real_20260530_113330.jpg",
+   "descricao": "dissipador/aletas com poeira (antes da limpeza)",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260530_235029.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260530_235029.jpg",
+   "fundo": "biblioteca/fundos/real_20260530_235029.jpg",
+   "descricao": "setup completo na bancada (copo de bebida visível)",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260530_235032.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260530_235032.jpg",
+   "fundo": "biblioteca/fundos/real_20260530_235032.jpg",
+   "descricao": "setup completo na bancada 2 (copo de bebida visível)",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260604_121703.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260604_121703.jpg",
+   "fundo": "biblioteca/fundos/real_20260604_121703.jpg",
+   "descricao": "placa-mãe no gabinete aberto",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  },
+  {
+   "original": "20260605_150840.jpg",
+   "tipo": "foto",
+   "arquivo": "biblioteca/reais/20260605_150840.jpg",
+   "fundo": "biblioteca/fundos/real_20260605_150840.jpg",
+   "descricao": "caixa do gabinete chegando",
+   "trazido_em": "2026-11-15",
+   "usado_em": []
+  }
+ ],
+ "pendentes_obs": "Ainda não trazidos (próximas execuções): IMG_*.MP4/HEIC (Live Photos do iPhone), fotos UUID .jpg, IMG_*.JPG/PNG/WEBP, lv_*.mp4 (CapCut), Photos-1-001.zip"
+}

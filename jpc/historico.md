@@ -19,3 +19,5 @@
 | 2026-11-14 | 21h | story próprio | fila/2026-11-14/story_5.jpg (st009) | — | 17955828699342491 |
 | 2026-11-14 | 21h55 | conferência diária | Windsor OK: feed 12h, carrossel 19h, Reel 21h + 8 stories (5 próprios, 3 de post); fila 15–17/11 completa | — | — |
 | 2026-11-15 | 00h40 | ajuste fila | Reel luta arcade voltou para reels/prontos (não tinha saído; 16/11 ficou com Reel Pexels). Entra na quarta 18/11 | — | — |
+| 2026-11-15 | 08h | biblioteca | 8 vídeos reais + 19 fotos reais da pasta "JPC para postar" (biblioteca/reais, fundos/real_*); 4 fundos ChatGPT (ia_2026-11-15_1..4: pixel art quarto, luta arcade original, setup realista, apresentador cartoon); 2 músicas YouTube (Ego Chall e Survival Mode – Blue Deer Studio) | — | — |
+| 2026-11-15 | 08h | Reel pronto | reels/real-manutencao (trabalho real: teclado sujo→limpo→RGB, SSD, GPU) → reels/prontos/2026-11-15_real_manutencao.json | Bad News – Steve Kane | — |
