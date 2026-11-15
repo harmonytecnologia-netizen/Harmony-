@@ -1,0 +1,52 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/MOVE_original_lume_96bpm.mp3",
+ "musica_vol": 0.6,
+ "efeitos": "sfx.wav",
+ "duracao": 22.8,
+ "video": "anim24.mp4",
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.7,
+   "titulo": "WI-FI RUIM",
+   "titulo2": "NOS QUARTOS?",
+   "cor2": "erro"
+  },
+  {
+   "de": 3.7,
+   "ate": 8.2,
+   "titulo": "ROTEADOR PRESO",
+   "titulo2": "NO RACK FECHADO",
+   "cor2": "erro",
+   "rodape": "o sinal já sai fraco"
+  },
+  {
+   "de": 8.2,
+   "ate": 12.4,
+   "titulo": "PAREDES E LAJES",
+   "titulo2": "BLOQUEIAM O RESTO",
+   "cor2": "erro",
+   "pilula": "QUARTOS SEM SINAL  ✗",
+   "cor_pilula": "erro"
+  },
+  {
+   "de": 12.4,
+   "ate": 16.8,
+   "titulo": "CABO DE REDE +",
+   "titulo2": "ACCESS POINT NO TETO",
+   "cor2": "destaque",
+   "rodape": "um por área, mesma rede"
+  },
+  {
+   "de": 16.8,
+   "ate": 22.8,
+   "titulo": "SINAL FORTE",
+   "titulo2": "EM CADA CANTO",
+   "cor2": "destaque",
+   "pilula": "✓ CERTO",
+   "cor_pilula": "destaque",
+   "rodape": "Salva pra conferir na sua casa"
+  }
+ ]
+}

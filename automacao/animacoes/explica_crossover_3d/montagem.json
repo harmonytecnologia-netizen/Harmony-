@@ -1,0 +1,52 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/MOVE_original_veludo_74bpm.mp3",
+ "musica_vol": 0.6,
+ "efeitos": "sfx.wav",
+ "duracao": 22.8,
+ "video": "anim24.mp4",
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.7,
+   "titulo": "CAIXA PEQUENA",
+   "titulo2": "DISTORCENDO?",
+   "cor2": "erro"
+  },
+  {
+   "de": 3.7,
+   "ate": 8.2,
+   "titulo": "ELA ESTÁ TENTANDO",
+   "titulo2": "TOCAR O GRAVE",
+   "cor2": "erro",
+   "rodape": "grave que ela não alcança"
+  },
+  {
+   "de": 8.2,
+   "ate": 12.4,
+   "titulo": "NO RECEIVER:",
+   "titulo2": "CAIXAS \"GRANDE\"",
+   "cor2": "erro",
+   "pilula": "DISTORÇÃO  ✗",
+   "cor_pilula": "erro"
+  },
+  {
+   "de": 12.4,
+   "ate": 16.8,
+   "titulo": "\"PEQUENA\" +",
+   "titulo2": "CROSSOVER 80 Hz",
+   "cor2": "destaque",
+   "rodape": "o grave vai para o subwoofer"
+  },
+  {
+   "de": 16.8,
+   "ate": 22.8,
+   "titulo": "VOZ LIMPA,",
+   "titulo2": "GRAVE FIRME",
+   "cor2": "destaque",
+   "pilula": "✓ CERTO",
+   "cor_pilula": "destaque",
+   "rodape": "Salva pra conferir no seu receiver"
+  }
+ ]
+}

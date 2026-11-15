@@ -26,6 +26,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "60 W para 4 caixas? A conta da embalagem engana.\n\nCaso real: o cliente comprou um amplificador de \"60 W\" e ligou 4 caixas. Só que os 60 W eram o total: 30 W por canal. Com 2 caixas em cada canal, sobram uns 15 W para cada uma, e no volume alto o som fica fraco e distorce.\nA troca: um amplificador digital (classe D) compacto, com potência real (RMS) de verdade por canal. Resultado: som muito mais forte e limpo nas 4 caixas.\nNa hora de comprar, confira: potência RMS (não \"pico\" ou PMPO), por canal, e em quantos ohms. E duas caixas no mesmo canal baixam a impedância: o amplificador precisa aguentar.\n\nSalve para conferir antes de comprar. Dúvida sobre o seu som? Chama a gente no direct.\n\n#GatoPorLebre #Sonorização #SomAmbiente #Amplificador #HomeTheater #BalneárioCamboriú #MOVE",
+   "thumb_offset": 9500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
   }
  ],
  "19h": [

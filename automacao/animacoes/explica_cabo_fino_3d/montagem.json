@@ -1,0 +1,52 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/MOVE_original_cobre_100bpm.mp3",
+ "musica_vol": 0.6,
+ "efeitos": "sfx.wav",
+ "duracao": 22.8,
+ "video": "anim24.mp4",
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.7,
+   "titulo": "SOM FRACO",
+   "titulo2": "NA ÁREA GOURMET?",
+   "cor2": "erro"
+  },
+  {
+   "de": 3.7,
+   "ate": 8.2,
+   "titulo": "O CABO É",
+   "titulo2": "FINO DEMAIS",
+   "cor2": "erro",
+   "rodape": "trecho longo com fio de 0,5 mm²"
+  },
+  {
+   "de": 8.2,
+   "ate": 12.4,
+   "titulo": "O FIO \"COME\"",
+   "titulo2": "A POTÊNCIA",
+   "cor2": "erro",
+   "pilula": "GRAVE SEM FORÇA  ✗",
+   "cor_pilula": "erro"
+  },
+  {
+   "de": 12.4,
+   "ate": 16.8,
+   "titulo": "TRECHO LONGO:",
+   "titulo2": "CABO DE 2,5 mm²",
+   "cor2": "destaque",
+   "rodape": "cabo próprio de caixa, sem emendas"
+  },
+  {
+   "de": 16.8,
+   "ate": 22.8,
+   "titulo": "A POTÊNCIA",
+   "titulo2": "CHEGA INTEIRA",
+   "cor2": "destaque",
+   "pilula": "✓ CERTO",
+   "cor_pilula": "destaque",
+   "rodape": "Salva pra conferir na sua obra"
+  }
+ ]
+}

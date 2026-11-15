@@ -1,0 +1,52 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/MOVE_original_grafite_82bpm.mp3",
+ "musica_vol": 0.6,
+ "efeitos": "sfx.wav",
+ "duracao": 22.8,
+ "video": "anim24.mp4",
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.7,
+   "titulo": "AMPLIFICADOR",
+   "titulo2": "DESLIGA SOZINHO?",
+   "cor2": "erro"
+  },
+  {
+   "de": 3.7,
+   "ate": 8.2,
+   "titulo": "UM FIO SOLTO",
+   "titulo2": "NO BORNE",
+   "cor2": "erro",
+   "rodape": "encosta no borne vizinho"
+  },
+  {
+   "de": 8.2,
+   "ate": 12.4,
+   "titulo": "CURTO:",
+   "titulo2": "ENTRA EM PROTEÇÃO",
+   "cor2": "erro",
+   "pilula": "PODE DANIFICAR O CANAL  ✗",
+   "cor_pilula": "erro"
+  },
+  {
+   "de": 12.4,
+   "ate": 16.8,
+   "titulo": "DESENCAPE 1 cm,",
+   "titulo2": "TORÇA E APERTE",
+   "cor2": "destaque",
+   "rodape": "ou use pino banana"
+  },
+  {
+   "de": 16.8,
+   "ate": 22.8,
+   "titulo": "SOM ESTÁVEL",
+   "titulo2": "SEM SUSTO",
+   "cor2": "destaque",
+   "pilula": "✓ CERTO",
+   "cor_pilula": "destaque",
+   "rodape": "Salva pra conferir no seu equipamento"
+  }
+ ]
+}

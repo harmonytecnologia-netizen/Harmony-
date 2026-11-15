@@ -1,0 +1,15 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/MOVE_original_brisa_78bpm.mp3",
+ "musica_vol": 0.6,
+ "efeitos": "sfx.wav",
+ "duracao": 22.8,
+ "video": "anim24.mp4",
+ "cartoes": [
+  {"de": 0, "ate": 3.7, "titulo": "60 W PARA", "titulo2": "4 CAIXAS?", "cor2": "erro", "rodape": "o caso real de um cliente"},
+  {"de": 3.7, "ate": 8.2, "titulo": "60 W É O TOTAL", "titulo2": "30 W POR CANAL", "cor2": "erro", "rodape": "o amplificador tem só 2 canais"},
+  {"de": 8.2, "ate": 12.4, "titulo": "2 CAIXAS POR CANAL", "titulo2": "15 W EM CADA", "cor2": "erro", "pilula": "SOM FRACO E DISTORCIDO  ✗", "cor_pilula": "erro"},
+  {"de": 12.4, "ate": 16.8, "titulo": "A TROCA:", "titulo2": "POTÊNCIA REAL (RMS)", "cor2": "destaque", "rodape": "por canal, e em quantos ohms (Ω)"},
+  {"de": 16.8, "ate": 22.8, "titulo": "SOM FORTE", "titulo2": "E LIMPO", "cor2": "destaque", "pilula": "✓ CERTO", "cor_pilula": "destaque", "rodape": "Salva pra conferir antes de comprar"}
+ ]
+}
