@@ -54,6 +54,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Som fraco na área gourmet? Pode ser o cabo.\n\nEm trecho longo, cabo fino demais (tipo 0,5 mm²) tem resistência alta: parte da potência vira calor no caminho e o amplificador perde o controle do grave.\nA correção é na obra: cabo próprio de caixa, bitola de 2,5 mm² nos trechos longos, sem emendas e identificado nas duas pontas.\nResultado: a potência chega inteira e o som fica cheio, mesmo longe do rack.\n\nSalve para conferir antes de fechar o forro. Projeto de som para a sua obra? Chama a gente no direct.\n\n#CaboDeSom #Sonorização #SomAmbiente #ÁreaGourmet #ObraNova #Itapema #MOVE",
+   "thumb_offset": 10000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
   }
  ],
  "videos_usados": [],
