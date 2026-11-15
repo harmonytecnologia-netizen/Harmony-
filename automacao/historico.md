@@ -35,3 +35,5 @@
 | 2026-11-14 22h20 | 5 Stories (capas de destaque) | Capas dos destaques: Casos da MOVE, Aprendendo sobre som, Automação, Projetos/Obras, Orçamento (ícones gerados no ChatGPT, destaques/) | — | — | 18030067976930352, 17990298948118705, 18144120295624276, 18652578484024878, 18091576475262947 |
 | 2026-11-14 23h55 | Reel Casos da MOVE (3D) + Story | Rafael: som chiando — cabo de áudio no mesmo eletroduto da energia; separar os tubos; Iamin no gancho, virada e final pedindo comentário | — | MOVE Original — Âmbar 86 bpm (trilha própria) | 18081633566729387 / story 18202139563391601 |
 | 2026-11-15 09h05 | Story (imagem) | Story próprio 09h — Cozinha com LED (projeto real) | — | — | 18138305326656717 |
+| 2026-11-15 12h | Feed premium + Story | Luz que desenha a cozinha (LED na marcenaria, projeto real) | — | — | feed 18134176333837281 / story 18202695463384028 |
+| 2026-11-15 12h | Reel MOVE Explica 3D + Story | 60 W para 4 caixas? Potência RMS por canal (Gato por Lebre) | — | trilha do próprio vídeo | 18038043449912817 / story 18100348769227319 |
