@@ -37,3 +37,4 @@
 | 2026-11-15 09h05 | Story (imagem) | Story próprio 09h — Cozinha com LED (projeto real) | — | — | 18138305326656717 |
 | 2026-11-15 12h | Feed premium + Story | Luz que desenha a cozinha (LED na marcenaria, projeto real) | — | — | feed 18134176333837281 / story 18202695463384028 |
 | 2026-11-15 12h | Reel MOVE Explica 3D + Story | 60 W para 4 caixas? Potência RMS por canal (Gato por Lebre) | — | trilha do próprio vídeo | 18038043449912817 / story 18100348769227319 |
+| 2026-11-15 15h05 | 1 Story próprio | Cozinha com LED (story_15h_1) | — | — | story 17981460174169476 |
