@@ -151,6 +151,10 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - Público real: 56% homens, 35–54 anos (60%), litoral norte de SC (Balneário Camboriú, Itapema, Itajaí, Camboriú, Blumenau, Florianópolis, Brusque, Joinville). Citar essas cidades nas legendas/obras.
 - Melhores posicionamentos no anúncio: Reels e Feed do Facebook (~R$ 15 por conversa).
 
+## Aprendizados das métricas (14/11/2026 — 9 posts estáticos × Reels)
+- Padrão em 9 posts estáticos (6 feeds + 3 carrosséis, 11–14/11): alcance de 5–18 contas (só a base) e ZERO curtida/salvo/envio em todos, com ambiente conceito ou tema técnico. Os 2 Reels MOVE Explica 3D (impedância 1.823 views/1.531 contas; polaridade 260 views em ~2 h, pulo 35%) são o que traz gente nova. Os Reels de ambiente conceito/obra ficaram em 17–48 views (pulo 71–92%).
+- Regra: o esforço de produção vai primeiro para os Reels MOVE Explica 3D. Feed e carrossel continuam obrigatórios (frequência), mas com capa de dor técnica/pergunta em 1 frase grande (estilo do Reel, pode usar quadro do 3D) em vez de só ambiente bonito. Reel de "ambiente conceito" sem explicação não é mais usado como Reel do dia.
+
 ## Referências de concorrentes (estilo a seguir)
 Pedido do João: acompanhar vídeos de concorrentes e fazer "engenharia inversa" (mesma estrutura, com cenários e pessoas diferentes, sempre no padrão MOVE de alto padrão). Nunca copiar vídeo, marca, música ou texto deles.
 
