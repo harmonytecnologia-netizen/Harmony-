@@ -54,6 +54,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Grave embolado e o móvel vibrando? Olha onde está o subwoofer.\n\nFechado dentro do nicho do rack, o sub fica com a frente e o duto bloqueados. O móvel inteiro vibra junto, e o grave vira um \"bum\" sem definição.\nA correção é simples: sub no piso, com a frente e o duto livres, fora de nicho fechado e de porta de marcenaria. Se o projeto pedir o sub escondido, o nicho tem que ser pensado para ele (aberto na frente e ventilado).\nResultado: grave firme, definido e sem barulho de móvel.\n\nSalve para conferir na sua sala. Vai montar o home theater? Manda a planta no direct.\n\n#Subwoofer #HomeTheater #SalaDeTV #Marcenaria #Sonorização #AltoPadrão #MOVE",
+   "thumb_offset": 1000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
   }
  ],
  "videos_usados": [],
