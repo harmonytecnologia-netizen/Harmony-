@@ -30,3 +30,4 @@
 | 2026-11-14 15h | 1 Story próprio | Área gourmet / rack técnico (story_15h_1) | — | — | story 17980525704133900 |
 | 2026-11-14 19h | Carrossel 6 + Story | 5 cuidados com a central da sua casa (rack técnico) | — | — | carrossel 18022670939942922 / story 17977767800942711 |
 | 2026-11-14 19h55 | Reel MOVE Explica 3D premium + Story | Polaridade invertida: o grave some (caixas realistas, anéis de som, onda) | — | MOVE original noturno 94bpm | 18505736059103523 / story 18139044395507533 |
+| 2026-11-14 21h | 1 Story próprio | Área gourmet / encerramento do dia (story_21h_1) | — | — | story 18105200330568291 |
