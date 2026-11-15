@@ -55,6 +55,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Wi-Fi ruim na casa inteira? Talvez o roteador esteja preso no rack.\n\nDentro de móvel fechado (pior ainda se for metálico) o sinal já sai fraco. Some as paredes e as lajes e os quartos ficam sem cobertura.\nA correção: rede cabeada saindo do rack e access points no teto, um por área, todos na mesma rede. O rack fica só com a parte técnica.\nResultado: sinal forte em cada canto, sem aparelho à vista.\n\nSalve para conferir na sua casa. Vai construir ou reformar? Manda a planta no direct.\n\n#WiFi #RedeDomestica #AccessPoint #CasaInteligente #AutomaçãoResidencial #Itajaí #MOVE",
+   "thumb_offset": 15000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
   }
  ],
  "videos_usados": [],
