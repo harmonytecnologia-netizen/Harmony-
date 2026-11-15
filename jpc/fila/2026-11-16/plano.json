@@ -27,14 +27,15 @@
   },
   {
    "acao": "create_video_post",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/game-noob-pro/jpc_noob_pro.mp4",
-   "legenda": "Seu PC é NOOB ou PRO? 🎮\n\n3 erros que dão GAME OVER no seu PC:\n🔥 Fase 1: PC sem ventilação → superaquece e cai o desempenho\n🟦 Fase 2: fonte genérica ou driver errado → TELA AZUL no meio da partida\n⏳ Fase 3: jogo no HD → LOADING infinito e lag\n\n✔ Fan puxando na frente e soltando atrás + limpeza\n✔ Fonte de marca 80 Plus + driver do site oficial\n✔ Windows e jogos no SSD\n\nQual fase te derrotou? Comenta aqui 👇\n💾 Salva e manda pro seu duo.\n\nQuer um PC nível PRO? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #gamer #montagemdepc #pcgamerbarato",
-   "thumb_offset": 1500,
-   "musica": "chiptune própria sintetizada"
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-16/reel.mp4",
+   "legenda": "Erro clássico: cabo do monitor na saída da placa-mãe. 😱\n\nAssim a placa de vídeo fica parada. O certo é ligar nas saídas deitadas, lá embaixo — essas são da placa de vídeo.\n\nConfere aí e conta: o seu tava certo? 👇\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
+   "thumb_offset": 1000,
+   "musica": "spontaneous_rodina.mp3",
+   "pauta": "feed004"
   },
   {
    "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/game-noob-pro/jpc_noob_pro.mp4",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-16/reel.mp4",
    "tipo": "video"
   }
  ],

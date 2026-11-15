@@ -13,3 +13,5 @@
 | 2026-11-14 | 15h | story próprio | fila/2026-11-14/story_3.jpg (st007) | — | 18399274426163656 |
 | 2026-11-14 | 19h | carrossel (7 slides) | fila/2026-11-14/car_01..07.jpg (car001) | — | 18162065434502490 |
 | 2026-11-14 | 19h | story do carrossel | fila/2026-11-14/story_car.jpg | — | 17938289220409427 |
+| 2026-11-14 | 21h (extra) | Reel + story | Reel "Seu PC é NOOB ou PRO?" (reels/game-noob-pro), antecipado de 16/11 — João cobrou falta de Reel | chiptune própria sintetizada | 18215627419371340 / story 18115041170221571 |
+| 2026-11-14 | 21h | ajuste fila | fila/2026-11-16: Reel trocado por reel.mp4 novo (feed004, vídeos Pexels + Spontaneous – Rodina), pois o noob-pro já saiu hoje | — | — |
