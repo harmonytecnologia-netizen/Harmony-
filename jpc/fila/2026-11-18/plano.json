@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-18",
+ "perfil": "harmony_computer",
+ "conta_windsor": "17841445277894628",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/story_1.jpg",
+   "pauta": "st025"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/story_2.jpg",
+   "pauta": "st026"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/feed.jpg",
+   "legenda": "Poeira não é só sujeira: ela esquenta o PC, e PC quente baixa o desempenho sozinho pra se proteger. 🔥\n\nLimpeza a cada 6 meses e fluxo de ar certo (frente puxando, trás soltando) fazem diferença.\n\nQuando foi a última limpeza do seu? 👇\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
+   "pauta": "feed005"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/luta-arcade/jpc_luta_arcade.mp4",
+   "legenda": "ROUND 1: Gamer JPC vs FONTE GENÉRICA 🥊⚡\n\nEla chega dizendo \"500 W\"... mas é só no adesivo. No primeiro jogo pesado: SOBRECARGA, TELA PRETA e o PC desliga — às vezes levando peça junto. 💀\n\nO especial que vence essa luta:\n✔ Fonte de marca conhecida\n✔ Selo 80 Plus\n✔ Potência certa pra sua placa de vídeo\n\nSua fonte é lutadora ou figurante? Comenta 👇\n💾 Salva e manda pro seu duo.\n\nNovo desafiante? Monte seu PC com a JPC: manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\nImagens: ambiente conceito (IA).\n\n#pcgamer #setupgamer #gamer #montagemdepc #pcgamerbarato",
+   "thumb_offset": 3500,
+   "musica": "trilha própria sintetizada (luta) + narração"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/luta-arcade/jpc_luta_arcade.mp4",
+   "tipo": "video"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/story_3.jpg",
+   "pauta": "st027"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/car_01.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/car_02.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/car_03.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/car_04.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/car_05.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/car_06.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/car_07.jpg"
+   ],
+   "legenda": "Como deixar seu PC mais rápido sem gastar 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
+   "pauta": "car004"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/story_car.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/story_4.jpg",
+   "pauta": "st028"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-18/story_5.jpg",
+   "pauta": "st029"
+  }
+ ]
+}
