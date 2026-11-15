@@ -34,3 +34,4 @@
 | 2026-11-14 21h50 (conferência) | Conferência Windsor | Dia 14/11 completo: 1 feed (12h05), 1 carrossel (19h12), 1 Reel 3D (19h57), 7 stories (4 próprios: 09h×2, 15h, 21h + 3 de divulgação) | — | — | nada faltou |
 | 2026-11-14 22h20 | 5 Stories (capas de destaque) | Capas dos destaques: Casos da MOVE, Aprendendo sobre som, Automação, Projetos/Obras, Orçamento (ícones gerados no ChatGPT, destaques/) | — | — | 18030067976930352, 17990298948118705, 18144120295624276, 18652578484024878, 18091576475262947 |
 | 2026-11-14 23h55 | Reel Casos da MOVE (3D) + Story | Rafael: som chiando — cabo de áudio no mesmo eletroduto da energia; separar os tubos; Iamin no gancho, virada e final pedindo comentário | — | MOVE Original — Âmbar 86 bpm (trilha própria) | 18081633566729387 / story 18202139563391601 |
+- 2026-11-15 | 09h | story (imagem) | Cozinha com LED (projeto real) + carrossel fio neutro | media 18138305326656717
