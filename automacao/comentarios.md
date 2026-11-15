@@ -7,3 +7,6 @@ Uma linha por comentário já tratado (respondido ou encaminhado ao João). A ta
 | 18135360799675718 | move.s.a | 2026-11-11 | própria conta | (resposta nossa — ignorar) |
 | 18111510218265021 | yasmin.joaopaulo | 2026-11-14 | respondido | Obrigado pela energia, Yasmin! Que bom que curtiu esse projeto ✨ |
 | 18100554485557566 | move.s.a | 2026-11-14 | própria conta | (resposta nossa — ignorar) |
+| 17901766239611734 | yasmin.joaopaulo | 2026-11-14 | respondido | Yasmin, sempre bom ver você por aqui! Obrigado pelo carinho com mais esse projeto 🙌 |
+| 18118190492588131 | move.s.a | 2026-11-15 | própria conta | (resposta nossa — ignorar) |
+| 17920188609525459 | harmony_computer | 2026-11-15 | encaminhado ao João | "🔥" vindo da outra conta do João (harmony_computer) — na dúvida, não respondido |
