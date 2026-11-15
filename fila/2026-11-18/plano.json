@@ -54,6 +54,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Caixas pequenas distorcendo no grave? Ajuste o crossover.\n\nQuando as caixas estão como \"grandes\" no receiver, elas tentam tocar o grave mais profundo, que elas não alcançam. Resultado: distorção e som cansativo.\nA correção: caixas como \"pequenas\" e crossover em 80 Hz (o ponto de partida mais usado). Abaixo disso o grave vai para o subwoofer, que foi feito para ele.\nResultado: vozes limpas, grave firme e volume alto sem esforço.\n\nSalve para conferir no seu receiver. Quer o seu home theater calibrado? Chama a gente no direct.\n\n#Crossover #HomeTheater #Receiver #Subwoofer #Calibração #SomDeCinema #MOVE",
+   "thumb_offset": 1000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
   }
  ],
  "videos_usados": [],
