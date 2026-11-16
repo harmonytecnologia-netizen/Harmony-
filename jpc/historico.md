@@ -28,3 +28,5 @@
 | 2026-11-15 | 15h | story próprio | fila/2026-11-15/story_3.jpg (st012) | — | 17968932948206865 |
 | 2026-11-15 | 19h | carrossel | fila/2026-11-15/car_01..07.jpg (car002 – HD x SSD SATA x SSD NVMe) | — | 18119727047008077 |
 | 2026-11-15 | 19h | story do carrossel | fila/2026-11-15/story_car.jpg | — | 18133509919759293 |
+| 2026-11-15 | 21h | story próprio | fila/2026-11-15/story_4.jpg (st013) | — | 18132292810699022 |
+| 2026-11-15 | 21h | story próprio | fila/2026-11-15/story_5.jpg (st014) | — | 17883472080630359 |
