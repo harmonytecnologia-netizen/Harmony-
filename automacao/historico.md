@@ -42,3 +42,4 @@
 | 2026-11-15 19h | Carrossel 6 + Story | O detalhe da obra que libera a automação (fio neutro na caixinha) | — | — | carrossel 18149359951497142 / story 18446968573132561 (1ª tentativa do story falhou, 2ª ok) |
 | 2026-11-15 19h | Reel MOVE Explica 3D + Story | Sub fechado dentro do móvel: grave embolado | — | trilha do próprio vídeo | 18400329040163853 / story 18122135417094896 |
 | 2026-11-15 21h05 | 1 Story próprio | Cozinha com LED (story_21h_1) | — | — | story 18009327872791017 |
+| 2026-11-15 21h50 (conferência) | Conferência Windsor | Dia 15/11 completo: 1 feed (12h05), 1 Reel 3D (12h06), 1 carrossel (19h13), 1 Reel 3D (19h14), 7 stories (3 próprios: 09h, 15h, 21h + 4 de divulgação). Fila 16–18/11 completa (2 Reels/dia); 19/11 sem Reel | — | — | nada faltou |
