@@ -43,3 +43,4 @@
 | 2026-11-15 19h | Reel MOVE Explica 3D + Story | Sub fechado dentro do móvel: grave embolado | — | trilha do próprio vídeo | 18400329040163853 / story 18122135417094896 |
 | 2026-11-15 21h05 | 1 Story próprio | Cozinha com LED (story_21h_1) | — | — | story 18009327872791017 |
 | 2026-11-15 21h50 (conferência) | Conferência Windsor | Dia 15/11 completo: 1 feed (12h05), 1 Reel 3D (12h06), 1 carrossel (19h13), 1 Reel 3D (19h14), 7 stories (3 próprios: 09h, 15h, 21h + 4 de divulgação). Fila 16–18/11 completa (2 Reels/dia); 19/11 sem Reel | — | — | nada faltou |
+| 2026-11-16 (fila 19/11 12h) | Reel bonequinho 3D (formato NOVO) + Story | SEGURANÇA: câmera que só grava × casa que reage (sensor acende as luzes, alerta no celular); ladrão atrapalhado, imagens ChatGPT, narração Piper faber | 4 imagens ChatGPT (animacoes/seguranca_ladrao_luz/cenas) | MOVE Original — Maré 90 bpm | (a publicar) |

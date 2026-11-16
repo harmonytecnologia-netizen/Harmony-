@@ -26,6 +26,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "Sua câmera só grava o roubo… ou avisa antes? 🚨\n\nCâmera sozinha mostra o que já aconteceu. Integrada à automação, a casa reage na hora:\n01 · Sensor de presença percebe movimento no jardim.\n02 · Todas as luzes da fachada acendem no mesmo instante.\n03 · A câmera manda o alerta com a imagem direto no seu celular.\n\nSegurança bem projetada é a casa trabalhando por você, mesmo quando você não está.\n\nNa sua casa a câmera avisa ou só grava? Comenta aqui, salva e manda pra quem está construindo.\n\nA MOVE projeta e integra segurança, automação, som e cinema para casas e apartamentos de alto padrão no litoral norte de SC. Orçamento pelo direct.\n\nAnimação conceito.\n\n#SegurançaResidencial #CasaInteligente #AutomaçãoResidencial #CâmeraDeSegurança #BalneárioCamboriú #Itapema #MOVE",
+   "thumb_offset": 5000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
   }
  ],
  "19h": [
@@ -48,5 +58,5 @@
  ],
  "videos_usados": [],
  "plano_b": false,
- "tema": "Adega (ChatGPT) + carrossel Wi-Fi em toda a casa (ChatGPT) + 3 stories próprios"
+ "tema": "Adega (ChatGPT) + carrossel Wi-Fi em toda a casa (ChatGPT) + 3 stories próprios + Reel 12h SEGURANÇA bonequinho 3D (ladrão × sensor + câmera com alerta)"
 }
