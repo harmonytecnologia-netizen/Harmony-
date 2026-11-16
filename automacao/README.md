@@ -21,6 +21,21 @@ TODOS OS DIAS, sem falhar nenhum dia:
 - A fila (fila/AAAA-MM-DD/plano.json) deve ter sempre hoje + 3 dias prontos. Chaves do plano: "09h", "12h", "15h", "19h", "21h".
 
 
+## VARIEDADE OBRIGATÓRIA (pedido do João, 16/11/2026 — vale acima das listas de pautas)
+Problema: de 13 a 18/11 quase todos os Reels foram de SOM e no mesmo formato 3D de estúdio. A MOVE é som + AUTOMAÇÃO + SEGURANÇA + REDE.
+- **Rodízio de assunto** (a cada 4 Reels seguidos, no mínimo): 1 som, 1 automação (luz, cortina, cenas, voz, app), 1 segurança (câmeras, fechadura digital, alarme, portão, interfone, sensor), 1 rede/infra (Wi-Fi, rack, nobreak). Nunca 2 Reels de som seguidos.
+- **Rodízio de formato** (nunca 2 iguais seguidos):
+  1. MOVE Explica 3D de estúdio (o atual).
+  2. **Bonequinho 3D** (personagem estilo animação, tipo Pixar, gerado no ChatGPT): morador, ladrão atrapalhado, técnico MOVE, cachorro. Historinha: problema → automação/segurança resolve. Imagens do ChatGPT em sequência + movimento de câmera (scripts/reel_premium.py) + texto grande.
+  3. **Cena ChatGPT ultrarrealista** "antes × depois com um toque" (casa às escuras → cena "Cheguei"; portão; câmera no celular).
+  4. **Casos da MOVE** com a Iamin.
+  5. Obra real (vídeos do João) quando houver.
+- **Imagens sempre pelo ChatGPT** (já era regra): personagens, ambientes, ícones. Manter o MESMO personagem em vários episódios (guardar a imagem de referência em `automacao/personagens/` e mandar junto no prompt).
+- **Vozes:** narração em todo Reel que tiver fala. Opções, em ordem: (1) Piper faber, se `pt_BR-faber-medium.onnx` estiver em Downloads; (2) gravar a voz de leitura do ChatGPT (botão "ler em voz alta") se der para capturar; (3) só texto + efeitos. Personagens podem ter vozes diferentes (Piper tem outras vozes pt_BR).
+- Pautas de SEGURANÇA: câmera que só grava depois do roubo × câmera com alerta no celular; fechadura digital (senha, digital, app, acesso temporário para diarista); portão pelo app; interfone no celular; sensor de presença acendendo a luz ("casa parece ocupada" na viagem); simulação de presença; alarme integrado à luz; câmera sem Wi-Fi bom = câmera cega; nobreak no rack (cai a luz, câmera para).
+- Pautas de AUTOMAÇÃO: cena "Cheguei", "Boa noite", "Cinema", "Saí de casa" (desliga tudo); cortina no horário do sol; luz que acompanha o dia; Alexa × automação de verdade; módulo sem neutro; ar-condicionado pelo app; irrigação automática; um botão que faz tudo.
+
+
 ## MOVE Explica 3D premium (padrão dos Reels desde 14/11/2026)
 Origem: o Reel 3D da impedância (13/11) fez 1.758 views / 1.474 contas (os outros Reels: 17–48), 90 curtidas, 8 salvamentos, 3 envios; pulo nos 3 s = 40% (outros 71–92%); tempo médio 12,7 s de 31 s → a maioria saiu na metade da explicação.
 Regras (melhorias a partir dessa análise):
