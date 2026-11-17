@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-20",
+ "perfil": "harmony_computer",
+ "conta_windsor": "17841445277894628",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_1.jpg",
+   "pauta": "st035"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_2.jpg",
+   "pauta": "st036"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/feed.jpg",
+   "legenda": "Mito ou verdade: RGB dá FPS? 🌈\n\nMito. Luz não muda desempenho. Mas setup bonito dá vontade de jogar — e isso a gente respeita. 😂\n\nTime RGB ou time discreto? 👇\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
+   "pauta": "feed007"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/real-manutencao/jpc_real_manutencao.mp4",
+   "legenda": "Olha o estado desse teclado 😱 E olha como ele voltou! ✨\n\nTrabalho real da JPC: limpeza completa tecla por tecla, RGB brilhando de novo, SSD instalado do jeito certo e placa de vídeo testada no Windows. 🛠️🎮\n\nSeu setup tá precisando de um trato? Comenta aí 👇\n💾 Salva e manda pro amigo do teclado imundo.\n\nQuer montar, fazer upgrade ou manutenção? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #manutencaodepc #montagemdepc #tecladomecanico #hardware #gamer",
+   "thumb_offset": 300,
+   "musica": "Bad News – Steve Kane (Biblioteca de áudio do YouTube)"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/real-manutencao/jpc_real_manutencao.mp4",
+   "tipo": "video"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_3.jpg",
+   "pauta": "st037"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_01.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_02.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_03.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_04.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_05.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_06.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_07.jpg"
+   ],
+   "legenda": "Seu PC esquenta? 5 motivos 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
+   "pauta": "car006"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_car.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_4.jpg",
+   "pauta": "st038"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_5.jpg",
+   "pauta": "st039"
+  }
+ ]
+}
