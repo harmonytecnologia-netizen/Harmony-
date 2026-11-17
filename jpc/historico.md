@@ -31,3 +31,5 @@
 | 2026-11-15 | 21h | story próprio | fila/2026-11-15/story_4.jpg (st013) | — | 18132292810699022 |
 | 2026-11-15 | 21h | story próprio | fila/2026-11-15/story_5.jpg (st014) | — | 17883472080630359 |
 | 2026-11-15 | 21h55 | conferência diária | Windsor OK (plano Trial): feed 12h, carrossel 19h + 7 stories (5 próprios, 2 de post); domingo sem Reel obrigatório. Comparativo semanal: sem semana anterior (conta começou 13/11) — alcance feed/carrossel 2–7, Reel noob-pro 1021. Fila 16–18/11 completa | — | — |
+| 2026-11-17 | 09h | story próprio | fila/2026-11-17/story_1.jpg (st020) | — | 18170236918487099 |
+| 2026-11-17 | 09h | story próprio | fila/2026-11-17/story_2.jpg (st021) | — | 18214593835323222 |
