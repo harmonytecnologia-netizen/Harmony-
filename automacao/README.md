@@ -111,6 +111,13 @@ Público de ALTO PADRÃO. Nada de desenho simples/casinha. Visual realista, ultr
 - Marcas (JBL, Bose, Klipsch, Harman Kardon, etc.): podem ser citadas como referência no texto. NUNCA usar logos ou fotos oficiais das marcas.
 - Imagens geradas por IA: sempre escrever "Ambiente conceito." na legenda. Nunca apresentar como obra real.
 
+## REGRA: nunca repetir imagem (pedido do João, 17/11/2026 — PERMANENTE)
+- Nunca repetir a mesma imagem/quadro dentro de um post (carrossel: cada slide com imagem própria) e nunca reutilizar imagem já publicada em post anterior (conferir historico.md e fila/ anteriores). Exceção única: o story de divulgação do próprio post do dia.
+- Cada slide/post com imagem que combine com o texto daquele slide.
+- Fontes de imagem: ChatGPT do João (uma imagem por mensagem; pode abrir várias abas/conversas em paralelo) + quadros reais tirados dos vídeos de obra em `C:\Users\PC\Videos\MOVE para postar` (escolher os momentos mais bonitos e nítidos; esconder marca de fabricante).
+- PARAR de usar os quadros de `reels/move-reel-01.mp4` (`automacao/planob/obra_quadro_*.jpg`) e as fotos repetidas de `site/img/` (teclado/interruptor de vidro, r_sala, voz, hero, app etc.).
+- Download do ChatGPT: o .tmp em Downloads some em poucos minutos (janela "Salvar" do app). Trazer com device_stage_files logo depois de baixar.
+
 ## REGRA: parte gráfica sempre pelo ChatGPT (pedido do João, 11/11/2026)
 Toda arte visual (fundos, ambientes, texturas, capas, cartões, peças impressas, personagem) é gerada no ChatGPT do João com prompt bem escrito. O logo MOVE e os textos pequenos são aplicados por cima no script (o ChatGPT deforma letras de logotipo e textos miúdos). Nada de desenho feito só com código quando o ChatGPT puder gerar.
 
