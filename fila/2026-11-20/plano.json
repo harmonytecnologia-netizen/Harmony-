@@ -52,6 +52,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Caiu a luz… e a sua câmera apagou junto? 🔌\n\nSem energia, câmeras, gravador e Wi-Fi param justamente quando a casa fica mais vulnerável.\n01 · Um nobreak no rack mantém câmeras, gravador e rede ligados durante a queda.\n02 · De quebra, protege os equipamentos contra picos e oscilações.\n03 · Dimensione pela potência dos aparelhos e pelo tempo de bateria que você precisa.\n\nSalve para conferir no seu rack e envie para quem está construindo.\nQuer revisar a segurança da sua casa? Chama a gente no direct.\n\nAnimação conceito.\n\n#SegurançaResidencial #Nobreak #CâmeraDeSegurança #CasaInteligente #Itapema #MOVE",
+   "thumb_offset": 2500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
   }
  ],
  "21h": [
