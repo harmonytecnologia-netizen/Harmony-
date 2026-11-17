@@ -4,7 +4,7 @@ O João colocou ~70 vídeos organizados por obra/cliente. Regra: 1 obra por Reel
 
 | Ordem | Pasta | Material | Ideia de Reel | Status |
 |---|---|---|---|---|
-| 1 | hotel candeias balneario camboriu | 15 vídeos (WhatsApp, 8–83 s) + 5 fotos: Clube Candeias (lounge com jardim vertical, escada colorida, restaurante com TVs, fachada, caixa/amplificador no rack) | "Som ambiente em hotel em BC": fachada → escada → lounge → TVs → equipamento | a fazer (15/11 12h) |
+| 1 | hotel candeias balneario camboriu | 15 vídeos (WhatsApp, 8–83 s) + 5 fotos: Clube Candeias (lounge com jardim vertical, escada colorida, restaurante com TVs, fachada, caixa/amplificador no rack) | "Som ambiente em hotel em BC": fachada → escada → lounge → TVs → equipamento | FEITO — Reel 20/11 12h (8 vídeos) + feed e 3 stories 20/11 |
 | 2 | House Beer | 1 vídeo + 2 fotos 09/04/2026, 1 vídeo 2024 | sonorização de bar/cervejaria em BC | a fazer |
 | 3 | posto | 2 vídeos 09/04/2026 (38 MB e 12 MB) | sonorização de posto em BC | a fazer |
 | 4 | romanza | 3 vídeos (1 de 121 MB) | — ver conteúdo | a fazer |
