@@ -56,3 +56,6 @@
 | 2026-11-17 (fila 18/11) | Troca de imagens | 18/11: carrossel TV (slides 1–5) e stories 09h/15h/21h com imagens NOVAS do ChatGPT (antes: TV repetida 3x, r_sala, voz, quadro do move-reel-01) — pedido do João | automacao/planob/img_1118 | — | (a publicar) |
 | 2026-11-17 (fila 19/11) | Troca de imagens | 19/11: carrossel Wi-Fi (slides 1–5) e stories 09h/15h/21h sem repetição: ChatGPT (casa grande, access point, rack de rede, corredor, cabos no forro, suíte) + obra real pousada Sunset Porto Belo (varanda com caixa, salão) — antes: r_sala, app, r_gourmet, hero, quadros move-reel-01 | img_1119 | — | (a publicar) |
 | 2026-11-17 (fila 20/11) | Troca de imagens | 20/11: carrossel "Faltou luz" (slides 1–5, antes o mesmo quadro 3D 4x) e enquete 15h com imagens novas: ChatGPT (fachada no apagão, gravador apagado, roteador sem sinal, nobreak no rack, técnico medindo consumo) + câmera real da pousada Sunset na enquete | img_1120 | — | (a publicar) |
+| 2026-11-17 15h (15h06) | Story próprio (15h) | story_15h_1.jpg | — | — | 18081839684751128 |
+| 2026-11-17 15h (15h06) | Carrossel 6 | Fio neutro na caixinha do interruptor — refeito com imagens novas (refeito_neutro) | — | — | 17931173793432306 |
+| 2026-11-17 15h (15h06) | Story do carrossel | Fio neutro (refeito_neutro/story_carrossel.jpg) | — | — | 18362154088219861 |
