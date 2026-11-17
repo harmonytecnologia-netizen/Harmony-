@@ -1,0 +1,9 @@
+{"segurar_fim": 1.3, "duracao": 22.8, "video": "anim24.mp4", "efeitos": "sfx.wav",
+ "musica": "../../musicas/Royal Flush - Chris von Sneidern.mp3", "musica_vol": 0.45,
+ "falas": [{"arquivo": "s1.wav", "t": 0.3}, {"arquivo": "s2.wav", "t": 4.4}, {"arquivo": "s3.wav", "t": 8.0}, {"arquivo": "s4.wav", "t": 13.4}, {"arquivo": "s5.wav", "t": 17.6}],
+ "cartoes": [
+  {"de": 0, "ate": 4.4, "titulo": "CAIU A LUZ, A", "titulo2": "CÂMERA APAGOU?", "cor2": "erro"},
+  {"de": 4.4, "ate": 8.0, "titulo": "NOBREAK", "titulo2": "NO RACK", "cor2": "destaque", "rodape": "a energia não para"},
+  {"de": 8.0, "ate": 13.2, "titulo": "CÂMERAS, GRAVADOR", "titulo2": "E WI-FI LIGADOS", "cor2": "destaque", "pilula": "+ PROTEÇÃO CONTRA PICOS", "cor_pilula": "destaque"},
+  {"de": 13.2, "ate": 17.5, "titulo": "DIMENSIONE PELA", "titulo2": "POTÊNCIA E AUTONOMIA", "cor2": "destaque", "rodape": "quanto tempo precisa segurar"},
+  {"de": 17.5, "ate": 22.8, "titulo": "CASA VIGIADA", "titulo2": "ATÉ NO ESCURO", "cor2": "destaque", "pilula": "✓ CERTO", "cor_pilula": "destaque", "rodape": "Salva pra conferir no seu rack"}]}

@@ -30,9 +30,30 @@
   {
    "acao": "create_story",
    "arquivo": "story_15h_1.jpg"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_2.jpg"
   }
  ],
- "19h": [],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "Faltou luz. Sua casa fica cega?\n\nA queda de energia é justamente o momento em que a casa fica mais vulnerável. Confira o que precisa continuar ligado:\n01 · Câmeras e gravador: sem energia, sem imagem.\n02 · Wi-Fi e internet: sem rede, o alerta não chega ao celular.\n03 · Nobreak no rack: mantém o essencial ligado e protege contra picos.\n04 · Dimensionamento: potência dos aparelhos × tempo de bateria.\n05 · No projeto: tomada e circuito do rack previstos antes do forro.\n\nNa sua casa, o que apaga primeiro quando cai a luz? Conte aqui, salve e envie para quem está construindo.\n\nA MOVE projeta e integra som, cinema, iluminação, automação e segurança para casas, apartamentos e espaços de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nImagens conceito (slides 1 a 5). Slide 6: obra real.\n\n#SegurançaResidencial #Nobreak #CâmeraDeSegurança #CasaInteligente #Itapema #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
  "21h": [
   {
    "acao": "create_story",
@@ -43,5 +64,5 @@
   "hotel candeias balneario camboriu (8 vídeos WhatsApp 2026-11-13)"
  ],
  "plano_b": false,
- "tema": "Obra real Clube Candeias (feed, Reel 12h, stories) + nobreak (carrossel e Reel 3D 19h)"
+ "tema": "Obra real Clube Candeias (feed, Reel 12h, stories) + nobreak (carrossel e Reel 3D 19h) | carrossel 6 'Faltou luz' + enquete 15h feitos pela sessão paralela (3D nobreak)"
 }

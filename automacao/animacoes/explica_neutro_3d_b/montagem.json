@@ -1,0 +1,9 @@
+{"segurar_fim": 1.3, "duracao": 22.8, "video": "anim24.mp4", "efeitos": "sfx.wav",
+ "musica": "../../musicas/Its Been Sold - Chris von Sneidern.mp3", "musica_vol": 0.45,
+ "falas": [{"arquivo": "s1.wav", "t": 0.3}, {"arquivo": "s2.wav", "t": 3.6}, {"arquivo": "s3.wav", "t": 8.0}, {"arquivo": "s4.wav", "t": 13.4}, {"arquivo": "s5.wav", "t": 17.6}],
+ "cartoes": [
+  {"de": 0, "ate": 3.5, "titulo": "LUZ PISCANDO COM", "titulo2": "INTERRUPTOR SMART?", "cor2": "erro"},
+  {"de": 3.5, "ate": 8.0, "titulo": "FALTOU O FIO", "titulo2": "NEUTRO NA CAIXINHA", "cor2": "destaque", "rodape": "a causa mais comum"},
+  {"de": 8.0, "ate": 13.2, "titulo": "SEM NEUTRO, O MÓDULO", "titulo2": "PUXA PELA LÂMPADA", "cor2": "erro", "pilula": "LED PISCA · MÓDULO REINICIA  ✗", "cor_pilula": "erro"},
+  {"de": 13.2, "ate": 17.5, "titulo": "NEUTRO ATÉ A CAIXINHA", "titulo2": "ANTES DO ACABAMENTO", "cor2": "destaque", "rodape": "peça no projeto elétrico"},
+  {"de": 17.5, "ate": 22.8, "titulo": "LUZ FIRME,", "titulo2": "MÓDULO ESTÁVEL", "cor2": "destaque", "pilula": "✓ CERTO", "cor_pilula": "destaque", "rodape": "Salva pra conferir na sua obra"}]}
