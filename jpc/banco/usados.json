@@ -5,14 +5,18 @@
   "feed003",
   "feed000",
   "feed004",
-  "feed005"
+  "feed005",
+  "feed006",
+  "feed007"
  ],
  "carrosseis": [
   "car001",
   "car002",
   "car003",
   "car000",
-  "car004"
+  "car004",
+  "car005",
+  "car006"
  ],
  "stories": [
   "st000",
@@ -44,7 +48,17 @@
   "st026",
   "st027",
   "st028",
-  "st029"
+  "st029",
+  "st030",
+  "st031",
+  "st032",
+  "st033",
+  "st034",
+  "st035",
+  "st036",
+  "st037",
+  "st038",
+  "st039"
  ],
  "fundos": [
   "pexels_pc_build_10405280.jpg",
@@ -88,7 +102,21 @@
   "ia_teste_cartoon.jpg",
   "pexels_pc_build_10405280.jpg",
   "pexels_pc_rgb_2.jpg",
-  "ia_teste_luta.jpg"
+  "ia_teste_luta.jpg",
+  "real_20260506_125024.jpg",
+  "ia_2026-11-15_1.jpg",
+  "real_20260526_105101.jpg",
+  "real_20260530_235029.jpg",
+  "ia_2026-11-14_4.jpg",
+  "ia_teste_cartoon.jpg",
+  "pexels_homem_jogando.jpg",
+  "real_20260526_105325.jpg",
+  "ia_luta_3.jpg",
+  "pexels_pc_rgb_luzes.jpg",
+  "ia_luta_2.jpg",
+  "real_20260526_105252.jpg",
+  "pexels_mouse_mesa.jpg",
+  "ia_2026-11-15_3.jpg"
  ],
  "musicas": [
   [
