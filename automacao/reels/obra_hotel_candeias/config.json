@@ -1,0 +1,63 @@
+{
+ "musica": "../../musicas/Exes - Patrick Jordan Patrikios.mp3",
+ "musica_inicio": 8,
+ "duracao_cena": 2.4,
+ "velocidade": 1.0,
+ "estabilizar": true,
+ "cenas": [
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.38.58.mp4",
+   "inicio": 14,
+   "legenda": [
+    "OBRA REAL",
+    "DE ONDE VEM|A MÚSICA DO LOBBY?"
+   ]
+  },
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.40.18.mp4",
+   "inicio": 3,
+   "legenda": [
+    "01",
+    "CLUBE CANDEIAS|BALNEÁRIO CAMBORIÚ"
+   ]
+  },
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.39.13.mp4",
+   "inicio": 2
+  },
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.38.28.mp4",
+   "inicio": 10,
+   "legenda": [
+    "02",
+    "CAIXAS EMBUTIDAS|NO FORRO"
+   ]
+  },
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.39.52.mp4",
+   "inicio": 40
+  },
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.39.59.mp4",
+   "inicio": 4,
+   "legenda": [
+    "03",
+    "SOM QUE ACOMPANHA|SEM APARECER"
+   ]
+  },
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.39.35.mp4",
+   "inicio": 9
+  },
+  {
+   "video": "/mnt/user-data/uploads/Videos/MOVE para postar/hotel candeias balneario camboriu/WhatsApp Video 2026-11-13 at 08.38.20.mp4",
+   "inicio": 8,
+   "legenda": [
+    "04",
+    "PROJETO E INSTALAÇÃO|MOVE"
+   ]
+  }
+ ],
+ "frase_final": "Seu espaço merece esse som.",
+ "sub_final": "Orçamento pelo direct."
+}

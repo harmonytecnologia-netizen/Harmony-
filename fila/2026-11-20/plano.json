@@ -1,0 +1,47 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Som que acompanha, sem aparecer.\n\nNo Clube Candeias, em Balneário Camboriú, a música chega a cada espaço por caixas embutidas no forro: do redário ao lounge, o som cria o clima e ninguém vê de onde ele vem.\n\nEm espaços comerciais, som ambiente bem feito é parte da experiência do cliente. Qual trilha combina com o seu espaço? Conte aqui.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas, apartamentos e espaços comerciais de alto padrão no litoral norte de SC. Agende uma conversa e envie a planta do seu projeto.\n\nObra real MOVE.\n\n#SomAmbiente #Sonorização #ProjetoComercial #BalneárioCamboriú #Hotelaria #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "De onde vem a música do lobby? 🎶\n\nNo Clube Candeias, em Balneário Camboriú, o som ambiente chega a cada espaço por caixas embutidas no forro: escada, café, lounge e redário com a mesma trilha, sem nenhum equipamento à vista.\nSom bem distribuído não chama atenção para a caixa, só para a experiência de quem chega.\n\nTem um espaço comercial ou uma casa em obra? Salve para lembrar e chama a gente no direct.\n\nObra real MOVE.\n\n#SomAmbiente #Sonorização #ProjetoComercial #BalneárioCamboriú #Hotelaria #MOVE",
+   "thumb_offset": 1200
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "19h": [],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "videos_usados": [
+  "hotel candeias balneario camboriu (8 vídeos WhatsApp 2026-11-13)"
+ ],
+ "plano_b": false,
+ "tema": "Obra real Clube Candeias (feed, Reel 12h, stories) + nobreak (carrossel e Reel 3D 19h)"
+}
