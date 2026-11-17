@@ -53,3 +53,4 @@
 | 2026-11-17 12h (12h08) | Reel MOVE Explica + share feed | SOM: amplificador desliga no volume alto → fio solto no borne (curto); desencapar 1 cm, torcer, apertar ou pino banana | reel_12h.mp4 | (conforme vídeo) | 18136632043776866 |
 | 2026-11-17 12h (12h08) | Story do Reel | SOM: bornes do amplificador (reel_12h.mp4) | — | — | 18112262887937809 |
 | 2026-11-17 (fila 17/11 15h) | Carrossel 6 + Story | Fio neutro no interruptor — refeito a pedido do João (imagens novas): capa/01/03/04 ChatGPT, 02/05 quadros reais da obra Mariscal (interruptor touch no mármore verde); substitui o carrossel de 15/11 excluído | ChatGPT + VID-20250918-WA0039.mp4 | — | (a publicar) |
+| 2026-11-17 (fila 18/11) | Troca de imagens | 18/11: carrossel TV (slides 1–5) e stories 09h/15h/21h com imagens NOVAS do ChatGPT (antes: TV repetida 3x, r_sala, voz, quadro do move-reel-01) — pedido do João | automacao/planob/img_1118 | — | (a publicar) |
