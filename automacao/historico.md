@@ -59,3 +59,7 @@
 | 2026-11-17 15h (15h06) | Story próprio (15h) | story_15h_1.jpg | — | — | 18081839684751128 |
 | 2026-11-17 15h (15h06) | Carrossel 6 | Fio neutro na caixinha do interruptor — refeito com imagens novas (refeito_neutro) | — | — | 17931173793432306 |
 | 2026-11-17 15h (15h06) | Story do carrossel | Fio neutro (refeito_neutro/story_carrossel.jpg) | — | — | 18362154088219861 |
+| 2026-11-17 19h (19h17) | Carrossel 7 | Checklist: 6 itens antes de fechar o forro | — | — | 18494445859110744 |
+| 2026-11-17 19h (19h17) | Story do carrossel | Antes do forro (story_carrossel.jpg) | — | — | 18119644316155968 |
+| 2026-11-17 19h (19h17) | Reel MOVE Explica 3D | Wi-Fi: roteador preso no rack → access points no teto (reel_19h.mp4) | — | — | 17962528677266656 |
+| 2026-11-17 19h (19h17) | Story do Reel | Wi-Fi (reel_19h.mp4) | — | — | 18117927710141004 |
