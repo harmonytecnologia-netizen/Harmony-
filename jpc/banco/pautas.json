@@ -842,6 +842,131 @@
    "id": "st070",
    "tipo": "ab",
    "texto": "Upgrade agora|Juntar e montar um novo"
+  },
+  {
+   "id": "st071",
+   "tipo": "dica",
+   "texto": "Confere a temperatura do PC jogando. Programas como HWiNFO mostram CPU e GPU em tempo real."
+  },
+  {
+   "id": "st072",
+   "tipo": "pergunta",
+   "texto": "Seu PC faz barulho de avião quando você joga?"
+  },
+  {
+   "id": "st073",
+   "tipo": "ab",
+   "texto": "Gabinete grande|Gabinete compacto"
+  },
+  {
+   "id": "st074",
+   "tipo": "curiosidade",
+   "texto": "Memória RAM perde tudo quando o PC desliga. Por isso jogo salva no SSD."
+  },
+  {
+   "id": "st075",
+   "tipo": "dica",
+   "texto": "Instala o jogo no SSD, não no HD. A tela de carregamento agradece."
+  },
+  {
+   "id": "st076",
+   "tipo": "pergunta",
+   "texto": "Qual resolução você joga hoje: 1080p, 1440p ou 4K?"
+  },
+  {
+   "id": "st077",
+   "tipo": "ab",
+   "texto": "Cabo DisplayPort|Cabo HDMI"
+  },
+  {
+   "id": "st078",
+   "tipo": "curiosidade",
+   "texto": "Taxa de resposta (ms) baixa no monitor deixa menos rastro na imagem em movimento."
+  },
+  {
+   "id": "st079",
+   "tipo": "dica",
+   "texto": "Pede pra IA montar um checklist de limpeza do PC. Depois é só seguir passo a passo."
+  },
+  {
+   "id": "st080",
+   "tipo": "pergunta",
+   "texto": "Você já trocou a pasta térmica do seu PC?"
+  },
+  {
+   "id": "st081",
+   "tipo": "ab",
+   "texto": "Fan com RGB|Fan sem RGB"
+  },
+  {
+   "id": "st082",
+   "tipo": "curiosidade",
+   "texto": "Monitor IPS costuma ter cores melhores. Monitor VA costuma ter preto mais profundo."
+  },
+  {
+   "id": "st083",
+   "tipo": "dica",
+   "texto": "Atualiza o Windows antes de instalar driver novo. Evita conflito e tela azul."
+  },
+  {
+   "id": "st084",
+   "tipo": "pergunta",
+   "texto": "Qual jogo você vai jogar no fim de semana?"
+  },
+  {
+   "id": "st085",
+   "tipo": "ab",
+   "texto": "16 GB de RAM|32 GB de RAM"
+  },
+  {
+   "id": "st086",
+   "tipo": "curiosidade",
+   "texto": "O primeiro mouse de computador era feito de madeira."
+  },
+  {
+   "id": "st087",
+   "tipo": "dica",
+   "texto": "Desliga a gravação em segundo plano se não usa. Ela pode custar uns FPS."
+  },
+  {
+   "id": "st088",
+   "tipo": "pergunta",
+   "texto": "Você prefere PC silencioso ou PC potente com fan barulhenta?"
+  },
+  {
+   "id": "st089",
+   "tipo": "ab",
+   "texto": "Monitor curvo|Monitor reto"
+  },
+  {
+   "id": "st090",
+   "tipo": "curiosidade",
+   "texto": "Hz é do monitor, FPS é do PC. Os dois juntos fazem o jogo ficar liso."
+  },
+  {
+   "id": "st091",
+   "tipo": "dica",
+   "texto": "Organizar os cabos dentro do gabinete ajuda o ar a circular melhor."
+  },
+  {
+   "id": "st092",
+   "tipo": "pergunta",
+   "texto": "Seu PC tem quantos anos?"
+  },
+  {
+   "id": "st093",
+   "tipo": "ab",
+   "texto": "Jogo de tiro|Jogo de corrida"
+  },
+  {
+   "id": "st094",
+   "tipo": "agenda",
+   "texto": "Upgrade ou PC novo? Manda ORÇAMENTO no Direct que a gente te ajuda a escolher."
+  },
+  {
+   "id": "st095",
+   "tipo": "curiosidade",
+   "texto": "Placa-mãe define quais processadores e memórias seu PC aceita. Escolher bem evita dor de cabeça no upgrade."
   }
  ]
 }
