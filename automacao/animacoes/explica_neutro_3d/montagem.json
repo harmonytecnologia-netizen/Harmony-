@@ -1,0 +1,82 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/After Sunset - Alex Jones, Xander Jones.mp3",
+ "musica_vol": 0.32,
+ "efeitos": "sfx.wav",
+ "duracao": 21.5,
+ "video": "anim24.mp4",
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.3,
+   "titulo": "LED PISCANDO",
+   "titulo2": "DEPOIS DA AUTOMAÇÃO?",
+   "cor2": "erro",
+   "contorno": 4
+  },
+  {
+   "de": 3.3,
+   "ate": 8.4,
+   "titulo": "MÓDULO SEM",
+   "titulo2": "FIO NEUTRO",
+   "cor2": "erro",
+   "pilula": "LUZ PISCANDO  ✗",
+   "cor_pilula": "erro",
+   "rodape": "ele se alimenta pela lâmpada",
+   "y_pilula": 1080,
+   "y_rodape": 1210,
+   "contorno_rodape": 2
+  },
+  {
+   "de": 8.4,
+   "ate": 12.6,
+   "titulo": "LEVE O NEUTRO",
+   "titulo2": "ATÉ A CAIXA",
+   "cor2": "destaque",
+   "rodape": "fio azul, na caixa do interruptor",
+   "contorno_rodape": 2
+  },
+  {
+   "de": 12.6,
+   "ate": 16.6,
+   "titulo": "LUZ FIRME,",
+   "titulo2": "MÓDULO ESTÁVEL",
+   "cor2": "destaque",
+   "pilula": "✓ CERTO",
+   "cor_pilula": "destaque",
+   "y_pilula": 1080
+  },
+  {
+   "de": 16.6,
+   "ate": 21.5,
+   "titulo": "OBRA NOVA?",
+   "titulo2": "NEUTRO EM TODA CAIXA",
+   "cor2": "destaque",
+   "rodape": "Salva pra conferir na sua obra",
+   "y_rodape": 1210,
+   "contorno_rodape": 2
+  }
+ ],
+ "falas": [
+  {
+   "arquivo": "voz/s1.wav",
+   "t": 0.3
+  },
+  {
+   "arquivo": "voz/s2.wav",
+   "t": 3.3
+  },
+  {
+   "arquivo": "voz/s3.wav",
+   "t": 8.4
+  },
+  {
+   "arquivo": "voz/s4.wav",
+   "t": 12.7
+  },
+  {
+   "arquivo": "voz/s5.wav",
+   "t": 16.6
+  }
+ ]
+}
