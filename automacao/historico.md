@@ -48,3 +48,7 @@
 | 2026-11-17 (fila 20/11) | Reel obra real + Feed + 3 Stories próprios + stories | SOM: som ambiente no Clube Candeias (BC) — caixas embutidas no forro; feed redário, stories fachada / lounge / escada | hotel candeias balneario camboriu: WhatsApp Video 2026-11-13 08.38.58, 08.40.18, 08.39.13, 08.38.28, 08.39.52, 08.39.59, 08.39.35, 08.38.20 + fotos 08.39.38 | Exes — Patrick Jordan Patrikios | (a publicar) |
 | 2026-11-17 (fila 20/11 19h) | Reel MOVE Explica 3D + Carrossel 6 + Story enquete | SEGURANÇA: faltou luz, a câmera apagou → nobreak no rack (gravador, switch PoE, roteador) | animação 3D (Blender na nuvem), narração Piper faber | Royal Flush — Chris von Sneidern (YouTube Audio Library) | (a publicar) — Reel feito pela sessão b (explica_nobreak_3d_b) |
 | 2026-11-17 09h06 | Story próprio (09h) | AUTOMAÇÃO: portão abre antes de você descer — fachada, luz e portão pelo app (story_09h_1.jpg) | — | — | 17929632441431167 |
+| 2026-11-17 12h (12h08) | Feed imagem | Dia de instalação — pontual, limpo e sem improviso (feed.jpg, ambiente conceito) | — | — | 18118493639269331 |
+| 2026-11-17 12h (12h08) | Story do feed | Dia de instalação (story_feed.jpg) | — | — | 18087440024358064 |
+| 2026-11-17 12h (12h08) | Reel MOVE Explica + share feed | SOM: amplificador desliga no volume alto → fio solto no borne (curto); desencapar 1 cm, torcer, apertar ou pino banana | reel_12h.mp4 | (conforme vídeo) | 18136632043776866 |
+| 2026-11-17 12h (12h08) | Story do Reel | SOM: bornes do amplificador (reel_12h.mp4) | — | — | 18112262887937809 |
