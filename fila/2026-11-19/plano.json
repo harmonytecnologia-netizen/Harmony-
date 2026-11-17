@@ -54,9 +54,19 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Instalou interruptor inteligente e a luz começou a piscar? 💡\n\nNa maioria das vezes, faltou o fio NEUTRO na caixinha:\n01 · Sem neutro, o módulo se alimenta passando pela própria lâmpada.\n02 · Com LED de baixo consumo, isso faz a luz piscar ou ficar acesa fraquinha, e o módulo reinicia.\n03 · A correção: levar o neutro até a caixinha do interruptor, de preferência antes do acabamento.\n\nSalve para conferir na sua obra e envie para quem está construindo.\nFicou com dúvida no seu projeto? Chama a gente no direct.\n\nAnimação conceito.\n\n#AutomaçãoResidencial #CasaInteligente #InterruptorInteligente #InstalaçãoElétrica #ObraNova #BalneárioCamboriú #MOVE",
+   "thumb_offset": 5500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
   }
  ],
  "videos_usados": [],
  "plano_b": false,
- "tema": "Adega (ChatGPT) + carrossel Wi-Fi em toda a casa (ChatGPT) + 3 stories próprios + Reel 12h SEGURANÇA bonequinho 3D (ladrão × sensor + câmera com alerta)"
+ "tema": "Adega (ChatGPT) + carrossel Wi-Fi em toda a casa (ChatGPT) + 3 stories próprios + Reel 12h SEGURANÇA bonequinho 3D (ladrão × sensor + câmera com alerta) + Reel 19h AUTOMAÇÃO 3D: módulo sem neutro (luz piscando)"
 }
