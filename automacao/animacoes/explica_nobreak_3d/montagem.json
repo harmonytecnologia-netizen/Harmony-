@@ -1,0 +1,73 @@
+{
+ "segurar_fim": 1.3,
+ "musica": "../../musicas/Stake Out - Alex Jones, Xander Jones.mp3",
+ "musica_vol": 0.32,
+ "efeitos": "sfx.wav",
+ "duracao": 21.5,
+ "video": "anim24.mp4",
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.0,
+   "titulo": "FALTOU LUZ,",
+   "titulo2": "A CÂMERA APAGOU?",
+   "cor2": "erro"
+  },
+  {
+   "de": 3.0,
+   "ate": 8.1,
+   "titulo": "GRAVADOR, SWITCH",
+   "titulo2": "E INTERNET CAEM",
+   "cor2": "erro",
+   "pilula": "SEM GRAVAÇÃO  ✗",
+   "cor_pilula": "erro"
+  },
+  {
+   "de": 8.1,
+   "ate": 12.6,
+   "titulo": "NOBREAK",
+   "titulo2": "NO RACK",
+   "cor2": "destaque",
+   "rodape": "gravador + switch PoE + roteador"
+  },
+  {
+   "de": 12.6,
+   "ate": 16.8,
+   "titulo": "CONTINUA GRAVANDO",
+   "titulo2": "E AVISANDO",
+   "cor2": "destaque",
+   "pilula": "✓ CERTO",
+   "cor_pilula": "destaque"
+  },
+  {
+   "de": 16.8,
+   "ate": 21.5,
+   "titulo": "SEU RACK",
+   "titulo2": "TEM NOBREAK?",
+   "cor2": "destaque",
+   "rodape": "Salva pra conferir na sua casa"
+  }
+ ],
+ "falas": [
+  {
+   "arquivo": "voz/s1.wav",
+   "t": 0.3
+  },
+  {
+   "arquivo": "voz/s2.wav",
+   "t": 3.0
+  },
+  {
+   "arquivo": "voz/s3.wav",
+   "t": 8.1
+  },
+  {
+   "arquivo": "voz/s4.wav",
+   "t": 12.6
+  },
+  {
+   "arquivo": "voz/s5.wav",
+   "t": 16.8
+  }
+ ]
+}

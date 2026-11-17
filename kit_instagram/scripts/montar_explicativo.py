@@ -33,13 +33,13 @@ def cartao(m, c, out):
         if txt:
             sz = 72
             while d.textlength(txt, font=fonte('preta', sz)) > W - 120 and sz > 40: sz -= 4
-            ft = fonte('preta', sz); d.text(((W - d.textlength(txt, font=ft)) / 2, y), txt, font=ft, fill=cl + (255,)); y += sz + 14
+            ft = fonte('preta', sz); d.text(((W - d.textlength(txt, font=ft)) / 2, y), txt, font=ft, fill=cl + (255,), stroke_width=c.get('contorno', 0), stroke_fill=m['cor_fundo'] + (255,)); y += sz + 14
     if c.get('pilula'):
         fp = fonte('preta', 48); tw = d.textlength(c['pilula'], font=fp); cp = cor(c.get('cor_pilula', 'destaque'))
-        x0 = (W - tw) / 2 - 40; d.rounded_rectangle([x0, 1500, x0 + tw + 80, 1600], 50, fill=m['cor_fundo'] + (235,), outline=cp + (255,), width=5)
-        d.text(((W - tw) / 2, 1520), c['pilula'], font=fp, fill=cp + (255,))
+        yp = c.get('y_pilula', 1500); x0 = (W - tw) / 2 - 40; d.rounded_rectangle([x0, yp, x0 + tw + 80, yp + 100], 50, fill=m['cor_fundo'] + (235,), outline=cp + (255,), width=5)
+        d.text(((W - tw) / 2, yp + 20), c['pilula'], font=fp, fill=cp + (255,))
     if c.get('rodape'):
-        fr = fonte('semi', 32); d.text(((W - d.textlength(c['rodape'], font=fr)) / 2, 1640), c['rodape'], font=fr, fill=m['cor_texto'] + (255,))
+        fr = fonte('semi', 32); d.text(((W - d.textlength(c['rodape'], font=fr)) / 2, c.get('y_rodape', 1640)), c['rodape'], font=fr, fill=m['cor_texto'] + (255,), stroke_width=c.get('contorno_rodape', 0), stroke_fill=m['cor_fundo'] + (255,))
     im.save(out)
 
 def dur(p):
