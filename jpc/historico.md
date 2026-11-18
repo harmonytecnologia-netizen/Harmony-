@@ -55,3 +55,7 @@
 
 - 18/11 | 09h | story próprio | st025 | — | 18149829574582981
 - 18/11 | 09h | story próprio | st026 | — | 18140076217710648
+- 18/11 | 12h | feed (imagem) | feed005 | — | 18122057647996485
+- 18/11 | 12h | story do feed | story_feed | — | 18131869442493695
+- 18/11 | 12h | reel | luta-arcade (fonte genérica) | trilha própria sintetizada (luta) + narração | 18105302276569276
+- 18/11 | 12h | story do reel | luta-arcade | trilha própria sintetizada (luta) + narração | 18122032979007277
