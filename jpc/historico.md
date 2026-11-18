@@ -40,3 +40,4 @@
 | 2026-11-17 | 19h | story do carrossel | fila/2026-11-17/story_car.jpg | — | 18123874090987153 |
 | 2026-11-17 | 21h | story próprio | fila/2026-11-17/story_4.jpg (st023) | — | 18116266304181120 |
 | 2026-11-17 | 21h | story próprio | fila/2026-11-17/story_5.jpg (st024) | — | 17959065411269379 |
+| 2026-11-17 | 21h55 | conferência diária | Windsor OK (Trial): feed 12h, carrossel 19h + 7 stories (5 próprios, 2 de post); terça sem Reel obrigatório. Fila 18–20/11 completa, links raw 200 | — | — |
