@@ -34,6 +34,7 @@
 - YouTube: canal de marca **"JPC | PC Gamer"** (@harmony_computer), criado em 18/11/2026 na conta Google harmonytecnologia@gmail.com (a mesma do canal da MOVE "Harmony Tecnologia", mas é outro canal). Nunca postar JPC no canal da MOVE.
 - TikTok: o @moveautomacao é da MOVE (já no Windsor). TikTok da JPC: ver histórico (criação pendente/feita).
 - Shorts/TikTok recebem os Reels da JPC + cortes de GTA 6.
+- YouTube: descrição do canal publicada em 18/11 (falta foto de perfil e banner, a gerar no ChatGPT do João). O Windsor só LÊ dados do YouTube (escopo youtube.readonly), não publica: upload dos Shorts é pelo YouTube Studio no navegador do app (conta harmonytecnologia@gmail.com, canal JPC | PC Gamer).
 
 ## Cortes de GTA 6 (e outros jogos)
 - Skill: `playbooks/cortes-gta6-jpc/SKILL.md` (só streamer com autorização registrada em `cortes/autorizacoes/`; sempre transformar).
