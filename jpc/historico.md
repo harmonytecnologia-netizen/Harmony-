@@ -52,3 +52,6 @@
   - "VOU MORRER ATRÁS DA LAJINHA": IG Reel 18142863838538362 + story 18121450010082933; YouTube https://youtube.com/shorts/T7-0GAoMElQ
   - TikTok: arquivos em Downloads para o João postar (envio automático bloqueado).
 - Obs.: upload no YouTube Studio por JS não grava título/descrição; digitar com cliques (computer type) nos campos.
+
+- 18/11 | 09h | story próprio | st025 | — | 18149829574582981
+- 18/11 | 09h | story próprio | st026 | — | 18140076217710648
