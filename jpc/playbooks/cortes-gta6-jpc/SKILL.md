@@ -45,6 +45,11 @@ música com direitos (só Biblioteca de áudio do YouTube ou trilha própria).
 - Duração: 20–45 s (Shorts/Reels/TikTok). O pico tem que aparecer até o segundo 3 (começar no meio da ação).
 - Uma ideia por corte. Se precisar explicar muito, vira vídeo longo de YouTube (compilado comentado, 6–10 min).
 
+## 3b. OpenClip (plugin instalado em 18/11/2026)
+- Conta OpenClip criada com Google harmonytecnologia@gmail.com; conector "openclip" conectado no Claude.
+- Plano grátis: 0 créditos de corte (achar clipes em vídeo longo exige teste de 3 dias com cartão ou plano pago — NÃO ativar sem o João mandar) e só 2 vídeos legendados por mês.
+- Uso: legenda animada em corte já pronto (≤3 min) quando valer a pena; o corte em si continua pelo corte.py (grátis, sem limite).
+
 ## 4. Edição (no workspace, com ffmpeg)
 - Arquivos brutos: o João (ou Claude pelo navegador do PC) salva em `Documentos\JPC para postar\GTA6\`;
   traz para o workspace com device_stage_files. O workspace não baixa da Twitch/YouTube direto.
