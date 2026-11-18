@@ -53,7 +53,7 @@ música com direitos (só Biblioteca de áudio do YouTube ou trilha própria).
 ## 4. Edição (no workspace, com ffmpeg)
 - Twitch (preferido): baixar direto no workspace, só o trecho, com
   `yt-dlp -f "best[height<=1080]" --download-sections "*HH:MM:SS-HH:MM:SS" -o bruto.mp4 <url do VOD>`
-  (domínios liberados em 18/11: *.twitch.tv, *.ttvnw.net, *.cloudfront.net).
+  (domínios liberados em 18/11: *.twitch.tv, *.ttvnw.net, *.cloudfront.net, kick.com, *.kick.com). Kick: `yt-dlp ... "https://kick.com/<canal>/videos"` funciona (Paulinho o LOKO faz live no Kick: kick.com/paulinholokobr; perfil oficial de cortes @paulinholokocortes — SEM autorização pública, pedido enviado pelo João).
 - YouTube bloqueia download vindo de servidor (pede login): NUNCA usar cookies/conta do João. Material do YouTube só se
   o streamer mandar o arquivo ou o João salvar em `Documentos\JPC para postar\GTA6\` (device_stage_files).
 - Achar momentos: transcrever o VOD (Whisper local, grátis) e procurar risadas/gritos/palavras ("mano", "não acredito",
