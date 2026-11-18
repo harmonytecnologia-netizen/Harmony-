@@ -47,3 +47,8 @@
 - Instagram JPC: Reel media 18118946543110090 + story 17913532554581089
 - YouTube JPC | PC Gamer: https://youtube.com/shorts/exwcSi4xVUE
 - TikTok: pendente (verificação anti-robô; navegador não envia arquivo) — arquivo em Downloads\JPC_corte_paulinho_nao_renderizou.mp4 para o João postar
+- 18/11 07:2x — mais 2 cortes do Paulinho (mesma live GTA RP):
+  - "ELE AVISOU... E BATEU O HELICÓPTERO": IG Reel 18125079635284221 + story 18135676534636490; YouTube https://youtube.com/shorts/CgQbZgrQHT4
+  - "VOU MORRER ATRÁS DA LAJINHA": IG Reel 18142863838538362 + story 18121450010082933; YouTube https://youtube.com/shorts/T7-0GAoMElQ
+  - TikTok: arquivos em Downloads para o João postar (envio automático bloqueado).
+- Obs.: upload no YouTube Studio por JS não grava título/descrição; digitar com cliques (computer type) nos campos.
