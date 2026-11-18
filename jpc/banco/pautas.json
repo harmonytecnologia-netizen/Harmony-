@@ -485,6 +485,214 @@
      "b": "Verão tem chuva e pico de luz: use filtro ou nobreak."
     }
    ]
+  },
+  {
+   "id": "car014",
+   "capa": "Monitor gamer: o que significa cada número",
+   "slides": [
+    {
+     "t": "Resolução",
+     "b": "1080p, 1440p ou 4K. Quanto maior, mais a placa de vídeo trabalha."
+    },
+    {
+     "t": "Hz (taxa de atualização)",
+     "b": "60, 144, 165 Hz... Quanto mais, mais fluido. Mas o PC precisa entregar o FPS."
+    },
+    {
+     "t": "Tempo de resposta",
+     "b": "Em ms. Menor = menos rastro na imagem em movimento."
+    },
+    {
+     "t": "Painel",
+     "b": "IPS: cores melhores. VA: contraste alto. TN: rápido, cores mais fracas."
+    },
+    {
+     "t": "Cabo certo",
+     "b": "Pra alta taxa use DisplayPort ou HDMI compatível, ligado na placa de vídeo."
+    }
+   ]
+  },
+  {
+   "id": "car015",
+   "capa": "Processador: núcleos, threads e clock",
+   "slides": [
+    {
+     "t": "Núcleos",
+     "b": "Cada núcleo é um 'cérebro'. Jogo atual aproveita bem 6 ou mais."
+    },
+    {
+     "t": "Threads",
+     "b": "Tarefas que o processador toca ao mesmo tempo."
+    },
+    {
+     "t": "Clock (GHz)",
+     "b": "A velocidade. Só compare dentro da mesma geração."
+    },
+    {
+     "t": "Geração conta",
+     "b": "Processador novo com menos GHz pode ganhar de um antigo."
+    },
+    {
+     "t": "Combine com a placa",
+     "b": "Processador fraco segura a placa de vídeo boa (gargalo)."
+    }
+   ]
+  },
+  {
+   "id": "car016",
+   "capa": "Air cooler x water cooler",
+   "slides": [
+    {
+     "t": "Air cooler",
+     "b": "Dissipador + ventoinha. Simples, durável e barato de manter."
+    },
+    {
+     "t": "Water cooler",
+     "b": "Líquido leva o calor até o radiador. Visual limpo."
+    },
+    {
+     "t": "Qual gela mais?",
+     "b": "Depende do modelo. Um air cooler bom empata com water cooler de entrada."
+    },
+    {
+     "t": "Manutenção",
+     "b": "Water cooler tem bomba, que pode falhar com os anos."
+    },
+    {
+     "t": "Dica JPC",
+     "b": "Escolha pelo processador e pelo gabinete. Dúvida? Manda no Direct."
+    }
+   ]
+  },
+  {
+   "id": "car017",
+   "capa": "Formatou? Faça isso antes de jogar",
+   "slides": [
+    {
+     "t": "Windows Update",
+     "b": "Deixe atualizar tudo antes de instalar jogos."
+    },
+    {
+     "t": "Driver do chipset",
+     "b": "Baixe no site do fabricante da placa-mãe."
+    },
+    {
+     "t": "Driver da placa de vídeo",
+     "b": "Direto do site oficial da NVIDIA, AMD ou Intel."
+    },
+    {
+     "t": "XMP/EXPO",
+     "b": "Ative na BIOS pra memória rodar na velocidade certa."
+    },
+    {
+     "t": "Monitor em Hz máximo",
+     "b": "Configurações de vídeo > taxa de atualização. Muita gente esquece!"
+    }
+   ]
+  },
+  {
+   "id": "car018",
+   "capa": "Como escolher o gabinete certo",
+   "slides": [
+    {
+     "t": "Tamanho da placa-mãe",
+     "b": "ATX, Micro-ATX ou Mini-ITX. O gabinete precisa aceitar."
+    },
+    {
+     "t": "Espaço pra placa de vídeo",
+     "b": "Confira o comprimento máximo na ficha técnica."
+    },
+    {
+     "t": "Ventilação",
+     "b": "Frente com tela ou furos respira melhor que vidro fechado."
+    },
+    {
+     "t": "Altura do cooler",
+     "b": "Air cooler alto precisa caber com a tampa fechada."
+    },
+    {
+     "t": "Filtros de poeira",
+     "b": "Facilitam a limpeza e protegem as peças."
+    }
+   ]
+  },
+  {
+   "id": "car019",
+   "capa": "Placa-mãe: o que olhar",
+   "slides": [
+    {
+     "t": "Soquete",
+     "b": "Precisa ser o mesmo do processador."
+    },
+    {
+     "t": "Tipo de memória",
+     "b": "DDR4 ou DDR5. Uma não encaixa no lugar da outra."
+    },
+    {
+     "t": "Slots M.2",
+     "b": "Quantos SSDs NVMe você vai poder ligar."
+    },
+    {
+     "t": "Qualidade de energia (VRM)",
+     "b": "Processador forte pede placa-mãe mais robusta."
+    },
+    {
+     "t": "Pensando no futuro",
+     "b": "Uma boa placa-mãe facilita o upgrade depois."
+    }
+   ]
+  },
+  {
+   "id": "car020",
+   "capa": "Sinais de que a fonte está pedindo socorro",
+   "slides": [
+    {
+     "t": "PC desliga sozinho",
+     "b": "Principalmente no meio do jogo pesado."
+    },
+    {
+     "t": "Não liga às vezes",
+     "b": "Precisa apertar várias vezes o botão."
+    },
+    {
+     "t": "Cheiro de queimado",
+     "b": "Desligue na hora e não insista."
+    },
+    {
+     "t": "Barulho estranho",
+     "b": "Chiado ou ventoinha fazendo barulho alto."
+    },
+    {
+     "t": "Na dúvida, teste",
+     "b": "Manda no Direct que a JPC ajuda a diagnosticar."
+    }
+   ]
+  },
+  {
+   "id": "car021",
+   "capa": "Mouse gamer: o que importa de verdade",
+   "slides": [
+    {
+     "t": "Sensor",
+     "b": "Mais importante que o DPI alto da caixa."
+    },
+    {
+     "t": "DPI",
+     "b": "A maioria dos jogadores usa entre 400 e 1600."
+    },
+    {
+     "t": "Peso",
+     "b": "Mouse leve cansa menos em jogo de mira rápida."
+    },
+    {
+     "t": "Formato",
+     "b": "Testa a pegada: palma, garra ou ponta dos dedos."
+    },
+    {
+     "t": "Polling rate",
+     "b": "1000 Hz já é ótimo pra maioria."
+    }
+   ]
   }
  ],
  "stories": [
