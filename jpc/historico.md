@@ -38,3 +38,5 @@
 | 2026-11-17 | 15h | story próprio | fila/2026-11-17/story_3.jpg (st022) | — | 17991406188080427 |
 | 2026-11-17 | 19h | carrossel | fila/2026-11-17/car_01-07.jpg (car000 – 5 sinais de upgrade) | — | 18177805675455728 |
 | 2026-11-17 | 19h | story do carrossel | fila/2026-11-17/story_car.jpg | — | 18123874090987153 |
+| 2026-11-17 | 21h | story próprio | fila/2026-11-17/story_4.jpg (st023) | — | 18116266304181120 |
+| 2026-11-17 | 21h | story próprio | fila/2026-11-17/story_5.jpg (st024) | — | 17959065411269379 |
