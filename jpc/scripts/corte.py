@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""Corte vertical 1080x1920 para Shorts/TikTok/Reels da JPC (cortes autorizados de streamers).
+
+Exemplo:
+  python3 jpc/scripts/corte.py --entrada bruto.mp4 --inicio 00:12:31 --fim 00:13:05 \
+      --gancho "ELE NAO ESPERAVA ISSO" --credito "@streamer" --layout cam-cima --cam 1500,780,420,300 \
+      --saida jpc/cortes/prontos/2026-11-19_streamer_fuga.mp4
+
+Layouts:
+  jogo-cheio  jogo cortado no centro ocupando a tela, fundo borrado (padrao)
+  cam-cima    webcam (--cam x,y,w,h em pixels do video original) em cima, jogo embaixo
+Opcional: --narracao arquivo.wav (comentario da JPC; abaixa o audio do streamer enquanto toca)
+          --musica trilha.mp3 (bem baixa, -24 dB)
+"""
+import argparse, os, subprocess, sys, tempfile
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
+FONTES = os.path.join(AQUI, "..", "fonts")
+ANTON = None
+for nome in ("Anton-Regular.ttf", "anton.ttf"):
+    p = os.path.join(FONTES, nome)
+    if os.path.exists(p):
+        ANTON = p
+POPPINS = os.path.join(FONTES, "Poppins-Bold.ttf")
+if ANTON is None:
+    ANTON = POPPINS
+
+
+def esc(t):
+    return t.replace("\\", "\\\\").replace(":", "\\:").replace("'", "’").replace("%", "\\%")
+
+
+def quebra(t, n=16):
+    linhas, atual = [], ""
+    for p in t.split():
+        if len(atual) + len(p) + 1 > n and atual:
+            linhas.append(atual)
+            atual = p
+        else:
+            atual = (atual + " " + p).strip()
+    if atual:
+        linhas.append(atual)
+    return linhas
+
+
+def segundos(t):
+    if t is None:
+        return None
+    partes = [float(x) for x in str(t).split(":")]
+    s = 0.0
+    for x in partes:
+        s = s * 60 + x
+    return s
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--entrada", required=True)
+    ap.add_argument("--inicio", default="0")
+    ap.add_argument("--fim")
+    ap.add_argument("--gancho", required=True)
+    ap.add_argument("--credito", required=True, help="@ do streamer (obrigatorio: so cortes autorizados)")
+    ap.add_argument("--layout", default="jogo-cheio", choices=["jogo-cheio", "cam-cima"])
+    ap.add_argument("--cam")
+    ap.add_argument("--narracao")
+    ap.add_argument("--musica")
+    ap.add_argument("--final", default="Quer um PC pra rodar isso? Manda ORÇAMENTO no @harmony_computer")
+    ap.add_argument("--saida", default="corte.mp4")
+    a = ap.parse_args()
+
+    ini, fim = segundos(a.inicio), segundos(a.fim)
+    dur = (fim - ini) if fim else None
+    if dur is not None and not (5 <= dur <= 90):
+        sys.exit("Corte deve ter entre 5 e 90 s (ideal 20-45 s).")
+
+    entradas = ["-ss", str(ini)] + (["-t", str(dur)] if dur else []) + ["-i", a.entrada]
+    if a.layout == "cam-cima":
+        if not a.cam:
+            sys.exit("--layout cam-cima precisa de --cam x,y,w,h")
+        x, y, w, h = [int(v) for v in a.cam.split(",")]
+        v = (f"[0:v]split=2[g][c];"
+             f"[c]crop={w}:{h}:{x}:{y},scale=1080:640:force_original_aspect_ratio=increase,crop=1080:640[cam];"
+             f"[g]scale=-2:1280,crop=1080:1280[jogo];"
+             f"[cam][jogo]vstack=inputs=2,setsar=1,fps=30[base]")
+    else:
+        v = ("[0:v]split=2[a][b];"
+             "[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3,eq=brightness=-0.15[fundo];"
+             "[b]scale=1080:-2,scale='min(1080,iw)':-2[frente];"
+             "[fundo][frente]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30[base]")
+
+    # gancho (0-3 s), credito fixo, cartao final
+    txt = "[base]"
+    filtros = [v]
+    y0 = 300
+    for i, linha in enumerate(quebra(a.gancho.upper())):
+        filtros.append(
+            f"{txt}drawtext=fontfile='{ANTON}':text='{esc(linha)}':fontsize=92:fontcolor=#ffe14f:"
+            f"borderw=6:bordercolor=#07040f:x=(w-tw)/2:y={y0 + i*105}:enable='lt(t,3.2)'[g{i}]")
+        txt = f"[g{i}]"
+    filtros.append(
+        f"{txt}drawtext=fontfile='{POPPINS}':text='{esc('Corte autorizado • ' + a.credito)}':fontsize=38:"
+        f"fontcolor=white:box=1:boxcolor=#7a3cff@0.85:boxborderw=14:x=(w-tw)/2:y=h-470[cr]")
+    txt = "[cr]"
+    if dur:
+        for i, linha in enumerate(quebra(a.final, 22)):
+            filtros.append(
+                f"{txt}drawtext=fontfile='{POPPINS}':text='{esc(linha)}':fontsize=58:fontcolor=white:"
+                f"borderw=5:bordercolor=#07040f:x=(w-tw)/2:y={820 + i*80}:enable='gt(t,{dur-2.5:.2f})'[f{i}]")
+            txt = f"[f{i}]"
+    filtros.append(f"{txt}null[vout]")
+
+    # audio
+    extra, n = [], 1
+    aud = "[0:a]aresample=48000,loudnorm=I=-14:TP=-1.5[orig]"
+    mix = ["[orig]"]
+    if a.narracao:
+        extra += ["-i", a.narracao]
+        aud += f";[{n}:a]aresample=48000,volume=1.6,asplit=2[narr][sc]"
+        aud += ";[orig][sc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=300[duck]"
+        mix = ["[duck]", "[narr]"]
+        n += 1
+    if a.musica:
+        extra += ["-stream_loop", "-1", "-i", a.musica]
+        aud += f";[{n}:a]aresample=48000,volume=-24dB[mus]"
+        mix.append("[mus]")
+        n += 1
+    aud += f";{''.join(mix)}amix=inputs={len(mix)}:duration=first:normalize=0[aout]" if len(mix) > 1 else ";[orig]anull[aout]"
+
+    cmd = (["ffmpeg", "-y", "-hide_banner", "-loglevel", "error"] + entradas + extra +
+           ["-filter_complex", ";".join(filtros) + ";" + aud, "-map", "[vout]", "-map", "[aout]",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart"] + (["-t", str(dur)] if dur else []) + [a.saida])
+    os.makedirs(os.path.dirname(os.path.abspath(a.saida)), exist_ok=True)
+    subprocess.run(cmd, check=True)
+    print(a.saida)
+
+
+if __name__ == "__main__":
+    main()

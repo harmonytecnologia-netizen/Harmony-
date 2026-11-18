@@ -29,3 +29,14 @@
 - Links públicos: `https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/<caminho>` (branch **jpc**).
 - Tudo publicado vai para `historico.md` (data, horário, ação, arquivo, música, media id).
 - Plano B de publicação: se o Windsor falhar/expirar, publicar pelo navegador do app Claude no PC do João (instagram.com, conta harmony_computer já salva) quando o PC estiver ligado; senão avisar o João.
+
+## Canais de vídeo (18/11/2026)
+- YouTube: canal de marca **"JPC | PC Gamer"** (@harmony_computer), criado em 18/11/2026 na conta Google harmonytecnologia@gmail.com (a mesma do canal da MOVE "Harmony Tecnologia", mas é outro canal). Nunca postar JPC no canal da MOVE.
+- TikTok: o @moveautomacao é da MOVE (já no Windsor). TikTok da JPC: ver histórico (criação pendente/feita).
+- Shorts/TikTok recebem os Reels da JPC + cortes de GTA 6.
+
+## Cortes de GTA 6 (e outros jogos)
+- Skill: `playbooks/cortes-gta6-jpc/SKILL.md` (só streamer com autorização registrada em `cortes/autorizacoes/`; sempre transformar).
+- Script: `python3 jpc/scripts/corte.py --help` (1080x1920, gancho, crédito "Corte autorizado", cartão final JPC).
+- Brutos no PC: `Documentos\JPC para postar\GTA6\`. Prontos: `cortes/prontos/`.
+- Skill base da JPC: `playbooks/jpc-gamer/SKILL.md`.
