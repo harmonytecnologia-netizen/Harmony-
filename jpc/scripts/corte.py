@@ -53,6 +53,42 @@ def segundos(t):
     return s
 
 
+def ass_tempo(t):
+    h = int(t // 3600); m = int(t % 3600 // 60); sec = t % 60
+    return f"{h}:{m:02d}:{sec:05.2f}"
+
+
+def gerar_legenda(arquivo, ini, dur, modelo, destino):
+    """Transcreve so o trecho do corte e escreve .ass com 3 palavras por vez, palavra falada em amarelo."""
+    from faster_whisper import WhisperModel
+    tmp = destino + ".wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(ini)] + (["-t", str(dur)] if dur else []) +
+                   ["-i", arquivo, "-ac", "1", "-ar", "16000", tmp], check=True)
+    m = WhisperModel(modelo, device="cpu", compute_type="int8")
+    import wave, numpy as np
+    with wave.open(tmp) as wf:
+        audio = np.frombuffer(wf.readframes(wf.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+    segs, _ = m.transcribe(audio, language="pt", word_timestamps=True, vad_filter=True)
+    palavras = [w for sgm in segs for w in (sgm.words or [])]
+    os.remove(tmp)
+    cab = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
+           "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
+           "Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
+           "Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1\n\n"
+           "[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n")
+    linhas = []
+    for i in range(0, len(palavras), 3):
+        grupo = palavras[i:i + 3]
+        for j, w in enumerate(grupo):
+            fim = grupo[j + 1].start if j + 1 < len(grupo) else w.end
+            txt = " ".join(("{\\c&H4FE1FF&\\fscx112\\fscy112}" + x.word.strip().upper() + "{\\r}") if k == j
+                           else x.word.strip().upper() for k, x in enumerate(grupo))
+            linhas.append(f"Dialogue: 0,{ass_tempo(w.start)},{ass_tempo(max(fim, w.start + 0.05))},L,,0,0,0,,{txt}")
+    with open(destino, "w", encoding="utf-8") as f:
+        f.write(cab + "\n".join(linhas) + "\n")
+    return len(palavras)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--entrada", required=True)
@@ -65,6 +101,8 @@ def main():
     ap.add_argument("--narracao")
     ap.add_argument("--musica")
     ap.add_argument("--final", default="Quer um PC pra rodar isso? Manda ORÇAMENTO no @harmony_computer")
+    ap.add_argument("--legenda", action="store_true", help="legenda automatica palavra por palavra (Whisper local, gratis)")
+    ap.add_argument("--modelo", default="small", help="modelo Whisper: base/small/medium")
     ap.add_argument("--saida", default="corte.mp4")
     a = ap.parse_args()
 
@@ -107,6 +145,12 @@ def main():
                 f"{txt}drawtext=fontfile='{POPPINS}':text='{esc(linha)}':fontsize=58:fontcolor=white:"
                 f"borderw=5:bordercolor=#07040f:x=(w-tw)/2:y={820 + i*80}:enable='gt(t,{dur-2.5:.2f})'[f{i}]")
             txt = f"[f{i}]"
+    if a.legenda:
+        ass = os.path.abspath(a.saida) + ".ass"
+        n_pal = gerar_legenda(a.entrada, ini, dur, a.modelo, ass)
+        print(f"legenda: {n_pal} palavras")
+        filtros.append(f"{txt}subtitles='{ass}':fontsdir='{FONTES}'[leg]")
+        txt = "[leg]"
     filtros.append(f"{txt}null[vout]")
 
     # audio

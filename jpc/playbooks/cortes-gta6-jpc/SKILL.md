@@ -51,15 +51,20 @@ música com direitos (só Biblioteca de áudio do YouTube ou trilha própria).
 - Uso: legenda animada em corte já pronto (≤3 min) quando valer a pena; o corte em si continua pelo corte.py (grátis, sem limite).
 
 ## 4. Edição (no workspace, com ffmpeg)
-- Arquivos brutos: o João (ou Claude pelo navegador do PC) salva em `Documentos\JPC para postar\GTA6\`;
-  traz para o workspace com device_stage_files. O workspace não baixa da Twitch/YouTube direto.
+- Twitch (preferido): baixar direto no workspace, só o trecho, com
+  `yt-dlp -f "best[height<=1080]" --download-sections "*HH:MM:SS-HH:MM:SS" -o bruto.mp4 <url do VOD>`
+  (domínios liberados em 18/11: *.twitch.tv, *.ttvnw.net, *.cloudfront.net).
+- YouTube bloqueia download vindo de servidor (pede login): NUNCA usar cookies/conta do João. Material do YouTube só se
+  o streamer mandar o arquivo ou o João salvar em `Documentos\JPC para postar\GTA6\` (device_stage_files).
+- Achar momentos: transcrever o VOD (Whisper local, grátis) e procurar risadas/gritos/palavras ("mano", "não acredito",
+  "polícia"); conferir picos de volume com ffmpeg (astats/silencedetect).
 - Script: `python3 jpc/scripts/corte.py --entrada bruto.mp4 --inicio 00:12:31 --fim 00:13:05 \
   --gancho "ELE NÃO ESPERAVA ISSO" --credito "@streamer" --layout cam-cima --cam x,y,w,h`
   - layouts: `cam-cima` (webcam em cima 1/3, jogo embaixo 2/3), `jogo-cheio` (jogo cortado no centro, fundo borrado).
   - gera 1080x1920, 30 fps, texto fora dos 250 px de cima e 400 px de baixo, crédito fixo
     "Corte autorizado • @streamer" e cartão final JPC (2 s).
-- Legenda: transcrever o áudio (Whisper, se instalado) e conferir os nomes; se não houver transcrição, legendar
-  só as falas-chave à mão.
+- Legenda: `--legenda` no corte.py (Whisper local `small`, grátis, 3 palavras por vez, palavra falada em amarelo).
+  Conferir nomes/gírias errados antes de publicar.
 - Comentário da JPC: roteiro de 1–3 frases, narração Piper, áudio do streamer abaixado (-12 dB) enquanto a JPC fala.
 - Conferir antes de publicar: assistir 1 vez inteiro, sem cortes de áudio, nome do streamer certo, sem palavrão
   pesado no gancho, sem conteúdo +18 na capa.
