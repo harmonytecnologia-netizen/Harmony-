@@ -60,3 +60,5 @@
 - 18/11 | 12h | reel | luta-arcade (fonte genérica) | trilha própria sintetizada (luta) + narração | 18105302276569276
 - 18/11 | 12h | story do reel | luta-arcade | trilha própria sintetizada (luta) + narração | 18122032979007277
 - 18/11 | 15h | story próprio | st027 | — | 18107088740573576
+- 18/11 | 19h | carrossel (7 slides) | car004 | — | 18457449244193401
+- 18/11 | 19h | story do carrossel | story_car | — | 18066341513530375
