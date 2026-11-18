@@ -95,7 +95,8 @@ def main():
     ap.add_argument("--inicio", default="0")
     ap.add_argument("--fim")
     ap.add_argument("--gancho", required=True)
-    ap.add_argument("--credito", required=True, help="@ do streamer (obrigatorio: so cortes autorizados)")
+    ap.add_argument("--credito", required=True, help="@ do streamer (obrigatorio: so cortes autorizados; vai na descricao)")
+    ap.add_argument("--credito-no-video", action="store_true", help="mostrar o @ pequeno no canto do video (so se o streamer exigir)")
     ap.add_argument("--layout", default="jogo-cheio", choices=["jogo-cheio", "cam-cima"])
     ap.add_argument("--cam")
     ap.add_argument("--narracao")
@@ -135,9 +136,14 @@ def main():
             f"{txt}drawtext=fontfile='{ANTON}':text='{esc(linha)}':fontsize=92:fontcolor=#ffe14f:"
             f"borderw=6:bordercolor=#07040f:x=(w-tw)/2:y={y0 + i*105}:enable='lt(t,3.2)'[g{i}]")
         txt = f"[g{i}]"
-    filtros.append(
-        f"{txt}drawtext=fontfile='{POPPINS}':text='{esc('Corte autorizado • ' + a.credito)}':fontsize=38:"
-        f"fontcolor=white:box=1:boxcolor=#7a3cff@0.85:boxborderw=14:x=(w-tw)/2:y=h-470[cr]")
+    # credito discreto: pequeno, semitransparente, canto direito na emenda cam/jogo (ou acima da area de botoes)
+    if not a.credito_no_video:
+        filtros.append(f"{txt}null[cr]")
+    y_cr = 600 if a.layout == "cam-cima" else "h-430"
+    if a.credito_no_video:
+      filtros.append(
+        f"{txt}drawtext=fontfile='{POPPINS}':text='{esc(a.credito)}':fontsize=28:"
+        f"fontcolor=white@0.85:box=1:boxcolor=#07040f@0.45:boxborderw=8:x=w-tw-40:y={y_cr}[cr]")
     txt = "[cr]"
     if dur:
         for i, linha in enumerate(quebra(a.final, 22)):
