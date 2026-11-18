@@ -41,3 +41,9 @@
 | 2026-11-17 | 21h | story próprio | fila/2026-11-17/story_4.jpg (st023) | — | 18116266304181120 |
 | 2026-11-17 | 21h | story próprio | fila/2026-11-17/story_5.jpg (st024) | — | 17959065411269379 |
 | 2026-11-17 | 21h55 | conferência diária | Windsor OK (Trial): feed 12h, carrossel 19h + 7 stories (5 próprios, 2 de post); terça sem Reel obrigatório. Fila 18–20/11 completa, links raw 200 | — | — |
+
+## 18/11/2026 — 1º corte autorizado (Paulinho o LOKO)
+- "A FAVELA NÃO RENDERIZOU" (GTA RP, véspera do GTA 6), 41 s, arquivo jpc/cortes/prontos/2026-11-18_paulinho_nao_renderizou.mp4
+- Instagram JPC: Reel media 18118946543110090 + story 17913532554581089
+- YouTube JPC | PC Gamer: https://youtube.com/shorts/exwcSi4xVUE
+- TikTok: pendente (verificação anti-robô; navegador não envia arquivo) — arquivo em Downloads\JPC_corte_paulinho_nao_renderizou.mp4 para o João postar
