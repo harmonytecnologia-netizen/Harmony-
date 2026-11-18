@@ -7,7 +7,8 @@
   "feed004",
   "feed005",
   "feed006",
-  "feed007"
+  "feed007",
+  "feed008"
  ],
  "carrosseis": [
   "car001",
@@ -16,7 +17,8 @@
   "car000",
   "car004",
   "car005",
-  "car006"
+  "car006",
+  "car007"
  ],
  "stories": [
   "st000",
@@ -58,7 +60,12 @@
   "st036",
   "st037",
   "st038",
-  "st039"
+  "st039",
+  "st040",
+  "st041",
+  "st042",
+  "st043",
+  "st044"
  ],
  "fundos": [
   "pexels_pc_build_10405280.jpg",
@@ -116,7 +123,14 @@
   "ia_luta_2.jpg",
   "real_20260526_105252.jpg",
   "pexels_mouse_mesa.jpg",
-  "ia_2026-11-15_3.jpg"
+  "ia_2026-11-15_3.jpg",
+  "ia_2026-11-14_1.jpg",
+  "ia_teste_pixel.jpg",
+  "real_20260526_105318.jpg",
+  "ia_luta_0.jpg",
+  "ia_2026-11-15_4.jpg",
+  "real_20260605_150840.jpg",
+  "real_20260526_105029.jpg"
  ],
  "musicas": [
   [
