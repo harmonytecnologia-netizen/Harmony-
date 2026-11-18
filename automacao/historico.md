@@ -63,3 +63,4 @@
 | 2026-11-17 19h (19h17) | Story do carrossel | Antes do forro (story_carrossel.jpg) | — | — | 18119644316155968 |
 | 2026-11-17 19h (19h17) | Reel MOVE Explica 3D | Wi-Fi: roteador preso no rack → access points no teto (reel_19h.mp4) | — | — | 17962528677266656 |
 | 2026-11-17 19h (19h17) | Story do Reel | Wi-Fi (reel_19h.mp4) | — | — | 18117927710141004 |
+| 2026-11-17 21h (21h06) | Story próprio (21h) | story_21h_1.jpg | — | — | 18132974653700570 |
