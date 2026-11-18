@@ -41,3 +41,8 @@
 - Script: `python3 jpc/scripts/corte.py --help` (1080x1920, gancho, crédito "Corte autorizado", cartão final JPC).
 - Brutos no PC: `Documentos\JPC para postar\GTA6\`. Prontos: `cortes/prontos/`.
 - Skill base da JPC: `playbooks/jpc-gamer/SKILL.md`.
+
+## TikTok da JPC (18/11/2026)
+- Decisão do João: usar a conta TikTok @jp.yas (logada no navegador do app) como TikTok da JPC.
+- Pendente (bloqueado por verificação anti-robô do TikTok — quebra-cabeça que só o João resolve): foto (jpc/artes/canais/perfil_800.jpg, cópia em Downloads\JPC_foto_perfil_TikTok.jpg), nome "JPC | PC Gamer", bio "PC gamer montado • Cortes GTA 6 e dicas • Orçamento: IG @harmony_computer" e @ novo (harmony_computer; se não der, jpc.pcgamer).
+- Windsor não publica no TikTok (sem ações de escrita): postar pelo navegador do app.
