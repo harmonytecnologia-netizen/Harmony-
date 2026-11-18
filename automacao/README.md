@@ -39,6 +39,14 @@ Problema: de 13 a 18/11 quase todos os Reels foram de SOM e no mesmo formato 3D 
 - Pautas de AUTOMAÇÃO: cena "Cheguei", "Boa noite", "Cinema", "Saí de casa" (desliga tudo); cortina no horário do sol; luz que acompanha o dia; Alexa × automação de verdade; módulo sem neutro; ar-condicionado pelo app; irrigação automática; um botão que faz tudo.
 
 
+## NOVO FORMATO DOS REELS (desde 18/11/2026 — pedido do João)
+Todo Reel novo leva **narração feminina da Iamin** no estilo "Você sabia? Olha só por que isso acontece…" + **música diferente e chamativa** (nunca repetir faixa do historico.md). Os Reels já prontos até 20/11 ficam como estão (decisão do João em 18/11).
+- **Voz:** ttsmp3.com (grátis, sem captcha) → Brazilian Portuguese / **Camila** → "Download as MP3" (cai em Downloads como ttsMP3.com_VoiceText_*.mp3 ou .tmp). Roteiro de ~18–20 s falados; depois `silenceremove` (pausas > 0,22 s) + `atempo=1.07`. NÃO usar ttsmaker (tem captcha). A correção tem que ser falada antes de 7 s.
+- **Música:** Biblioteca de áudio do YouTube Studio (navegador do app, logado): filtro Genre (clicar no campo "Search or filter library" → Genre) → passar o mouse na linha → rolar a tabela para a direita → botão Download.
+- **Imagens do ChatGPT em paralelo:** até 9 abas no navegador do app (cada aba = nova conversa, 1 imagem). Para baixar sem abrir a imagem: na aba, javascript que pega a última `img` com alt "…gerada" e dispara um `<a download="nome.png">` com o blob (cai em Downloads, às vezes como .tmp → trazer na hora com device_stage_files).
+- **Montagem:** `scripts/kenburns.py cenas.json anim.mp4` (movimento de câmera + transições) → `scripts/iamin_selo_final.py` (selo "Iamin da MOVE explica" + tela final) → `kit_instagram/scripts/montar_explicativo.py` (cartões com contorno 5, narração, efeitos, música com ducking). Modelos: `animacoes/automacao_sai_de_casa` (cena ChatGPT ultrarrealista) e `animacoes/rede_tv_travando` (bonequinho 3D Pixar, mesmo morador de personagens/morador_45.jpg).
+- Final com pergunta de 1 palavra ("comenta: sim ou não", "cabo ou Wi-Fi") — teste do aprendizado de 17/11 (CTA de direct não gera comentário).
+
 ## MOVE Explica 3D premium (padrão dos Reels desde 14/11/2026)
 Origem: o Reel 3D da impedância (13/11) fez 1.758 views / 1.474 contas (os outros Reels: 17–48), 90 curtidas, 8 salvamentos, 3 envios; pulo nos 3 s = 40% (outros 71–92%); tempo médio 12,7 s de 31 s → a maioria saiu na metade da explicação.
 Regras (melhorias a partir dessa análise):

@@ -1,0 +1,12 @@
+{"video":"anim.mp4","segurar_fim":1.2,"duracao":22.1,
+ "cartoes":[
+  {"de":0,"ate":20.9,"img":"badge.png"},
+  {"de":0,"ate":4.9,"titulo":"500 MEGA E A TV","titulo2":"TRAVANDO?","cor2":"erro","contorno":5},
+  {"de":4.9,"ate":6.4,"titulo":"QUASE NUNCA","titulo2":"É O PLANO","cor2":"destaque","contorno":5},
+  {"de":6.4,"ate":12.3,"titulo":"TV NO CABO","titulo2":"+ ACCESS POINT NO TETO","cor2":"destaque","rodape":"cabo bem crimpado e testado","contorno":5,"contorno_rodape":3},
+  {"de":12.3,"ate":15.0,"titulo":"O VILÃO:","titulo2":"WI-FI ATRAVESSANDO PAREDE","cor2":"erro","contorno":5},
+  {"de":15.0,"ate":16.9,"titulo":"OU CABO DE REDE","titulo2":"MAL CRIMPADO","cor2":"erro","contorno":5},
+  {"de":16.9,"ate":20.9,"titulo":"SUA TV ESTÁ NO","titulo2":"CABO OU NO WI-FI?","cor2":"destaque","pilula":"COMENTA: CABO OU WI-FI","contorno":5},
+  {"de":20.9,"ate":22.2,"img":"final.png"}],
+ "falas":[{"arquivo":"voz.wav","t":0.2}],
+ "efeitos":"sfx.wav","musica":"musica.mp3","musica_vol":0.5}

@@ -1,0 +1,6 @@
+{"fps":30,"xf":0.4,"cenas":[
+{"img":"/home/claude/w/img/b1.png","dur":4.9,"mov":"in"},
+{"img":"/home/claude/w/img/b4.png","dur":7.4,"mov":"right","tr":"smoothleft"},
+{"img":"/home/claude/w/img/b2.png","dur":2.7,"mov":"in","tr":"fadeblack"},
+{"img":"/home/claude/w/img/b3.png","dur":1.9,"mov":"in","tr":"zoomin"},
+{"img":"/home/claude/w/img/b5.png","dur":4.0,"mov":"out","tr":"fadewhite"}]}

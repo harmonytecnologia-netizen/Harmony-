@@ -1,0 +1,6 @@
+{"fps":30,"xf":0.4,"cenas":[
+{"img":"/mnt/user-data/uploads/Downloads/move21_a1.png","dur":3.6,"mov":"in"},
+{"img":"/mnt/user-data/uploads/Downloads/move21_a2.png","dur":3.5,"mov":"left"},
+{"img":"/mnt/user-data/uploads/Downloads/move21_a3.png","dur":1.9,"mov":"in","tr":"fadewhite"},
+{"img":"/mnt/user-data/uploads/Downloads/move21_a4.png","dur":5.3,"mov":"out","tr":"fadeblack"},
+{"img":"/mnt/user-data/uploads/Downloads/move21_a5.png","dur":8.0,"mov":"in","tr":"smoothleft"}]}
