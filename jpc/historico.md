@@ -59,3 +59,4 @@
 - 18/11 | 12h | story do feed | story_feed | — | 18131869442493695
 - 18/11 | 12h | reel | luta-arcade (fonte genérica) | trilha própria sintetizada (luta) + narração | 18105302276569276
 - 18/11 | 12h | story do reel | luta-arcade | trilha própria sintetizada (luta) + narração | 18122032979007277
+- 18/11 | 15h | story próprio | st027 | — | 18107088740573576
