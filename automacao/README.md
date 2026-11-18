@@ -193,6 +193,12 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - Padrão em 9 posts estáticos (6 feeds + 3 carrosséis, 11–14/11): alcance de 5–18 contas (só a base) e ZERO curtida/salvo/envio em todos, com ambiente conceito ou tema técnico. Os 2 Reels MOVE Explica 3D (impedância 1.823 views/1.531 contas; polaridade 260 views em ~2 h, pulo 35%) são o que traz gente nova. Os Reels de ambiente conceito/obra ficaram em 17–48 views (pulo 71–92%).
 - Regra: o esforço de produção vai primeiro para os Reels MOVE Explica 3D. Feed e carrossel continuam obrigatórios (frequência), mas com capa de dor técnica/pergunta em 1 frase grande (estilo do Reel, pode usar quadro do 3D) em vez de só ambiente bonito. Reel de "ambiente conceito" sem explicação não é mais usado como Reel do dia.
 
+## Aprendizados das métricas (17/11/2026 — 3 Reels Explica 3D de 22–23 s)
+- Padrão em 3 Reels Explica 3D de 22,7–22,8 s (polaridade 14/11, 60 W 15/11, subwoofer 15/11): 1.300–1.470 views / 1.080–1.170 contas cada, tempo médio 8,7–10,2 s. O público sai por volta de 9–10 s → a correção ("o jeito certo") tem que estar na tela ANTES de 9 s. Manter 22–23 s.
+- Os 3 tiveram 0–3 comentários: o CTA "manda no direct" não gera comentário. Testar final com pergunta A/B curta que se responde com 1 palavra.
+- Horário (12h × 19h) não mudou o resultado dos Reels (1.469 × 1.347 views no mesmo dia).
+- Reel "Casos da MOVE" (historinha) teve 215 views (7x menos): abrir com o sintoma no 1º segundo, não com o personagem.
+
 ## Referências de concorrentes (estilo a seguir)
 Pedido do João: acompanhar vídeos de concorrentes e fazer "engenharia inversa" (mesma estrutura, com cenários e pessoas diferentes, sempre no padrão MOVE de alto padrão). Nunca copiar vídeo, marca, música ou texto deles.
 

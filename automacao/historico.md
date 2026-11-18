@@ -64,3 +64,4 @@
 | 2026-11-17 19h (19h17) | Reel MOVE Explica 3D | Wi-Fi: roteador preso no rack → access points no teto (reel_19h.mp4) | — | — | 17962528677266656 |
 | 2026-11-17 19h (19h17) | Story do Reel | Wi-Fi (reel_19h.mp4) | — | — | 18117927710141004 |
 | 2026-11-17 21h (21h06) | Story próprio (21h) | story_21h_1.jpg | — | — | 18132974653700570 |
+| 2026-11-17 21h50 (conferência) | Conferência Windsor | Dia 17/11 completo: 1 feed (12h06), 2 carrosséis (15h06 fio neutro refeito + 19h14 antes do forro), 2 Reels 3D (12h07, 19h15), 10 stories (3 próprios: 09h, 15h, 21h + 5 de divulgação + 2 às 07h). Métricas de 4 posts (14–15/11) em aprendizados.md; regra nova no README (correção antes de 9 s). Fila 18–20/11 completa. Obs.: Windsor não mostra nenhum post do feed em 16/11 | — | — | nada faltou hoje |
