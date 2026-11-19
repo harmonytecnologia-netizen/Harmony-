@@ -207,6 +207,10 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - Horário (12h × 19h) não mudou o resultado dos Reels (1.469 × 1.347 views no mesmo dia).
 - Reel "Casos da MOVE" (historinha) teve 215 views (7x menos): abrir com o sintoma no 1º segundo, não com o personagem.
 
+## Aprendizados das métricas (18/11/2026 — feeds projeto real × ambiente conceito)
+- Padrão em 5 feeds de imagem (12–17/11): os 2 com foto de PROJETO/OBRA REAL (área gourmet 14/11, cozinha LED 15/11) fizeram 36–38 views / 21–25 contas; os 3 de AMBIENTE CONCEITO (suíte 12/11, boa noite 13/11, dia de instalação 17/11) fizeram 15–31 views / 11–12 contas. Todos com 0 interação.
+- Regra: o feed das 12h usa foto de projeto/obra real da MOVE sempre que houver (quadros de vídeo real com mais de 7 dias servem); ambiente conceito só quando não houver nenhuma real disponível, e sempre com pergunta/dor grande na arte.
+
 ## Referências de concorrentes (estilo a seguir)
 Pedido do João: acompanhar vídeos de concorrentes e fazer "engenharia inversa" (mesma estrutura, com cenários e pessoas diferentes, sempre no padrão MOVE de alto padrão). Nunca copiar vídeo, marca, música ou texto deles.
 
