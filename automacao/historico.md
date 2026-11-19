@@ -79,3 +79,7 @@
 | 2026-11-18 21h (21h05) | Story próprio (21h) | story_21h_1.jpg | — | — | 18647957173034161 |
 | 2026-11-18 21h50 (conferência) | Conferência Windsor | Dia 18/11 completo: 1 feed (12h04), 2 Reels (12h05 bastidores; 19h13 crossover 3D), 1 carrossel (19h12), 8 stories (3 próprios: 09h05, 15h05, 21h05 + 4 de divulgação + 1 às 10h12). Sem série em partes hoje. Métricas de 5 posts de 17/11 em aprendizados.md; regra nova no README (feed com projeto real). Fila 19–21/11 completa. Obs.: carrossel 17/11 19h (18494445859110744) não aparece no Windsor; Reel bastidores 18/11 12h só 13 views / 10 contas em 10 h | — | — | nada faltou hoje |
 | 2026-11-19 09h (09h05) | Story próprio (09h) | story_09h_1.jpg | — | — | 17918320095493370 |
+| 2026-11-19 12h | Feed (imagem) | Adega com luz em cena (feed.jpg) | — | — | 18103955318398045 |
+| 2026-11-19 12h | Story do feed | story_feed.jpg | — | — | 18030568013696265 |
+| 2026-11-19 12h | Reel MOVE Explica 3D | Segurança: sensor + luzes + câmera com alerta (reel_12h.mp4) | trilha do vídeo | — | 18127418896715453 |
+| 2026-11-19 12h | Story do Reel | reel_12h.mp4 | trilha do vídeo | — | 17942479341396458 |
