@@ -76,3 +76,4 @@
 | 2026-11-18 19h (19h13) | Story do carrossel | TV na medida certa (story_carrossel.jpg) | — | — | 17974400907189916 |
 | 2026-11-18 19h (19h13) | Reel MOVE Explica 3D | Crossover 80 Hz: caixas pequenas distorcendo no grave (reel_19h.mp4) | — | — | 18349399618252893 |
 | 2026-11-18 19h (19h13) | Story do Reel | Crossover 80 Hz (reel_19h.mp4) | — | — | 18108551336210716 |
+| 2026-11-18 21h (21h05) | Story próprio (21h) | story_21h_1.jpg | — | — | 18647957173034161 |
