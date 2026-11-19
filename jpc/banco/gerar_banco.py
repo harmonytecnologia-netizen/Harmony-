@@ -141,8 +141,13 @@ stories=[
  ("agenda","Upgrade ou PC novo? Manda ORÇAMENTO no Direct que a gente te ajuda a escolher."),
  ("curiosidade","Placa-mãe define quais processadores e memórias seu PC aceita. Escolher bem evita dor de cabeça no upgrade."),
 ]
-json.dump({"hashtags":H,"feed":[dict(f,id=f"feed{i:03d}") for i,f in enumerate(feed)],
- "carrosseis":[{"id":f"car{i:03d}","capa":c["capa"],"slides":[{"t":a,"b":b} for a,b in c["slides"]]} for i,c in enumerate(car)],
- "stories":[{"id":f"st{i:03d}","tipo":a,"texto":b} for i,(a,b) in enumerate(stories)]},
+exec(open(__file__.replace("gerar_banco.py","gta6_pautas.py")).read())   # MODO GTA 6 (desde 19/11/2026)
+P=MODO_GTA6  # True = pautas antigas ficam pausadas, só GTA 6 entra na fila
+json.dump({"modo":"gta6" if P else "normal","hashtags":G6H if P else H,
+ "feed":[dict(f,id=f"feed{i:03d}",pausada=P) for i,f in enumerate(feed)]+[dict(f,id=f"g6f{i:03d}") for i,f in enumerate(g6_feed)],
+ "carrosseis":[{"id":f"car{i:03d}","capa":c["capa"],"pausada":P,"slides":[{"t":a,"b":b} for a,b in c["slides"]]} for i,c in enumerate(car)]
+   +[{"id":f"g6c{i:03d}","capa":c["capa"],"slides":[{"t":a,"b":b} for a,b in c["slides"]]} for i,c in enumerate(g6_car)],
+ "stories":[{"id":f"st{i:03d}","tipo":a,"texto":b,"pausada":P} for i,(a,b) in enumerate(stories)]+[{"id":f"g6s{i:03d}","tipo":a,"texto":b} for i,(a,b) in enumerate(g6_stories)],
+ "reels":[dict(r,id=f"g6r{i:03d}") for i,r in enumerate(g6_reels)]},
  open('jpc/banco/pautas.json','w'),ensure_ascii=False,indent=1)
-print(len(feed),len(car),len(stories))
+print("antigas:",len(feed),len(car),len(stories),"| GTA6 feed/car/stories/reels:",len(g6_feed),len(g6_car),len(g6_stories),len(g6_reels))

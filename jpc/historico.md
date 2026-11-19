@@ -65,3 +65,4 @@
 - 18/11 | 21h | story próprio | st028 | — | 18446161606182590
 - 18/11 | 21h | story próprio | st029 | — | 18080826689434563
 | 2026-11-18 | 21h55 | conferência diária | Windsor OK (Trial): feed 12h, Reel luta-arcade 12h, carrossel 19h + 3 Reels de corte (Paulinho); 11 stories (5 próprios, 6 de post/Reel). Quarta com Reel OK. Fila 19–21/11 completa, 47 links raw 200 | — | — |
+| 2026-11-19 | 07h20 | MODO GTA 6 | Fila 19–22/11 refeita/criada 100% GTA 6 (feed g6f000–003, carrossel g6c000–003, 20 stories g6s000–019, Reel próprio diário g6r000–003 com narração Piper). Pautas antigas pausadas; banco GTA 6 em banco/gta6_pautas.py | — | — |

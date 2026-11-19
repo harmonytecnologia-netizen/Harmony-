@@ -6,31 +6,44 @@
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/story_1.jpg",
-   "pauta": "st040"
+   "pauta": "g6s010"
   },
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/story_2.jpg",
-   "pauta": "st041"
+   "pauta": "g6s011"
   }
  ],
  "12h": [
   {
    "acao": "create_image_post",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/feed.jpg",
-   "legenda": "Tela azul, jogo fechando sozinho, FPS caindo do nada? Muitas vezes é driver. 🛠️\n\nBaixe o driver da placa de vídeo direto no site oficial do fabricante e evite programas 'milagrosos'.\n\nVocê atualiza com que frequência? 👇\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
-   "pauta": "feed008"
+   "legenda": "A pergunta que mais chegou no Direct: quanta memória RAM pro GTA 6 no PC? 🧠\n\nAinda NÃO existe requisito oficial. Olhando os jogos de mundo aberto atuais, nossa estimativa é: 16 GB em dual channel como base e 32 GB pra quem joga com Discord, navegador e live aberta.\n\nQuantos GB tem o seu? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6f002"
   },
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/reel.mp4",
+   "legenda": "🚨 GOLPE DO GTA 6 NO PC\n\nNão existe versão de PC anunciada. 'Download', 'beta' e 'requisito vazado' são isca pra vírus e roubo de conta.\n\nManda pro amigo que precisa ver isso 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "thumb_offset": 1000,
+   "musica": "survival_mode_blue_deer.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+   "pauta": "g6r002"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/reel.mp4",
+   "tipo": "video"
   }
  ],
  "15h": [
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/story_3.jpg",
-   "pauta": "st042"
+   "pauta": "g6s012"
   }
  ],
  "19h": [
@@ -45,8 +58,8 @@
     "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/car_06.jpg",
     "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/car_07.jpg"
    ],
-   "legenda": "Placa de vídeo: o que significa cada coisa 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
-   "pauta": "car007"
+   "legenda": "16 GB x 32 GB de RAM no GTA 6 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6c002"
   },
   {
    "acao": "create_story",
@@ -57,12 +70,12 @@
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/story_4.jpg",
-   "pauta": "st043"
+   "pauta": "g6s013"
   },
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-21/story_5.jpg",
-   "pauta": "st044"
+   "pauta": "g6s014"
   }
  ]
 }

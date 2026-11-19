@@ -1,3 +1,11 @@
+# MODO GTA 6 desde 19/11/2026 (pedido do João em 18/11; vale até ele mandar parar)
+- GTA 6 saiu em 19/11/2026 SÓ para PS5 e Xbox Series X|S. NÃO há versão de PC anunciada nem requisitos oficiais de PC (conferir no dia com WebSearch; se a Rockstar anunciar, atualizar `banco/gta6_pautas.py`). Nunca inventar requisito "oficial": falar em "PC pronto para quando o GTA 6 chegar ao PC" e "o que deve pesar" (ESTIMATIVA marcada, base em open world atuais/GTA 5 Enhanced), sem prometer FPS.
+- Todo conteúdo novo (feed, carrossel, stories, Reels) = GTA 6: novidades do dia (notícias recentes, nada de GTA 5 antigo), Leonida/Vice City, Jason e Lucia, recordes, bugs/memes, e o ângulo de PC (RAM 16x32 GB, dual channel, frequência, placa/VRAM, SSD NVMe x HD, processador, upgrade, erros de montagem). CTA: "manda GTA6 / ORÇAMENTO no Direct".
+- Imagens: nada de arte oficial, logo, capa ou personagem da Rockstar; só fundos da biblioteca/IA genéricos (PC RGB, cidade neon) + texto. Marcas só no texto.
+- Reel TODO DIA na chave "12h" (feed + story + Reel GTA 6 + story). 1º: corte GTA 6 autorizado mais novo ainda não publicado (`cortes/prontos/<nome>.mp4` + `<nome>.json` com {"jogo":"gta6","streamer","legenda"}; só streamer com autorização em `cortes/autorizacoes/`, hoje Paulinho o LOKO; regras em `playbooks/cortes-gta6-jpc/SKILL.md`). Sem corte novo → Reel próprio do banco `reels` (texto animado + narração Piper pt_BR-faber + música da biblioteca). Nunca vídeo de terceiros sem autorização nem trailer/gameplay copiado.
+- Pautas: `banco/gta6_pautas.py` (MODO_GTA6=True pausa as antigas; `produzir.py` pula pautas com "pausada"). Feed 16, carrosséis 14, stories 70 (14 dias), reels 14. Antes de acabar, escrever mais no mesmo arquivo e rodar `python3 jpc/banco/gerar_banco.py` na raiz.
+- Notícias do dia que mudam rápido: ajustar as pautas do dia em `gta6_pautas.py` ou refazer a peça com `--data AAAA-MM-DD --forcar` (só horários que ainda não passaram).
+
 # JPC — @harmony_computer — automação diária do Instagram
 
 ## Conta (NUNCA publicar em outra)

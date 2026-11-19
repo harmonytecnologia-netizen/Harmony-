@@ -12,6 +12,14 @@ TZ=zoneinfo.ZoneInfo("America/Sao_Paulo")
 BANCO=json.load(open(f"{R}/banco/pautas.json"))
 USADOS_F=f"{R}/banco/usados.json"
 USADOS=json.load(open(USADOS_F)) if os.path.exists(USADOS_F) else {"feed":[],"carrosseis":[],"stories":[],"fundos":[],"musicas":[]}
+for _k in ("reels","cortes"): USADOS.setdefault(_k,[])
+GTA=BANCO.get("modo")=="gta6"   # MODO GTA 6 (desde 19/11/2026): tudo sobre GTA 6 + PC; pautas antigas pausadas
+# fundos que combinam com GTA 6 (setup/cidade neon, sem arte da Rockstar)
+FUNDOS_GTA=["ia_2026-11-14_1.jpg","ia_2026-11-15_3.jpg","pexels_gamer_telas.jpg","pexels_homem_jogando.jpg","pexels_mouse_mesa.jpg","pexels_setup_roxo.jpg","ia_2026-11-14_4.jpg","ia_2026-11-15_1.jpg"]
+CTA_TXT='MANDA "GTA6" NO DIRECT' if GTA else 'MANDA "ORÇAMENTO" NO DIRECT'
+TAG_GTA="<div style='position:absolute;top:{top}px;left:420px;font-family:A;font-size:34px;letter-spacing:3px;padding:12px 24px;border-radius:999px;background:linear-gradient(90deg,#ff4fd8,#ff9a3c);box-shadow:0 0 30px rgba(255,79,216,.5)'>MODO GTA 6</div>"
+def tint(): return "<div style='position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,79,216,.28),rgba(255,154,60,.10) 25%,rgba(0,0,0,0) 45%)'></div>" if GTA else ""
+def tag(top): return TAG_GTA.format(top=top) if GTA else ""
 FONTS=f"file://{R}/fonts/"
 CSS=f"""@font-face{{font-family:A;src:url({FONTS}anton-latin-400-normal.woff2)}}
 @font-face{{font-family:B;src:url({FONTS}bangers-latin-400-normal.woff2)}}
@@ -30,8 +38,12 @@ CSS=f"""@font-face{{font-family:A;src:url({FONTS}anton-latin-400-normal.woff2)}}
 def fundo_url(nome): return f"file://{R}/biblioteca/fundos/{nome}"
 def escolhe_fundo(rng, evitar=()):
     fs=sorted(os.listdir(f"{R}/biblioteca/fundos"))
+    if GTA: fs=[f for f in FUNDOS_GTA if f in fs] or fs
     rec=USADOS["fundos"][-6:]
     cand=[f for f in fs if f not in rec and f not in evitar] or fs
+    if GTA:  # rodízio: os 2 fundos usados há mais tempo
+        ult=lambda x:max([i for i,u in enumerate(USADOS["fundos"]) if u==x],default=-1)
+        cand=sorted([f for f in fs if f not in evitar],key=ult)[:2]
     f=rng.choice(cand); USADOS["fundos"].append(f); return f
 def ia_tag(f): return f.startswith("ia_")
 def hl(titulo,dest):
@@ -46,40 +58,42 @@ async def shots(jobs):
             await pg.goto("file://"+tmp); await pg.wait_for_load_state("networkidle"); await pg.wait_for_timeout(250); os.remove(tmp)
             await pg.screenshot(path=out,type="jpeg",quality=92)
         await b.close()
-def page(body,w,h,extra=""): return f"<html><head><meta charset='utf-8'><style>{CSS} body{{width:{w}px;height:{h}px}} {extra}</style></head><body>{body}</body></html>"
+def page(body,w,h,extra=""):
+    body=body.replace("GTA 6","GTA&nbsp;6")
+    return f"<html><head><meta charset='utf-8'><style>{CSS} body{{width:{w}px;height:{h}px}} {extra}</style></head><body>{body}</body></html>"
 
 def html_feed(it,f):
     t=hl(it["titulo"],it.get("destaque",""))
     return page(f"""<div class='bg' style="background-image:url('{fundo_url(f)}')"></div>
 <div class='shade' style='background:linear-gradient(180deg,rgba(7,4,15,.35) 0%,rgba(7,4,15,.05) 30%,rgba(7,4,15,.75) 62%,rgba(7,4,15,.97) 100%)'></div>
-<div class='brand'><i></i>JPC · PC GAMER</div>
-{"<div class='ia' style='top:66px'>imagem ilustrativa</div>" if ia_tag(f) else ""}
-<div style='position:absolute;left:60px;right:60px;bottom:250px'><div class='h' style='font-size:128px'>{t}</div>
+{tint()}<div class='brand'><i></i>JPC · PC GAMER</div>{tag(56)}
+{"<div class='ia' style='top:140px'>imagem ilustrativa</div>" if ia_tag(f) else ""}
+<div style='position:absolute;left:60px;right:60px;bottom:250px'><div class='h' style='font-size:{128 if len(it["titulo"])<20 else 104}px'>{t}</div>
 <div style='margin-top:26px;font-size:40px;font-weight:700;line-height:1.3;max-width:900px'>{it["sub"]}</div></div>
-<div style='position:absolute;left:60px;bottom:80px;font-size:34px' class='cta'>MANDA "ORÇAMENTO" NO DIRECT</div>
+<div style='position:absolute;left:60px;bottom:80px;font-size:34px' class='cta'>{CTA_TXT}</div>
 <div style='position:absolute;right:60px;bottom:96px;font:700 28px P;color:#b9a8ff'>@harmony_computer</div>""",1080,1350)
 
 def html_slide(c,i,n,f):
     if i==0:
         return page(f"""<div class='bg' style="background-image:url('{fundo_url(f)}')"></div>
 <div class='shade' style='background:linear-gradient(180deg,rgba(7,4,15,.4),rgba(7,4,15,.15) 35%,rgba(7,4,15,.92) 75%)'></div>
-<div class='brand'><i></i>JPC · PC GAMER</div>{"<div class='ia' style='top:66px'>imagem ilustrativa</div>" if ia_tag(f) else ""}
+{tint()}<div class='brand'><i></i>JPC · PC GAMER</div>{tag(56)}{"<div class='ia' style='top:140px'>imagem ilustrativa</div>" if ia_tag(f) else ""}
 <div style='position:absolute;left:60px;right:60px;bottom:200px'><div class='h' style='font-size:110px'>{c["capa"]}</div>
 <div style='margin-top:30px;font:700 36px P;color:#22d3ee'>ARRASTA PRO LADO ➜</div></div>""",1080,1350)
     if i==n-1:
         return page(f"""<div class='bg' style="background-image:url('{fundo_url(f)}');filter:blur(14px) brightness(.45);transform:scale(1.1)"></div>
 <div class='brand'><i></i>JPC · PC GAMER</div>
 <div class='glass' style='position:absolute;left:70px;right:70px;top:300px;padding:70px 60px;text-align:center'>
-<div class='h' style='font-size:92px'>Quer um PC <span class='hl'>sem esses problemas</span>?</div>
+<div class='h' style='font-size:92px'>{"Quer um PC <span class='hl'>pronto pro GTA 6</span>?" if GTA else "Quer um PC <span class='hl'>sem esses problemas</span>?"}</div>
 <div style='margin-top:34px;font:700 40px P;line-height:1.35'>A JPC monta, organiza e testa.<br>Enviamos para todo o Brasil.</div>
-<div style='margin-top:50px;font-size:42px' class='cta'>MANDA "ORÇAMENTO" NO DIRECT</div>
+<div style='margin-top:50px;font-size:42px' class='cta'>{CTA_TXT}</div>
 <div style='margin-top:40px;font:700 32px P;color:#b9a8ff'>💾 Salva e manda pro seu duo</div></div>""",1080,1350)
     s=c["slides"][i-1]
     return page(f"""<div class='bg' style="background-image:url('{fundo_url(f)}');filter:blur(16px) brightness(.4);transform:scale(1.1)"></div>
 <div class='brand'><i></i>JPC · PC GAMER</div><div style='position:absolute;top:70px;right:60px;font:700 30px P;color:#b9a8ff'>{i}/{n-2}</div>
 <div class='glass' style='position:absolute;left:60px;right:60px;top:260px;bottom:180px;padding:70px 60px;display:flex;flex-direction:column;justify-content:center'>
 <div class='h' style='font-size:170px;color:transparent;-webkit-text-stroke:3px #22d3ee'>{i:02d}</div>
-<div class='h' style='font-size:92px;margin-top:20px'>{s["t"]}</div>
+<div class='h' style='font-size:{92 if len(s["t"])<26 else 74}px;margin-top:20px'>{s["t"]}</div>
 <div style='margin-top:36px;font:700 44px P;line-height:1.38;color:#e9e4ff'>{s["b"]}</div></div>
 <div style='position:absolute;left:0;right:0;bottom:80px;text-align:center;font:700 30px P;color:#22d3ee'>{"ARRASTA ➜" if i<n-2 else "ÚLTIMO ➜"}</div>""",1080,1350)
 
@@ -87,15 +101,16 @@ def html_story(st,f):
     tipo,tx=st["tipo"],st["texto"]
     base=f"""<div class='bg' style="background-image:url('{fundo_url(f)}')"></div>
 <div class='shade' style='background:linear-gradient(180deg,rgba(7,4,15,.55),rgba(7,4,15,.2) 30%,rgba(7,4,15,.85) 70%,rgba(7,4,15,.95))'></div>
-<div class='brand' style='top:250px'><i></i>JPC · PC GAMER</div>{"<div class='ia' style='top:262px'>imagem ilustrativa</div>" if ia_tag(f) else ""}"""
+{tint()}<div class='brand' style='top:250px'><i></i>JPC · PC GAMER</div>{tag(250)}{"<div class='ia' style='top:340px'>imagem ilustrativa</div>" if ia_tag(f) else ""}"""
     if tipo=="ab":
         a,b=tx.split("|")
         body=f"""<div style='position:absolute;left:60px;right:60px;top:820px;text-align:center'><div class='h yl' style='font-size:120px'>A ou B?</div>
 <div style='display:flex;gap:30px;margin-top:40px'><div class='glass' style='flex:1;padding:50px 20px;font:700 50px P'>🅰️<br>{a}</div><div class='glass' style='flex:1;padding:50px 20px;font:700 50px P'>🅱️<br>{b}</div></div>
 <div style='margin-top:50px;font-size:44px' class='cta'>RESPONDE NO DIRECT 👇</div></div>"""
     else:
-        lab={"dica":("DICA RÁPIDA","hl"),"pergunta":("PERGUNTA DO DIA","pk"),"curiosidade":("VOCÊ SABIA?","yl"),"agenda":("AGENDA ABERTA","gn")}[tipo]
-        cta={"pergunta":"RESPONDE NO DIRECT 👇","agenda":'MANDA "ORÇAMENTO" NO DIRECT',"dica":"SALVA E MANDA PRO DUO 💾","curiosidade":"SABIA DISSO? RESPONDE 👇"}[tipo]
+        lab={"dica":("DICA RÁPIDA","hl"),"pergunta":("PERGUNTA DO DIA","pk"),"curiosidade":("VOCÊ SABIA?","yl"),"agenda":("AGENDA ABERTA","gn"),"noticia":("GTA 6 · NOTÍCIA","pk")}[tipo]
+        cta={"pergunta":"RESPONDE NO DIRECT 👇","agenda":'MANDA "ORÇAMENTO" NO DIRECT',"dica":"SALVA E MANDA PRO DUO 💾","curiosidade":"SABIA DISSO? RESPONDE 👇","noticia":'MANDA "GTA6" NO DIRECT'}[tipo]
+        if GTA and tipo=="agenda": cta=CTA_TXT
         body=f"""<div class='glass' style='position:absolute;left:60px;right:60px;top:860px;padding:60px 54px'>
 <div class='h {lab[1]}' style='font-size:70px'>{lab[0]}</div><div style='margin-top:26px;font:700 {58 if len(tx)<70 else 48}px P;line-height:1.3'>{tx}</div></div>
 <div style='position:absolute;left:0;right:0;top:1440px;text-align:center'><div class='cta' style='font-size:40px'>{cta}</div></div>"""
@@ -108,12 +123,12 @@ def html_story_repost(img_url,label):
 <div style='position:absolute;left:0;right:0;top:1520px;text-align:center;font:700 40px P'>Toca no perfil pra ver 👆<br><span style='color:#22d3ee'>@harmony_computer</span></div>""",1080,1920)
 
 def proximo(lista,chave):
-    usados=USADOS[chave]
+    usados=USADOS[chave]; lista=[x for x in lista if not x.get("pausada")]
     for it in lista:
         if it["id"] not in usados: usados.append(it["id"]); return it
     # banco acabou: recomeça pelo mais antigo (e avisa no log)
     print(f"AVISO: banco '{chave}' esgotado, reutilizando o mais antigo. Escreva novas pautas em banco/gerar_banco.py.")
-    it=next(x for x in lista if x["id"]==usados[0]); usados.remove(it["id"]); usados.append(it["id"]); return it
+    ids=[x["id"] for x in lista]; it=next(x for x in lista if x["id"]==[u for u in usados if u in ids][0]); usados.remove(it["id"]); usados.append(it["id"]); return it
 
 def musica(rng):
     ms=sorted(glob.glob(f"{R}/biblioteca/musicas/*.mp3"))
@@ -189,7 +204,71 @@ def reel_pronto():
         if not d.get("usado"): d["usado"]=True; json.dump(d,open(j,"w"),ensure_ascii=False,indent=1); return d
     return None
 
-def legenda(txt): return txt.strip()+"\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n"+BANCO["hashtags"]
+def corte_novo():
+    """Corte GTA 6 autorizado mais novo ainda não publicado: cortes/prontos/<nome>.mp4 + <nome>.json
+    com {"jogo":"gta6","streamer":"...","legenda":"..."} (autorização em cortes/autorizacoes/)."""
+    hist=open(f"{R}/historico.md").read()
+    for j in sorted(glob.glob(f"{R}/cortes/prontos/*.json"),reverse=True):
+        d=json.load(open(j)); mp4=j[:-5]+".mp4"; nome=os.path.basename(mp4)
+        if d.get("jogo")!="gta6" or not os.path.exists(mp4) or nome in hist or nome in USADOS["cortes"]: continue
+        USADOS["cortes"].append(nome); d["arquivo"]=nome; d["video_url"]=f"{RAW}cortes/prontos/{nome}"; return d
+    return None
+
+PIPER=os.environ.get("PIPER_MODEL","/tmp/piper/pt_BR-faber-medium.onnx")
+def narrar(txt,out):
+    if not os.path.exists(PIPER):
+        os.makedirs(os.path.dirname(PIPER),exist_ok=True)
+        for ext in ("",".json"):
+            subprocess.run(["curl","-sSL","-o",PIPER+ext,f"https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx{ext}"],check=True)
+    subprocess.run([sys.executable,"-m","piper","-m",PIPER,"--length-scale","0.92","-f",out],input=txt.encode(),check=True,capture_output=True)
+    return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",out]))
+
+def reel_gta(dia_dir,r,rng):
+    """Reel próprio GTA 6: vídeos livres (Pexels) com tom neon + textos animados + narração Piper + música da biblioteca."""
+    tmp=f"{dia_dir}/_tmp";os.makedirs(tmp,exist_ok=True)
+    nd=narrar(r["narracao"],f"{tmp}/n.wav"); dur=round(max(15.0,nd+2.2),2)
+    vids=sorted(glob.glob(f"{R}/biblioteca/videos/*.mp4"));rng.shuffle(vids);vids=vids[:5]; seg=dur/len(vids)+0.1;segs=[]
+    for i,v in enumerate(vids):
+        o=f"{tmp}/v{i}.mp4";subprocess.run(["ffmpeg","-loglevel","error","-y","-stream_loop","-1","-ss","0.5","-t",f"{seg:.2f}","-i",v,"-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,eq=brightness=0.02:saturation=1.3,colorbalance=rs=.12:bs=.08:rh=.06","-an","-c:v","libx264","-preset","veryfast","-crf","20",o],check=True);segs.append(o)
+    open(f"{tmp}/l.txt","w").write("".join(f"file '{s}'\n" for s in segs))
+    subprocess.run(["ffmpeg","-loglevel","error","-y","-f","concat","-safe","0","-i",f"{tmp}/l.txt","-t",str(dur),"-c:v","libx264","-preset","veryfast","-crf","20",f"{tmp}/bg.mp4"],check=True)
+    top="<div class='brand' style='top:250px'><i></i>JPC · PC GAMER</div>"+tag(250)
+    cards=[f"<div style='position:absolute;left:60px;right:60px;top:600px;text-align:center'><div class='h' style='font-size:{150 if len(r['gancho'])<22 else 118}px'>{hl(r['gancho'],r.get('destaque',''))}</div></div>"]
+    for k,c in enumerate(r["cards"]):
+        cards.append(f"<div style='position:absolute;left:60px;right:60px;top:700px;text-align:center'><div class='h pk' style='font-size:90px'>{k+1}/{len(r['cards'])}</div><div class='glass' style='margin-top:30px;padding:56px 50px;font:700 62px P;line-height:1.25'>{c}</div></div>")
+    cards.append(f"<div style='position:absolute;left:0;right:0;top:640px;text-align:center'><div class='h' style='font-size:104px'>Quer um PC <span class='hl'>pronto pro GTA 6</span>?</div><div class='cta' style='margin-top:44px;font-size:52px'>{CTA_TXT}</div><div style='margin-top:34px;font:700 38px P'>JPC · enviamos pra todo o Brasil</div></div>")
+    scrim="<div style='position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,4,15,.25),rgba(7,4,15,.62) 30%,rgba(7,4,15,.62) 70%,rgba(7,4,15,.3))'></div>"
+    jobs=[(page(scrim+tint()+top+b,1080,1920,"body{background:transparent}"),1080,1920,f"{tmp}/c{i}.png") for i,b in enumerate(cards)]
+    async def png(jobs):
+        from playwright.async_api import async_playwright
+        async with async_playwright() as p:
+            br=await p.chromium.launch();pg=await br.new_page(viewport={"width":1080,"height":1920})
+            for h,w,hh,o in jobs:
+                t=o+".html";open(t,"w").write(h);await pg.goto("file://"+t);await pg.wait_for_load_state("networkidle");await pg.wait_for_timeout(250);os.remove(t)
+                await pg.screenshot(path=o,omit_background=True)
+            await br.close()
+    asyncio.run(png(jobs))
+    # tempos: gancho 0–3 s, cartões dividem o meio, CTA nos últimos 3.5 s
+    n=len(cards); fim_cta=dur; ini_cta=dur-3.5; meio=(ini_cta-3.0)/(n-2); tempos=[(0,3.0)]+[(3.0+i*meio,3.0+(i+1)*meio) for i in range(n-2)]+[(ini_cta,fim_cta)]
+    m=musica(rng)
+    if m: mus=os.path.basename(m); ins=["-stream_loop","-1","-i",m]
+    else:
+        seed=rng.randint(1,10**6); trilha_sintetizada(f"{tmp}/t.wav",dur,seed); mus=f"trilha própria sintetizada #{seed}"; ins=["-i",f"{tmp}/t.wav"]
+    args=["ffmpeg","-loglevel","error","-y","-i",f"{tmp}/bg.mp4"]
+    for i in range(n): args+=["-loop","1","-t",str(dur),"-i",f"{tmp}/c{i}.png"]
+    args+=["-i",f"{tmp}/n.wav"]+ins
+    fc="";last="0:v"
+    for i,(a,b) in enumerate(tempos):
+        fc+=f"[{i+1}:v]format=rgba,fade=t=in:st={a:.2f}:d=0.3:alpha=1,fade=t=out:st={max(a,b-0.25):.2f}:d=0.25:alpha=1[c{i}];"
+        fc+=f"[{last}][c{i}]overlay=0:0:enable='between(t,{a:.2f},{b:.2f})'[x{i}];"; last=f"x{i}"
+    fc+=f"[{last}]format=yuv420p[v];[{n+1}:a]adelay=400|400,volume=1.6[nv];[{n+2}:a]atrim=0:{dur},volume=0.16,afade=t=out:st={dur-1.2}:d=1.2[mv];[nv][mv]amix=inputs=2:duration=longest:normalize=0,atrim=0:{dur}[a]"
+    out=f"{dia_dir}/reel.mp4"
+    subprocess.run(args+["-filter_complex",fc,"-map","[v]","-map","[a]","-t",str(dur),"-c:v","libx264","-preset","veryfast","-crf","20","-c:a","aac","-b:a","160k","-ar","44100","-movflags","+faststart",out],check=True)
+    shutil.rmtree(tmp); return "reel.mp4",(mus+" (Biblioteca de áudio do YouTube) + narração Piper") if m else mus+" + narração Piper"
+
+def legenda(txt):
+    if GTA: return txt.strip()+"\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n"+BANCO["hashtags"]
+    return txt.strip()+"\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n"+BANCO["hashtags"]
 
 def produzir_dia(data,forcar=False):
     dia_dir=f"{R}/fila/{data}"; pj=f"{dia_dir}/plano.json"
@@ -213,7 +292,15 @@ def produzir_dia(data,forcar=False):
                        (html_story_repost(f"file://{dia_dir}/car_01.jpg","CARROSSEL NOVO 👉"),1080,1920,f"{dia_dir}/story_car.jpg")]))
     plano["12h"].append({"acao":"create_image_post","arquivo":url("feed.jpg"),"legenda":legenda(it["legenda"]),"pauta":it["id"]})
     plano["12h"].append({"acao":"create_story","arquivo":url("story_feed.jpg")})
-    if dt.weekday() in (0,2,4):
+    if GTA:   # MODO GTA 6: Reel TODO DIA. 1º corte GTA 6 autorizado novo; senão Reel próprio do banco "reels"
+        co=corte_novo()
+        if co: plano["12h"]+= [{"acao":"create_video_post","arquivo":co["video_url"],"legenda":co["legenda"],"thumb_offset":co.get("thumb_offset",1000),"musica":co.get("musica",""),"corte":co["arquivo"]},
+                               {"acao":"create_story","arquivo":co["video_url"],"tipo":"video"}]
+        else:
+            r=proximo(BANCO["reels"],"reels"); arq,mus=reel_gta(dia_dir,r,rng); USADOS["musicas"].append([data,mus.split(" ")[0]])
+            plano["12h"]+= [{"acao":"create_video_post","arquivo":url(arq),"legenda":legenda(r["legenda"]),"thumb_offset":1000,"musica":mus,"pauta":r["id"]},
+                            {"acao":"create_story","arquivo":url(arq),"tipo":"video"}]
+    elif dt.weekday() in (0,2,4):
         pr=reel_pronto()
         if pr: plano["12h"]+= [{"acao":"create_video_post","arquivo":pr["video_url"],"legenda":pr["legenda"],"thumb_offset":pr.get("thumb_offset",1500),"musica":pr.get("musica","")},
                                {"acao":"create_story","arquivo":pr["video_url"],"tipo":"video"}]

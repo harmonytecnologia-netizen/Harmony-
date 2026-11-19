@@ -1,0 +1,81 @@
+{
+ "data": "2026-11-22",
+ "perfil": "harmony_computer",
+ "conta_windsor": "17841445277894628",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/story_1.jpg",
+   "pauta": "g6s015"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/story_2.jpg",
+   "pauta": "g6s016"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/feed.jpg",
+   "legenda": "Só a pré-carga do GTA 6 no console pediu até uns 212 GB livres, segundo a imprensa. 😳\n\nNo PC ainda não tem número oficial, mas mundo aberto desse tamanho carregando do HD é sofrimento. Nossa dica: SSD NVMe de 1 TB ou mais, só pra jogos.\n\nSeu PC ainda tá no HD? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6f003"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/reel.mp4",
+   "legenda": "Ainda no HD? 🐢 Esse é o primeiro upgrade pensando no GTA 6 no PC.\n\nMundo aberto gigante carrega do disco o tempo todo. SSD NVMe de 1 TB ou mais só pra jogos. (Requisito oficial ainda não saiu.)\n\nSeu PC tem SSD? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "thumb_offset": 1000,
+   "musica": "trilha própria sintetizada #713255 + narração Piper",
+   "pauta": "g6r003"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/reel.mp4",
+   "tipo": "video"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/story_3.jpg",
+   "pauta": "g6s017"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/car_01.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/car_02.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/car_03.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/car_04.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/car_05.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/car_06.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/car_07.jpg"
+   ],
+   "legenda": "SSD NVMe x HD: o GTA 6 vai sentir 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6c003"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/story_car.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/story_4.jpg",
+   "pauta": "g6s018"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-22/story_5.jpg",
+   "pauta": "g6s019"
+  }
+ ]
+}

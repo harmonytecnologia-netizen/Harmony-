@@ -6,20 +6,20 @@
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_1.jpg",
-   "pauta": "st035"
+   "pauta": "g6s005"
   },
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_2.jpg",
-   "pauta": "st036"
+   "pauta": "g6s006"
   }
  ],
  "12h": [
   {
    "acao": "create_image_post",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/feed.jpg",
-   "legenda": "Mito ou verdade: RGB dá FPS? 🌈\n\nMito. Luz não muda desempenho. Mas setup bonito dá vontade de jogar — e isso a gente respeita. 😂\n\nTime RGB ou time discreto? 👇\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
-   "pauta": "feed007"
+   "legenda": "Viu 'GTA 6 PC download' por aí? 🚨 É GOLPE.\n\nAté agora o GTA 6 só existe no PS5 e no Xbox Series. Vídeo de 'GTA 6 rodando no PC' hoje é jogo remoto do console (Remote Play) ou montagem. Arquivo pirata = vírus no seu PC.\n\nManda pro amigo que tá caindo nessa 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6f001"
   },
   {
    "acao": "create_story",
@@ -27,14 +27,15 @@
   },
   {
    "acao": "create_video_post",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/real-manutencao/jpc_real_manutencao.mp4",
-   "legenda": "Olha o estado desse teclado 😱 E olha como ele voltou! ✨\n\nTrabalho real da JPC: limpeza completa tecla por tecla, RGB brilhando de novo, SSD instalado do jeito certo e placa de vídeo testada no Windows. 🛠️🎮\n\nSeu setup tá precisando de um trato? Comenta aí 👇\n💾 Salva e manda pro amigo do teclado imundo.\n\nQuer montar, fazer upgrade ou manutenção? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #manutencaodepc #montagemdepc #tecladomecanico #hardware #gamer",
-   "thumb_offset": 300,
-   "musica": "Bad News – Steve Kane (Biblioteca de áudio do YouTube)"
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/reel.mp4",
+   "legenda": "16 ou 32 GB de RAM pro GTA 6 no PC? 🧠\n\nRequisito oficial ainda não saiu. Estimativa JPC: 16 GB em dual channel como base, 32 GB pra quem faz live e deixa tudo aberto.\n\nQuantos GB tem o seu? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "thumb_offset": 1000,
+   "musica": "bad_news_steve_kane.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+   "pauta": "g6r001"
   },
   {
    "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/reels/real-manutencao/jpc_real_manutencao.mp4",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/reel.mp4",
    "tipo": "video"
   }
  ],
@@ -42,7 +43,7 @@
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_3.jpg",
-   "pauta": "st037"
+   "pauta": "g6s007"
   }
  ],
  "19h": [
@@ -57,8 +58,8 @@
     "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_06.jpg",
     "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_07.jpg"
    ],
-   "legenda": "Seu PC esquenta? 5 motivos 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer montar o seu? Manda ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #setupgamer #montagemdepc #pcgamerbarato #hardware",
-   "pauta": "car006"
+   "legenda": "Monte seu PC pro GTA 6 (estimativa) 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6c001"
   },
   {
    "acao": "create_story",
@@ -69,12 +70,12 @@
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_4.jpg",
-   "pauta": "st038"
+   "pauta": "g6s008"
   },
   {
    "acao": "create_story",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_5.jpg",
-   "pauta": "st039"
+   "pauta": "g6s009"
   }
  ]
 }
