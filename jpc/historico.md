@@ -62,3 +62,5 @@
 - 18/11 | 15h | story próprio | st027 | — | 18107088740573576
 - 18/11 | 19h | carrossel (7 slides) | car004 | — | 18457449244193401
 - 18/11 | 19h | story do carrossel | story_car | — | 18066341513530375
+- 18/11 | 21h | story próprio | st028 | — | 18446161606182590
+- 18/11 | 21h | story próprio | st029 | — | 18080826689434563
