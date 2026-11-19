@@ -64,3 +64,4 @@
 - 18/11 | 19h | story do carrossel | story_car | — | 18066341513530375
 - 18/11 | 21h | story próprio | st028 | — | 18446161606182590
 - 18/11 | 21h | story próprio | st029 | — | 18080826689434563
+| 2026-11-18 | 21h55 | conferência diária | Windsor OK (Trial): feed 12h, Reel luta-arcade 12h, carrossel 19h + 3 Reels de corte (Paulinho); 11 stories (5 próprios, 6 de post/Reel). Quarta com Reel OK. Fila 19–21/11 completa, 47 links raw 200 | — | — |
