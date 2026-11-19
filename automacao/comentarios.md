@@ -12,3 +12,4 @@ Uma linha por comentário já tratado (respondido ou encaminhado ao João). A ta
 | 17920188609525459 | harmony_computer | 2026-11-15 | encaminhado ao João | "🔥" vindo da outra conta do João (harmony_computer) — na dúvida, não respondido |
 | 18077931044741241 | fco.evaristo | 2026-11-18 | respondido | Evaristo, é esse o nosso compromisso em cada projeto! Obrigado pela confiança de sempre 🤝 |
 | 17962228731256648 | move.s.a | 2026-11-19 | própria conta | (resposta nossa — ignorar) |
+| 18122708584971793 | move.s.a | 2026-11-19 | própria conta | (resposta nossa "Sempre irmao" — ignorar) |
