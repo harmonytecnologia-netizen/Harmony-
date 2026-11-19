@@ -83,3 +83,4 @@
 | 2026-11-19 12h | Story do feed | story_feed.jpg | — | — | 18030568013696265 |
 | 2026-11-19 12h | Reel MOVE Explica 3D | Segurança: sensor + luzes + câmera com alerta (reel_12h.mp4) | trilha do vídeo | — | 18127418896715453 |
 | 2026-11-19 12h | Story do Reel | reel_12h.mp4 | trilha do vídeo | — | 17942479341396458 |
+| 2026-11-19 15h (15h05) | Story próprio (15h) | story_15h_1.jpg | — | — | 18114329570186762 |
