@@ -78,3 +78,4 @@
 | 2026-11-18 19h (19h13) | Story do Reel | Crossover 80 Hz (reel_19h.mp4) | — | — | 18108551336210716 |
 | 2026-11-18 21h (21h05) | Story próprio (21h) | story_21h_1.jpg | — | — | 18647957173034161 |
 | 2026-11-18 21h50 (conferência) | Conferência Windsor | Dia 18/11 completo: 1 feed (12h04), 2 Reels (12h05 bastidores; 19h13 crossover 3D), 1 carrossel (19h12), 8 stories (3 próprios: 09h05, 15h05, 21h05 + 4 de divulgação + 1 às 10h12). Sem série em partes hoje. Métricas de 5 posts de 17/11 em aprendizados.md; regra nova no README (feed com projeto real). Fila 19–21/11 completa. Obs.: carrossel 17/11 19h (18494445859110744) não aparece no Windsor; Reel bastidores 18/11 12h só 13 views / 10 contas em 10 h | — | — | nada faltou hoje |
+- 2026-11-19 | 09h | story (imagem) | story_09h_1.jpg — Adega (ChatGPT) + carrossel Wi-Fi em toda a casa (ChatGPT) + | media id 17918320095493370
