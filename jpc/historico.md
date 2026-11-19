@@ -72,3 +72,4 @@
 | 2026-11-19 | 12h (12h12) | story do feed | story_feed | — | 18150874483600751 |
 | 2026-11-19 | 12h (12h12) | Reel | g6r000 | ego_chall_blue_deer.mp3 (Biblioteca de áudio do YouTube) + narração Piper | 18140215618729290 |
 | 2026-11-19 | 12h (12h12) | story do Reel | reel.mp4 | ego_chall_blue_deer.mp3 | 18140839447649653 |
+| 2026-11-19 | 15h (15h10) | story próprio | g6s002 | — | 18106630352455391 |
