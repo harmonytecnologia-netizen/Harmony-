@@ -84,3 +84,7 @@
 | 2026-11-19 12h | Reel MOVE Explica 3D | Segurança: sensor + luzes + câmera com alerta (reel_12h.mp4) | trilha do vídeo | — | 18127418896715453 |
 | 2026-11-19 12h | Story do Reel | reel_12h.mp4 | trilha do vídeo | — | 17942479341396458 |
 | 2026-11-19 15h (15h05) | Story próprio (15h) | story_15h_1.jpg | — | — | 18114329570186762 |
+| 2026-11-19 19h | Carrossel (6 slides) | Wi-Fi forte em cada canto da casa (carrossel_1-6.jpg) | — | — | 18023201321985594 |
+| 2026-11-19 19h | Story do carrossel | story_carrossel.jpg | — | — | 18202291204387566 |
+| 2026-11-19 19h | Reel MOVE Explica 3D | Automação: módulo sem neutro, luz piscando (reel_19h.mp4) | trilha do vídeo | — | 18498155896110893 |
+| 2026-11-19 19h | Story do Reel | reel_19h.mp4 | trilha do vídeo | — | 18134698168773309 |
