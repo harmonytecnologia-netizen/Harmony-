@@ -68,3 +68,7 @@
 | 2026-11-19 | 07h20 | MODO GTA 6 | Fila 19–22/11 refeita/criada 100% GTA 6 (feed g6f000–003, carrossel g6c000–003, 20 stories g6s000–019, Reel próprio diário g6r000–003 com narração Piper). Pautas antigas pausadas; banco GTA 6 em banco/gta6_pautas.py | — | — |
 | 2026-11-19 | 09h11 | story próprio | g6s000 | — | 18029616551876418 |
 | 2026-11-19 | 09h11 | story próprio | g6s001 | — | 18340780495279857 |
+| 2026-11-19 | 12h (12h12) | feed (imagem) | g6f000 | — | 17938367313411253 |
+| 2026-11-19 | 12h (12h12) | story do feed | story_feed | — | 18150874483600751 |
+| 2026-11-19 | 12h (12h12) | Reel | g6r000 | ego_chall_blue_deer.mp3 (Biblioteca de áudio do YouTube) + narração Piper | 18140215618729290 |
+| 2026-11-19 | 12h (12h12) | story do Reel | reel.mp4 | ego_chall_blue_deer.mp3 | 18140839447649653 |
