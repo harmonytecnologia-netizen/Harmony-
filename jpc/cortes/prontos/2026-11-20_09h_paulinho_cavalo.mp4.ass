@@ -1,0 +1,103 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.18,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DE{\r} VERDADE, EU
+Dialogue: 0,0:00:00.18,0:00:00.66,L,,0,0,0,,DE {\c&H4FE1FF&\fscx112\fscy112}VERDADE,{\r} EU
+Dialogue: 0,0:00:00.66,0:00:00.71,L,,0,0,0,,DE VERDADE, {\c&H4FE1FF&\fscx112\fscy112}EU{\r}
+Dialogue: 0,0:00:00.68,0:00:00.76,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} VI CAVALO
+Dialogue: 0,0:00:00.76,0:00:00.90,L,,0,0,0,,NÃO {\c&H4FE1FF&\fscx112\fscy112}VI{\r} CAVALO
+Dialogue: 0,0:00:00.90,0:00:01.36,L,,0,0,0,,NÃO VI {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r}
+Dialogue: 0,0:00:01.36,0:00:01.56,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ATÉ{\r} AGORA, NÃO
+Dialogue: 0,0:00:01.56,0:00:01.96,L,,0,0,0,,ATÉ {\c&H4FE1FF&\fscx112\fscy112}AGORA,{\r} NÃO
+Dialogue: 0,0:00:01.96,0:00:02.04,L,,0,0,0,,ATÉ AGORA, {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r}
+Dialogue: 0,0:00:02.04,0:00:02.14,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VAI{\r} TER CAVALO
+Dialogue: 0,0:00:02.14,0:00:02.28,L,,0,0,0,,VAI {\c&H4FE1FF&\fscx112\fscy112}TER{\r} CAVALO
+Dialogue: 0,0:00:02.28,0:00:02.72,L,,0,0,0,,VAI TER {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r}
+Dialogue: 0,0:00:02.72,0:00:02.84,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NO{\r} GTA VI,
+Dialogue: 0,0:00:02.84,0:00:03.08,L,,0,0,0,,NO {\c&H4FE1FF&\fscx112\fscy112}GTA{\r} VI,
+Dialogue: 0,0:00:03.08,0:00:03.46,L,,0,0,0,,NO GTA {\c&H4FE1FF&\fscx112\fscy112}VI,{\r}
+Dialogue: 0,0:00:03.50,0:00:04.58,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO?{\r} NÃO VIU
+Dialogue: 0,0:00:04.58,0:00:04.84,L,,0,0,0,,NÃO? {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} VIU
+Dialogue: 0,0:00:04.84,0:00:04.98,L,,0,0,0,,NÃO? NÃO {\c&H4FE1FF&\fscx112\fscy112}VIU{\r}
+Dialogue: 0,0:00:04.98,0:00:05.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}UM{\r} CAVALO DO
+Dialogue: 0,0:00:05.08,0:00:05.44,L,,0,0,0,,UM {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r} DO
+Dialogue: 0,0:00:05.44,0:00:05.62,L,,0,0,0,,UM CAVALO {\c&H4FE1FF&\fscx112\fscy112}DO{\r}
+Dialogue: 0,0:00:05.62,0:00:06.38,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}MATO?{\r} NÃO SEI,
+Dialogue: 0,0:00:06.38,0:00:06.43,L,,0,0,0,,MATO? {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} SEI,
+Dialogue: 0,0:00:06.38,0:00:06.52,L,,0,0,0,,MATO? NÃO {\c&H4FE1FF&\fscx112\fscy112}SEI,{\r}
+Dialogue: 0,0:00:06.58,0:00:06.70,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}LÁ{\r} NÃO TEM
+Dialogue: 0,0:00:06.70,0:00:06.86,L,,0,0,0,,LÁ {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} TEM
+Dialogue: 0,0:00:06.86,0:00:07.02,L,,0,0,0,,LÁ NÃO {\c&H4FE1FF&\fscx112\fscy112}TEM{\r}
+Dialogue: 0,0:00:07.02,0:00:07.46,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TAMBÉM,{\r} NÉ? SE
+Dialogue: 0,0:00:07.46,0:00:09.04,L,,0,0,0,,TAMBÉM, {\c&H4FE1FF&\fscx112\fscy112}NÉ?{\r} SE
+Dialogue: 0,0:00:09.04,0:00:09.22,L,,0,0,0,,TAMBÉM, NÉ? {\c&H4FE1FF&\fscx112\fscy112}SE{\r}
+Dialogue: 0,0:00:09.22,0:00:09.42,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TIVER{\r} CAVALO, DEVE
+Dialogue: 0,0:00:09.42,0:00:09.96,L,,0,0,0,,TIVER {\c&H4FE1FF&\fscx112\fscy112}CAVALO,{\r} DEVE
+Dialogue: 0,0:00:09.96,0:00:10.08,L,,0,0,0,,TIVER CAVALO, {\c&H4FE1FF&\fscx112\fscy112}DEVE{\r}
+Dialogue: 0,0:00:10.08,0:00:10.22,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SER{\r} CAVALO PESSOAL,
+Dialogue: 0,0:00:10.22,0:00:10.58,L,,0,0,0,,SER {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r} PESSOAL,
+Dialogue: 0,0:00:10.58,0:00:11.20,L,,0,0,0,,SER CAVALO {\c&H4FE1FF&\fscx112\fscy112}PESSOAL,{\r}
+Dialogue: 0,0:00:11.38,0:00:11.72,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r} DE CRIAÇÃO.
+Dialogue: 0,0:00:11.72,0:00:12.34,L,,0,0,0,,CAVALO {\c&H4FE1FF&\fscx112\fscy112}DE{\r} CRIAÇÃO.
+Dialogue: 0,0:00:12.34,0:00:13.02,L,,0,0,0,,CAVALO DE {\c&H4FE1FF&\fscx112\fscy112}CRIAÇÃO.{\r}
+Dialogue: 0,0:00:14.14,0:00:14.50,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} SEI SE
+Dialogue: 0,0:00:14.50,0:00:14.58,L,,0,0,0,,NÃO {\c&H4FE1FF&\fscx112\fscy112}SEI{\r} SE
+Dialogue: 0,0:00:14.58,0:00:14.68,L,,0,0,0,,NÃO SEI {\c&H4FE1FF&\fscx112\fscy112}SE{\r}
+Dialogue: 0,0:00:14.68,0:00:14.86,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}LÁ{\r} TEM CAVALO
+Dialogue: 0,0:00:14.86,0:00:14.96,L,,0,0,0,,LÁ {\c&H4FE1FF&\fscx112\fscy112}TEM{\r} CAVALO
+Dialogue: 0,0:00:14.96,0:00:15.28,L,,0,0,0,,LÁ TEM {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r}
+Dialogue: 0,0:00:15.28,0:00:15.44,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DO{\r} MATO, ACHO
+Dialogue: 0,0:00:15.44,0:00:15.80,L,,0,0,0,,DO {\c&H4FE1FF&\fscx112\fscy112}MATO,{\r} ACHO
+Dialogue: 0,0:00:15.80,0:00:15.96,L,,0,0,0,,DO MATO, {\c&H4FE1FF&\fscx112\fscy112}ACHO{\r}
+Dialogue: 0,0:00:15.96,0:00:16.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} NÃO, NÉ?
+Dialogue: 0,0:00:16.08,0:00:16.32,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}NÃO,{\r} NÉ?
+Dialogue: 0,0:00:16.32,0:00:16.46,L,,0,0,0,,QUE NÃO, {\c&H4FE1FF&\fscx112\fscy112}NÉ?{\r}
+Dialogue: 0,0:00:23.75,0:00:23.95,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DEIXA{\r} EU VER,
+Dialogue: 0,0:00:23.95,0:00:24.00,L,,0,0,0,,DEIXA {\c&H4FE1FF&\fscx112\fscy112}EU{\r} VER,
+Dialogue: 0,0:00:23.95,0:00:24.11,L,,0,0,0,,DEIXA EU {\c&H4FE1FF&\fscx112\fscy112}VER,{\r}
+Dialogue: 0,0:00:24.21,0:00:24.29,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}POR{\r} ENQUANTO EU
+Dialogue: 0,0:00:24.29,0:00:24.51,L,,0,0,0,,POR {\c&H4FE1FF&\fscx112\fscy112}ENQUANTO{\r} EU
+Dialogue: 0,0:00:24.51,0:00:24.73,L,,0,0,0,,POR ENQUANTO {\c&H4FE1FF&\fscx112\fscy112}EU{\r}
+Dialogue: 0,0:00:24.73,0:00:24.78,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} VI NENHUM,
+Dialogue: 0,0:00:24.73,0:00:24.85,L,,0,0,0,,NÃO {\c&H4FE1FF&\fscx112\fscy112}VI{\r} NENHUM,
+Dialogue: 0,0:00:24.85,0:00:25.15,L,,0,0,0,,NÃO VI {\c&H4FE1FF&\fscx112\fscy112}NENHUM,{\r}
+Dialogue: 0,0:00:25.33,0:00:25.57,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO.{\r} DEIXA EU
+Dialogue: 0,0:00:25.57,0:00:25.67,L,,0,0,0,,NÃO. {\c&H4FE1FF&\fscx112\fscy112}DEIXA{\r} EU
+Dialogue: 0,0:00:25.67,0:00:25.73,L,,0,0,0,,NÃO. DEIXA {\c&H4FE1FF&\fscx112\fscy112}EU{\r}
+Dialogue: 0,0:00:25.73,0:00:25.83,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DAR{\r} MAIS UMA
+Dialogue: 0,0:00:25.83,0:00:25.99,L,,0,0,0,,DAR {\c&H4FE1FF&\fscx112\fscy112}MAIS{\r} UMA
+Dialogue: 0,0:00:25.99,0:00:26.11,L,,0,0,0,,DAR MAIS {\c&H4FE1FF&\fscx112\fscy112}UMA{\r}
+Dialogue: 0,0:00:26.11,0:00:26.49,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}RODADA{\r} AQUI. ALI!
+Dialogue: 0,0:00:26.49,0:00:27.09,L,,0,0,0,,RODADA {\c&H4FE1FF&\fscx112\fscy112}AQUI.{\r} ALI!
+Dialogue: 0,0:00:27.09,0:00:27.35,L,,0,0,0,,RODADA AQUI. {\c&H4FE1FF&\fscx112\fscy112}ALI!{\r}
+Dialogue: 0,0:00:28.33,0:00:28.47,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SÓ{\r} POR QUE
+Dialogue: 0,0:00:28.47,0:00:28.57,L,,0,0,0,,SÓ {\c&H4FE1FF&\fscx112\fscy112}POR{\r} QUE
+Dialogue: 0,0:00:28.57,0:00:28.62,L,,0,0,0,,SÓ POR {\c&H4FE1FF&\fscx112\fscy112}QUE{\r}
+Dialogue: 0,0:00:28.61,0:00:28.67,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}EU{\r} FALEI. OLHA
+Dialogue: 0,0:00:28.67,0:00:30.39,L,,0,0,0,,EU {\c&H4FE1FF&\fscx112\fscy112}FALEI.{\r} OLHA
+Dialogue: 0,0:00:30.39,0:00:30.75,L,,0,0,0,,EU FALEI. {\c&H4FE1FF&\fscx112\fscy112}OLHA{\r}
+Dialogue: 0,0:00:30.75,0:00:30.89,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}O{\r} CAVALO AQUI.
+Dialogue: 0,0:00:30.89,0:00:31.39,L,,0,0,0,,O {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r} AQUI.
+Dialogue: 0,0:00:31.39,0:00:31.77,L,,0,0,0,,O CAVALO {\c&H4FE1FF&\fscx112\fscy112}AQUI.{\r}
+Dialogue: 0,0:00:32.69,0:00:33.13,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CARAMBA,{\r} A PRIMEIRA
+Dialogue: 0,0:00:33.13,0:00:33.21,L,,0,0,0,,CARAMBA, {\c&H4FE1FF&\fscx112\fscy112}A{\r} PRIMEIRA
+Dialogue: 0,0:00:33.21,0:00:33.31,L,,0,0,0,,CARAMBA, A {\c&H4FE1FF&\fscx112\fscy112}PRIMEIRA{\r}
+Dialogue: 0,0:00:33.31,0:00:33.55,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VEZ{\r} QUE EU
+Dialogue: 0,0:00:33.55,0:00:33.67,L,,0,0,0,,VEZ {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} EU
+Dialogue: 0,0:00:33.67,0:00:33.75,L,,0,0,0,,VEZ QUE {\c&H4FE1FF&\fscx112\fscy112}EU{\r}
+Dialogue: 0,0:00:33.75,0:00:33.91,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VEJO{\r} UM CAVALO
+Dialogue: 0,0:00:33.91,0:00:34.01,L,,0,0,0,,VEJO {\c&H4FE1FF&\fscx112\fscy112}UM{\r} CAVALO
+Dialogue: 0,0:00:34.01,0:00:34.43,L,,0,0,0,,VEJO UM {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r}
+Dialogue: 0,0:00:34.43,0:00:34.57,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} NO GTA
+Dialogue: 0,0:00:34.57,0:00:34.65,L,,0,0,0,,AQUI {\c&H4FE1FF&\fscx112\fscy112}NO{\r} GTA
+Dialogue: 0,0:00:34.65,0:00:34.89,L,,0,0,0,,AQUI NO {\c&H4FE1FF&\fscx112\fscy112}GTA{\r}
+Dialogue: 0,0:00:34.89,0:00:35.31,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VI,{\r} HEIN?
+Dialogue: 0,0:00:35.31,0:00:35.51,L,,0,0,0,,VI, {\c&H4FE1FF&\fscx112\fscy112}HEIN?{\r}
