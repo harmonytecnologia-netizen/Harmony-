@@ -78,3 +78,4 @@
 | 2026-11-19 | 21h (21h10) | story próprio | g6s003 | — | 18103703264544203 |
 | 2026-11-19 | 21h (21h10) | story próprio | g6s004 | — | 17890700076620744 |
 | 2026-11-19 | 21h55 | conferência diária | Windsor OK (Trial): feed 12h, Reel g6r000 12h, carrossel 19h; 8 stories (5 próprios, 3 de post/Reel). Quinta (Reel extra). Fila 20–22/11 completa, 51 links raw 200 | — | — |
+| 2026-11-20 | 07h20 | produção diária | Fila 20–23/11 completa em GTA 6 (23/11: feed g6f004 VRAM, carrossel g6c004 5 erros de upgrade, Reel g6r004 dual channel, stories g6s020–024). Sem corte GTA 6 novo (0 prontos). Banco GTA 6: ~9 dias. Sem versão PC/requisito oficial (conferido) | — | — |
