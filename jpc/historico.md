@@ -81,3 +81,5 @@
 | 2026-11-20 | 07h20 | produção diária | Fila 20–23/11 completa em GTA 6 (23/11: feed g6f004 VRAM, carrossel g6c004 5 erros de upgrade, Reel g6r004 dual channel, stories g6s020–024). Sem corte GTA 6 novo (0 prontos). Banco GTA 6: ~9 dias. Sem versão PC/requisito oficial (conferido) | — | — |
 | 2026-11-20 | 07h45 | Reel corte GTA 6 (extra) | Paulinho #3 "avião sem gasolina + 1º paraquedas" (live hOOiQagTyTA 2:45:04–2:45:45) | — | 17880271410634658 |
 | 2026-11-20 | 07h45 | story do Reel de corte | mesmo vídeo | — | 18460758700121811 |
+| 2026-11-20 | 08h45 | Reel corte GTA 6 (extra) | Paulinho #3 "não tem cavalo no GTA 6… só porque eu falei" (live hOOiQagTyTA 1:36:04–1:36:41) | — | 18080207093741872 |
+| 2026-11-20 | 08h45 | story do Reel de corte | mesmo vídeo | — | 17911917090669144 |
