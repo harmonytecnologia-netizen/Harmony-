@@ -1,0 +1,51 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.36,0:00:01.94,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}UÉ,{\r} O CAVALO
+Dialogue: 0,0:00:01.94,0:00:01.99,L,,0,0,0,,UÉ, {\c&H4FE1FF&\fscx112\fscy112}O{\r} CAVALO
+Dialogue: 0,0:00:01.94,0:00:02.20,L,,0,0,0,,UÉ, O {\c&H4FE1FF&\fscx112\fscy112}CAVALO{\r}
+Dialogue: 0,0:00:02.20,0:00:02.30,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} VINDO ATRÁS
+Dialogue: 0,0:00:02.30,0:00:02.42,L,,0,0,0,,TÁ {\c&H4FE1FF&\fscx112\fscy112}VINDO{\r} ATRÁS
+Dialogue: 0,0:00:02.42,0:00:02.58,L,,0,0,0,,TÁ VINDO {\c&H4FE1FF&\fscx112\fscy112}ATRÁS{\r}
+Dialogue: 0,0:00:02.58,0:00:02.74,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DE{\r} MIM AGORA?
+Dialogue: 0,0:00:02.74,0:00:02.82,L,,0,0,0,,DE {\c&H4FE1FF&\fscx112\fscy112}MIM{\r} AGORA?
+Dialogue: 0,0:00:02.82,0:00:03.08,L,,0,0,0,,DE MIM {\c&H4FE1FF&\fscx112\fscy112}AGORA?{\r}
+Dialogue: 0,0:00:10.38,0:00:10.70,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} BOM, MOÇA,
+Dialogue: 0,0:00:10.70,0:00:11.00,L,,0,0,0,,TÁ {\c&H4FE1FF&\fscx112\fscy112}BOM,{\r} MOÇA,
+Dialogue: 0,0:00:11.00,0:00:11.18,L,,0,0,0,,TÁ BOM, {\c&H4FE1FF&\fscx112\fscy112}MOÇA,{\r}
+Dialogue: 0,0:00:11.26,0:00:11.32,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOU{\r} EMBORA. MOÇA
+Dialogue: 0,0:00:11.32,0:00:13.02,L,,0,0,0,,VOU {\c&H4FE1FF&\fscx112\fscy112}EMBORA.{\r} MOÇA
+Dialogue: 0,0:00:13.02,0:00:13.34,L,,0,0,0,,VOU EMBORA. {\c&H4FE1FF&\fscx112\fscy112}MOÇA{\r}
+Dialogue: 0,0:00:13.34,0:00:14.14,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CISMADA?{\r} POIS É.
+Dialogue: 0,0:00:14.14,0:00:14.42,L,,0,0,0,,CISMADA? {\c&H4FE1FF&\fscx112\fscy112}POIS{\r} É.
+Dialogue: 0,0:00:14.42,0:00:14.66,L,,0,0,0,,CISMADA? POIS {\c&H4FE1FF&\fscx112\fscy112}É.{\r}
+Dialogue: 0,0:00:16.71,0:00:16.91,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ACHO{\r} QUE SE
+Dialogue: 0,0:00:16.91,0:00:16.99,L,,0,0,0,,ACHO {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} SE
+Dialogue: 0,0:00:16.99,0:00:17.07,L,,0,0,0,,ACHO QUE {\c&H4FE1FF&\fscx112\fscy112}SE{\r}
+Dialogue: 0,0:00:17.07,0:00:17.13,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}EU{\r} CONVERSAR COM
+Dialogue: 0,0:00:17.13,0:00:17.63,L,,0,0,0,,EU {\c&H4FE1FF&\fscx112\fscy112}CONVERSAR{\r} COM
+Dialogue: 0,0:00:17.63,0:00:17.75,L,,0,0,0,,EU CONVERSAR {\c&H4FE1FF&\fscx112\fscy112}COM{\r}
+Dialogue: 0,0:00:17.75,0:00:17.95,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ELE,{\r} EU AMENIZO.
+Dialogue: 0,0:00:17.95,0:00:18.01,L,,0,0,0,,ELE, {\c&H4FE1FF&\fscx112\fscy112}EU{\r} AMENIZO.
+Dialogue: 0,0:00:18.01,0:00:18.47,L,,0,0,0,,ELE, EU {\c&H4FE1FF&\fscx112\fscy112}AMENIZO.{\r}
+Dialogue: 0,0:00:21.74,0:00:22.06,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DEIXA{\r} EU CONVERSAR
+Dialogue: 0,0:00:22.06,0:00:22.16,L,,0,0,0,,DEIXA {\c&H4FE1FF&\fscx112\fscy112}EU{\r} CONVERSAR
+Dialogue: 0,0:00:22.16,0:00:22.52,L,,0,0,0,,DEIXA EU {\c&H4FE1FF&\fscx112\fscy112}CONVERSAR{\r}
+Dialogue: 0,0:00:22.52,0:00:22.60,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}COM{\r} ELA QUE
+Dialogue: 0,0:00:22.60,0:00:22.68,L,,0,0,0,,COM {\c&H4FE1FF&\fscx112\fscy112}ELA{\r} QUE
+Dialogue: 0,0:00:22.68,0:00:22.76,L,,0,0,0,,COM ELA {\c&H4FE1FF&\fscx112\fscy112}QUE{\r}
+Dialogue: 0,0:00:22.76,0:00:22.82,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ELA{\r} VAI CHAMAR
+Dialogue: 0,0:00:22.82,0:00:22.90,L,,0,0,0,,ELA {\c&H4FE1FF&\fscx112\fscy112}VAI{\r} CHAMAR
+Dialogue: 0,0:00:22.90,0:00:23.16,L,,0,0,0,,ELA VAI {\c&H4FE1FF&\fscx112\fscy112}CHAMAR{\r}
+Dialogue: 0,0:00:23.16,0:00:23.22,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} POLÍCIA PRA
+Dialogue: 0,0:00:23.22,0:00:23.50,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}POLÍCIA{\r} PRA
+Dialogue: 0,0:00:23.50,0:00:23.72,L,,0,0,0,,A POLÍCIA {\c&H4FE1FF&\fscx112\fscy112}PRA{\r}
+Dialogue: 0,0:00:23.72,0:00:23.88,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}MIM.{\r}
