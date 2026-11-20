@@ -102,3 +102,5 @@
 | 2026-11-20 12h | Story do feed | story_feed.jpg | — | — | 17963910426275437 |
 | 2026-11-20 12h | Reel (obra real) | "De onde vem a música do lobby?" — som ambiente Clube Candeias (reel_12h.mp4) | — | Shadowstep — The Mini Vandals | 18115014883885283 |
 | 2026-11-20 12h | Story do Reel | reel_12h.mp4 | — | Shadowstep — The Mini Vandals | 18094750679237414 |
+| 2026-11-20 15h (15h06) | Story próprio (15h) | Nobreak "Faltou luz" (story_15h_1.jpg) | — | — | 18362884228171883 |
+| 2026-11-20 15h (15h06) | Story próprio (15h) | Enquete nobreak (story_15h_2.jpg) | — | — | 18148364293606178 |
