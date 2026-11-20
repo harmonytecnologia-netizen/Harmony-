@@ -106,3 +106,4 @@
 | 2026-11-20 | 18h45 | Reel corte GTA 6 | Paulinho: a cobra Dolores fugiu e tá solta no mapa (#3 0:43:56) | — | 18116275838332571 (story 18290058244293170) |
 | 2026-11-20 | 19h | carrossel (7 slides) | g6c001 | — | 18150628885586431 |
 | 2026-11-20 | 19h | story do carrossel | g6c001 | — | 18122288464969955 |
+| 2026-11-20 | 19h45 | Reel corte GTA 6 | Paulinho: som vindo debaixo do monumento (#3 2:40:26) | — | 18099234470148765 (story 17907966570352453) |
