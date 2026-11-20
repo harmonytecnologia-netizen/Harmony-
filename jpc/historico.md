@@ -85,3 +85,5 @@
 | 2026-11-20 | 08h45 | story do Reel de corte | mesmo vídeo | — | 17911917090669144 |
 | 2026-11-20 | 09h | story próprio | g6s005 | — | 18103788743532650 |
 | 2026-11-20 | 09h | story próprio | g6s006 | — | 18132102310916977 |
+| 2026-11-20 | 09h53 | Reel corte GTA 6 (extra) | Paulinho #3 "roubaram a ambulância" (live hOOiQagTyTA 1:31:31–1:32:00) | — | 17909374752598298 |
+| 2026-11-20 | 09h53 | story do Reel de corte | mesmo vídeo | — | 17911345983665698 |
