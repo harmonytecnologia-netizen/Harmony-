@@ -104,3 +104,5 @@
 | 2026-11-20 | 16h45 | Reel corte GTA 6 | Paulinho: mistério parte 2 — a bandeira vibrando (#3 2:40:54) | — | 18105243932648572 (story 17921499894538914) |
 | 2026-11-20 | 17h45 | Reel corte GTA 6 | Paulinho: cavalo perseguindo na fazenda (#3 1:37:27) | — | 17986371578905566 (story 18353039746286548) |
 | 2026-11-20 | 18h45 | Reel corte GTA 6 | Paulinho: a cobra Dolores fugiu e tá solta no mapa (#3 0:43:56) | — | 18116275838332571 (story 18290058244293170) |
+| 2026-11-20 | 19h | carrossel (7 slides) | g6c001 | — | 18150628885586431 |
+| 2026-11-20 | 19h | story do carrossel | g6c001 | — | 18122288464969955 |
