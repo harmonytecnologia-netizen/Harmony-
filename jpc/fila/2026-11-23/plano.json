@@ -1,0 +1,81 @@
+{
+ "data": "2026-11-23",
+ "perfil": "harmony_computer",
+ "conta_windsor": "17841445277894628",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/story_1.jpg",
+   "pauta": "g6s020"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/story_2.jpg",
+   "pauta": "g6s021"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/feed.jpg",
+   "legenda": "Placa de vídeo pro GTA 6 no PC: o que olhar? 🎮\n\nSem requisito oficial ainda. Mas em mundo aberto pesado a VRAM (memória da placa) é o que mais aperta: pouca VRAM = textura borrada e travadinha. Estimativa JPC: placa com 12 GB ou mais vai sofrer menos.\n\nQuantos GB tem a sua? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6f004"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/reel.mp4",
+   "legenda": "1 pente ou 2 pentes? 🎯 Pra jogo, 2.\n\nDual channel + XMP ligado = memória rendendo o que você pagou. Em mundo aberto como o GTA 6, isso conta.\n\nQuantos pentes tem no seu? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "thumb_offset": 1000,
+   "musica": "trilha própria sintetizada #777008 + narração Piper",
+   "pauta": "g6r004"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/reel.mp4",
+   "tipo": "video"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/story_3.jpg",
+   "pauta": "g6s022"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/car_01.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/car_02.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/car_03.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/car_04.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/car_05.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/car_06.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/car_07.jpg"
+   ],
+   "legenda": "5 erros de upgrade pensando no GTA 6 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6c004"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/story_car.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/story_4.jpg",
+   "pauta": "g6s023"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-23/story_5.jpg",
+   "pauta": "g6s024"
+  }
+ ]
+}
