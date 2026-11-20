@@ -212,6 +212,10 @@ Planilha "Cronograma Instagram MOVE": https://claude.ai/artifact/U6qvqshwLh2DwVR
 - Padrão em 5 feeds de imagem (12–17/11): os 2 com foto de PROJETO/OBRA REAL (área gourmet 14/11, cozinha LED 15/11) fizeram 36–38 views / 21–25 contas; os 3 de AMBIENTE CONCEITO (suíte 12/11, boa noite 13/11, dia de instalação 17/11) fizeram 15–31 views / 11–12 contas. Todos com 0 interação.
 - Regra: o feed das 12h usa foto de projeto/obra real da MOVE sempre que houver (quadros de vídeo real com mais de 7 dias servem); ambiente conceito só quando não houver nenhuma real disponível, e sempre com pergunta/dor grande na arte.
 
+## Aprendizados das métricas (19/11/2026 — 6 carrosséis 13–18/11)
+- Padrão em 6 carrosséis (projetor×TV 13/11 21h, rack 14/11 19h, fio neutro 17/11 15h, TV na medida 18/11 19h e outros): 5–14 contas e ZERO curtida/salvo/envio em todos. Horário (15h, 19h, 21h) e tema prático não mudaram nada; a capa de "título + ambiente" não é mostrada além da base.
+- Regra: a capa (slide 1) do carrossel passa a ser o quadro mais forte do Reel do dia (3D ou obra real) + 1 frase de dor com número grande ("3 erros que…", "5 cm que…"); slide 2 já com a resposta. Mudar só a capa no próximo teste para saber se foi ela.
+
 ## Referências de concorrentes (estilo a seguir)
 Pedido do João: acompanhar vídeos de concorrentes e fazer "engenharia inversa" (mesma estrutura, com cenários e pessoas diferentes, sempre no padrão MOVE de alto padrão). Nunca copiar vídeo, marca, música ou texto deles.
 
