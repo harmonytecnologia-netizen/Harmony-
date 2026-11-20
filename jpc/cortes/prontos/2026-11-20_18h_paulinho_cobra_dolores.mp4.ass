@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.02,0:00:01.06,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}EU{\r} VOU DIZER
+Dialogue: 0,0:00:01.06,0:00:01.26,L,,0,0,0,,EU {\c&H4FE1FF&\fscx112\fscy112}VOU{\r} DIZER
+Dialogue: 0,0:00:01.26,0:00:01.32,L,,0,0,0,,EU VOU {\c&H4FE1FF&\fscx112\fscy112}DIZER{\r}
+Dialogue: 0,0:00:01.32,0:00:01.50,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}UMA{\r} COISA PARA
+Dialogue: 0,0:00:01.50,0:00:01.80,L,,0,0,0,,UMA {\c&H4FE1FF&\fscx112\fscy112}COISA{\r} PARA
+Dialogue: 0,0:00:01.80,0:00:02.06,L,,0,0,0,,UMA COISA {\c&H4FE1FF&\fscx112\fscy112}PARA{\r}
+Dialogue: 0,0:00:02.06,0:00:02.34,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOCÊS,{\r} A ROCKSTAR
+Dialogue: 0,0:00:02.34,0:00:02.42,L,,0,0,0,,VOCÊS, {\c&H4FE1FF&\fscx112\fscy112}A{\r} ROCKSTAR
+Dialogue: 0,0:00:02.42,0:00:02.70,L,,0,0,0,,VOCÊS, A {\c&H4FE1FF&\fscx112\fscy112}ROCKSTAR{\r}
+Dialogue: 0,0:00:02.70,0:00:02.86,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}É{\r} TÃO BOA
+Dialogue: 0,0:00:02.86,0:00:03.20,L,,0,0,0,,É {\c&H4FE1FF&\fscx112\fscy112}TÃO{\r} BOA
+Dialogue: 0,0:00:03.20,0:00:03.52,L,,0,0,0,,É TÃO {\c&H4FE1FF&\fscx112\fscy112}BOA{\r}
+Dialogue: 0,0:00:03.52,0:00:03.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NO{\r} QUE ELA
+Dialogue: 0,0:00:03.64,0:00:03.76,L,,0,0,0,,NO {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} ELA
+Dialogue: 0,0:00:03.76,0:00:03.88,L,,0,0,0,,NO QUE {\c&H4FE1FF&\fscx112\fscy112}ELA{\r}
+Dialogue: 0,0:00:03.88,0:00:04.28,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}FAZ{\r} QUE A
+Dialogue: 0,0:00:04.28,0:00:04.86,L,,0,0,0,,FAZ {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} A
+Dialogue: 0,0:00:04.86,0:00:05.00,L,,0,0,0,,FAZ QUE {\c&H4FE1FF&\fscx112\fscy112}A{\r}
+Dialogue: 0,0:00:05.00,0:00:05.62,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}COBRA{\r} QUE FUGIU,
+Dialogue: 0,0:00:05.62,0:00:07.82,L,,0,0,0,,COBRA {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} FUGIU,
+Dialogue: 0,0:00:07.82,0:00:08.34,L,,0,0,0,,COBRA QUE {\c&H4FE1FF&\fscx112\fscy112}FUGIU,{\r}
+Dialogue: 0,0:00:08.46,0:00:08.51,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} DOLORES, SE
+Dialogue: 0,0:00:08.50,0:00:09.38,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}DOLORES,{\r} SE
+Dialogue: 0,0:00:09.38,0:00:10.84,L,,0,0,0,,A DOLORES, {\c&H4FE1FF&\fscx112\fscy112}SE{\r}
+Dialogue: 0,0:00:10.84,0:00:10.94,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} GENTE EXPLORAR
+Dialogue: 0,0:00:10.94,0:00:11.12,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}GENTE{\r} EXPLORAR
+Dialogue: 0,0:00:11.12,0:00:12.00,L,,0,0,0,,A GENTE {\c&H4FE1FF&\fscx112\fscy112}EXPLORAR{\r}
+Dialogue: 0,0:00:12.00,0:00:12.40,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} REGIÃO DA
+Dialogue: 0,0:00:12.40,0:00:12.88,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}REGIÃO{\r} DA
+Dialogue: 0,0:00:12.88,0:00:14.14,L,,0,0,0,,A REGIÃO {\c&H4FE1FF&\fscx112\fscy112}DA{\r}
+Dialogue: 0,0:00:15.67,0:00:17.73,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VEGETAÇÃO{\r} AQUI DA
+Dialogue: 0,0:00:17.73,0:00:17.97,L,,0,0,0,,VEGETAÇÃO {\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} DA
+Dialogue: 0,0:00:17.97,0:00:18.13,L,,0,0,0,,VEGETAÇÃO AQUI {\c&H4FE1FF&\fscx112\fscy112}DA{\r}
+Dialogue: 0,0:00:18.13,0:00:18.91,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CIDADE,{\r} EM ALGUM
+Dialogue: 0,0:00:18.91,0:00:19.85,L,,0,0,0,,CIDADE, {\c&H4FE1FF&\fscx112\fscy112}EM{\r} ALGUM
+Dialogue: 0,0:00:19.85,0:00:20.21,L,,0,0,0,,CIDADE, EM {\c&H4FE1FF&\fscx112\fscy112}ALGUM{\r}
+Dialogue: 0,0:00:20.21,0:00:20.59,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}LOCAL{\r} DESSA IMENSIDÃO,
+Dialogue: 0,0:00:20.59,0:00:21.03,L,,0,0,0,,LOCAL {\c&H4FE1FF&\fscx112\fscy112}DESSA{\r} IMENSIDÃO,
+Dialogue: 0,0:00:21.03,0:00:22.67,L,,0,0,0,,LOCAL DESSA {\c&H4FE1FF&\fscx112\fscy112}IMENSIDÃO,{\r}
+Dialogue: 0,0:00:23.29,0:00:23.59,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} GENTE VAI
+Dialogue: 0,0:00:23.59,0:00:23.67,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}GENTE{\r} VAI
+Dialogue: 0,0:00:23.67,0:00:23.81,L,,0,0,0,,A GENTE {\c&H4FE1FF&\fscx112\fscy112}VAI{\r}
+Dialogue: 0,0:00:23.81,0:00:24.11,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ENCONTRAR{\r} ELA. A
+Dialogue: 0,0:00:24.11,0:00:25.69,L,,0,0,0,,ENCONTRAR {\c&H4FE1FF&\fscx112\fscy112}ELA.{\r} A
+Dialogue: 0,0:00:25.69,0:00:26.25,L,,0,0,0,,ENCONTRAR ELA. {\c&H4FE1FF&\fscx112\fscy112}A{\r}
+Dialogue: 0,0:00:26.25,0:00:26.35,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}GENTE{\r} VAI ENCONTRAR
+Dialogue: 0,0:00:26.35,0:00:26.47,L,,0,0,0,,GENTE {\c&H4FE1FF&\fscx112\fscy112}VAI{\r} ENCONTRAR
+Dialogue: 0,0:00:26.47,0:00:26.73,L,,0,0,0,,GENTE VAI {\c&H4FE1FF&\fscx112\fscy112}ENCONTRAR{\r}
+Dialogue: 0,0:00:26.73,0:00:26.95,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ESSA{\r} COBRA. VAI
+Dialogue: 0,0:00:26.95,0:00:27.95,L,,0,0,0,,ESSA {\c&H4FE1FF&\fscx112\fscy112}COBRA.{\r} VAI
+Dialogue: 0,0:00:27.95,0:00:28.51,L,,0,0,0,,ESSA COBRA. {\c&H4FE1FF&\fscx112\fscy112}VAI{\r}
+Dialogue: 0,0:00:28.51,0:00:28.65,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SER{\r} DIFÍCIL, MAS
+Dialogue: 0,0:00:28.65,0:00:29.15,L,,0,0,0,,SER {\c&H4FE1FF&\fscx112\fscy112}DIFÍCIL,{\r} MAS
+Dialogue: 0,0:00:29.15,0:00:29.29,L,,0,0,0,,SER DIFÍCIL, {\c&H4FE1FF&\fscx112\fscy112}MAS{\r}
+Dialogue: 0,0:00:29.29,0:00:29.47,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}O{\r} JASON VAI
+Dialogue: 0,0:00:29.47,0:00:29.63,L,,0,0,0,,O {\c&H4FE1FF&\fscx112\fscy112}JASON{\r} VAI
+Dialogue: 0,0:00:29.63,0:00:29.85,L,,0,0,0,,O JASON {\c&H4FE1FF&\fscx112\fscy112}VAI{\r}
+Dialogue: 0,0:00:29.85,0:00:30.13,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ACHAR{\r} ELA EM
+Dialogue: 0,0:00:30.13,0:00:30.31,L,,0,0,0,,ACHAR {\c&H4FE1FF&\fscx112\fscy112}ELA{\r} EM
+Dialogue: 0,0:00:30.31,0:00:30.41,L,,0,0,0,,ACHAR ELA {\c&H4FE1FF&\fscx112\fscy112}EM{\r}
+Dialogue: 0,0:00:30.41,0:00:30.55,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ALGUM{\r} MOMENTO. PODE
+Dialogue: 0,0:00:30.55,0:00:31.55,L,,0,0,0,,ALGUM {\c&H4FE1FF&\fscx112\fscy112}MOMENTO.{\r} PODE
+Dialogue: 0,0:00:31.55,0:00:31.89,L,,0,0,0,,ALGUM MOMENTO. {\c&H4FE1FF&\fscx112\fscy112}PODE{\r}
+Dialogue: 0,0:00:31.89,0:00:32.09,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TER{\r} CERTEZA DISSO.
+Dialogue: 0,0:00:32.09,0:00:32.47,L,,0,0,0,,TER {\c&H4FE1FF&\fscx112\fscy112}CERTEZA{\r} DISSO.
+Dialogue: 0,0:00:32.47,0:00:32.77,L,,0,0,0,,TER CERTEZA {\c&H4FE1FF&\fscx112\fscy112}DISSO.{\r}
