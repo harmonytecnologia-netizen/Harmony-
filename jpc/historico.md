@@ -102,3 +102,4 @@
 | 2026-11-20 | 15h | story próprio | g6s007 | — | 18033967235688302 |
 | 2026-11-20 | 15h45 | Reel corte GTA 6 | Paulinho: controle vibrando sozinho / barulho misterioso (#3 2:39:16) | — | 18126567403902246 (story 17967682686246431) |
 | 2026-11-20 | 16h45 | Reel corte GTA 6 | Paulinho: mistério parte 2 — a bandeira vibrando (#3 2:40:54) | — | 18105243932648572 (story 17921499894538914) |
+| 2026-11-20 | 17h45 | Reel corte GTA 6 | Paulinho: cavalo perseguindo na fazenda (#3 1:37:27) | — | 17986371578905566 (story 18353039746286548) |
