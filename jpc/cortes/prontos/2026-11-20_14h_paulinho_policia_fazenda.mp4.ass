@@ -1,0 +1,60 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.34,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CONVERSAR{\r} COM ELA
+Dialogue: 0,0:00:00.34,0:00:00.46,L,,0,0,0,,CONVERSAR {\c&H4FE1FF&\fscx112\fscy112}COM{\r} ELA
+Dialogue: 0,0:00:00.46,0:00:00.52,L,,0,0,0,,CONVERSAR COM {\c&H4FE1FF&\fscx112\fscy112}ELA{\r}
+Dialogue: 0,0:00:00.52,0:00:00.60,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} ELA VAI
+Dialogue: 0,0:00:00.60,0:00:00.66,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}ELA{\r} VAI
+Dialogue: 0,0:00:00.66,0:00:00.74,L,,0,0,0,,QUE ELA {\c&H4FE1FF&\fscx112\fscy112}VAI{\r}
+Dialogue: 0,0:00:00.74,0:00:01.00,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CHAMAR{\r} A POLÍCIA
+Dialogue: 0,0:00:01.00,0:00:01.10,L,,0,0,0,,CHAMAR {\c&H4FE1FF&\fscx112\fscy112}A{\r} POLÍCIA
+Dialogue: 0,0:00:01.10,0:00:01.34,L,,0,0,0,,CHAMAR A {\c&H4FE1FF&\fscx112\fscy112}POLÍCIA{\r}
+Dialogue: 0,0:00:01.34,0:00:01.56,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PRA{\r} MIM. NÃO,
+Dialogue: 0,0:00:01.56,0:00:05.50,L,,0,0,0,,PRA {\c&H4FE1FF&\fscx112\fscy112}MIM.{\r} NÃO,
+Dialogue: 0,0:00:05.50,0:00:05.86,L,,0,0,0,,PRA MIM. {\c&H4FE1FF&\fscx112\fscy112}NÃO,{\r}
+Dialogue: 0,0:00:06.00,0:00:06.06,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} COPO, O
+Dialogue: 0,0:00:06.06,0:00:06.54,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}COPO,{\r} O
+Dialogue: 0,0:00:06.54,0:00:06.59,L,,0,0,0,,QUE COPO, {\c&H4FE1FF&\fscx112\fscy112}O{\r}
+Dialogue: 0,0:00:06.58,0:00:06.63,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} QUE COPO,
+Dialogue: 0,0:00:06.62,0:00:06.76,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} COPO,
+Dialogue: 0,0:00:06.76,0:00:07.00,L,,0,0,0,,QUE QUE {\c&H4FE1FF&\fscx112\fscy112}COPO,{\r}
+Dialogue: 0,0:00:16.98,0:00:20.84,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AÍ,{\r} SÓ ANTES
+Dialogue: 0,0:00:20.84,0:00:21.02,L,,0,0,0,,AÍ, {\c&H4FE1FF&\fscx112\fscy112}SÓ{\r} ANTES
+Dialogue: 0,0:00:21.02,0:00:21.16,L,,0,0,0,,AÍ, SÓ {\c&H4FE1FF&\fscx112\fscy112}ANTES{\r}
+Dialogue: 0,0:00:21.16,0:00:21.28,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} EU TE
+Dialogue: 0,0:00:21.28,0:00:21.34,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}EU{\r} TE
+Dialogue: 0,0:00:21.34,0:00:21.40,L,,0,0,0,,QUE EU {\c&H4FE1FF&\fscx112\fscy112}TE{\r}
+Dialogue: 0,0:00:21.40,0:00:21.86,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}MATO,{\r} MINHA AMIGA,
+Dialogue: 0,0:00:21.86,0:00:21.96,L,,0,0,0,,MATO, {\c&H4FE1FF&\fscx112\fscy112}MINHA{\r} AMIGA,
+Dialogue: 0,0:00:21.96,0:00:22.22,L,,0,0,0,,MATO, MINHA {\c&H4FE1FF&\fscx112\fscy112}AMIGA,{\r}
+Dialogue: 0,0:00:22.32,0:00:22.44,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOCÊ{\r} NÃO VAI
+Dialogue: 0,0:00:22.44,0:00:22.58,L,,0,0,0,,VOCÊ {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} VAI
+Dialogue: 0,0:00:22.58,0:00:22.74,L,,0,0,0,,VOCÊ NÃO {\c&H4FE1FF&\fscx112\fscy112}VAI{\r}
+Dialogue: 0,0:00:22.74,0:00:23.04,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUERER{\r} VER EU
+Dialogue: 0,0:00:23.04,0:00:23.50,L,,0,0,0,,QUERER {\c&H4FE1FF&\fscx112\fscy112}VER{\r} EU
+Dialogue: 0,0:00:23.50,0:00:24.30,L,,0,0,0,,QUERER VER {\c&H4FE1FF&\fscx112\fscy112}EU{\r}
+Dialogue: 0,0:00:24.30,0:00:24.48,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}COM{\r} ESSE …
+Dialogue: 0,0:00:24.48,0:00:24.64,L,,0,0,0,,COM {\c&H4FE1FF&\fscx112\fscy112}ESSE{\r} …
+Dialogue: 0,0:00:24.64,0:00:25.42,L,,0,0,0,,COM ESSE {\c&H4FE1FF&\fscx112\fscy112}…{\r}
+Dialogue: 0,0:00:29.97,0:00:30.33,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}FICA{\r} NA TRANQUILIDADE.
+Dialogue: 0,0:00:30.33,0:00:30.51,L,,0,0,0,,FICA {\c&H4FE1FF&\fscx112\fscy112}NA{\r} TRANQUILIDADE.
+Dialogue: 0,0:00:30.51,0:00:31.05,L,,0,0,0,,FICA NA {\c&H4FE1FF&\fscx112\fscy112}TRANQUILIDADE.{\r}
+Dialogue: 0,0:00:37.07,0:00:38.19,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOCÊ{\r} TÁ LOUCA?
+Dialogue: 0,0:00:38.19,0:00:39.31,L,,0,0,0,,VOCÊ {\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} LOUCA?
+Dialogue: 0,0:00:39.31,0:00:39.89,L,,0,0,0,,VOCÊ TÁ {\c&H4FE1FF&\fscx112\fscy112}LOUCA?{\r}
+Dialogue: 0,0:00:41.31,0:00:41.85,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOCÊ{\r} TÁ LOUCA?
+Dialogue: 0,0:00:41.85,0:00:42.05,L,,0,0,0,,VOCÊ {\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} LOUCA?
+Dialogue: 0,0:00:42.05,0:00:42.75,L,,0,0,0,,VOCÊ TÁ {\c&H4FE1FF&\fscx112\fscy112}LOUCA?{\r}
+Dialogue: 0,0:00:42.91,0:00:42.96,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOCÊ{\r} TÁ LOUCA?
+Dialogue: 0,0:00:42.93,0:00:44.61,L,,0,0,0,,VOCÊ {\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} LOUCA?
+Dialogue: 0,0:00:44.61,0:00:44.66,L,,0,0,0,,VOCÊ TÁ {\c&H4FE1FF&\fscx112\fscy112}LOUCA?{\r}
+Dialogue: 0,0:00:44.61,0:00:44.79,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AH!{\r}
