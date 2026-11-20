@@ -77,3 +77,4 @@
 | 2026-11-19 | 19h (19h09) | story do carrossel | story_car | — | 18081097790722170 |
 | 2026-11-19 | 21h (21h10) | story próprio | g6s003 | — | 18103703264544203 |
 | 2026-11-19 | 21h (21h10) | story próprio | g6s004 | — | 17890700076620744 |
+| 2026-11-19 | 21h55 | conferência diária | Windsor OK (Trial): feed 12h, Reel g6r000 12h, carrossel 19h; 8 stories (5 próprios, 3 de post/Reel). Quinta (Reel extra). Fila 20–22/11 completa, 51 links raw 200 | — | — |
