@@ -56,6 +56,17 @@ música com direitos (só Biblioteca de áudio do YouTube ou trilha própria).
   (domínios liberados em 18/11: *.twitch.tv, *.ttvnw.net, *.cloudfront.net, kick.com, *.kick.com). Kick: `yt-dlp ... "https://kick.com/<canal>/videos"` funciona (Paulinho o LOKO faz live no Kick: kick.com/paulinholokobr; perfil oficial de cortes @paulinholokocortes — SEM autorização pública, pedido enviado pelo João).
 - YouTube bloqueia download vindo de servidor (pede login): NUNCA usar cookies/conta do João. Material do YouTube só se
   o streamer mandar o arquivo ou o João salvar em `Documentos\JPC para postar\GTA6\` (device_stage_files).
+- YouTube PELO PC DO JOÃO (testado 20/11/2026, funciona; pedido do João: sem conta nem cookies):
+  1. Achar os momentos: navegador do app Claude (mcp__remote-devices__Claude_Browser__*) na página watch?v=<id>, pausar o vídeo,
+     abrir "Mostrar transcrição" e ler os segmentos (`ytd-transcript-segment-renderer, transcript-segment-view-model`) via JS.
+  2. Gravar o trecho SEM conta: abrir https://example.com e de lá `location.href='https://www.youtube-nocookie.com/embed/<id>?start=<s>&autoplay=1'`
+     (abrir o embed direto dá "Erro 153" = falta referrer). No embed: `#movie_player`.setPlaybackQualityRange('hd1080','hd1080'), unMute(), seekTo(s);
+     depois `video.captureStream()` + MediaRecorder (video/webm;codecs=vp9,opus, 12 Mbps, start(1000)) por 40–70 s em tempo real.
+  3. Baixar: Blob dos pedaços -> `<a download>`.click(); cai em C:\Users\PC\Downloads como <uuid>.tmp do mesmo tamanho do blob.
+     device_list_dir (pasta Downloads já liberada) -> device_stage_files -> ffmpeg para mp4 30 fps antes do corte.py.
+  4. No PC não há yt-dlp/4K Video Downloader e o terminal não aceita digitação pelo computer use; sites tipo cobalt travam na verificação anti-robô.
+- Legenda: `--corrigir "ERRADA:CERTA" "NO@EXPLODE?:NÃO"` no corte.py corrige palavras do Whisper (uma por regra; @PROXIMA = só antes dessa palavra).
+- Webcam do Paulinho (layout das lives do YouTube 1920x1080): canto superior esquerdo, `--layout cam-cima --cam 10,15,495,270`.
 - Achar momentos: transcrever o VOD (Whisper local, grátis) e procurar risadas/gritos/palavras ("mano", "não acredito",
   "polícia"); conferir picos de volume com ffmpeg (astats/silencedetect).
 - Script: `python3 jpc/scripts/corte.py --entrada bruto.mp4 --inicio 00:12:31 --fim 00:13:05 \

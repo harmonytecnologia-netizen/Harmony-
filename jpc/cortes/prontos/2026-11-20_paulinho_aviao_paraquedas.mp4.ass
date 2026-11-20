@@ -1,0 +1,42 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.10,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SERÁ{\r} QUE TEM
+Dialogue: 0,0:00:00.10,0:00:00.22,L,,0,0,0,,SERÁ {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} TEM
+Dialogue: 0,0:00:00.22,0:00:00.40,L,,0,0,0,,SERÁ QUE {\c&H4FE1FF&\fscx112\fscy112}TEM{\r}
+Dialogue: 0,0:00:00.40,0:00:00.58,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TEMPO{\r} DE CHEGAR
+Dialogue: 0,0:00:00.58,0:00:00.68,L,,0,0,0,,TEMPO {\c&H4FE1FF&\fscx112\fscy112}DE{\r} CHEGAR
+Dialogue: 0,0:00:00.68,0:00:00.84,L,,0,0,0,,TEMPO DE {\c&H4FE1FF&\fscx112\fscy112}CHEGAR{\r}
+Dialogue: 0,0:00:00.84,0:00:00.98,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NA{\r} CIDADE? TÁ
+Dialogue: 0,0:00:00.98,0:00:07.16,L,,0,0,0,,NA {\c&H4FE1FF&\fscx112\fscy112}CIDADE?{\r} TÁ
+Dialogue: 0,0:00:07.16,0:00:07.48,L,,0,0,0,,NA CIDADE? {\c&H4FE1FF&\fscx112\fscy112}TÁ{\r}
+Dialogue: 0,0:00:07.48,0:00:08.38,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ACABANDO!{\r} TÁ ACABANDO!
+Dialogue: 0,0:00:08.38,0:00:08.60,L,,0,0,0,,ACABANDO! {\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} ACABANDO!
+Dialogue: 0,0:00:08.60,0:00:10.44,L,,0,0,0,,ACABANDO! TÁ {\c&H4FE1FF&\fscx112\fscy112}ACABANDO!{\r}
+Dialogue: 0,0:00:15.82,0:00:16.38,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DEU{\r} RUIM, GENTE.
+Dialogue: 0,0:00:16.38,0:00:16.92,L,,0,0,0,,DEU {\c&H4FE1FF&\fscx112\fscy112}RUIM,{\r} GENTE.
+Dialogue: 0,0:00:16.92,0:00:16.97,L,,0,0,0,,DEU RUIM, {\c&H4FE1FF&\fscx112\fscy112}GENTE.{\r}
+Dialogue: 0,0:00:27.25,0:00:27.55,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}O BARULHO{\r} DO VENTO!
+Dialogue: 0,0:00:27.55,0:00:27.61,L,,0,0,0,,O BARULHO {\c&H4FE1FF&\fscx112\fscy112}DO{\r} VENTO!
+Dialogue: 0,0:00:27.61,0:00:28.31,L,,0,0,0,,O BARULHO DO {\c&H4FE1FF&\fscx112\fscy112}VENTO!{\r}
+Dialogue: 0,0:00:32.04,0:00:32.60,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PRIMEIRO{\r} SALTO DE
+Dialogue: 0,0:00:32.60,0:00:33.08,L,,0,0,0,,PRIMEIRO {\c&H4FE1FF&\fscx112\fscy112}SALTO{\r} DE
+Dialogue: 0,0:00:33.08,0:00:33.18,L,,0,0,0,,PRIMEIRO SALTO {\c&H4FE1FF&\fscx112\fscy112}DE{\r}
+Dialogue: 0,0:00:33.18,0:00:33.98,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PARAQUEDAS{\r} NO GTA
+Dialogue: 0,0:00:33.98,0:00:34.08,L,,0,0,0,,PARAQUEDAS {\c&H4FE1FF&\fscx112\fscy112}NO{\r} GTA
+Dialogue: 0,0:00:34.08,0:00:34.32,L,,0,0,0,,PARAQUEDAS NO {\c&H4FE1FF&\fscx112\fscy112}GTA{\r}
+Dialogue: 0,0:00:34.32,0:00:34.98,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}6,{\r} HEIN, TURMA!
+Dialogue: 0,0:00:34.98,0:00:35.26,L,,0,0,0,,6, {\c&H4FE1FF&\fscx112\fscy112}HEIN,{\r} TURMA!
+Dialogue: 0,0:00:35.26,0:00:35.56,L,,0,0,0,,6, HEIN, {\c&H4FE1FF&\fscx112\fscy112}TURMA!{\r}
+Dialogue: 0,0:00:39.82,0:00:40.10,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}COMO{\r} ASSIM NÃO
+Dialogue: 0,0:00:40.10,0:00:40.32,L,,0,0,0,,COMO {\c&H4FE1FF&\fscx112\fscy112}ASSIM{\r} NÃO
+Dialogue: 0,0:00:40.32,0:00:40.42,L,,0,0,0,,COMO ASSIM {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r}
+Dialogue: 0,0:00:40.42,0:00:40.70,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}EXPLODE?{\r}
