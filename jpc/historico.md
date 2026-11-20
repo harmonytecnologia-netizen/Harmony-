@@ -87,3 +87,5 @@
 | 2026-11-20 | 09h | story próprio | g6s006 | — | 18132102310916977 |
 | 2026-11-20 | 09h53 | Reel corte GTA 6 (extra) | Paulinho #3 "roubaram a ambulância" (live hOOiQagTyTA 1:31:31–1:32:00) | — | 17909374752598298 |
 | 2026-11-20 | 09h53 | story do Reel de corte | mesmo vídeo | — | 17911345983665698 |
+| 2026-11-20 | 11h00 | Reel corte GTA 6 (extra) | Paulinho #3 "Eclipse vermelhão / Rockstar copiou o carro?" (live hOOiQagTyTA 1:26:11–1:26:59) | — | 18132955189842330 |
+| 2026-11-20 | 11h00 | story do Reel de corte | mesmo vídeo | — | 17915340090483070 |
