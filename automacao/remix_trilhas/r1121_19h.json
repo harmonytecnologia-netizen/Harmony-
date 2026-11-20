@@ -1,0 +1,3 @@
+{"video":"../../fila/2026-11-21/reel_19h.mp4","saida":"r1121_19h.mp4","musica":"../musicas/Circuit Rush - The Mini Vandals.mp3",
+ "falas":[{"arquivo":"../animacoes/rede_tv_travando/voz.wav","t":0.2}],
+ "efeitos":[{"t":0.0,"som":"impacto","vol":0.6},{"t":5.3,"som":"riser","dur":1.1,"vol":0.4},{"t":6.4,"som":"impacto","vol":0.5},{"t":16.5,"som":"swoosh","vol":0.45}]}

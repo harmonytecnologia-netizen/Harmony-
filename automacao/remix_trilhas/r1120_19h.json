@@ -1,0 +1,3 @@
+{"video":"../../fila/2026-11-20/reel_19h.mp4","saida":"r1120_19h.mp4","musica":"../musicas/Two Inside - Anno Domini Beats.mp3",
+ "falas":[{"arquivo":"../animacoes/explica_nobreak_3d_b/s1.wav","t":0.3},{"arquivo":"../animacoes/explica_nobreak_3d_b/s2.wav","t":4.4},{"arquivo":"../animacoes/explica_nobreak_3d_b/s3.wav","t":8.0},{"arquivo":"../animacoes/explica_nobreak_3d_b/s4.wav","t":13.4},{"arquivo":"../animacoes/explica_nobreak_3d_b/s5.wav","t":17.6}],
+ "efeitos":[{"t":0.0,"som":"impacto","vol":0.7},{"t":3.2,"som":"riser","dur":1.2,"vol":0.45},{"t":4.4,"som":"impacto","vol":0.55},{"t":17.2,"som":"swoosh","vol":0.45}]}

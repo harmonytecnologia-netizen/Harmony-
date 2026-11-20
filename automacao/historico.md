@@ -89,3 +89,7 @@
 | 2026-11-19 19h | Reel MOVE Explica 3D | Automação: módulo sem neutro, luz piscando (reel_19h.mp4) | trilha do vídeo | — | 18498155896110893 |
 | 2026-11-19 19h | Story do Reel | reel_19h.mp4 | trilha do vídeo | — | 18134698168773309 |
 | 2026-11-19 21h (21h05) | Story próprio (21h) | story_21h_1.jpg | — | — | 18109283381253542 |
+| 2026-11-19 21h (troca de trilha — pedido do João 18/11 23h40) | Reel 20/11 12h (obra real Clube Candeias) | trilha e efeitos trocados | — | Exes — Patrick Jordan Patrikios → **Shadowstep — The Mini Vandals** (Cinematic, YouTube Audio Library) + impacto grave na abertura e swoosh cinematográfico | (a publicar) |
+| 2026-11-19 21h (troca de trilha) | Reel 20/11 19h (SEGURANÇA: nobreak no rack, 3D) | trilha e efeitos trocados | — | Royal Flush — Chris von Sneidern + whoosh/batida/erro/ding → **Two Inside — Anno Domini Beats** (Hip-Hop dramático) + impacto, riser antes da correção, impacto na virada, swoosh | (a publicar) |
+| 2026-11-19 21h (troca de trilha) | Reel 21/11 12h (AUTOMAÇÃO: cena "Saí de casa") | trilha e efeitos trocados | — | After Sunset — Alex Jones/Xander Jones + pop/erro/clique/whoosh/ding/plim → **Vibe Check — Blue Deer Studio** (Dance & Electronic) + impacto, riser, impacto, swoosh | (a publicar) |
+| 2026-11-19 21h (troca de trilha) | Reel 21/11 19h (REDE: TV travando, cabo × Wi-Fi) | trilha e efeitos trocados | — | On The Eve — The Grey Room/Density & Time + pop/batida/clique/whoosh/erro/ding/plim → **Circuit Rush — The Mini Vandals** (chill eletrônico) + impacto, riser, impacto, swoosh | (a publicar) |

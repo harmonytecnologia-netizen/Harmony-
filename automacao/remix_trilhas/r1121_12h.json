@@ -1,0 +1,3 @@
+{"video":"../../fila/2026-11-21/reel_12h.mp4","saida":"r1121_12h.mp4","musica":"../musicas/Vibe Check - Blue Deer Studio.mp3",
+ "falas":[{"arquivo":"../animacoes/automacao_sai_de_casa/voz.wav","t":0.2}],
+ "efeitos":[{"t":0.0,"som":"impacto","vol":0.6},{"t":5.9,"som":"riser","dur":1.2,"vol":0.4},{"t":7.1,"som":"impacto","vol":0.5},{"t":17.8,"som":"swoosh","vol":0.45}]}
