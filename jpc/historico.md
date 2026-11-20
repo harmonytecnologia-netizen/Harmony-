@@ -91,3 +91,7 @@
 | 2026-11-20 | 11h00 | story do Reel de corte | mesmo vídeo | — | 17915340090483070 |
 | 2026-11-20 | 11h45 | Reel corte GTA 6 (extra) | Paulinho #3 "primeira missão, que agonia / cê é louco" (live hOOiQagTyTA 0:11:12–0:11:57) | — | 18103098044387306 |
 | 2026-11-20 | 11h45 | story do Reel de corte | mesmo vídeo | — | 18642961150040398 |
+| 2026-11-20 | 12h | feed (imagem) | g6f001 "GTA 6 PC download é golpe" | — | 18119650052010988 |
+| 2026-11-20 | 12h | story do feed | story_feed.jpg | — | 17970020658198360 |
+| 2026-11-20 | 12h | Reel | g6r001 "16 ou 32 GB de RAM pro GTA 6" | bad_news_steve_kane.mp3 + narração Piper | 18166282849492198 |
+| 2026-11-20 | 12h | story do Reel | reel.mp4 | bad_news_steve_kane.mp3 | 18170685304485757 |
