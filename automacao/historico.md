@@ -88,3 +88,4 @@
 | 2026-11-19 19h | Story do carrossel | story_carrossel.jpg | — | — | 18202291204387566 |
 | 2026-11-19 19h | Reel MOVE Explica 3D | Automação: módulo sem neutro, luz piscando (reel_19h.mp4) | trilha do vídeo | — | 18498155896110893 |
 | 2026-11-19 19h | Story do Reel | reel_19h.mp4 | trilha do vídeo | — | 18134698168773309 |
+| 2026-11-19 21h (21h05) | Story próprio (21h) | story_21h_1.jpg | — | — | 18109283381253542 |
