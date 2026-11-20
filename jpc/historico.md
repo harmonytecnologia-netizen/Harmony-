@@ -83,3 +83,5 @@
 | 2026-11-20 | 07h45 | story do Reel de corte | mesmo vídeo | — | 18460758700121811 |
 | 2026-11-20 | 08h45 | Reel corte GTA 6 (extra) | Paulinho #3 "não tem cavalo no GTA 6… só porque eu falei" (live hOOiQagTyTA 1:36:04–1:36:41) | — | 18080207093741872 |
 | 2026-11-20 | 08h45 | story do Reel de corte | mesmo vídeo | — | 17911917090669144 |
+| 2026-11-20 | 09h | story próprio | g6s005 | — | 18103788743532650 |
+| 2026-11-20 | 09h | story próprio | g6s006 | — | 18132102310916977 |
