@@ -48,6 +48,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Contratou 500 mega e, no cabo, o teste trava em 94? 🌐\n\nOlha o conector. Se um par de fios ficou curto ou fora de ordem, a placa só conecta a 100: o gigabit precisa dos 4 pares.\nO certo: os 8 fios na ordem, até o fim do conector, com a capa presa pela trava. Depois, o testador: as 8 luzes têm que acender.\nAí sim chega o plano todo.\n\nSalve para conferir na sua obra.\nSeu cabo foi testado? Comenta: sim ou não.\n\nAnimação conceito.\n\n#RedeEstruturada #Internet #WiFi #CasaInteligente #SmartHome #MOVE",
+   "thumb_offset": 17500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
   }
  ],
  "21h": [
