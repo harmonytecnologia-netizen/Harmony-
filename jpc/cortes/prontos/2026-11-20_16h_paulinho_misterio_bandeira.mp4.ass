@@ -1,0 +1,48 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.58,0:00:02.22,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TEM{\r} ALGUMA COISA
+Dialogue: 0,0:00:02.22,0:00:02.48,L,,0,0,0,,TEM {\c&H4FE1FF&\fscx112\fscy112}ALGUMA{\r} COISA
+Dialogue: 0,0:00:02.48,0:00:02.88,L,,0,0,0,,TEM ALGUMA {\c&H4FE1FF&\fscx112\fscy112}COISA{\r}
+Dialogue: 0,0:00:02.88,0:00:03.20,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} GENTE BANDEIRA
+Dialogue: 0,0:00:03.20,0:00:03.46,L,,0,0,0,,AQUI {\c&H4FE1FF&\fscx112\fscy112}GENTE{\r} BANDEIRA
+Dialogue: 0,0:00:03.46,0:00:04.24,L,,0,0,0,,AQUI GENTE {\c&H4FE1FF&\fscx112\fscy112}BANDEIRA{\r}
+Dialogue: 0,0:00:04.24,0:00:04.42,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}COM{\r} VENTO NÃO
+Dialogue: 0,0:00:04.42,0:00:04.80,L,,0,0,0,,COM {\c&H4FE1FF&\fscx112\fscy112}VENTO{\r} NÃO
+Dialogue: 0,0:00:04.80,0:00:04.92,L,,0,0,0,,COM VENTO {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r}
+Dialogue: 0,0:00:04.92,0:00:05.16,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}É{\r} NÃO É
+Dialogue: 0,0:00:05.16,0:00:05.36,L,,0,0,0,,É {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} É
+Dialogue: 0,0:00:05.36,0:00:05.56,L,,0,0,0,,É NÃO {\c&H4FE1FF&\fscx112\fscy112}É{\r}
+Dialogue: 0,0:00:05.56,0:00:05.72,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} É BARULHO
+Dialogue: 0,0:00:05.72,0:00:08.04,L,,0,0,0,,NÃO {\c&H4FE1FF&\fscx112\fscy112}É{\r} BARULHO
+Dialogue: 0,0:00:08.04,0:00:09.16,L,,0,0,0,,NÃO É {\c&H4FE1FF&\fscx112\fscy112}BARULHO{\r}
+Dialogue: 0,0:00:09.16,0:00:09.90,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}REPETITIVO{\r} PÔ É
+Dialogue: 0,0:00:09.90,0:00:13.56,L,,0,0,0,,REPETITIVO {\c&H4FE1FF&\fscx112\fscy112}PÔ{\r} É
+Dialogue: 0,0:00:13.56,0:00:14.78,L,,0,0,0,,REPETITIVO PÔ {\c&H4FE1FF&\fscx112\fscy112}É{\r}
+Dialogue: 0,0:00:14.78,0:00:16.76,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CHAT{\r} VIAJEI? DENTRO
+Dialogue: 0,0:00:16.76,0:00:17.32,L,,0,0,0,,CHAT {\c&H4FE1FF&\fscx112\fscy112}VIAJEI?{\r} DENTRO
+Dialogue: 0,0:00:17.32,0:00:17.52,L,,0,0,0,,CHAT VIAJEI? {\c&H4FE1FF&\fscx112\fscy112}DENTRO{\r}
+Dialogue: 0,0:00:17.52,0:00:17.88,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CHAT{\r} A BANDEIRA
+Dialogue: 0,0:00:17.88,0:00:18.08,L,,0,0,0,,CHAT {\c&H4FE1FF&\fscx112\fscy112}A{\r} BANDEIRA
+Dialogue: 0,0:00:18.08,0:00:18.80,L,,0,0,0,,CHAT A {\c&H4FE1FF&\fscx112\fscy112}BANDEIRA{\r}
+Dialogue: 0,0:00:18.80,0:00:20.16,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} BANDEIRA VIBRA
+Dialogue: 0,0:00:20.16,0:00:20.54,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}BANDEIRA{\r} VIBRA
+Dialogue: 0,0:00:20.54,0:00:20.90,L,,0,0,0,,A BANDEIRA {\c&H4FE1FF&\fscx112\fscy112}VIBRA{\r}
+Dialogue: 0,0:00:20.90,0:00:21.18,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AGORA{\r} TEM ALGUMA
+Dialogue: 0,0:00:21.18,0:00:25.57,L,,0,0,0,,AGORA {\c&H4FE1FF&\fscx112\fscy112}TEM{\r} ALGUMA
+Dialogue: 0,0:00:25.57,0:00:25.79,L,,0,0,0,,AGORA TEM {\c&H4FE1FF&\fscx112\fscy112}ALGUMA{\r}
+Dialogue: 0,0:00:25.79,0:00:26.11,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}COISA{\r} AQUI VOU
+Dialogue: 0,0:00:26.11,0:00:26.43,L,,0,0,0,,COISA {\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} VOU
+Dialogue: 0,0:00:26.43,0:00:27.45,L,,0,0,0,,COISA AQUI {\c&H4FE1FF&\fscx112\fscy112}VOU{\r}
+Dialogue: 0,0:00:33.28,0:00:33.56,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOLTAR{\r} A OUTRA
+Dialogue: 0,0:00:33.56,0:00:33.66,L,,0,0,0,,VOLTAR {\c&H4FE1FF&\fscx112\fscy112}A{\r} OUTRA
+Dialogue: 0,0:00:33.66,0:00:33.80,L,,0,0,0,,VOLTAR A {\c&H4FE1FF&\fscx112\fscy112}OUTRA{\r}
+Dialogue: 0,0:00:33.80,0:00:34.02,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}HORA{\r}
