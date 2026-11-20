@@ -58,7 +58,7 @@ def ass_tempo(t):
     return f"{h}:{m:02d}:{sec:05.2f}"
 
 
-def gerar_legenda(arquivo, ini, dur, modelo, destino):
+def gerar_legenda(arquivo, ini, dur, modelo, destino, corrigir=None):
     """Transcreve so o trecho do corte e escreve .ass com 3 palavras por vez, palavra falada em amarelo."""
     from faster_whisper import WhisperModel
     tmp = destino + ".wav"
@@ -70,6 +70,14 @@ def gerar_legenda(arquivo, ini, dur, modelo, destino):
         audio = np.frombuffer(wf.readframes(wf.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
     segs, _ = m.transcribe(audio, language="pt", word_timestamps=True, vad_filter=True)
     palavras = [w for sgm in segs for w in (sgm.words or [])]
+    # --corrigir "ERRADA:CERTA" ou "ERRADA@PROXIMA:CERTA" (so quando a palavra seguinte for PROXIMA)
+    textos = [w.word.strip().upper() for w in palavras]
+    for regra in (corrigir or []):
+        alvo, novo = regra.split(":", 1)
+        alvo, prox = (alvo.split("@", 1) + [None])[:2]
+        for i, t in enumerate(textos):
+            if t.strip(".,!?") == alvo.upper().strip(".,!?") and (prox is None or (i + 1 < len(textos) and textos[i + 1] == prox.upper())):
+                textos[i] = novo.upper()
     os.remove(tmp)
     cab = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
            "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
@@ -81,8 +89,8 @@ def gerar_legenda(arquivo, ini, dur, modelo, destino):
         grupo = palavras[i:i + 3]
         for j, w in enumerate(grupo):
             fim = grupo[j + 1].start if j + 1 < len(grupo) else w.end
-            txt = " ".join(("{\\c&H4FE1FF&\\fscx112\\fscy112}" + x.word.strip().upper() + "{\\r}") if k == j
-                           else x.word.strip().upper() for k, x in enumerate(grupo))
+            txt = " ".join(("{\\c&H4FE1FF&\\fscx112\\fscy112}" + textos[i + k] + "{\\r}") if k == j
+                           else textos[i + k] for k, x in enumerate(grupo))
             linhas.append(f"Dialogue: 0,{ass_tempo(w.start)},{ass_tempo(max(fim, w.start + 0.05))},L,,0,0,0,,{txt}")
     with open(destino, "w", encoding="utf-8") as f:
         f.write(cab + "\n".join(linhas) + "\n")
@@ -105,6 +113,7 @@ def main():
     ap.add_argument("--legenda", action="store_true", help="legenda automatica palavra por palavra (Whisper local, gratis)")
     ap.add_argument("--modelo", default="small", help="modelo Whisper: base/small/medium")
     ap.add_argument("--saida", default="corte.mp4")
+    ap.add_argument("--corrigir", nargs="*", default=[], help='corrige palavras da legenda: "ERRADA:CERTA" ou "ERRADA@PROXIMA:CERTA"')
     a = ap.parse_args()
 
     ini, fim = segundos(a.inicio), segundos(a.fim)
@@ -153,7 +162,7 @@ def main():
             txt = f"[f{i}]"
     if a.legenda:
         ass = os.path.abspath(a.saida) + ".ass"
-        n_pal = gerar_legenda(a.entrada, ini, dur, a.modelo, ass)
+        n_pal = gerar_legenda(a.entrada, ini, dur, a.modelo, ass, a.corrigir)
         print(f"legenda: {n_pal} palavras")
         filtros.append(f"{txt}subtitles='{ass}':fontsdir='{FONTES}'[leg]")
         txt = "[leg]"
