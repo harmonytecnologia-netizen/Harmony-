@@ -95,3 +95,5 @@
 | 2026-11-20 | 12h | story do feed | story_feed.jpg | — | 17970020658198360 |
 | 2026-11-20 | 12h | Reel | g6r001 "16 ou 32 GB de RAM pro GTA 6" | bad_news_steve_kane.mp3 + narração Piper | 18166282849492198 |
 | 2026-11-20 | 12h | story do Reel | reel.mp4 | bad_news_steve_kane.mp3 | 18170685304485757 |
+| 2026-11-20 | 12h | Reel corte GTA 6 | fuga perfeita de motinha (Paulinho #3 2:14:02) | — | 18083803097562973 |
+| 2026-11-20 | 12h | story corte GTA 6 | fuga perfeita de motinha | — | 18103274606388638 |
