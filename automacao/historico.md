@@ -104,3 +104,7 @@
 | 2026-11-20 12h | Story do Reel | reel_12h.mp4 | — | Shadowstep — The Mini Vandals | 18094750679237414 |
 | 2026-11-20 15h (15h06) | Story próprio (15h) | Nobreak "Faltou luz" (story_15h_1.jpg) | — | — | 18362884228171883 |
 | 2026-11-20 15h (15h06) | Story próprio (15h) | Enquete nobreak (story_15h_2.jpg) | — | — | 18148364293606178 |
+| 2026-11-20 19h | Carrossel (6 slides) | "Faltou luz. Sua casa fica cega?" — nobreak (carrossel_1-6.jpg) | — | — | 17960620848266681 |
+| 2026-11-20 19h | Story do carrossel | story_carrossel.jpg | — | — | 18100126658448190 |
+| 2026-11-20 19h | Reel MOVE Explica 3D | "Caiu a luz… e a sua câmera apagou junto?" — nobreak (reel_19h.mp4) | — | — | 18128982178682207 |
+| 2026-11-20 19h | Story do Reel | reel_19h.mp4 | — | — | 18226095640339884 |
