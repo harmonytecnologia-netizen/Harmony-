@@ -85,7 +85,7 @@ def main(cfg_path):
     L = cfg.get('lufs', -14)
     m = subprocess.run(['ffmpeg', '-hide_banner', '-f', 'f32le', '-ar', str(SR), '-ac', '2', '-i', raw, '-af', f'loudnorm=I={L}:TP=-1.0:LRA=11:print_format=json', '-f', 'null', '-'], capture_output=True, text=True).stderr
     j = json.loads(m[m.rfind('{'):m.rfind('}') + 1])
-    ln = f"volume={L - float(j['input_i']):.2f}dB,alimiter=limit=0.89:level=false"  # ganho exato ate -14 LUFS + teto -1 dBTP
+    ln = f"volume={L - float(j['input_i']):.2f}dB,alimiter=limit=0.84:level=false"  # ganho exato ate -14 LUFS + teto -1 dBTP
     out = P(cfg['saida']); tmpv = out + '.tmp.mp4'
     subprocess.run(['ffmpeg', '-y', '-v', 'error', '-i', video, '-f', 'f32le', '-ar', str(SR), '-ac', '2', '-i', raw, '-filter_complex', f'[1:a]{ln},aresample=48000[a]',
                     '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-t', f'{D}', '-movflags', '+faststart', tmpv], check=True)
