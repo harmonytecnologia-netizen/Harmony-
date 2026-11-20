@@ -4,16 +4,16 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 7
+- cortes_postados: 8
 - corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
-| ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (nova, AO VIVO desde 20/11 10h54 BRT; ainda ao vivo 13h45) | ao vivo | — (sem transcrição durante a live; minerar quando encerrar) |
+| ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (nova, AO VIVO desde 20/11 10h54 BRT; ainda ao vivo 14h45) | ao vivo | — (sem transcrição durante a live; minerar quando encerrar) |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
-| hOOiQagTyTA | GTA 6 SEGUNDO DIA! #3 | 3:02:49 | 0:11:12–0:11:57 (primeira missão, agonia/barco); 2:44:48–2:45:50 (avião/paraquedas); 1:36:04–1:36:41 (cavalo); 1:31:31–1:32:00 (roubaram a ambulância); 1:26:11–1:26:20 + 1:26:33–1:26:59 (Eclipse vermelhão/Penumbra); 2:14:02–2:14:47 (fuga perfeita de motinha, 1.700); 0:16:40–0:17:21 (trocação no incêndio + dinheiro queimou) |
+| hOOiQagTyTA | GTA 6 SEGUNDO DIA! #3 | 3:02:49 | 0:11:12–0:11:57 (primeira missão, agonia/barco); 2:44:48–2:45:50 (avião/paraquedas); 1:36:04–1:36:41 (cavalo); 1:31:31–1:32:00 (roubaram a ambulância); 1:26:11–1:26:20 + 1:26:33–1:26:59 (Eclipse vermelhão/Penumbra); 2:14:02–2:14:47 (fuga perfeita de motinha, 1.700); 0:16:40–0:17:21 (trocação no incêndio + dinheiro queimou); 1:37:54–1:38:39 (funcionária da fazenda chamou a polícia / crime denunciado) |
 
 ## Ideias já achadas na transcrição (ainda não cortadas)
 - #3 2:39:03–2:41:27 barulho misterioso + controle vibrando (mistério no mapa)
@@ -21,7 +21,8 @@
 - #3 2:12:11–2:12:24 "que top esse estilo de assalto" (início do assalto de moto; resto já usado)
 - #3 2:13:13–2:13:46 polícia chegando no assalto de moto ("tem polícia aqui") — tem palavrão, cortar com cuidado
 - #3 0:43:54 "a Rockstar é tão boa que a cobra Dolores fugiu" (detalhe do jogo)
-- #3 1:37:26–1:38:30 cavalo segue ele + mulher chama a polícia (continuação do corte do cavalo)
+- #3 1:37:20–1:37:50 cavalo correndo atrás dela + pede desculpa às funcionárias (início, antes do trecho da polícia já usado)
+- Lives #1 (cxuF5siTUQw) e #2 (X2rtbJJEvVE) ainda nunca mineradas — próxima fonte se #3 acabar
 
 - #3 ~1:27:00–1:28:00 dirigindo o Penumbra vermelho pela primeira vez (continuação do corte do Eclipse; conferir)
 
@@ -35,3 +36,4 @@
 | 2026-11-20 | 11h45 | live nova ivjSsjiHbZA AO VIVO (sem transcrição ainda); usada ideia da primeira missão do #3 | Reel 18103098044387306 + story 18642961150040398 |
 | 2026-11-20 | 12h45 | live ivjSsjiHbZA ainda AO VIVO (sem transcrição; página watch não carregou transcrição); usada ideia do assalto de moto do #3 | Reel 18083803097562973 + story 18103274606388638 |
 | 2026-11-20 | 13h45 | live ivjSsjiHbZA ainda AO VIVO (sem transcrição; get_transcript bloqueado); usada ideia da briga/dinheiro do #3 | Reel 18171864598484903 + story 18165570265503232 |
+| 2026-11-20 | 14h45 | live ivjSsjiHbZA ainda AO VIVO (transcrição da watch não carregou); usada ideia do cavalo/polícia do #3 (transcrito com Whisper local) | Reel 18118760288039355 + story 17946413679382652 |

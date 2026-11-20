@@ -98,3 +98,4 @@
 | 2026-11-20 | 12h | Reel corte GTA 6 | fuga perfeita de motinha (Paulinho #3 2:14:02) | — | 18083803097562973 |
 | 2026-11-20 | 12h | story corte GTA 6 | fuga perfeita de motinha | — | 18103274606388638 |
 | 2026-11-20 | 13h45 | Reel corte GTA 6 | Paulinho: trocação no incêndio e o dinheiro queimou (#3 0:16:40) | — | 18171864598484903 (story 18165570265503232) |
+| 2026-11-20 | 14h45 | Reel corte GTA 6 | Paulinho: tentou conversar e a funcionária chamou a polícia (#3 1:37:54) | — | 18118760288039355 (story 17946413679382652) |
