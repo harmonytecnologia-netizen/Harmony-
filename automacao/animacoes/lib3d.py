@@ -166,7 +166,7 @@ def camera(lente=38, fstop=2.2):
 def finalizar(out_dir):
     sc = bpy.context.scene
     sc.render.engine = 'CYCLES'; sc.cycles.device = 'CPU'; sc.cycles.samples = int(os.environ.get('SAMPLES', 12)); sc.cycles.use_denoising = True
-    sc.cycles.max_bounces = 4; sc.cycles.diffuse_bounces = 2; sc.cycles.glossy_bounces = 2; sc.cycles.transmission_bounces = 0
+    sc.cycles.max_bounces = 4; sc.cycles.diffuse_bounces = 2; sc.cycles.glossy_bounces = 2; sc.cycles.transmission_bounces = int(os.environ.get('TRANS', 0))
     sc.render.resolution_x = int(os.environ.get('LARG', 540)); sc.render.resolution_y = int(os.environ.get('ALT', 960))
     sc.render.image_settings.file_format = 'JPEG'; sc.render.image_settings.quality = 94
     sc.view_settings.view_transform = 'AgX'; sc.view_settings.look = 'AgX - Medium High Contrast'

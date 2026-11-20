@@ -1,0 +1,6 @@
+{"fps":30,"xf":0.4,"cenas":[
+{"img":"cenas/R1.jpg","dur":2.6,"mov":"in"},
+{"img":"cenas/R2.jpg","dur":1.9,"mov":"left","tr":"fadeblack"},
+{"img":"cenas/R3.jpg","dur":7.5,"mov":"in","tr":"fadewhite"},
+{"img":"cenas/R4.jpg","dur":2.2,"mov":"out","tr":"smoothleft"},
+{"img":"cenas/R5.jpg","dur":7.6,"mov":"in","tr":"fadeblack"}]}

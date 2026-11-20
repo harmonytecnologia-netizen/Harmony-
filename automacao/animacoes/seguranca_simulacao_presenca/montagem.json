@@ -1,0 +1,12 @@
+{"video":"anim.mp4","segurar_fim":1.2,"duracao":23.1,"musica":"silencio.wav",
+ "falas":[{"arquivo":"voz.wav","t":0.2}],
+ "cartoes":[
+  {"de":0,"ate":21.8,"img":"badge.png"},
+  {"de":0,"ate":2.6,"titulo":"VAI VIAJAR E A CASA","titulo2":"FICA APAGADA?","cor2":"erro","contorno":5},
+  {"de":2.6,"ate":4.5,"titulo":"CASA ESCURA","titulo2":"= CASA VAZIA","cor2":"erro","contorno":5},
+  {"de":4.5,"ate":9.5,"titulo":"O CERTO:","titulo2":"SIMULAÇÃO DE PRESENÇA","cor2":"destaque","rodape":"luzes em horários diferentes","contorno":5,"contorno_rodape":3},
+  {"de":9.5,"ate":12.0,"titulo":"CORTINA ABRE DE DIA","titulo2":"E FECHA À NOITE","cor2":"destaque","contorno":5},
+  {"de":12.0,"ate":14.2,"titulo":"VOCÊ CONFERE","titulo2":"PELO CELULAR","cor2":"destaque","contorno":5},
+  {"de":14.2,"ate":16.7,"titulo":"PRA QUEM ESTÁ NA RUA:","titulo2":"TEM GENTE EM CASA","cor2":"destaque","pilula":"✓ CERTO","contorno":5},
+  {"de":16.7,"ate":21.8,"titulo":"NA VIAGEM, SUA CASA FICA","titulo2":"ACESA OU APAGADA?","cor2":"destaque","pilula":"COMENTA: ACESA OU APAGADA","rodape":"Salva pra antes da próxima viagem","contorno":5,"contorno_rodape":3},
+  {"de":21.8,"ate":23.2,"img":"final.png"}]}
