@@ -101,3 +101,4 @@
 | 2026-11-20 | 14h45 | Reel corte GTA 6 | Paulinho: tentou conversar e a funcionária chamou a polícia (#3 1:37:54) | — | 18118760288039355 (story 17946413679382652) |
 | 2026-11-20 | 15h | story próprio | g6s007 | — | 18033967235688302 |
 | 2026-11-20 | 15h45 | Reel corte GTA 6 | Paulinho: controle vibrando sozinho / barulho misterioso (#3 2:39:16) | — | 18126567403902246 (story 17967682686246431) |
+| 2026-11-20 | 16h45 | Reel corte GTA 6 | Paulinho: mistério parte 2 — a bandeira vibrando (#3 2:40:54) | — | 18105243932648572 (story 17921499894538914) |

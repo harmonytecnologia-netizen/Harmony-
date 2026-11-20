@@ -4,7 +4,7 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 9
+- cortes_postados: 10
 - corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
@@ -13,10 +13,10 @@
 | ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (nova, AO VIVO desde 20/11 10h54 BRT; ainda ao vivo 15h45, ~5h50 de live) | ao vivo | — (sem transcrição durante a live; minerar quando encerrar) |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
-| hOOiQagTyTA | GTA 6 SEGUNDO DIA! #3 | 3:02:49 | 0:11:12–0:11:57 (primeira missão, agonia/barco); 2:44:48–2:45:50 (avião/paraquedas); 1:36:04–1:36:41 (cavalo); 1:31:31–1:32:00 (roubaram a ambulância); 1:26:11–1:26:20 + 1:26:33–1:26:59 (Eclipse vermelhão/Penumbra); 2:14:02–2:14:47 (fuga perfeita de motinha, 1.700); 0:16:40–0:17:21 (trocação no incêndio + dinheiro queimou); 1:37:54–1:38:39 (funcionária da fazenda chamou a polícia / crime denunciado); 2:39:16–2:39:58 (controle vibrando sozinho / barulho misterioso) |
+| hOOiQagTyTA | GTA 6 SEGUNDO DIA! #3 | 3:02:49 | 0:11:12–0:11:57 (primeira missão, agonia/barco); 2:44:48–2:45:50 (avião/paraquedas); 1:36:04–1:36:41 (cavalo); 1:31:31–1:32:00 (roubaram a ambulância); 1:26:11–1:26:20 + 1:26:33–1:26:59 (Eclipse vermelhão/Penumbra); 2:14:02–2:14:47 (fuga perfeita de motinha, 1.700); 0:16:40–0:17:21 (trocação no incêndio + dinheiro queimou); 1:37:54–1:38:39 (funcionária da fazenda chamou a polícia / crime denunciado); 2:39:16–2:39:58 (controle vibrando sozinho / barulho misterioso); 2:40:54–2:41:28 (mistério parte 2: bandeira vibrando, "vou voltar outra hora") |
 
 ## Ideias já achadas na transcrição (ainda não cortadas)
-- #3 2:40:20–2:41:27 continuação do mistério: "som vindo daqui de baixo", bandeira vibrando, "vou voltar outra hora" (tem 1 palavrão em ~2:40:20)
+- #3 2:40:22–2:40:54 resto do mistério: "som vindo daqui de baixo", "será que tem horário pra vir aqui?" (palavrão "que merda" em 2:40:21 — começar depois) — parte 2 já usada
 - #3 2:39:03–2:39:16 "tá fazendo um barulho aqui... vocês estão vindo?" (início do mistério, antes do trecho usado)
 - #3 0:16:18–0:16:34 cobra no incêndio ("nossa, a cobra!") — resto do trecho já usado
 - #3 2:12:11–2:12:24 "que top esse estilo de assalto" (início do assalto de moto; resto já usado)
@@ -39,3 +39,4 @@
 | 2026-11-20 | 13h45 | live ivjSsjiHbZA ainda AO VIVO (sem transcrição; get_transcript bloqueado); usada ideia da briga/dinheiro do #3 | Reel 18171864598484903 + story 18165570265503232 |
 | 2026-11-20 | 14h45 | live ivjSsjiHbZA ainda AO VIVO (transcrição da watch não carregou); usada ideia do cavalo/polícia do #3 (transcrito com Whisper local) | Reel 18118760288039355 + story 17946413679382652 |
 | 2026-11-20 | 15h45 | live ivjSsjiHbZA ainda AO VIVO (sem transcrição; botão da transcrição do #3 também não apareceu); usada ideia do controle vibrando do #3 (Whisper local) | Reel 18126567403902246 + story 17967682686246431 |
+| 2026-11-20 | 16h45 | live ivjSsjiHbZA ainda AO VIVO (sem duração na lista); usada ideia do mistério parte 2 (bandeira) do #3 (Whisper local) | Reel 18105243932648572 + story 17921499894538914 |
