@@ -97,3 +97,4 @@
 | 2026-11-20 | 12h | story do Reel | reel.mp4 | bad_news_steve_kane.mp3 | 18170685304485757 |
 | 2026-11-20 | 12h | Reel corte GTA 6 | fuga perfeita de motinha (Paulinho #3 2:14:02) | — | 18083803097562973 |
 | 2026-11-20 | 12h | story corte GTA 6 | fuga perfeita de motinha | — | 18103274606388638 |
+| 2026-11-20 | 13h45 | Reel corte GTA 6 | Paulinho: trocação no incêndio e o dinheiro queimou (#3 0:16:40) | — | 18171864598484903 (story 18165570265503232) |
