@@ -18,6 +18,16 @@
   {
    "acao": "create_story",
    "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "Surround no chão, atrás do sofá? 🎬\n\nNessa posição o som bate no encosto e se perde: o efeito que deveria passar por você simplesmente some.\nO certo: caixas nas laterais, um pouco atrás de quem assiste e de 30 a 60 cm acima do ouvido de quem está sentado.\nAssim o filme passa por você, e não por trás do sofá.\n\nSalve para conferir na sua sala.\nA sua surround está no chão ou na parede? Comenta aí.\n\nAnimação conceito.\n\n#HomeTheater #HomeCinema #Surround #Sonorização #SomAmbiente #MOVE",
+   "thumb_offset": 19500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
   }
  ],
  "15h": [
