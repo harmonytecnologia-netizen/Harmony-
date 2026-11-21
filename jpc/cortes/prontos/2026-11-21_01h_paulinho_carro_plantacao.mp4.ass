@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.45,0:00:07.31,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}OI,{\r} PASSOU O
+Dialogue: 0,0:00:07.31,0:00:09.11,L,,0,0,0,,OI, {\c&H4FE1FF&\fscx112\fscy112}PASSOU{\r} O
+Dialogue: 0,0:00:09.11,0:00:09.29,L,,0,0,0,,OI, PASSOU {\c&H4FE1FF&\fscx112\fscy112}O{\r}
+Dialogue: 0,0:00:09.29,0:00:09.49,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}EFEITO{\r} DO TREM,
+Dialogue: 0,0:00:09.49,0:00:09.75,L,,0,0,0,,EFEITO {\c&H4FE1FF&\fscx112\fscy112}DO{\r} TREM,
+Dialogue: 0,0:00:09.75,0:00:09.89,L,,0,0,0,,EFEITO DO {\c&H4FE1FF&\fscx112\fscy112}TREM,{\r}
+Dialogue: 0,0:00:22.56,0:00:23.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}INCRÍVEL{\r} É A
+Dialogue: 0,0:00:23.08,0:00:23.20,L,,0,0,0,,INCRÍVEL {\c&H4FE1FF&\fscx112\fscy112}É{\r} A
+Dialogue: 0,0:00:23.20,0:00:23.25,L,,0,0,0,,INCRÍVEL É {\c&H4FE1FF&\fscx112\fscy112}A{\r}
+Dialogue: 0,0:00:23.24,0:00:24.24,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TURMA,{\r} INCRÍVEL ESSE
+Dialogue: 0,0:00:24.24,0:00:24.84,L,,0,0,0,,TURMA, {\c&H4FE1FF&\fscx112\fscy112}INCRÍVEL{\r} ESSE
+Dialogue: 0,0:00:24.84,0:00:25.02,L,,0,0,0,,TURMA, INCRÍVEL {\c&H4FE1FF&\fscx112\fscy112}ESSE{\r}
+Dialogue: 0,0:00:25.02,0:00:25.32,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}MAPA{\r} NÉ, GUARDA
+Dialogue: 0,0:00:25.32,0:00:25.80,L,,0,0,0,,MAPA {\c&H4FE1FF&\fscx112\fscy112}NÉ,{\r} GUARDA
+Dialogue: 0,0:00:25.80,0:00:27.20,L,,0,0,0,,MAPA NÉ, {\c&H4FE1FF&\fscx112\fscy112}GUARDA{\r}
+Dialogue: 0,0:00:27.20,0:00:27.30,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SE{\r} FICAR INTERAGINDO
+Dialogue: 0,0:00:27.30,0:00:27.44,L,,0,0,0,,SE {\c&H4FE1FF&\fscx112\fscy112}FICAR{\r} INTERAGINDO
+Dialogue: 0,0:00:27.44,0:00:27.94,L,,0,0,0,,SE FICAR {\c&H4FE1FF&\fscx112\fscy112}INTERAGINDO{\r}
+Dialogue: 0,0:00:27.94,0:00:28.44,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PASSANDO{\r} NOS TRENS
+Dialogue: 0,0:00:28.44,0:00:28.62,L,,0,0,0,,PASSANDO {\c&H4FE1FF&\fscx112\fscy112}NOS{\r} TRENS
+Dialogue: 0,0:00:28.62,0:00:29.12,L,,0,0,0,,PASSANDO NOS {\c&H4FE1FF&\fscx112\fscy112}TRENS{\r}
+Dialogue: 0,0:00:29.12,0:00:29.17,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} A GENTE
+Dialogue: 0,0:00:29.12,0:00:29.28,L,,0,0,0,,AQUI {\c&H4FE1FF&\fscx112\fscy112}A{\r} GENTE
+Dialogue: 0,0:00:29.28,0:00:30.88,L,,0,0,0,,AQUI A {\c&H4FE1FF&\fscx112\fscy112}GENTE{\r}
+Dialogue: 0,0:00:30.88,0:00:31.16,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} DEMAIS DA
+Dialogue: 0,0:00:31.16,0:00:31.54,L,,0,0,0,,TÁ {\c&H4FE1FF&\fscx112\fscy112}DEMAIS{\r} DA
+Dialogue: 0,0:00:31.54,0:00:31.68,L,,0,0,0,,TÁ DEMAIS {\c&H4FE1FF&\fscx112\fscy112}DA{\r}
+Dialogue: 0,0:00:31.68,0:00:34.15,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CONTA,{\r} BOM DEMAIS,
+Dialogue: 0,0:00:34.15,0:00:34.47,L,,0,0,0,,CONTA, {\c&H4FE1FF&\fscx112\fscy112}BOM{\r} DEMAIS,
+Dialogue: 0,0:00:34.47,0:00:34.97,L,,0,0,0,,CONTA, BOM {\c&H4FE1FF&\fscx112\fscy112}DEMAIS,{\r}
+Dialogue: 0,0:00:35.11,0:00:35.23,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}BOM{\r} DEMAIS
+Dialogue: 0,0:00:35.23,0:00:35.55,L,,0,0,0,,BOM {\c&H4FE1FF&\fscx112\fscy112}DEMAIS{\r}
