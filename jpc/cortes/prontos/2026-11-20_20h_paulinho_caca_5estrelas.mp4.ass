@@ -1,0 +1,29 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.02,0:00:00.52,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SÓ{\r} FAZER UMAS
+Dialogue: 0,0:00:00.52,0:00:00.76,L,,0,0,0,,SÓ {\c&H4FE1FF&\fscx112\fscy112}FAZER{\r} UMAS
+Dialogue: 0,0:00:00.76,0:00:00.96,L,,0,0,0,,SÓ FAZER {\c&H4FE1FF&\fscx112\fscy112}UMAS{\r}
+Dialogue: 0,0:00:00.96,0:00:01.40,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}MANOBRAS{\r} AQUI, PORQUE
+Dialogue: 0,0:00:01.40,0:00:01.74,L,,0,0,0,,MANOBRAS {\c&H4FE1FF&\fscx112\fscy112}AQUI,{\r} PORQUE
+Dialogue: 0,0:00:01.74,0:00:01.86,L,,0,0,0,,MANOBRAS AQUI, {\c&H4FE1FF&\fscx112\fscy112}PORQUE{\r}
+Dialogue: 0,0:00:01.86,0:00:02.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DEVE QUE{\r} A POLÍCIA
+Dialogue: 0,0:00:02.08,0:00:02.26,L,,0,0,0,,DEVE QUE {\c&H4FE1FF&\fscx112\fscy112}A{\r} POLÍCIA
+Dialogue: 0,0:00:02.26,0:00:02.72,L,,0,0,0,,DEVE QUE A {\c&H4FE1FF&\fscx112\fscy112}POLÍCIA{\r}
+Dialogue: 0,0:00:02.72,0:00:02.86,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VAI{\r} QUERER PEGAR
+Dialogue: 0,0:00:02.86,0:00:03.12,L,,0,0,0,,VAI {\c&H4FE1FF&\fscx112\fscy112}QUERER{\r} PEGAR
+Dialogue: 0,0:00:03.12,0:00:03.52,L,,0,0,0,,VAI QUERER {\c&H4FE1FF&\fscx112\fscy112}PEGAR{\r}
+Dialogue: 0,0:00:03.52,0:00:03.78,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÓS{\r} COM O
+Dialogue: 0,0:00:03.78,0:00:03.98,L,,0,0,0,,NÓS {\c&H4FE1FF&\fscx112\fscy112}COM{\r} O
+Dialogue: 0,0:00:03.98,0:00:04.08,L,,0,0,0,,NÓS COM {\c&H4FE1FF&\fscx112\fscy112}O{\r}
+Dialogue: 0,0:00:04.08,0:00:24.96,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}JATO.{\r} VAI QUEBRAR.
+Dialogue: 0,0:00:24.96,0:00:25.12,L,,0,0,0,,JATO. {\c&H4FE1FF&\fscx112\fscy112}VAI{\r} QUEBRAR.
+Dialogue: 0,0:00:25.12,0:00:25.52,L,,0,0,0,,JATO. VAI {\c&H4FE1FF&\fscx112\fscy112}QUEBRAR.{\r}
