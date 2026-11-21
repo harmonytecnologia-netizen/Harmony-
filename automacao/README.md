@@ -91,6 +91,7 @@ Todo Reel/post é estudado depois de 24–48 h e o aprendizado vale para o próx
 - Comparar com a média dos últimos Reels e anotar em `automacao/aprendizados.md` (criar se não existir): data | post | números | o que deu certo | o que deu errado | o que mudar no próximo.
 - Duração, gancho, ritmo e formato NÃO são fixos: ajustar pelo que os números mostrarem (hoje 20–23 s porque a maioria saiu na metade do Reel de 31 s). Testar uma mudança por vez para saber o que funcionou.
 - Antes de produzir qualquer Reel/carrossel novo, ler `automacao/aprendizados.md`.
+- **Dado de 17–20/11 (3+ posts):** Reels 3D fora de SOM (Wi-Fi 215, segurança 127, neutro 181 views) ficam 7–10x abaixo dos de som (740–1.469) com a mesma duração, e a % assistida cai de 43–45% para 25–33%. O rodízio de assunto (regra do João) continua; o que muda nos Reels de automação/segurança/rede: 1ª frase com número ou caso real ("60 W para 4 caixas?" foi o melhor gancho) e o sintoma visível no 1º s, correção antes de 7 s. Se os próximos 3 fora de som continuarem <250 views, avisar o João para decidir a proporção som × outros.
 
 ## Plano de renda do Instagram (visão do João, 14/11/2026)
 1. Agora: conteúdo educativo + "Gato por lebre" para atrair cliente de obra (orçamento pelo direct). Ainda sem indicar produto específico.

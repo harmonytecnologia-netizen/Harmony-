@@ -109,3 +109,4 @@
 | 2026-11-20 19h | Reel MOVE Explica 3D | "Caiu a luz… e a sua câmera apagou junto?" — nobreak (reel_19h.mp4) | — | — | 18128982178682207 |
 | 2026-11-20 19h | Story do Reel | reel_19h.mp4 | — | — | 18226095640339884 |
 | 2026-11-20 21h (21h08) | Story próprio (21h) | story_21h_1.jpg (1ª tentativa erro "mídia não encontrada", 2ª ok) | — | — | 18383205328212277 |
+| 2026-11-20 21h50 (conferência) | Conferência Windsor | Dia 20/11 completo: 1 feed (12h06 Candeias), 1 carrossel (19h12 nobreak), 2 Reels (12h07 obra real Candeias; 19h12 nobreak 3D), 9 stories (4 próprios: 09h06, 15h06 ×2, 21h08 + 4 de feed/carrossel/Reels + 1 às 09h45). Sem série em partes hoje. Métricas de 4 posts de 19/11 em aprendizados.md; nota no README (Reels 3D fora de som 7–10x abaixo). Fila 21–23/11 com plano completo e arquivos presentes. Obs.: Reels de 20/11 com 93 e 26 views em ~3–10 h | — | — | nada faltou hoje |
