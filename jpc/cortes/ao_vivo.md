@@ -4,13 +4,13 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 14
+- cortes_postados: 15
 - corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
-| ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado) |
+| ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem") |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
 | hOOiQagTyTA | GTA 6 SEGUNDO DIA! #3 | 3:02:49 | 0:11:12–0:11:57 (primeira missão, agonia/barco); 2:44:48–2:45:50 (avião/paraquedas); 1:36:04–1:36:41 (cavalo); 1:31:31–1:32:00 (roubaram a ambulância); 1:26:11–1:26:20 + 1:26:33–1:26:59 (Eclipse vermelhão/Penumbra); 2:14:02–2:14:47 (fuga perfeita de motinha, 1.700); 0:16:40–0:17:21 (trocação no incêndio + dinheiro queimou); 1:37:54–1:38:39 (funcionária da fazenda chamou a polícia / crime denunciado); 2:39:16–2:39:58 (controle vibrando sozinho / barulho misterioso); 2:40:54–2:41:28 (mistério parte 2: bandeira vibrando, "vou voltar outra hora"); 1:37:27–1:37:54 (cavalo vindo atrás + "moça cismada?"); 0:43:56–0:44:29 (cobra Dolores fugiu / tá solta no mapa); 2:40:26–2:40:55 (som vindo debaixo do monumento / ponto de interesse) |
@@ -26,6 +26,7 @@
 - ivjSsjiHbZA (live 20/11) às 19h45 ainda sem transcrição, sem mapa de calor e sem comentários carregando — minerar gravando trechos + Whisper
 
 - ivjSsjiHbZA (20h45): watch ainda sem transcrição na página (captionTracks existe mas timedtext volta vazio). Método novo que funcionou: no embed nocookie, playbackRate=16 + AudioContext/Analyser medindo volume (1 h de live em ~4 min) -> gravar os picos. Varrido 1:00:00–2:00:00; picos ainda não usados: 1:29:00 (5340), 1:39:30–1:40:40 (5970–6070), 1:43:20–1:44:20 (6200–6260), 1:52:10 (6730), 1:54:40 (6880). Resto da live (0–1h e 2h–7h) não varrido.
+- ivjSsjiHbZA (21/11 01h): gravado 1:39:20–1:40:32 — era só dirigindo (estrada -> plantação); usado 1:39:49–1:40:26. Picos ainda não conferidos: 1:43:20–1:44:20 (6200–6260), 1:52:10 (6730), 1:54:40 (6880), 1:29:00 (5340).
 - ivjSsjiHbZA 1:57:59–1:58:20 resto do caça: "vou pular e pegar outro" (parte não legendada no corte; não repetir)
 - #3 0:16:00–0:16:40 conferido (20h45): a "cobra no incêndio" é a mesma cena da trocação já usada, com legenda do jogo cheia de palavrão — descartada
 
@@ -47,3 +48,4 @@
 | 2026-11-20 | 19h45 | sem live nova (última ivjSsjiHbZA encerrada, ainda sem transcrição); usada ideia do som no monumento do #3 (Whisper local) | Reel 18099234470148765 + story 17907966570352453 |
 | 2026-11-20 | 20h45 | sem live nova (última ivjSsjiHbZA, ainda sem transcrição); varredura de volume no embed achou o caça na live nova (Whisper local) | Reel 17944507986390229 + story 18130789700479115 |
 | 2026-11-20 | 21h45 | sem live nova (última ivjSsjiHbZA 7:03:50); começou a gravar o pico 1:39:22–1:41:10 da ivjSsjiHbZA, mas o PC desconectou da ponte do app Claude antes de salvar o arquivo | sem corte (PC offline) — próximo: repetir esse pico |
+| 2026-11-21 | 01h29 | sem live nova (última ivjSsjiHbZA 7:03:50); Downloads liberada de novo; gravado o pico 1:39:20 da ivjSsjiHbZA (Whisper local) | Reel 18125607379938429 + story 18114249833267996 |

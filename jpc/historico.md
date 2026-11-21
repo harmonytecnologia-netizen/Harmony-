@@ -111,3 +111,4 @@
 | 2026-11-20 | 21h | story próprio | g6s008 | — | 17980887542935526 |
 | 2026-11-20 | 21h | story próprio | g6s009 | — | 18137410769498520 |
 | 2026-11-20 | 21h55 | conferência diária | Windsor confirma: 1 feed (imagem) + 1 carrossel + Reel g6r001 + 13 Reels de corte; 22 stories (5 próprios). Meta OK. Fila 21–23/11 completa | — | — |
+| 2026-11-21 | 01h29 | Reel corte GTA 6 | Paulinho: atravessou a plantação de carro (ivjSsjiHbZA 1:39:49) | — | 18125607379938429 (story 18114249833267996) |
