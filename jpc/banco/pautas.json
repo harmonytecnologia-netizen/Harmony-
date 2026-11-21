@@ -174,10 +174,10 @@
    "id": "g6f004"
   },
   {
-   "titulo": "Dual channel no GTA 6",
-   "destaque": "Dual channel",
-   "sub": "2 pentes > 1 pente. Mundo aberto depende muito da memória.",
-   "legenda": "Tem 16 GB num pente só? Cuidado. ⚠️\n\nCom 2 pentes a memória trabalha em dual channel e o processador recebe dados mais rápido. Em jogo de mundo aberto, como deve ser o GTA 6 no PC, isso costuma fazer diferença nas quedas de FPS.\n\nQuantos pentes tem no seu? 👇",
+   "titulo": "US$ 3,79 bilhões em 1 dia",
+   "destaque": "3,79 bilhões",
+   "sub": "Recorde de lançamento informado pela Rockstar em 20/11. O GTA 5 fez uns US$ 800 milhões no 1º dia.",
+   "legenda": "RECORDE! 🤯 A Rockstar informou que o GTA 6 vendeu US$ 3,79 bilhões no varejo só no primeiro dia — o maior lançamento da história do entretenimento, segundo eles.\n\nPra comparar: o GTA 5 fez cerca de US$ 800 milhões no 1º dia, em 2013.\n\nE o PC? Ainda sem data e sem requisito oficial. Você já jogou ou tá esperando o PC? 👇",
    "id": "g6f005"
   },
   {
@@ -249,6 +249,55 @@
    "sub": "Segundo a imprensa: PS5 e Series X saem de 1440p e escalam pra 4K; Series S, de 720p pra 1080p.",
    "legenda": "Como o GTA 6 roda nos consoles, segundo as análises de lançamento: PS5 e Xbox Series X partem de 1440p e escalam pra 4K; o Series S parte de 720p e vai pra 1080p. 📺\n\nPC bom, quando a versão sair, deve deixar você escolher resolução e qualidade do seu jeito.\n\nVocê joga em qual? 👇",
    "id": "g6f015"
+  },
+  {
+   "titulo": "Dual channel no GTA 6",
+   "destaque": "Dual channel",
+   "sub": "2 pentes > 1 pente. Mundo aberto depende muito da memória.",
+   "legenda": "Tem 16 GB num pente só? Cuidado. ⚠️\n\nCom 2 pentes a memória trabalha em dual channel e o processador recebe dados mais rápido. Em jogo de mundo aberto, como deve ser o GTA 6 no PC, isso costuma fazer diferença nas quedas de FPS.\n\nQuantos pentes tem no seu? 👇",
+   "id": "g6f016"
+  },
+  {
+   "titulo": "XMP desligado?",
+   "destaque": "XMP",
+   "sub": "Memória de 3200/3600 MHz pode estar rodando a 2133. Liga o XMP/EXPO na BIOS.",
+   "legenda": "Comprou memória rápida e ela tá rodando devagar? 🐌\n\nSem o XMP (Intel) ou EXPO (AMD) ligado na BIOS, muita memória roda abaixo da velocidade da caixa. Em mundo aberto, como deve ser o GTA 6 no PC, isso conta.\n\nConfere no Gerenciador de Tarefas > Desempenho > Memória. Quanto aparece no seu? 👇",
+   "id": "g6f017"
+  },
+  {
+   "titulo": "Gargalo: o vilão",
+   "destaque": "Gargalo",
+   "sub": "Placa forte + processador fraco (ou o contrário) = dinheiro jogado fora. PC bom é equilibrado.",
+   "legenda": "Gargalo é quando uma peça segura a outra. 🚧\n\nPlaca top com processador antigo = placa parada esperando. Pensando no GTA 6 no PC, o segredo é equilíbrio entre processador, placa e memória — não só a peça mais cara.\n\nManda suas peças + GTA6 no Direct que a gente avalia 👇",
+   "id": "g6f018"
+  },
+  {
+   "titulo": "PC esquentando?",
+   "destaque": "esquentando",
+   "sub": "Poeira, pasta térmica velha e gabinete sem fluxo de ar derrubam o FPS em jogo pesado.",
+   "legenda": "PC esquentando e travando em jogo pesado? 🔥\n\nPoeira, pasta térmica ressecada e gabinete sem entrada e saída de ar fazem a peça baixar o desempenho pra não queimar. Limpeza e organização dos cabos já resolvem muita coisa.\n\nQuando foi a última limpeza do seu? 👇",
+   "id": "g6f019"
+  },
+  {
+   "titulo": "Notebook ou desktop?",
+   "destaque": "desktop",
+   "sub": "Desktop esfria melhor e aceita upgrade peça por peça. Notebook leva pra todo lado.",
+   "legenda": "Notebook gamer ou PC de mesa pensando no GTA 6 no PC? 🤔\n\nDesktop: esfria melhor, rende mais pelo mesmo valor e dá pra fazer upgrade peça por peça. Notebook: portátil, mas quase sem upgrade de placa e processador.\n\nVocê joga onde? 👇",
+   "id": "g6f020"
+  },
+  {
+   "titulo": "Mods no PC",
+   "destaque": "Mods",
+   "sub": "No GTA 5, os mods fizeram a festa no PC. Pro GTA 6 ainda não tem versão de PC.",
+   "legenda": "Uma das maiores vantagens do PC no GTA 5 foram os mods: gráficos, carros, modos novos... 🛠️\n\nPro GTA 6 ainda não existe versão de PC anunciada, então nada de baixar 'mod' ou 'versão PC' agora — é isca de vírus.\n\nQue mod você sonha ver no GTA 6? 👇",
+   "id": "g6f021"
+  },
+  {
+   "titulo": "Driver em dia",
+   "destaque": "Driver",
+   "sub": "Antes de jogo grande, atualize o driver da placa de vídeo pelo site oficial do fabricante.",
+   "legenda": "Antes de qualquer jogo pesado, atualiza o driver da placa de vídeo. 🔄\n\nSempre pelo site ou app oficial da NVIDIA, AMD ou Intel — nunca por site de 'driver grátis'. Driver velho = travada, tela preta e FPS menor.\n\nO seu tá atualizado? 👇",
+   "id": "g6f022"
   }
  ],
  "carrosseis": [
@@ -1209,6 +1258,188 @@
      "b": "Monitor ligado na placa de vídeo, não na placa-mãe."
     }
    ]
+  },
+  {
+   "id": "g6c014",
+   "capa": "GTA 6: os recordes até agora",
+   "slides": [
+    {
+     "t": "1º dia",
+     "b": "US$ 3,79 bilhões em vendas no varejo, segundo a Rockstar (20/11)."
+    },
+    {
+     "t": "Recorde",
+     "b": "Maior lançamento da história do entretenimento, segundo a Rockstar."
+    },
+    {
+     "t": "Comparando",
+     "b": "GTA 5 fez cerca de US$ 800 milhões no 1º dia, em 2013."
+    },
+    {
+     "t": "Plataformas",
+     "b": "Só PS5 e Xbox Series X|S por enquanto."
+    },
+    {
+     "t": "E o PC?",
+     "b": "Ainda sem data e sem requisito oficial."
+    }
+   ]
+  },
+  {
+   "id": "g6c015",
+   "capa": "Como ligar o XMP/EXPO (passo a passo)",
+   "slides": [
+    {
+     "t": "O que é",
+     "b": "Perfil que faz a memória rodar na velocidade da caixa."
+    },
+    {
+     "t": "Entrar na BIOS",
+     "b": "Ligue o PC e aperte Del ou F2 várias vezes."
+    },
+    {
+     "t": "Achar a opção",
+     "b": "Procure XMP (Intel) ou EXPO/DOCP (AMD)."
+    },
+    {
+     "t": "Salvar",
+     "b": "Ative, salve (F10) e reinicie."
+    },
+    {
+     "t": "Conferir",
+     "b": "Gerenciador de Tarefas > Desempenho > Memória > Velocidade."
+    }
+   ]
+  },
+  {
+   "id": "g6c016",
+   "capa": "Gargalo: entenda em 5 slides",
+   "slides": [
+    {
+     "t": "O que é",
+     "b": "Uma peça segurando o desempenho da outra."
+    },
+    {
+     "t": "CPU fraca",
+     "b": "Placa forte fica esperando: FPS cai na cidade cheia."
+    },
+    {
+     "t": "Placa fraca",
+     "b": "Processador sobra e a imagem trava."
+    },
+    {
+     "t": "Memória",
+     "b": "1 pente ou XMP desligado também segura o PC."
+    },
+    {
+     "t": "Solução",
+     "b": "Escolher as peças em equilíbrio. A JPC monta assim."
+    }
+   ]
+  },
+  {
+   "id": "g6c017",
+   "capa": "PC esquentando? 5 causas",
+   "slides": [
+    {
+     "t": "Poeira",
+     "b": "Filtro e dissipador sujos esquentam tudo."
+    },
+    {
+     "t": "Pasta térmica",
+     "b": "Ressecada depois de anos de uso."
+    },
+    {
+     "t": "Fluxo de ar",
+     "b": "Ventoinha de entrada e de saída na direção certa."
+    },
+    {
+     "t": "Cabos",
+     "b": "Bagunça de cabo atrapalha o ar."
+    },
+    {
+     "t": "Lugar",
+     "b": "PC fechado em armário ou no chão com tapete."
+    }
+   ]
+  },
+  {
+   "id": "g6c018",
+   "capa": "Notebook x desktop pro GTA 6",
+   "slides": [
+    {
+     "t": "Desempenho",
+     "b": "Desktop rende mais pelo mesmo investimento."
+    },
+    {
+     "t": "Temperatura",
+     "b": "Gabinete esfria melhor que notebook."
+    },
+    {
+     "t": "Upgrade",
+     "b": "Desktop troca peça por peça. Notebook quase não."
+    },
+    {
+     "t": "Portátil",
+     "b": "Notebook ganha se você joga em vários lugares."
+    },
+    {
+     "t": "Estimativa",
+     "b": "Requisito do GTA 6 PC ainda não saiu."
+    }
+   ]
+  },
+  {
+   "id": "g6c019",
+   "capa": "Config gráfica: o que baixar primeiro",
+   "slides": [
+    {
+     "t": "Sombras",
+     "b": "Do ultra pro alto quase não muda o visual."
+    },
+    {
+     "t": "Distância de visão",
+     "b": "Pesa muito em mundo aberto."
+    },
+    {
+     "t": "Ray tracing",
+     "b": "Bonito, mas derruba o FPS."
+    },
+    {
+     "t": "Upscaling",
+     "b": "DLSS, FSR ou XeSS ajudam muito."
+    },
+    {
+     "t": "Textura",
+     "b": "Ajuste conforme a VRAM da sua placa."
+    }
+   ]
+  },
+  {
+   "id": "g6c020",
+   "capa": "Checklist do PC pro GTA 6 chegar ao PC",
+   "slides": [
+    {
+     "t": "SSD",
+     "b": "NVMe com espaço livre de sobra."
+    },
+    {
+     "t": "Memória",
+     "b": "Dual channel e XMP/EXPO ligado."
+    },
+    {
+     "t": "Temperatura",
+     "b": "Limpeza e pasta térmica em dia."
+    },
+    {
+     "t": "Energia",
+     "b": "Fonte de marca e filtro de linha ou nobreak."
+    },
+    {
+     "t": "Driver",
+     "b": "Placa de vídeo atualizada pelo site oficial."
+    }
+   ]
   }
  ],
  "stories": [
@@ -2137,6 +2368,181 @@
    "id": "g6s069",
    "tipo": "noticia",
    "texto": "A JPC está no modo GTA 6: dica de PC todo dia até ele chegar ao PC."
+  },
+  {
+   "id": "g6s070",
+   "tipo": "noticia",
+   "texto": "Recorde: US$ 3,79 bilhões em vendas do GTA 6 no 1º dia, segundo a Rockstar."
+  },
+  {
+   "id": "g6s071",
+   "tipo": "pergunta",
+   "texto": "Você já comprou o GTA 6 ou tá esperando sair no PC?"
+  },
+  {
+   "id": "g6s072",
+   "tipo": "curiosidade",
+   "texto": "O GTA 5 fez cerca de US$ 800 milhões no 1º dia. O GTA 6 passou de US$ 3,7 bilhões."
+  },
+  {
+   "id": "g6s073",
+   "tipo": "ab",
+   "texto": "Vice City de dia|Vice City de noite"
+  },
+  {
+   "id": "g6s074",
+   "tipo": "agenda",
+   "texto": "PC pronto pro GTA 6 chegar ao PC? Manda GTA6 no Direct."
+  },
+  {
+   "id": "g6s075",
+   "tipo": "dica",
+   "texto": "Gerenciador de Tarefas > Desempenho > Memória: confira a velocidade da sua RAM."
+  },
+  {
+   "id": "g6s076",
+   "tipo": "pergunta",
+   "texto": "Seu PC tem XMP/EXPO ligado? Sim ou não sei?"
+  },
+  {
+   "id": "g6s077",
+   "tipo": "curiosidade",
+   "texto": "Sem XMP/EXPO, muita memória roda bem abaixo da velocidade da caixa."
+  },
+  {
+   "id": "g6s078",
+   "tipo": "ab",
+   "texto": "Intel|AMD"
+  },
+  {
+   "id": "g6s079",
+   "tipo": "agenda",
+   "texto": "Avaliamos seu PC: manda o print do dxdiag + GTA6 no Direct."
+  },
+  {
+   "id": "g6s080",
+   "tipo": "dica",
+   "texto": "Limpe os filtros de poeira do gabinete. PC frio = FPS estável."
+  },
+  {
+   "id": "g6s081",
+   "tipo": "pergunta",
+   "texto": "Quando foi a última limpeza do seu PC?"
+  },
+  {
+   "id": "g6s082",
+   "tipo": "curiosidade",
+   "texto": "Peça quente demais baixa o próprio desempenho pra não queimar."
+  },
+  {
+   "id": "g6s083",
+   "tipo": "ab",
+   "texto": "Gabinete com vidro|Gabinete fechado"
+  },
+  {
+   "id": "g6s084",
+   "tipo": "agenda",
+   "texto": "Manutenção e limpeza de PC: manda ORÇAMENTO no Direct."
+  },
+  {
+   "id": "g6s085",
+   "tipo": "dica",
+   "texto": "Driver da placa de vídeo: só pelo site ou app oficial do fabricante."
+  },
+  {
+   "id": "g6s086",
+   "tipo": "pergunta",
+   "texto": "Qual peça você trocaria primeiro pensando no GTA 6 no PC?"
+  },
+  {
+   "id": "g6s087",
+   "tipo": "curiosidade",
+   "texto": "Gargalo é quando uma peça segura a outra. PC bom é equilibrado."
+  },
+  {
+   "id": "g6s088",
+   "tipo": "ab",
+   "texto": "Notebook gamer|PC de mesa"
+  },
+  {
+   "id": "g6s089",
+   "tipo": "agenda",
+   "texto": "Montamos seu PC equilibrado, sem gargalo. Manda GTA6 no Direct."
+  },
+  {
+   "id": "g6s090",
+   "tipo": "dica",
+   "texto": "Deixe pelo menos 15% do SSD livre. Disco lotado fica mais lento."
+  },
+  {
+   "id": "g6s091",
+   "tipo": "pergunta",
+   "texto": "Qual mod você quer ver no GTA 6 quando sair no PC?"
+  },
+  {
+   "id": "g6s092",
+   "tipo": "curiosidade",
+   "texto": "'Mod de GTA 6 pra PC' hoje é golpe: ainda não existe versão de PC."
+  },
+  {
+   "id": "g6s093",
+   "tipo": "ab",
+   "texto": "Carro esportivo|Moto"
+  },
+  {
+   "id": "g6s094",
+   "tipo": "agenda",
+   "texto": "Upgrade sem dor de cabeça: manda ORÇAMENTO no Direct."
+  },
+  {
+   "id": "g6s095",
+   "tipo": "dica",
+   "texto": "Sombras do ultra pro alto: quase não muda o visual e já ganha FPS."
+  },
+  {
+   "id": "g6s096",
+   "tipo": "pergunta",
+   "texto": "Você joga com FPS travado ou liberado?"
+  },
+  {
+   "id": "g6s097",
+   "tipo": "curiosidade",
+   "texto": "Upscaling (DLSS, FSR, XeSS) ajuda placa intermediária a render mais."
+  },
+  {
+   "id": "g6s098",
+   "tipo": "ab",
+   "texto": "60 FPS cravado|FPS liberado"
+  },
+  {
+   "id": "g6s099",
+   "tipo": "agenda",
+   "texto": "Dúvida de config? Manda GTA6 no Direct que a gente responde."
+  },
+  {
+   "id": "g6s100",
+   "tipo": "dica",
+   "texto": "Feche o navegador antes de jogar pesado: ele come muita memória."
+  },
+  {
+   "id": "g6s101",
+   "tipo": "pergunta",
+   "texto": "Quantas horas você já jogou de GTA 6?"
+  },
+  {
+   "id": "g6s102",
+   "tipo": "curiosidade",
+   "texto": "Fonte genérica pode desligar o PC no meio do jogo. Fonte boa é seguro."
+  },
+  {
+   "id": "g6s103",
+   "tipo": "ab",
+   "texto": "Missão principal|Explorar o mapa"
+  },
+  {
+   "id": "g6s104",
+   "tipo": "agenda",
+   "texto": "PC montado, testado e enviado pra todo o Brasil. Manda ORÇAMENTO no Direct."
   }
  ],
  "reels": [
@@ -2201,18 +2607,6 @@
    "id": "g6r004"
   },
   {
-   "gancho": "LEONIDA TEM 6 REGIÕES",
-   "destaque": "6 REGIÕES",
-   "cards": [
-    "Vice City e Leonida Keys",
-    "Grassrivers e Port Gellhorn",
-    "Ambrosia e Mount Kalaga"
-   ],
-   "narracao": "O mapa do GTA 6 é o estado de Leonida, com seis regiões: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga. Agora imagina o PC que vai precisar para carregar tudo isso quando sair no PC. A JPC monta. Manda GTA6 no Direct.",
-   "legenda": "Leonida: 6 regiões 🌴 Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga.\n\nQual você quer explorar primeiro? 👇",
-   "id": "g6r005"
-  },
-  {
    "gancho": "PLACA SEM FONTE BOA?",
    "destaque": "FONTE",
    "cards": [
@@ -2222,7 +2616,7 @@
    ],
    "narracao": "Vai trocar a placa de vídeo pensando no GTA 6? Olha a fonte antes. Placa mais forte puxa mais energia, e fonte genérica pode desligar no meio da fuga da polícia, ou até queimar peça. Fonte de marca, selo oitenta plus e folga de potência. Manda GTA6 no Direct.",
    "legenda": "Upgrade de placa pensando no GTA 6? ⚡ Olha a fonte primeiro.\n\nMarca conhecida, selo 80 Plus e folga de potência.\n\nQual fonte tem no seu? 👇",
-   "id": "g6r006"
+   "id": "g6r005"
   },
   {
    "gancho": "VRAM: O QUE É ISSO?",
@@ -2234,7 +2628,7 @@
    ],
    "narracao": "VRAM é a memória da placa de vídeo. Em mundo aberto pesado, quando a VRAM acaba, aparecem travadinhas e textura borrada. Requisito oficial do GTA 6 para PC ainda não saiu, mas placa com mais VRAM tende a sofrer menos. Dúvida? Manda GTA6 no Direct.",
    "legenda": "VRAM: a memória da placa de vídeo 🎮\n\nPouca VRAM = textura borrada e travadinha em mundo aberto. Requisito oficial do GTA 6 PC ainda não saiu.\n\nQuantos GB tem a sua? 👇",
-   "id": "g6r007"
+   "id": "g6r006"
   },
   {
    "gancho": "GTA 5 DEMOROU 2 ANOS",
@@ -2246,7 +2640,7 @@
    ],
    "narracao": "Lembra do GTA 5? Saiu no console em dois mil e treze e no PC só em dois mil e quinze. O GTA 6 ainda não tem data para PC. Ou seja: dá tempo de preparar o seu PC com calma, peça por peça. Manda GTA6 no Direct que a gente monta o plano.",
    "legenda": "GTA 5 levou 2 anos pra chegar ao PC. ⏳ GTA 6 ainda sem data de PC.\n\nDá tempo de preparar o PC com calma, peça por peça.\n\nVocê espera ou joga no console? 👇",
-   "id": "g6r008"
+   "id": "g6r007"
   },
   {
    "gancho": "SEU PC AGUENTA?",
@@ -2258,7 +2652,7 @@
    ],
    "narracao": "Quer saber se o seu PC vai aguentar o GTA 6 quando ele chegar ao PC? Aperta Windows mais R, digita dxdiag e anota processador, memória e placa de vídeo. Manda o print com GTA6 no Direct da JPC, que a gente te fala o que trocar.",
    "legenda": "Seu PC aguenta o GTA 6? 🤔 Faz o teste: Win + R > dxdiag.\n\nManda o print + GTA6 no Direct que a JPC avalia. Sem promessa de FPS: requisito oficial ainda não saiu.\n\n👇",
-   "id": "g6r009"
+   "id": "g6r008"
   },
   {
    "gancho": "CIDADE VIVA PESA NO PROCESSADOR",
@@ -2270,7 +2664,7 @@
    ],
    "narracao": "Cidade viva pesa no processador. Trânsito, pedestres e polícia: tudo isso é conta da CPU. Processador fraco com placa forte vira gargalo e a cidade trava. Estimativa da JPC para o GTA 6 no PC: processador atual de seis núcleos ou mais. Manda GTA6 no Direct.",
    "legenda": "Mundo aberto = processador trabalhando 🏙️\n\nEstimativa JPC (sem requisito oficial): processador atual, 6 núcleos ou mais, equilibrado com a placa.\n\nQual o seu? 👇",
-   "id": "g6r010"
+   "id": "g6r009"
   },
   {
    "gancho": "3 CONFIGS QUE DERRUBAM O FPS",
@@ -2282,7 +2676,7 @@
    ],
    "narracao": "Três configurações que mais derrubam o FPS em mundo aberto: distância de visão, sombras no ultra e ray tracing. Sombra no alto quase não muda o visual e já dá um respiro. Salva para quando o GTA 6 chegar ao PC, e manda GTA6 no Direct.",
    "legenda": "3 configs que mais pesam em mundo aberto 📉 distância de visão, sombras no ultra e ray tracing.\n\nSalva pra quando o GTA 6 chegar ao PC 💾",
-   "id": "g6r011"
+   "id": "g6r010"
   },
   {
    "gancho": "PREPARE O PC EM 5 PASSOS",
@@ -2294,7 +2688,7 @@
    ],
    "narracao": "Prepare o PC para o GTA 6 em cinco passos: limpeza, driver de vídeo atualizado, SSD com espaço livre, memória em dual channel com XMP ligado, e fonte boa com filtro de linha. Quer ajuda? Manda GTA6 no Direct da JPC.",
    "legenda": "5 passos pra deixar o PC pronto pro GTA 6 chegar ao PC ✅ limpeza, driver, SSD com espaço, dual channel + XMP e fonte boa.\n\nSalva e manda pro duo 💾",
-   "id": "g6r012"
+   "id": "g6r011"
   },
   {
    "gancho": "CONSOLE AGORA, PC DEPOIS?",
@@ -2306,7 +2700,91 @@
    ],
    "narracao": "Console agora, PC depois? Muita gente vai fazer isso. Joga o GTA 6 no console hoje e prepara o PC com calma, para quando a versão de PC for anunciada. A JPC monta, testa e envia para todo o Brasil. Manda GTA6 no Direct.",
    "legenda": "Console agora, PC depois? 🎮➡️🖥️\n\nJoga no console e prepara o PC com calma. A JPC monta, testa e envia pra todo o Brasil.\n\nManda GTA6 no Direct 👇",
+   "id": "g6r012"
+  },
+  {
+   "gancho": "US$ 3,79 BI EM 1 DIA",
+   "destaque": "3,79 BI",
+   "cards": [
+    "Recorde informado pela Rockstar em 20/11",
+    "GTA 5 fez uns US$ 800 mi no 1º dia",
+    "PC: ainda sem data"
+   ],
+   "narracao": "Três vírgula setenta e nove bilhões de dólares em um dia. Foi o que a Rockstar informou de vendas do GTA 6 no primeiro dia, o maior lançamento da história do entretenimento, segundo eles. O GTA 5 tinha feito uns oitocentos milhões. E no PC? Ainda sem data. Manda GTA6 no Direct da JPC.",
+   "legenda": "US$ 3,79 BILHÕES no 1º dia 🤯 Recorde informado pela Rockstar em 20/11.\n\nO GTA 5 fez cerca de US$ 800 milhões no 1º dia. E a versão de PC do GTA 6? Ainda sem data e sem requisito oficial.\n\nJá jogou? 👇",
    "id": "g6r013"
+  },
+  {
+   "gancho": "SUA MEMÓRIA TÁ LENTA?",
+   "destaque": "LENTA",
+   "cards": [
+    "XMP/EXPO desligado = memória devagar",
+    "Liga na BIOS em 1 minuto",
+    "Confere no Gerenciador de Tarefas"
+   ],
+   "narracao": "Sua memória pode estar lenta e você nem sabe. Sem o XMP ou o EXPO ligado na BIOS, muita memória roda abaixo da velocidade da caixa. Liga na BIOS, salva e confere no Gerenciador de Tarefas. Em mundo aberto, isso faz diferença. Manda GTA6 no Direct.",
+   "legenda": "Memória rodando devagar? 🐌 Liga o XMP/EXPO na BIOS.\n\nConfere em Gerenciador de Tarefas > Desempenho > Memória.\n\nQuanto aparece no seu? 👇",
+   "id": "g6r014"
+  },
+  {
+   "gancho": "GARGALO: O VILÃO DO FPS",
+   "destaque": "GARGALO",
+   "cards": [
+    "Uma peça segura a outra",
+    "Placa top + CPU fraca = placa parada",
+    "PC bom é PC equilibrado"
+   ],
+   "narracao": "Gargalo é quando uma peça segura a outra. Placa de vídeo top com processador antigo deixa a placa parada esperando, e a cidade trava. Pensando no GTA 6 no PC, o segredo é equilíbrio. Manda suas peças e GTA6 no Direct da JPC.",
+   "legenda": "Gargalo: o vilão do FPS 🚧\n\nPC bom é PC equilibrado: processador, placa e memória no mesmo nível.\n\nManda suas peças + GTA6 no Direct 👇",
+   "id": "g6r015"
+  },
+  {
+   "gancho": "PC ESQUENTANDO?",
+   "destaque": "ESQUENTANDO",
+   "cards": [
+    "Poeira e pasta térmica velha",
+    "Ventoinhas na direção errada",
+    "Peça quente = FPS caindo"
+   ],
+   "narracao": "PC esquentando em jogo pesado? Poeira, pasta térmica ressecada e ventoinha na direção errada fazem a peça baixar o desempenho para não queimar. Uma limpeza bem feita já devolve FPS. A JPC faz manutenção. Manda GTA6 no Direct.",
+   "legenda": "PC esquentando = FPS caindo 🔥\n\nPoeira, pasta térmica velha e fluxo de ar errado. Limpeza resolve muita coisa.\n\nQuando foi a última limpeza do seu? 👇",
+   "id": "g6r016"
+  },
+  {
+   "gancho": "NOTEBOOK OU DESKTOP?",
+   "destaque": "DESKTOP",
+   "cards": [
+    "Desktop esfria e rende mais",
+    "Desktop aceita upgrade",
+    "Notebook: portátil"
+   ],
+   "narracao": "Notebook gamer ou PC de mesa? O desktop esfria melhor, rende mais pelo mesmo investimento e aceita upgrade peça por peça. O notebook ganha se você precisa levar para todo lado. Pensando no GTA 6 no PC, manda GTA6 no Direct que a gente te ajuda a escolher.",
+   "legenda": "Notebook ou desktop pro GTA 6 chegar ao PC? 🤔\n\nDesktop: mais desempenho e upgrade. Notebook: portabilidade.\n\nVocê joga em qual? 👇",
+   "id": "g6r017"
+  },
+  {
+   "gancho": "MOD DE GTA 6 PRA PC?",
+   "destaque": "MOD",
+   "cards": [
+    "Ainda não existe versão de PC",
+    "'Mod' ou 'versão PC' agora = vírus",
+    "No GTA 5, os mods vieram no PC"
+   ],
+   "narracao": "Viu mod de GTA 6 para PC? Cuidado. Ainda não existe versão de PC anunciada, então qualquer mod ou versão PC agora é isca de vírus. No GTA 5, os mods vieram junto com a versão de PC, e com o GTA 6 deve ser parecido. Manda esse vídeo para o amigo.",
+   "legenda": "🚨 'Mod de GTA 6 pra PC' agora = vírus.\n\nAinda não existe versão de PC anunciada. No GTA 5, os mods vieram com a versão de PC.\n\nManda pro amigo 👇",
+   "id": "g6r018"
+  },
+  {
+   "gancho": "LEONIDA TEM 6 REGIÕES",
+   "destaque": "6 REGIÕES",
+   "cards": [
+    "Vice City e Leonida Keys",
+    "Grassrivers e Port Gellhorn",
+    "Ambrosia e Mount Kalaga"
+   ],
+   "narracao": "O mapa do GTA 6 é o estado de Leonida, com seis regiões: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga. Agora imagina o PC que vai precisar para carregar tudo isso quando sair no PC. A JPC monta. Manda GTA6 no Direct.",
+   "legenda": "Leonida: 6 regiões 🌴 Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga.\n\nQual você quer explorar primeiro? 👇",
+   "id": "g6r019"
   }
  ]
 }

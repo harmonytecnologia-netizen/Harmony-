@@ -13,7 +13,9 @@
   "g6f001",
   "g6f002",
   "g6f003",
-  "g6f004"
+  "g6f004",
+  "g6f005",
+  "g6f006"
  ],
  "carrosseis": [
   "car001",
@@ -28,7 +30,8 @@
   "g6c001",
   "g6c002",
   "g6c003",
-  "g6c004"
+  "g6c004",
+  "g6c005"
  ],
  "stories": [
   "st000",
@@ -100,7 +103,12 @@
   "g6s021",
   "g6s022",
   "g6s023",
-  "g6s024"
+  "g6s024",
+  "g6s025",
+  "g6s026",
+  "g6s027",
+  "g6s028",
+  "g6s029"
  ],
  "fundos": [
   "pexels_pc_build_10405280.jpg",
@@ -200,7 +208,23 @@
   "pexels_gamer_telas.jpg",
   "ia_2026-11-14_4.jpg",
   "pexels_setup_roxo.jpg",
-  "ia_2026-11-15_3.jpg"
+  "ia_2026-11-15_3.jpg",
+  "pexels_mouse_mesa.jpg",
+  "ia_2026-11-15_1.jpg",
+  "pexels_homem_jogando.jpg",
+  "ia_2026-11-14_1.jpg",
+  "pexels_gamer_telas.jpg",
+  "pexels_setup_roxo.jpg",
+  "ia_2026-11-15_3.jpg",
+  "pexels_mouse_mesa.jpg",
+  "ia_2026-11-14_4.jpg",
+  "pexels_homem_jogando.jpg",
+  "ia_2026-11-15_1.jpg",
+  "ia_2026-11-14_1.jpg",
+  "pexels_setup_roxo.jpg",
+  "ia_2026-11-15_3.jpg",
+  "pexels_gamer_telas.jpg",
+  "ia_2026-11-14_4.jpg"
  ],
  "musicas": [
   [
@@ -226,6 +250,10 @@
   [
    "2026-11-23",
    "trilha"
+  ],
+  [
+   "2026-11-24",
+   "trilha"
   ]
  ],
  "reels": [
@@ -233,7 +261,8 @@
   "g6r001",
   "g6r002",
   "g6r003",
-  "g6r004"
+  "g6r004",
+  "g6r005"
  ],
  "cortes": []
 }
