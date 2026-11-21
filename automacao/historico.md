@@ -108,3 +108,4 @@
 | 2026-11-20 19h | Story do carrossel | story_carrossel.jpg | — | — | 18100126658448190 |
 | 2026-11-20 19h | Reel MOVE Explica 3D | "Caiu a luz… e a sua câmera apagou junto?" — nobreak (reel_19h.mp4) | — | — | 18128982178682207 |
 | 2026-11-20 19h | Story do Reel | reel_19h.mp4 | — | — | 18226095640339884 |
+| 2026-11-20 21h (21h08) | Story próprio (21h) | story_21h_1.jpg (1ª tentativa erro "mídia não encontrada", 2ª ok) | — | — | 18383205328212277 |
