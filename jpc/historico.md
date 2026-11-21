@@ -112,3 +112,4 @@
 | 2026-11-20 | 21h | story próprio | g6s009 | — | 18137410769498520 |
 | 2026-11-20 | 21h55 | conferência diária | Windsor confirma: 1 feed (imagem) + 1 carrossel + Reel g6r001 + 13 Reels de corte; 22 stories (5 próprios). Meta OK. Fila 21–23/11 completa | — | — |
 | 2026-11-21 | 01h29 | Reel corte GTA 6 | Paulinho: atravessou a plantação de carro (ivjSsjiHbZA 1:39:49) | — | 18125607379938429 (story 18114249833267996) |
+| 2026-11-21 | 07h25 | produção diária | Fila 21–24/11 completa em GTA 6. Feed 12h de HOJE refeito com a notícia do dia (recorde US$ 3,79 bi no 1º dia, g6f005); 24/11: feed g6f006 processador, carrossel g6c005 Leonida, Reel g6r005 fonte, stories g6s025–029. Sem corte GTA 6 novo (todos já publicados pelo clipador) → Reels próprios. Banco GTA 6 +7 dias (bloco 3). Sem versão PC/requisito oficial (conferido) | — | — |
