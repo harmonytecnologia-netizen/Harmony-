@@ -1,85 +1,86 @@
 {
- "data": "2026-11-20",
- "perfil": "harmony_computer",
- "conta_windsor": "17841445277894628",
- "09h": [
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_1.jpg",
-   "pauta": "g6s005"
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_2.jpg",
-   "pauta": "g6s006"
-  }
- ],
- "12h": [
-  {
-   "acao": "create_image_post",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/feed.jpg",
-   "legenda": "Viu 'GTA 6 PC download' por aí? 🚨 É GOLPE.\n\nAté agora o GTA 6 só existe no PS5 e no Xbox Series. Vídeo de 'GTA 6 rodando no PC' hoje é jogo remoto do console (Remote Play) ou montagem. Arquivo pirata = vírus no seu PC.\n\nManda pro amigo que tá caindo nessa 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
-   "pauta": "g6f001"
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_feed.jpg"
-  },
-  {
-   "acao": "create_video_post",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/reel.mp4",
-   "legenda": "16 ou 32 GB de RAM pro GTA 6 no PC? 🧠\n\nRequisito oficial ainda não saiu. Estimativa JPC: 16 GB em dual channel como base, 32 GB pra quem faz live e deixa tudo aberto.\n\nQuantos GB tem o seu? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
-   "thumb_offset": 1000,
-   "musica": "bad_news_steve_kane.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
-   "pauta": "g6r001"
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/reel.mp4",
-   "tipo": "video"
-  }
- ],
- "15h": [
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_3.jpg",
-   "pauta": "g6s007"
-  }
- ],
- "19h": [
-  {
-   "acao": "create_carousel_post",
-   "arquivos": [
-    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_01.jpg",
-    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_02.jpg",
-    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_03.jpg",
-    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_04.jpg",
-    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_05.jpg",
-    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_06.jpg",
-    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_07.jpg"
-   ],
-   "legenda": "Monte seu PC pro GTA 6 (estimativa) 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
-   "pauta": "g6c001"
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_car.jpg"
-  }
- ],
- "21h": [
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_4.jpg",
-   "pauta": "g6s008"
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_5.jpg",
-   "pauta": "g6s009"
-  }
- ],
- "publicado_09h": true,
- "publicado_12h": true,
- "publicado_15h": true,
- "publicado_19h": true
+  "data": "2026-11-20",
+  "perfil": "harmony_computer",
+  "conta_windsor": "17841445277894628",
+  "09h": [
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_1.jpg",
+      "pauta": "g6s005"
+    },
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_2.jpg",
+      "pauta": "g6s006"
+    }
+  ],
+  "12h": [
+    {
+      "acao": "create_image_post",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/feed.jpg",
+      "legenda": "Viu 'GTA 6 PC download' por aí? 🚨 É GOLPE.\n\nAté agora o GTA 6 só existe no PS5 e no Xbox Series. Vídeo de 'GTA 6 rodando no PC' hoje é jogo remoto do console (Remote Play) ou montagem. Arquivo pirata = vírus no seu PC.\n\nManda pro amigo que tá caindo nessa 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+      "pauta": "g6f001"
+    },
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_feed.jpg"
+    },
+    {
+      "acao": "create_video_post",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/reel.mp4",
+      "legenda": "16 ou 32 GB de RAM pro GTA 6 no PC? 🧠\n\nRequisito oficial ainda não saiu. Estimativa JPC: 16 GB em dual channel como base, 32 GB pra quem faz live e deixa tudo aberto.\n\nQuantos GB tem o seu? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+      "thumb_offset": 1000,
+      "musica": "bad_news_steve_kane.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+      "pauta": "g6r001"
+    },
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/reel.mp4",
+      "tipo": "video"
+    }
+  ],
+  "15h": [
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_3.jpg",
+      "pauta": "g6s007"
+    }
+  ],
+  "19h": [
+    {
+      "acao": "create_carousel_post",
+      "arquivos": [
+        "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_01.jpg",
+        "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_02.jpg",
+        "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_03.jpg",
+        "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_04.jpg",
+        "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_05.jpg",
+        "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_06.jpg",
+        "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/car_07.jpg"
+      ],
+      "legenda": "Monte seu PC pro GTA 6 (estimativa) 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+      "pauta": "g6c001"
+    },
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_car.jpg"
+    }
+  ],
+  "21h": [
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_4.jpg",
+      "pauta": "g6s008"
+    },
+    {
+      "acao": "create_story",
+      "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-20/story_5.jpg",
+      "pauta": "g6s009"
+    }
+  ],
+  "publicado_09h": true,
+  "publicado_12h": true,
+  "publicado_15h": true,
+  "publicado_19h": true,
+  "publicado_21h": true
 }
