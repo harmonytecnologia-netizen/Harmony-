@@ -110,3 +110,4 @@
 | 2026-11-20 | 20h45 | Reel corte GTA 6 | Paulinho: roubou um caça com 5 estrelas (ivjSsjiHbZA 1:57:41) | — | 17944507986390229 (story 18130789700479115) |
 | 2026-11-20 | 21h | story próprio | g6s008 | — | 17980887542935526 |
 | 2026-11-20 | 21h | story próprio | g6s009 | — | 18137410769498520 |
+| 2026-11-20 | 21h55 | conferência diária | Windsor confirma: 1 feed (imagem) + 1 carrossel + Reel g6r001 + 13 Reels de corte; 22 stories (5 próprios). Meta OK. Fila 21–23/11 completa | — | — |
