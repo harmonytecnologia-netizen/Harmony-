@@ -46,3 +46,4 @@
 | 2026-11-20 | 18h45 | live ivjSsjiHbZA ENCERRADA (7:03:50) mas ainda sem transcrição; usada ideia da cobra Dolores do #3 (Whisper local) | Reel 18116275838332571 + story 18290058244293170 |
 | 2026-11-20 | 19h45 | sem live nova (última ivjSsjiHbZA encerrada, ainda sem transcrição); usada ideia do som no monumento do #3 (Whisper local) | Reel 18099234470148765 + story 17907966570352453 |
 | 2026-11-20 | 20h45 | sem live nova (última ivjSsjiHbZA, ainda sem transcrição); varredura de volume no embed achou o caça na live nova (Whisper local) | Reel 17944507986390229 + story 18130789700479115 |
+| 2026-11-20 | 21h45 | sem live nova (última ivjSsjiHbZA 7:03:50); começou a gravar o pico 1:39:22–1:41:10 da ivjSsjiHbZA, mas o PC desconectou da ponte do app Claude antes de salvar o arquivo | sem corte (PC offline) — próximo: repetir esse pico |
