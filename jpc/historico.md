@@ -107,3 +107,4 @@
 | 2026-11-20 | 19h | carrossel (7 slides) | g6c001 | — | 18150628885586431 |
 | 2026-11-20 | 19h | story do carrossel | g6c001 | — | 18122288464969955 |
 | 2026-11-20 | 19h45 | Reel corte GTA 6 | Paulinho: som vindo debaixo do monumento (#3 2:40:26) | — | 18099234470148765 (story 17907966570352453) |
+| 2026-11-20 | 20h45 | Reel corte GTA 6 | Paulinho: roubou um caça com 5 estrelas (ivjSsjiHbZA 1:57:41) | — | 17944507986390229 (story 18130789700479115) |
