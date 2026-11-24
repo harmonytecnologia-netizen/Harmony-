@@ -117,3 +117,7 @@
 | 2026-11-24 | 07h45 | Reel corte GTA 6 | Paulinho: jacaré debaixo do colchão (a-Ur3A_kHXc 4:11:55) | — | 18130499171302009 (story 17919574332494215) |
 | 2026-11-24 | 11h04 | Reel corte GTA 6 | Paulinho: GTA 6 a 30 FPS com tudo isso de NPC (a-Ur3A_kHXc 4:01:38) | — | 18165041170436058 (story 18035051870681569) |
 | 2026-11-24 | 11h44 | Reel corte GTA 6 | Paulinho: "aqui não dá polícia" / CABOU FREIO (a-Ur3A_kHXc 3:50:10) | — | 17905050222378912 (story 18125655304936646) |
+| 2026-11-24 | 12h | feed (imagem) | g6f006 (39 mi de jogadores no PS5) | — | 18651576550031001 |
+| 2026-11-24 | 12h | story do feed | g6f006 | — | 18183911899444470 |
+| 2026-11-24 | 12h | Reel | g6r005 (fonte antes do upgrade) | trilha própria sintetizada #369169 + narração Piper | 18398683666166808 |
+| 2026-11-24 | 12h | story do Reel | g6r005 | — | 18121940674788154 |
