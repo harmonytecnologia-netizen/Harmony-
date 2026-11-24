@@ -120,3 +120,7 @@
 - 2026-11-24 12h (Brasília) — story do feed — story_feed.jpg — media id 18034359842860772
 - 2026-11-24 12h (Brasília) — Reel MOVE Explica 3D — SEGURANÇA simulação de presença "Vai viajar e a casa fica apagada?" (reel_12h.mp4) — música Mirror Mirror — media id 18104017724417840
 - 2026-11-24 12h (Brasília) — story do Reel — reel_12h.mp4 — música Mirror Mirror — media id 18119791189997597
+- 2026-11-24 19h (Brasília) — carrossel — REDE cabo mal crimpado "500 mega no plano, 94 no cabo?" (carrossel_1–6.jpg) — media id 17923581447240820
+- 2026-11-24 19h (Brasília) — story do carrossel — story_carrossel.jpg — media id 18155071291544537
+- 2026-11-24 19h (Brasília) — Reel MOVE Explica 3D — REDE RJ45 "Contratou 500 mega e, no cabo, o teste trava em 94?" (reel_19h.mp4) — música Twinkle — media id 18108498392199704
+- 2026-11-24 19h (Brasília) — story do Reel — reel_19h.mp4 — música Twinkle — media id 18652486894021794
