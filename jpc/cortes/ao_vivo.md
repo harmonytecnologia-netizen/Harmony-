@@ -4,12 +4,13 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 15
+- cortes_postados: 16
 - corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
+| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia) |
 | ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem") |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
@@ -30,6 +31,8 @@
 - ivjSsjiHbZA 1:57:59–1:58:20 resto do caça: "vou pular e pegar outro" (parte não legendada no corte; não repetir)
 - #3 0:16:00–0:16:40 conferido (20h45): a "cobra no incêndio" é a mesma cena da trocação já usada, com legenda do jogo cheia de palavrão — descartada
 
+- a-Ur3A_kHXc (#5, 24/11): transcrição da watch FUNCIONA nesta live (1655 segmentos). Ideias não usadas: 3:56:57–3:57:30 "tem um cara dentro da lixeira... quero explodir ele" (granada); 3:09:02 "olha que da hora os carros esticando" (bug/gráfico); 6:57–7:11 "esse cabelo tá triste, parecendo um leão" (Jason); 1:22:21 Jason bugado não ajuda (tem palavrão); 1:44:05–1:44:15 personagem bugado não entra no carro, polícia atirando (palavrão leve); 1:50:46–1:53:43 fuga de motinha; 2:20:53 "ela ia meter fuga"; 4:21:14 "matei a velha"; 4:30:06 "não chama polícia não"; 17:28–17:33 "que isso? é a Lúcia... sai sai sai" (tem palavrão)
+
 ## Rodadas
 | data | hora | status | resultado |
 |---|---|---|---|
@@ -49,3 +52,4 @@
 | 2026-11-20 | 20h45 | sem live nova (última ivjSsjiHbZA, ainda sem transcrição); varredura de volume no embed achou o caça na live nova (Whisper local) | Reel 17944507986390229 + story 18130789700479115 |
 | 2026-11-20 | 21h45 | sem live nova (última ivjSsjiHbZA 7:03:50); começou a gravar o pico 1:39:22–1:41:10 da ivjSsjiHbZA, mas o PC desconectou da ponte do app Claude antes de salvar o arquivo | sem corte (PC offline) — próximo: repetir esse pico |
 | 2026-11-21 | 01h29 | sem live nova (última ivjSsjiHbZA 7:03:50); Downloads liberada de novo; gravado o pico 1:39:20 da ivjSsjiHbZA (Whisper local) | Reel 18125607379938429 + story 18114249833267996 |
+| 2026-11-24 | 07h45 | live nova a-Ur3A_kHXc (#5, 4:49:14, encerrada); Downloads liberada de novo; transcrição da watch funcionou | Reel 18130499171302009 + story 17919574332494215 |
