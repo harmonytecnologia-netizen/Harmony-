@@ -1,0 +1,76 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Som e imagem para receber bem.\n\nNo salão da Pousada Sunset, em Porto Belo, a música acompanha o café e o jantar sem que ninguém veja de onde ela vem: as caixas ficam discretas nas vigas e nos pilares, e a TV ganhou luz de fundo para a imagem conversar com o ambiente.\n\nPousada, restaurante ou casa de praia: o som certo é o que todo mundo sente e ninguém precisa procurar.\n\nTem um espaço para receber? Conte aqui e salve para o seu projeto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e espaços de alto padrão no litoral norte de SC. Chame no direct.\n\nObra real MOVE.\n\n#SomAmbiente #Sonorização #Pousada #PortoBelo #ProjetoDeSom #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "De onde vem essa música? 🎶\n\nNesta pousada em Porto Belo, o som está no salão inteiro, mas as caixas quase não aparecem: ficam nas vigas e nos pilares.\nO segredo é usar várias caixas com volume baixo, em vez de uma caixa alta num canto.\nAssim a música chega igual em todas as mesas, sem estourar perto de ninguém.\n\nSalve para usar no seu projeto.\nVocê tinha reparado nas caixas? Comenta: sim ou não.\n\nObra real MOVE.\n\n#SomAmbiente #Sonorização #Pousada #PortoBelo #ObraReal #MOVE",
+   "thumb_offset": 4500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg",
+    "carrossel_7.jpg"
+   ],
+   "legenda": "Sua câmera trava justo quando mais precisa? 📹\n\n01 · Cabo de rede com PoE até cada câmera: energia e imagem no mesmo cabo, sem depender do Wi-Fi.\n02 · Switch PoE, gravador e nobreak juntos no rack: caiu a luz, continua gravando.\n03 · Altura e ângulo pensados na obra: entre 2,5 e 3 m, cobrindo a porta e fugindo da contraluz.\n04 · Cabo escondido: o ponto de rede nasce no forro, antes do gesso fechar.\n05 · Alerta e imagem ao vivo no celular, com teste à noite no infravermelho.\n\nQual desses a sua casa já tem? Comenta o número 👇 Salve e envie para quem está em obra.\n\nProjeto de câmeras, rede e rack: chama a MOVE no direct e envie a planta.\n\nImagens conceito.\n\n#Segurança #CâmeraDeSegurança #CFTV #CasaInteligente #RedeEstruturada #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Sua câmera trava justo quando alguém chega? 📹\n\nQuase sempre é o Wi-Fi: longe do roteador, o sinal chega fraco e a imagem congela.\nO certo é levar cabo de rede com PoE até a câmera: energia e imagem no mesmo cabo, direto do switch no rack.\nAí ela grava sem travar, de dia e de noite.\n\nSalve para conferir na sua obra.\nA sua câmera é no cabo ou no Wi-Fi? Comenta aí.\n\nAnimação conceito.\n\n#Segurança #CâmeraDeSegurança #CFTV #PoE #CasaInteligente #MOVE",
+   "thumb_offset": 13500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "videos_usados": [
+  "pousada sunset porto belo/VID-20250716-WA0168.mp4 (trecho sem pessoas)",
+  "pousada sunset porto belo/IMG_20250215_1717*.jpg (5 fotos)"
+ ],
+ "plano_b": false,
+ "tema": "Sexta: feed OBRA REAL Pousada Sunset (Porto Belo) + Reel 12h SOM obra real pousada (voz Iamin, Taking Flight) + carrossel SEGURANÇA câmera que não trava (5 cuidados) + Reel 19h SEGURANÇA 3D câmera no Wi-Fi fraco × cabo PoE (voz Iamin, Ten) + stories sexta de manhã, enquete cabo × Wi-Fi, cinema de sexta"
+}
