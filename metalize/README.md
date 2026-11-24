@@ -3,9 +3,9 @@
 Branch `metalize`, pasta `metalize/`. Conta no Windsor.ai: **17841449079341071**. NUNCA publicar conteúdo da Metalize na MOVE (17841461939593135) nem na JPC (17841445277894628), e nunca o contrário.
 
 ## Empresa (só fatos confirmados pelo João)
-- Metalize Metalúrgica, Marcelândia (MT) e região. Residencial, comercial e industrial. Orçamento: WhatsApp (66) 99632-0774.
+- Metalize Metalúrgica, Marcelândia (MT). Atende também Cláudia, União do Sul, Atlântica e Itaúba (confirmado pelo João em 24/11/2026). Residencial, comercial e industrial. Orçamento: WhatsApp (66) 99632-0774.
 - Serviços: calhas e rufos; portões residenciais e comerciais; galpões e estruturas metálicas; coberturas metálicas; escadas metálicas; corrimãos; pilares e outras estruturas sob medida.
-- **A confirmar com o João** (não afirmar até ele confirmar): anos de mercado, obras feitas, equipe, cidades atendidas, se faz pintura eletrostática, se trabalha com inox/vidro/cobre, garantia, se faz visita técnica gratuita.
+- **A confirmar com o João** (não afirmar até ele confirmar): anos de mercado, obras feitas, equipe, se faz pintura eletrostática, se trabalha com inox/vidro/cobre, garantia, se faz visita técnica gratuita.
 - **Nunca inventar** avaliações, certificações, números, obras ou depoimentos. Imagens 3D/IA sempre com "Imagem ilustrativa." na arte e na legenda.
 
 ## Dois públicos
