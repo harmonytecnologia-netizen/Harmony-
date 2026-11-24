@@ -129,3 +129,4 @@
 | 2026-11-24 | 18h | Reel corte GTA 6 | Paulinho: "GTA 6 tá dando dó de matar NPC" (a-Ur3A_kHXc 4:30:40) | — | 18132171826790032 (story 18118817891023850) |
 | 2026-11-24 | 19h | create_carousel_post (7 slides) | g6c005 — Leonida: as 6 regiões do GTA 6 | — | 18507542548102664 |
 | 2026-11-24 | 19h | create_story (story_car) | g6c005 — chamada do carrossel | — | 18255208762309390 |
+| 2026-11-24 | 19h | Reel corte GTA 6 | Paulinho: "dá pra comprar fone no GTA 6" (a-Ur3A_kHXc 4:31:14) | — | 18120015094823960 (story 18113960918524771) |
