@@ -35,6 +35,8 @@
  "feeds": [
   "f01"
  ],
- "reels": [],
+ "reels": [
+  "2026-11-24_calha.json"
+ ],
  "voltas": 0
 }

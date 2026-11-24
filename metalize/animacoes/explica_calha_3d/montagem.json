@@ -1,0 +1,56 @@
+{
+ "quadros": "seq/%04d.jpg",
+ "fps": 24,
+ "segurar_fim": 2.4,
+ "musica": "../../../automacao/musicas/Taking Flight - Blue Deer Studio.mp3",
+ "musica_vol": 0.55,
+ "duracao": 24.9,
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 4.0,
+   "titulo": "SUA CALHA",
+   "titulo2": "TRANSBORDA?",
+   "cor2": "erro"
+  },
+  {
+   "de": 4.0,
+   "ate": 9.0,
+   "titulo": "A ÁGUA DESCE",
+   "titulo2": "DO TELHADO",
+   "cor2": "destaque",
+   "rodape": "e o telhado inteiro despeja na calha"
+  },
+  {
+   "de": 9.0,
+   "ate": 13.0,
+   "titulo": "SEM CAIMENTO",
+   "titulo2": "ELA EMPOÇA",
+   "cor2": "erro",
+   "pilula": "E TRANSBORDA  ✗",
+   "cor_pilula": "erro"
+  },
+  {
+   "de": 13.0,
+   "ate": 18.5,
+   "titulo": "CAIMENTO MÍNIMO",
+   "titulo2": "0,5% = 5 mm/m",
+   "cor2": "destaque",
+   "rodape": "a água corre até o condutor"
+  },
+  {
+   "de": 18.5,
+   "ate": 22.4,
+   "titulo": "CALHA CERTA",
+   "titulo2": "NÃO TRANSBORDA",
+   "cor2": "destaque",
+   "pilula": "SALVE PARA CONFERIR",
+   "cor_pilula": "destaque"
+  },
+  {
+   "de": 22.4,
+   "ate": 24.9,
+   "img": "fim.png"
+  }
+ ]
+}
