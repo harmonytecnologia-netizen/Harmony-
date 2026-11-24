@@ -1,0 +1,33 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.01,0:00:03.69,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}LANÇADOR?{\r} Ô, LOUCO,
+Dialogue: 0,0:00:03.69,0:00:04.03,L,,0,0,0,,LANÇADOR? {\c&H4FE1FF&\fscx112\fscy112}Ô,{\r} LOUCO,
+Dialogue: 0,0:00:04.03,0:00:04.23,L,,0,0,0,,LANÇADOR? Ô, {\c&H4FE1FF&\fscx112\fscy112}LOUCO,{\r}
+Dialogue: 0,0:00:04.35,0:00:04.57,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}UM{\r} LANÇA GRANADA!
+Dialogue: 0,0:00:04.57,0:00:04.71,L,,0,0,0,,UM {\c&H4FE1FF&\fscx112\fscy112}LANÇA{\r} GRANADA!
+Dialogue: 0,0:00:04.71,0:00:05.25,L,,0,0,0,,UM LANÇA {\c&H4FE1FF&\fscx112\fscy112}GRANADA!{\r}
+Dialogue: 0,0:00:07.89,0:00:08.49,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CARA,{\r} AINDA BEM
+Dialogue: 0,0:00:08.49,0:00:08.54,L,,0,0,0,,CARA, {\c&H4FE1FF&\fscx112\fscy112}AINDA{\r} BEM
+Dialogue: 0,0:00:08.51,0:00:08.73,L,,0,0,0,,CARA, AINDA {\c&H4FE1FF&\fscx112\fscy112}BEM{\r}
+Dialogue: 0,0:00:08.73,0:00:08.83,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} EU VIM
+Dialogue: 0,0:00:08.83,0:00:08.93,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}EU{\r} VIM
+Dialogue: 0,0:00:08.93,0:00:09.07,L,,0,0,0,,QUE EU {\c&H4FE1FF&\fscx112\fscy112}VIM{\r}
+Dialogue: 0,0:00:09.07,0:00:12.50,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AQUI.{\r} MEU DEUS!
+Dialogue: 0,0:00:12.50,0:00:12.94,L,,0,0,0,,AQUI. {\c&H4FE1FF&\fscx112\fscy112}MEU{\r} DEUS!
+Dialogue: 0,0:00:12.94,0:00:13.32,L,,0,0,0,,AQUI. MEU {\c&H4FE1FF&\fscx112\fscy112}DEUS!{\r}
+Dialogue: 0,0:00:20.67,0:00:21.69,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CALMA,{\r} SENÃO ELA
+Dialogue: 0,0:00:21.69,0:00:21.91,L,,0,0,0,,CALMA, {\c&H4FE1FF&\fscx112\fscy112}SENÃO{\r} ELA
+Dialogue: 0,0:00:21.91,0:00:22.01,L,,0,0,0,,CALMA, SENÃO {\c&H4FE1FF&\fscx112\fscy112}ELA{\r}
+Dialogue: 0,0:00:22.01,0:00:22.13,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VAI{\r} JOGAR ISSO,
+Dialogue: 0,0:00:22.13,0:00:22.35,L,,0,0,0,,VAI {\c&H4FE1FF&\fscx112\fscy112}JOGAR{\r} ISSO,
+Dialogue: 0,0:00:22.35,0:00:22.73,L,,0,0,0,,VAI JOGAR {\c&H4FE1FF&\fscx112\fscy112}ISSO,{\r}
+Dialogue: 0,0:00:22.87,0:00:23.11,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TURMA.{\r}
