@@ -1,0 +1,64 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.58,0:00:02.16,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}POUCO{\r} VIOLENTO ESSE
+Dialogue: 0,0:00:02.16,0:00:02.66,L,,0,0,0,,POUCO {\c&H4FE1FF&\fscx112\fscy112}VIOLENTO{\r} ESSE
+Dialogue: 0,0:00:02.66,0:00:02.78,L,,0,0,0,,POUCO VIOLENTO {\c&H4FE1FF&\fscx112\fscy112}ESSE{\r}
+Dialogue: 0,0:00:02.78,0:00:03.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}GTA{\r} AQUI CARA.
+Dialogue: 0,0:00:03.08,0:00:03.34,L,,0,0,0,,GTA {\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} CARA.
+Dialogue: 0,0:00:03.34,0:00:03.60,L,,0,0,0,,GTA AQUI {\c&H4FE1FF&\fscx112\fscy112}CARA.{\r}
+Dialogue: 0,0:00:05.96,0:00:06.40,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ESPERAVA{\r} MAIS. POUCO
+Dialogue: 0,0:00:06.40,0:00:06.98,L,,0,0,0,,ESPERAVA {\c&H4FE1FF&\fscx112\fscy112}MAIS.{\r} POUCO
+Dialogue: 0,0:00:06.98,0:00:07.10,L,,0,0,0,,ESPERAVA MAIS. {\c&H4FE1FF&\fscx112\fscy112}POUCO{\r}
+Dialogue: 0,0:00:07.10,0:00:08.32,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VIOLENTO.{\r} TÁ DOIDO
+Dialogue: 0,0:00:08.32,0:00:08.86,L,,0,0,0,,VIOLENTO. {\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} DOIDO
+Dialogue: 0,0:00:08.86,0:00:09.14,L,,0,0,0,,VIOLENTO. TÁ {\c&H4FE1FF&\fscx112\fscy112}DOIDO{\r}
+Dialogue: 0,0:00:09.14,0:00:09.56,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CARA,{\r} DESSA VEZ
+Dialogue: 0,0:00:09.56,0:00:09.72,L,,0,0,0,,CARA, {\c&H4FE1FF&\fscx112\fscy112}DESSA{\r} VEZ
+Dialogue: 0,0:00:09.72,0:00:09.96,L,,0,0,0,,CARA, DESSA {\c&H4FE1FF&\fscx112\fscy112}VEZ{\r}
+Dialogue: 0,0:00:09.96,0:00:10.12,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ESTÁ{\r} DANDO DÓ
+Dialogue: 0,0:00:10.12,0:00:10.32,L,,0,0,0,,ESTÁ {\c&H4FE1FF&\fscx112\fscy112}DANDO{\r} DÓ
+Dialogue: 0,0:00:10.32,0:00:10.54,L,,0,0,0,,ESTÁ DANDO {\c&H4FE1FF&\fscx112\fscy112}DÓ{\r}
+Dialogue: 0,0:00:10.54,0:00:10.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DE{\r} MATAR OS
+Dialogue: 0,0:00:10.64,0:00:10.82,L,,0,0,0,,DE {\c&H4FE1FF&\fscx112\fscy112}MATAR{\r} OS
+Dialogue: 0,0:00:10.82,0:00:11.00,L,,0,0,0,,DE MATAR {\c&H4FE1FF&\fscx112\fscy112}OS{\r}
+Dialogue: 0,0:00:11.00,0:00:11.30,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NPC{\r} GALERA. EU
+Dialogue: 0,0:00:11.30,0:00:12.20,L,,0,0,0,,NPC {\c&H4FE1FF&\fscx112\fscy112}GALERA.{\r} EU
+Dialogue: 0,0:00:12.20,0:00:12.34,L,,0,0,0,,NPC GALERA. {\c&H4FE1FF&\fscx112\fscy112}EU{\r}
+Dialogue: 0,0:00:12.34,0:00:12.48,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TÔ{\r} FAZENDO ISSO
+Dialogue: 0,0:00:12.48,0:00:12.84,L,,0,0,0,,TÔ {\c&H4FE1FF&\fscx112\fscy112}FAZENDO{\r} ISSO
+Dialogue: 0,0:00:12.84,0:00:13.30,L,,0,0,0,,TÔ FAZENDO {\c&H4FE1FF&\fscx112\fscy112}ISSO{\r}
+Dialogue: 0,0:00:13.30,0:00:13.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PRA{\r} ACOSTUMAR OS
+Dialogue: 0,0:00:13.64,0:00:14.22,L,,0,0,0,,PRA {\c&H4FE1FF&\fscx112\fscy112}ACOSTUMAR{\r} OS
+Dialogue: 0,0:00:14.22,0:00:14.40,L,,0,0,0,,PRA ACOSTUMAR {\c&H4FE1FF&\fscx112\fscy112}OS{\r}
+Dialogue: 0,0:00:14.40,0:00:14.58,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}6{\r} JÁ. PORQUE
+Dialogue: 0,0:00:14.58,0:00:15.52,L,,0,0,0,,6 {\c&H4FE1FF&\fscx112\fscy112}JÁ.{\r} PORQUE
+Dialogue: 0,0:00:15.52,0:00:15.90,L,,0,0,0,,6 JÁ. {\c&H4FE1FF&\fscx112\fscy112}PORQUE{\r}
+Dialogue: 0,0:00:15.90,0:00:16.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} FICANDO UMA
+Dialogue: 0,0:00:16.08,0:00:16.36,L,,0,0,0,,TÁ {\c&H4FE1FF&\fscx112\fscy112}FICANDO{\r} UMA
+Dialogue: 0,0:00:16.36,0:00:16.48,L,,0,0,0,,TÁ FICANDO {\c&H4FE1FF&\fscx112\fscy112}UMA{\r}
+Dialogue: 0,0:00:16.48,0:00:16.72,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VIBE{\r} RUIM CARA.
+Dialogue: 0,0:00:16.72,0:00:17.06,L,,0,0,0,,VIBE {\c&H4FE1FF&\fscx112\fscy112}RUIM{\r} CARA.
+Dialogue: 0,0:00:17.06,0:00:17.36,L,,0,0,0,,VIBE RUIM {\c&H4FE1FF&\fscx112\fscy112}CARA.{\r}
+Dialogue: 0,0:00:17.94,0:00:18.48,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}JUDEADO{\r} OS OUTROS
+Dialogue: 0,0:00:18.48,0:00:18.64,L,,0,0,0,,JUDEADO {\c&H4FE1FF&\fscx112\fscy112}OS{\r} OUTROS
+Dialogue: 0,0:00:18.64,0:00:18.78,L,,0,0,0,,JUDEADO OS {\c&H4FE1FF&\fscx112\fscy112}OUTROS{\r}
+Dialogue: 0,0:00:18.78,0:00:19.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} CARA. ROCKSTAR
+Dialogue: 0,0:00:19.08,0:00:20.86,L,,0,0,0,,AQUI {\c&H4FE1FF&\fscx112\fscy112}CARA.{\r} ROCKSTAR
+Dialogue: 0,0:00:20.86,0:00:21.40,L,,0,0,0,,AQUI CARA. {\c&H4FE1FF&\fscx112\fscy112}ROCKSTAR{\r}
+Dialogue: 0,0:00:21.40,0:00:21.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}FEZ{\r} NUM JEITO
+Dialogue: 0,0:00:21.64,0:00:21.82,L,,0,0,0,,FEZ {\c&H4FE1FF&\fscx112\fscy112}NUM{\r} JEITO
+Dialogue: 0,0:00:21.82,0:00:22.04,L,,0,0,0,,FEZ NUM {\c&H4FE1FF&\fscx112\fscy112}JEITO{\r}
+Dialogue: 0,0:00:22.04,0:00:22.18,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} TÁ DANDO
+Dialogue: 0,0:00:22.18,0:00:22.26,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}TÁ{\r} DANDO
+Dialogue: 0,0:00:22.26,0:00:22.44,L,,0,0,0,,QUE TÁ {\c&H4FE1FF&\fscx112\fscy112}DANDO{\r}
+Dialogue: 0,0:00:22.44,0:00:22.76,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DÓ{\r} VELHO.
+Dialogue: 0,0:00:22.76,0:00:22.96,L,,0,0,0,,DÓ {\c&H4FE1FF&\fscx112\fscy112}VELHO.{\r}
