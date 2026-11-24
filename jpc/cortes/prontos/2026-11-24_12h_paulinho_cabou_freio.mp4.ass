@@ -1,0 +1,35 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.26,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} AQUI NÃO
+Dialogue: 0,0:00:00.26,0:00:00.40,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}AQUI{\r} NÃO
+Dialogue: 0,0:00:00.40,0:00:00.48,L,,0,0,0,,QUE AQUI {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r}
+Dialogue: 0,0:00:00.48,0:00:00.62,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DÁ{\r} POLÍCIA. AQUI,
+Dialogue: 0,0:00:00.62,0:00:02.16,L,,0,0,0,,DÁ {\c&H4FE1FF&\fscx112\fscy112}POLÍCIA.{\r} AQUI,
+Dialogue: 0,0:00:02.16,0:00:02.52,L,,0,0,0,,DÁ POLÍCIA. {\c&H4FE1FF&\fscx112\fscy112}AQUI,{\r}
+Dialogue: 0,0:00:02.62,0:00:07.66,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}Ó.{\r} É ISSO?
+Dialogue: 0,0:00:07.66,0:00:08.02,L,,0,0,0,,Ó. {\c&H4FE1FF&\fscx112\fscy112}É{\r} ISSO?
+Dialogue: 0,0:00:08.02,0:00:08.38,L,,0,0,0,,Ó. É {\c&H4FE1FF&\fscx112\fscy112}ISSO?{\r}
+Dialogue: 0,0:00:31.31,0:00:31.53,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}É{\r} TIPO PIADA
+Dialogue: 0,0:00:31.53,0:00:31.69,L,,0,0,0,,É {\c&H4FE1FF&\fscx112\fscy112}TIPO{\r} PIADA
+Dialogue: 0,0:00:31.69,0:00:32.11,L,,0,0,0,,É TIPO {\c&H4FE1FF&\fscx112\fscy112}PIADA{\r}
+Dialogue: 0,0:00:32.11,0:00:32.29,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DOS{\r} CHAVES. É
+Dialogue: 0,0:00:32.29,0:00:32.79,L,,0,0,0,,DOS {\c&H4FE1FF&\fscx112\fscy112}CHAVES.{\r} É
+Dialogue: 0,0:00:32.79,0:00:32.84,L,,0,0,0,,DOS CHAVES. {\c&H4FE1FF&\fscx112\fscy112}É{\r}
+Dialogue: 0,0:00:32.83,0:00:32.88,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} MESMA COISA
+Dialogue: 0,0:00:32.85,0:00:32.99,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}MESMA{\r} COISA
+Dialogue: 0,0:00:32.99,0:00:33.37,L,,0,0,0,,A MESMA {\c&H4FE1FF&\fscx112\fscy112}COISA{\r}
+Dialogue: 0,0:00:33.37,0:00:33.91,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SEMPRE,{\r} MAS NUNCA
+Dialogue: 0,0:00:33.91,0:00:33.97,L,,0,0,0,,SEMPRE, {\c&H4FE1FF&\fscx112\fscy112}MAS{\r} NUNCA
+Dialogue: 0,0:00:33.97,0:00:34.13,L,,0,0,0,,SEMPRE, MAS {\c&H4FE1FF&\fscx112\fscy112}NUNCA{\r}
+Dialogue: 0,0:00:34.13,0:00:34.43,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PERDE{\r} A GRAÇA.
+Dialogue: 0,0:00:34.43,0:00:34.59,L,,0,0,0,,PERDE {\c&H4FE1FF&\fscx112\fscy112}A{\r} GRAÇA.
+Dialogue: 0,0:00:34.59,0:00:34.95,L,,0,0,0,,PERDE A {\c&H4FE1FF&\fscx112\fscy112}GRAÇA.{\r}
