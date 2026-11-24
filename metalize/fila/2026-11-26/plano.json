@@ -1,0 +1,45 @@
+{
+ "data": "2026-11-26",
+ "conta": "17841449079341071",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-26/story_09h_1.jpg",
+   "pauta": "c05 Banho de zinco a 450 °C"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-26/story_09h_2.jpg",
+   "pauta": "a05 Velocidade constante"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-26/story_09h_3.jpg",
+   "pauta": "d03 Escada que flutua"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-26/story_15h_1.jpg",
+   "pauta": "c06 A pátina do cobre"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-26/story_15h_2.jpg",
+   "pauta": "a06 Portão grande pede diagonal"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-26/story_15h_3.jpg",
+   "pauta": "p03 Escada de concreto ou metal?"
+  }
+ ],
+ "20h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-26/story_20h_1.jpg",
+   "pauta": "t03 Medimos no local"
+  }
+ ]
+}

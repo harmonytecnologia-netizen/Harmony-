@@ -1,0 +1,56 @@
+{
+ "data": "2026-11-27",
+ "conta": "17841449079341071",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_09h_1.jpg",
+   "pauta": "c07 3 vezes mais leve"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_09h_2.jpg",
+   "pauta": "a07 A proteção fica no lugar"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_09h_3.jpg",
+   "pauta": "d04 Metal e madeira"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_15h_1.jpg",
+   "pauta": "c08 O aço cresce no calor"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_15h_2.jpg",
+   "pauta": "a08 Óculos sempre"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_15h_3.jpg",
+   "pauta": "p04 Você está aprendendo?"
+  }
+ ],
+ "20h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/feed.jpg",
+   "legenda": "O portão é a primeira impressão da casa. Projetamos cada um para a fachada onde ele vai morar.\n\nOrçamento pelo direct ou WhatsApp (66) 99632-0774.\nImagem ilustrativa.\n\n#portao #serralheria #altopadrao #arquitetura #fachada #marcelandia",
+   "pauta": "f01 Portões que valorizam a fachada"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_post.jpg",
+   "pauta": "story do feed"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-27/story_20h_1.jpg",
+   "pauta": "t04 Do desenho à instalação"
+  }
+ ]
+}

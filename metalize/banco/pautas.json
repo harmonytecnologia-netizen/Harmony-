@@ -1,0 +1,517 @@
+{
+ "_ajuda": "Banco de pautas da Metalize. Cada item vira story/post uma vez (ids usados ficam em banco/usados.json). Fatos técnicos conferidos; ao acrescentar, confira com WebSearch e cite norma só se tiver certeza. Tom: alto padrão, elegante, claro. tipo: curiosidade | aprendiz | detalhe | pergunta | cta.",
+ "stories": [
+  {
+   "id": "c01",
+   "tipo": "curiosidade",
+   "titulo": "Por que o inox|não enferruja?",
+   "texto": "Ele leva no mínimo 10,5% de cromo. O cromo forma uma película invisível que se regenera sozinha e protege o aço.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "c02",
+   "tipo": "curiosidade",
+   "titulo": "A ferrugem que|protege",
+   "texto": "O aço corten cria uma camada de óxido estável na superfície. Aquela cor de ferrugem é justamente o que impede a corrosão de avançar.",
+   "fundo": "portao"
+  },
+  {
+   "id": "c03",
+   "tipo": "curiosidade",
+   "titulo": "Reciclável|para sempre",
+   "texto": "O aço pode ser reciclado infinitas vezes sem perder suas propriedades. Um portão de hoje pode virar uma estrutura amanhã.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "c04",
+   "tipo": "curiosidade",
+   "titulo": "60 toneladas|de tinta",
+   "texto": "A Torre Eiffel é repintada a cada 7 anos, com cerca de 60 toneladas de tinta. Metal bem cuidado dura séculos.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "c05",
+   "tipo": "curiosidade",
+   "titulo": "Banho de zinco|a 450 °C",
+   "texto": "Na galvanização a fogo, a peça é mergulhada em zinco derretido a cerca de 450 °C. O zinco se sacrifica no lugar do aço.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "c06",
+   "tipo": "curiosidade",
+   "titulo": "A pátina|do cobre",
+   "texto": "Com o tempo o cobre ganha uma pátina esverdeada. Ela não é defeito: é uma camada que protege o metal por décadas.",
+   "fundo": "calha"
+  },
+  {
+   "id": "c07",
+   "tipo": "curiosidade",
+   "titulo": "3 vezes|mais leve",
+   "texto": "O alumínio pesa cerca de um terço do aço no mesmo volume. Por isso é escolhido para esquadrias e coberturas grandes.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "c08",
+   "tipo": "curiosidade",
+   "titulo": "O aço|cresce no calor",
+   "texto": "Uma barra de aço de 10 metros pode aumentar cerca de 3,6 mm com 30 °C de variação. Projeto bom prevê essa dilatação.",
+   "fundo": "escada"
+  },
+  {
+   "id": "c09",
+   "tipo": "curiosidade",
+   "titulo": "A calha|tem inclinação",
+   "texto": "A norma pede caimento mínimo de 0,5%: 5 mm a cada metro. Sem isso a água empoça, transborda e mancha a fachada.",
+   "fundo": "calha"
+  },
+  {
+   "id": "c10",
+   "tipo": "curiosidade",
+   "titulo": "Por que a|pintura estufa?",
+   "texto": "A ferrugem ocupa mais volume que o aço original. Ela cresce por baixo da tinta e empurra a pintura para fora.",
+   "fundo": "portao"
+  },
+  {
+   "id": "c11",
+   "tipo": "curiosidade",
+   "titulo": "Pintura|eletrostática",
+   "texto": "Tinta em pó aplicada com carga elétrica e curada em estufa. Fica uniforme, sem escorrido, e resiste muito mais que a pintura comum.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "c12",
+   "tipo": "curiosidade",
+   "titulo": "Guarda-corpo|tem medida",
+   "texto": "A norma pede altura mínima de 1,10 m e vãos onde não passe uma esfera de 11 cm. Segurança também é projeto.",
+   "fundo": "escada"
+  },
+  {
+   "id": "c13",
+   "tipo": "curiosidade",
+   "titulo": "A conta da|escada confortável",
+   "texto": "Dois espelhos mais um piso devem somar entre 63 e 65 cm. É essa conta que faz a escada parecer leve de subir.",
+   "fundo": "escada"
+  },
+  {
+   "id": "c14",
+   "tipo": "curiosidade",
+   "titulo": "MIG ou TIG?",
+   "texto": "MIG usa arame contínuo e é rápida. TIG usa eletrodo de tungstênio e dá o cordão mais fino e limpo, ideal para inox aparente.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "c15",
+   "tipo": "curiosidade",
+   "titulo": "Galvalume",
+   "texto": "É a chapa com revestimento de alumínio e zinco. Junta a barreira do alumínio com a proteção do zinco nas bordas.",
+   "fundo": "calha"
+  },
+  {
+   "id": "a01",
+   "tipo": "aprendiz",
+   "titulo": "Diagonais|iguais",
+   "texto": "Para conferir o esquadro de um quadro ou portão, meça as duas diagonais. Se forem iguais, está no esquadro.",
+   "fundo": "portao"
+  },
+  {
+   "id": "a02",
+   "tipo": "aprendiz",
+   "titulo": "Limpe antes|de soldar",
+   "texto": "Tinta, óleo e ferrugem viram poros no cordão. Escova ou disco flap na região antes de abrir o arco.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a03",
+   "tipo": "aprendiz",
+   "titulo": "Ponteie|em cruz",
+   "texto": "Ponteie os cantos opostos e solde alternando os lados. O calor se distribui e a peça não empena.",
+   "fundo": "portao"
+  },
+  {
+   "id": "a04",
+   "tipo": "aprendiz",
+   "titulo": "A garra|perto da solda",
+   "texto": "O terra preso perto do ponto de solda deixa o arco mais estável e evita marcas em outras partes da peça.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a05",
+   "tipo": "aprendiz",
+   "titulo": "Velocidade|constante",
+   "texto": "Rápido demais: falta penetração. Devagar demais: excesso de material e risco de furar. Ritmo igual do início ao fim.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a06",
+   "tipo": "aprendiz",
+   "titulo": "Portão grande|pede diagonal",
+   "texto": "Um contraventamento em diagonal no quadro evita que o portão arrie com o tempo. Ele trabalha a favor do peso.",
+   "fundo": "portao"
+  },
+  {
+   "id": "a07",
+   "tipo": "aprendiz",
+   "titulo": "A proteção|fica no lugar",
+   "texto": "Nunca tire a capa de proteção da esmerilhadeira. Disco quebrado sai em alta velocidade.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a08",
+   "tipo": "aprendiz",
+   "titulo": "Óculos|sempre",
+   "texto": "Fagulha no olho é um dos acidentes mais comuns da oficina. Óculos até para um corte rápido.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a09",
+   "tipo": "aprendiz",
+   "titulo": "Meça duas,|corte uma",
+   "texto": "Erro de medida em metal custa material e tempo. Confira no local, anote e confira de novo antes do corte.",
+   "fundo": "escada"
+  },
+  {
+   "id": "a10",
+   "tipo": "aprendiz",
+   "titulo": "Inox pede|ferramenta própria",
+   "texto": "Disco e escova que já tocaram aço carbono contaminam o inox e geram pontos de ferrugem. Separe as ferramentas.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a11",
+   "tipo": "aprendiz",
+   "titulo": "Fundo antes|do acabamento",
+   "texto": "Aço carbono pede fundo anticorrosivo antes da tinta de acabamento. Pular essa etapa é ferrugem garantida.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "a12",
+   "tipo": "aprendiz",
+   "titulo": "Decape|o inox",
+   "texto": "A mancha colorida em volta da solda do inox tira a proteção do metal. Decapagem e passivação devolvem a resistência.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "d01",
+   "tipo": "detalhe",
+   "titulo": "Solda que|não aparece",
+   "texto": "No alto padrão, a solda é lixada e acabada até sumir. O que fica é a linha limpa do desenho.",
+   "fundo": "escada"
+  },
+  {
+   "id": "d02",
+   "tipo": "detalhe",
+   "titulo": "Medida do|seu espaço",
+   "texto": "Peça pronta se adapta ao espaço. Projeto sob medida nasce dele. Medimos no local antes de cortar.",
+   "fundo": "portao"
+  },
+  {
+   "id": "d03",
+   "tipo": "detalhe",
+   "titulo": "Escada que|flutua",
+   "texto": "A estrutura fica escondida na parede e os degraus parecem soltos no ar. Metal fazendo o trabalho pesado em silêncio.",
+   "fundo": "escada"
+  },
+  {
+   "id": "d04",
+   "tipo": "detalhe",
+   "titulo": "Metal|e madeira",
+   "texto": "Aço preto fosco com lâminas de madeira: a combinação que deixa a fachada moderna e acolhedora ao mesmo tempo.",
+   "fundo": "portao"
+  },
+  {
+   "id": "d05",
+   "tipo": "detalhe",
+   "titulo": "Sombra|desenhada",
+   "texto": "No pergolado de ripas metálicas, o espaçamento define a sombra. É detalhe de projeto, não de acaso.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "d06",
+   "tipo": "detalhe",
+   "titulo": "Calha que|some",
+   "texto": "Calha bem resolvida acompanha a arquitetura e não chama atenção. Só aparece quando falta.",
+   "fundo": "calha"
+  },
+  {
+   "id": "d07",
+   "tipo": "detalhe",
+   "titulo": "Acabamento|que dura",
+   "texto": "Pintura eletrostática e ferragens inox: o portão continua bonito anos depois, sem retoque a cada verão.",
+   "fundo": "portao"
+  },
+  {
+   "id": "d08",
+   "tipo": "detalhe",
+   "titulo": "Portão|silencioso",
+   "texto": "Trilho nivelado, roldanas certas e quadro no esquadro. O motor agradece e a vizinhança também.",
+   "fundo": "portao"
+  },
+  {
+   "id": "p01",
+   "tipo": "pergunta",
+   "titulo": "Qual combina|com sua casa?",
+   "texto": "Portão de lâminas verticais ou horizontais? Responde aqui no direct.",
+   "fundo": "portao"
+  },
+  {
+   "id": "p02",
+   "tipo": "pergunta",
+   "titulo": "Preto fosco|ou corten?",
+   "texto": "Para uma fachada moderna, qual você escolheria? Manda no direct.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "p03",
+   "tipo": "pergunta",
+   "titulo": "Escada de|concreto ou metal?",
+   "texto": "Metal permite degraus mais leves e vãos livres. Qual você prefere? Conta pra gente.",
+   "fundo": "escada"
+  },
+  {
+   "id": "p04",
+   "tipo": "pergunta",
+   "titulo": "Você está|aprendendo?",
+   "texto": "Se você está começando na metalurgia, manda sua dúvida no direct. A melhor vira story.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "p05",
+   "tipo": "pergunta",
+   "titulo": "Calha aparente|ou embutida?",
+   "texto": "Uma valoriza o material, a outra some na arquitetura. Qual seria a sua?",
+   "fundo": "calha"
+  },
+  {
+   "id": "t01",
+   "tipo": "cta",
+   "titulo": "Seu projeto|em metal",
+   "texto": "Portões, escadas, guarda-corpos, pergolados e calhas sob medida. Orçamento: (66) 99632-0774.",
+   "fundo": "escada"
+  },
+  {
+   "id": "t02",
+   "tipo": "cta",
+   "titulo": "Feito para|durar",
+   "texto": "Residencial, comercial e industrial em Marcelândia e região. Chame no direct.",
+   "fundo": "portao"
+  },
+  {
+   "id": "t03",
+   "tipo": "cta",
+   "titulo": "Medimos|no local",
+   "texto": "Agende uma visita técnica e receba o projeto sob medida. WhatsApp (66) 99632-0774.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "t04",
+   "tipo": "cta",
+   "titulo": "Do desenho|à instalação",
+   "texto": "Projeto, fabricação e instalação com acabamento de alto padrão. Fale com a Metalize.",
+   "fundo": "calha"
+  }
+ ],
+ "carrosseis": [
+  {
+   "id": "car01",
+   "capa": "5 curiosidades|do aço",
+   "fundo": "chapa",
+   "slides": [
+    [
+     "Inox leva cromo",
+     "No mínimo 10,5%. O cromo cria uma película que se regenera e protege."
+    ],
+    [
+     "Corten protege com ferrugem",
+     "A camada de óxido estável impede a corrosão de avançar."
+    ],
+    [
+     "Aço dilata",
+     "10 metros de aço crescem cerca de 3,6 mm com 30 °C de variação."
+    ],
+    [
+     "Reciclável sem fim",
+     "O aço volta a ser aço infinitas vezes, sem perder qualidade."
+    ],
+    [
+     "Ferrugem estufa a tinta",
+     "O óxido ocupa mais volume que o aço e empurra a pintura."
+    ]
+   ],
+   "legenda": "Metal tem mais ciência do que parece. Qual dessas você não sabia?\n\nSalve para mostrar para alguém da obra.\n\n#metalurgia #serralheria #aço #arquitetura #altopadrao #marcelandia"
+  },
+  {
+   "id": "car02",
+   "capa": "Guarda-corpo|seguro e bonito",
+   "fundo": "escada",
+   "slides": [
+    [
+     "Altura mínima",
+     "1,10 m de altura é o que a norma pede para guarda-corpos."
+    ],
+    [
+     "Vão máximo",
+     "Não pode passar uma esfera de 11 cm. Protege as crianças."
+    ],
+    [
+     "Fixação",
+     "A força está na fixação: chumbadores e base dimensionados para o esforço."
+    ],
+    [
+     "Acabamento",
+     "Inox, aço pintado ou vidro com corrimão: estética sem abrir mão da norma."
+    ],
+    [
+     "Sob medida",
+     "Cada escada e cada sacada têm sua medida. Por isso medimos no local."
+    ]
+   ],
+   "legenda": "Guarda-corpo não é só acabamento: é segurança com desenho.\n\nSalve para conferir na sua obra.\n\n#guardacorpo #serralheria #arquitetura #altopadrao #metalurgia #marcelandia"
+  },
+  {
+   "id": "car02b",
+   "capa": "Escada metálica|confortável",
+   "fundo": "escada",
+   "slides": [
+    [
+     "A conta de Blondel",
+     "Dois espelhos + um piso entre 63 e 65 cm."
+    ],
+    [
+     "Espelho",
+     "Altura de cada degrau entre 16 e 18 cm."
+    ],
+    [
+     "Piso",
+     "Profundidade do degrau entre 28 e 32 cm."
+    ],
+    [
+     "Estrutura",
+     "Viga central, lateral ou escondida na parede: cada uma muda o visual."
+    ],
+    [
+     "Acabamento",
+     "Degraus em madeira sobre aço preto fosco: clássico do alto padrão."
+    ]
+   ],
+   "legenda": "Escada bonita é escada confortável. Essa conta faz toda a diferença.\n\nSalve para mostrar ao seu arquiteto.\n\n#escadametalica #escada #arquitetura #altopadrao #serralheria #marcelandia"
+  },
+  {
+   "id": "car03",
+   "capa": "Calha sem|transbordar",
+   "fundo": "calha",
+   "slides": [
+    [
+     "Caimento",
+     "Mínimo de 0,5%: 5 mm a cada metro até o condutor."
+    ],
+    [
+     "Tamanho certo",
+     "A seção da calha depende da área do telhado e da chuva da região."
+    ],
+    [
+     "Condutores",
+     "Quantidade e posição dos tubos definem se a água escoa a tempo."
+    ],
+    [
+     "Material",
+     "Galvalume, alumínio, inox ou cobre: durabilidade e visual diferentes."
+    ],
+    [
+     "Instalação",
+     "Suportes no espaçamento certo evitam barriga e água parada."
+    ]
+   ],
+   "legenda": "Calha que transborda quase sempre é falta de caimento ou de condutor.\n\nSalve para conferir na sua casa.\n\n#calha #telhado #serralheria #arquitetura #altopadrao #marcelandia"
+  },
+  {
+   "id": "car04",
+   "capa": "Começando na|metalurgia?",
+   "fundo": "chapa",
+   "slides": [
+    [
+     "Segurança primeiro",
+     "Máscara de solda, luvas de raspa, óculos e a proteção da esmerilhadeira sempre."
+    ],
+    [
+     "Limpeza",
+     "Solde sobre metal limpo: sujeira vira poro."
+    ],
+    [
+     "Esquadro",
+     "Diagonais iguais = peça no esquadro."
+    ],
+    [
+     "Empeno",
+     "Ponteie em cruz e solde alternando lados."
+    ],
+    [
+     "Paciência",
+     "Velocidade constante faz cordão bonito. Treine em sucata."
+    ]
+   ],
+   "legenda": "Para quem está começando: o básico bem feito separa amador de profissional.\n\nSalve e mande para quem está aprendendo.\n\n#metalurgia #solda #serralheiro #aprendiz #oficina #marcelandia"
+  },
+  {
+   "id": "car05",
+   "capa": "Portão que|não arria",
+   "fundo": "portao",
+   "slides": [
+    [
+     "Quadro no esquadro",
+     "Diagonais iguais antes de soldar tudo."
+    ],
+    [
+     "Diagonal",
+     "O contraventamento segura o peso e evita que arrie."
+    ],
+    [
+     "Trilho nivelado",
+     "Portão de correr pede base reta e firme."
+    ],
+    [
+     "Acabamento",
+     "Fundo anticorrosivo e pintura eletrostática."
+    ],
+    [
+     "Automação",
+     "Motor dimensionado para o peso real do portão."
+    ]
+   ],
+   "legenda": "Portão bom é o que você esquece que existe: abre, fecha e continua bonito.\n\nSalve para quando for fazer o seu.\n\n#portao #portaoautomatico #serralheria #altopadrao #arquitetura #marcelandia"
+  }
+ ],
+ "feeds": [
+  {
+   "id": "f01",
+   "kicker": "PROJETO SOB MEDIDA",
+   "titulo": "Portões que|valorizam a fachada",
+   "texto": "Aço, lâminas e madeira, projetados sob medida.",
+   "fundo": "portao",
+   "legenda": "O portão é a primeira impressão da casa. Projetamos cada um para a fachada onde ele vai morar.\n\nOrçamento pelo direct ou WhatsApp (66) 99632-0774.\nImagem ilustrativa.\n\n#portao #serralheria #altopadrao #arquitetura #fachada #marcelandia"
+  },
+  {
+   "id": "f02",
+   "kicker": "ESCADAS",
+   "titulo": "Leveza que|sustenta",
+   "texto": "Escadas metálicas com estrutura escondida.",
+   "fundo": "escada",
+   "legenda": "Escada metálica permite degraus finos, vãos livres e aquele efeito flutuante.\n\nQual estilo você prefere? Conta nos comentários.\nImagem ilustrativa.\n\n#escadametalica #escada #altopadrao #arquitetura #serralheria #marcelandia"
+  },
+  {
+   "id": "f03",
+   "kicker": "ÁREA EXTERNA",
+   "titulo": "Sombra com|desenho",
+   "texto": "Pergolados metálicos sob medida.",
+   "fundo": "pergolado",
+   "legenda": "Ripas metálicas no espaçamento certo criam sombra e desenho ao longo do dia.\n\nOrçamento pelo direct.\nImagem ilustrativa.\n\n#pergolado #areaexterna #altopadrao #arquitetura #serralheria #marcelandia"
+  },
+  {
+   "id": "f04",
+   "kicker": "CALHAS",
+   "titulo": "A água no|caminho certo",
+   "texto": "Calhas e condutores com caimento correto.",
+   "fundo": "calha",
+   "legenda": "Calha bem feita ninguém nota. Mal feita, mancha a fachada na primeira chuva.\n\nOrçamento pelo direct ou WhatsApp (66) 99632-0774.\nImagem ilustrativa.\n\n#calha #telhado #altopadrao #serralheria #arquitetura #marcelandia"
+  }
+ ]
+}

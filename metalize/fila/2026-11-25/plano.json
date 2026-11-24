@@ -1,0 +1,64 @@
+{
+ "data": "2026-11-25",
+ "conta": "17841449079341071",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_09h_1.jpg",
+   "pauta": "c03 Reciclável para sempre"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_09h_2.jpg",
+   "pauta": "a03 Ponteie em cruz"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_09h_3.jpg",
+   "pauta": "d02 Medida do seu espaço"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_15h_1.jpg",
+   "pauta": "c04 60 toneladas de tinta"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_15h_2.jpg",
+   "pauta": "a04 A garra perto da solda"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_15h_3.jpg",
+   "pauta": "p02 Preto fosco ou corten?"
+  }
+ ],
+ "20h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/carrossel_1.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/carrossel_2.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/carrossel_3.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/carrossel_4.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/carrossel_5.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/carrossel_6.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/carrossel_7.jpg"
+   ],
+   "legenda": "Metal tem mais ciência do que parece. Qual dessas você não sabia?\n\nSalve para mostrar para alguém da obra.\n\n#metalurgia #serralheria #aço #arquitetura #altopadrao #marcelandia",
+   "pauta": "car01 5 curiosidades do aço"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_post.jpg",
+   "pauta": "story do carrossel"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-25/story_20h_1.jpg",
+   "pauta": "t02 Feito para durar"
+  }
+ ]
+}

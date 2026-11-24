@@ -1,0 +1,45 @@
+{
+ "data": "2026-11-24",
+ "conta": "17841449079341071",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-24/story_09h_1.jpg",
+   "pauta": "c01 Por que o inox não enferruja?"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-24/story_09h_2.jpg",
+   "pauta": "a01 Diagonais iguais"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-24/story_09h_3.jpg",
+   "pauta": "d01 Solda que não aparece"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-24/story_15h_1.jpg",
+   "pauta": "c02 A ferrugem que protege"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-24/story_15h_2.jpg",
+   "pauta": "a02 Limpe antes de soldar"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-24/story_15h_3.jpg",
+   "pauta": "p01 Qual combina com sua casa?"
+  }
+ ],
+ "20h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-24/story_20h_1.jpg",
+   "pauta": "t01 Seu projeto em metal"
+  }
+ ]
+}
