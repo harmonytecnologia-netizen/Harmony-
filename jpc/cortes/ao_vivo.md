@@ -5,12 +5,12 @@
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
 - cortes_postados: 16
-- corte_guardado: —
+- corte_guardado: jpc/cortes/prontos/2026-11-24_10h_paulinho_npc_30fps.mp4 (a-Ur3A_kHXc 4:01:38–4:02:14, silêncio 4:01:58–4:02:05 removido; NPC demais / "tá 30 frame, não parece"; gancho "GTA 6 A 30 FPS COM TUDO ISSO DE NPC?!"; pico 0 s; já no GitHub, NÃO postado ainda — postar na próxima rodada e zerar este campo)
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
-| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia) |
+| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS — corte_guardado, ainda não postado) |
 | ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem") |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
@@ -32,6 +32,7 @@
 - #3 0:16:00–0:16:40 conferido (20h45): a "cobra no incêndio" é a mesma cena da trocação já usada, com legenda do jogo cheia de palavrão — descartada
 
 - a-Ur3A_kHXc (#5, 24/11): transcrição da watch FUNCIONA nesta live (1655 segmentos). Ideias não usadas: 3:56:57–3:57:30 "tem um cara dentro da lixeira... quero explodir ele" (granada); 3:09:02 "olha que da hora os carros esticando" (bug/gráfico); 6:57–7:11 "esse cabelo tá triste, parecendo um leão" (Jason); 1:22:21 Jason bugado não ajuda (tem palavrão); 1:44:05–1:44:15 personagem bugado não entra no carro, polícia atirando (palavrão leve); 1:50:46–1:53:43 fuga de motinha; 2:20:53 "ela ia meter fuga"; 4:21:14 "matei a velha"; 4:30:06 "não chama polícia não"; 17:28–17:33 "que isso? é a Lúcia... sai sai sai" (tem palavrão)
+- a-Ur3A_kHXc mais ideias (08h): 1:13:00–1:13:30 "é muito prazeroso roubar as coisas aqui... arma especial"; 1:15:29–1:15:52 "Ô louco, um lança granada"; 1:41:36–1:41:45 polícia metendo bala + "meu aviãozinho"; 3:50:08 "aqui não dá polícia... cabou frei" [grito]
 
 ## Rodadas
 | data | hora | status | resultado |
@@ -53,3 +54,4 @@
 | 2026-11-20 | 21h45 | sem live nova (última ivjSsjiHbZA 7:03:50); começou a gravar o pico 1:39:22–1:41:10 da ivjSsjiHbZA, mas o PC desconectou da ponte do app Claude antes de salvar o arquivo | sem corte (PC offline) — próximo: repetir esse pico |
 | 2026-11-21 | 01h29 | sem live nova (última ivjSsjiHbZA 7:03:50); Downloads liberada de novo; gravado o pico 1:39:20 da ivjSsjiHbZA (Whisper local) | Reel 18125607379938429 + story 18114249833267996 |
 | 2026-11-24 | 07h45 | live nova a-Ur3A_kHXc (#5, 4:49:14, encerrada); Downloads liberada de novo; transcrição da watch funcionou | Reel 18130499171302009 + story 17919574332494215 |
+| 2026-11-24 | 08h00 | rodada atrasada (09h41 UTC disparou 10h38) rodou junto com a de 07h45, que já postou o jacaré; gravado e cortado NPC/30 FPS da #5 | sem post (evitar 2 Reels na mesma hora) — corte_guardado para a próxima rodada |
