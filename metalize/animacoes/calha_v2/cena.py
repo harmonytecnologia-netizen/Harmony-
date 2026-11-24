@@ -120,7 +120,7 @@ def calha(pref, z0, parent=None, x0=0.0):
           cube(pref + 'tras', (x0, CY + CW / 2, z0 + CH / 2 + 0.02), (L, 0.004, CH / 2 + 0.02), M['galv']),
           cube(pref + 'tE', (x0 - L, CY, z0 + CH / 2), (0.004, CW / 2, CH / 2), M['galv']),
           cube(pref + 'tD', (x0 + L, CY, z0 + CH / 2), (0.004, CW / 2, CH / 2), M['galv'])]
-    ps.append(cil(pref + 'friso', (x0, CY - CW / 2 - 0.006, z0 + CH), 0.011, 2 * L, M['galv'], rot=(0, math.pi / 2, 0), v=24))
+    ps.append(cube(pref + 'friso', (x0, CY - CW / 2 - 0.012, z0 + CH - 0.006), (L, 0.012, 0.006), M['galv']))  # aba reta dobrada
     for k in range(-7, 8):  # suportes
         xs = x0 + k * 0.58
         ps.append(cube(pref + f'sup{k}', (xs, CY, z0 - 0.006), (0.015, CW / 2 + 0.01, 0.003), M['galv']))
@@ -141,11 +141,21 @@ def zB(x): return ZP - (x + L) * math.tan(PHI)
 
 XC = 3.5
 ZTOP = min(ZA, zB(XC))
-tubo, _ = cabo('condutor', [(XC, CY, ZTOP), (XC, CY, ZTOP - 0.3), (XC, -0.07, ZTOP - 0.75), (XC, -0.07, 0.45), (XC, -0.07, 0.2), (XC, -0.3, 0.1)], M['galv'], esp=0.04)
+from mathutils import Vector
+def tubo_reto(nome, a, b, r=0.04):
+    a, b = Vector(a), Vector(b); d = b - a
+    bpy.ops.mesh.primitive_cylinder_add(vertices=32, radius=r, depth=d.length, location=(a + b) / 2)
+    o = bpy.context.object; o.name = nome; o.rotation_mode = 'QUATERNION'; o.rotation_quaternion = d.to_track_quat('Z', 'Y')
+    bpy.ops.object.shade_smooth(); o.data.materials.append(M['galv']); return o
+PTS = [(XC, CY, ZTOP + 0.01), (XC, CY, ZTOP - 0.22), (XC, -0.07, ZTOP - 0.22 - (CY * -1 - 0.07)), (XC, -0.07, 0.3), (XC, -0.27, 0.1)]
+tubo = tubo_reto('condutor', PTS[0], PTS[1])
+TUBOS = [tubo] + [tubo_reto(f'condutor{k}', PTS[k], PTS[k + 1]) for k in range(1, len(PTS) - 1)]
+for k, pt in enumerate(PTS[1:-1]):  # curvas de 45° (luvas)
+    bpy.ops.mesh.primitive_uv_sphere_add(radius=0.046, location=pt); j = bpy.context.object; j.name = f'curva{k}'; bpy.ops.object.shade_smooth(); j.data.materials.append(M['galv']); TUBOS.append(j)
 for zb in (0.8, 1.5, 2.0):
     cube(f'abraca{zb}', (XC, -0.03, zb), (0.05, 0.03, 0.01), M['galv'])
 cube('grelha', (XC, -0.4, 0.022), (0.15, 0.15, 0.004), M['grelha'])
-TUBO = [tubo] + [o for o in bpy.data.objects if o.name.startswith('abraca')]
+TUBO = TUBOS + [o for o in bpy.data.objects if o.name.startswith('abraca')]
 
 def vis(objs, faixas):
     for o in objs:
@@ -254,8 +264,8 @@ for i in range(26):
         e.location = (x, CY + yo, zB(x) + 0.04) if x < 50 else (0, 0, -5)
         e.keyframe_insert('location', frame=f)
 # jato saindo do cano
-bpy.ops.mesh.primitive_cylinder_add(radius=0.03, depth=0.25, location=(XC, -0.42, 0.12), rotation=(math.radians(70), 0, 0))
-jato = bpy.context.object; jato.data.materials.append(M['filete']); vis([jato], SEMV)
+emissor('jato1', (XC, -0.31, 0.07), (0.025, 0.01, 1), 1, T(S0), 3000, (0, -0.9, 0.1), 0.15, 12)
+emissor('jato2', (XC, -0.31, 0.07), (0.025, 0.01, 1), T(S1), NF, 1500, (0, -0.9, 0.1), 0.15, 12)
 
 # ---------------- água descendo pelo telhado (filetes) ----------------
 fil = []
@@ -302,7 +312,7 @@ OLHO_A = ((-0.6, -3.4, 1.65), (0.3, CY, 2.2)); OLHO_B = ((-0.4, -3.2, 1.65), (0.
 corte(0, 3.0, ((-0.4, -5.4, 1.6), (0.4, 0, 1.9)), ((-0.2, -4.9, 1.62), (0.4, 0, 1.95)))              # casa moderna na chuva
 corte(3.0, 6.6, ((-1.0, 1.3, 4.7), (0.2, CY, 2.85)), ((-0.8, 1.0, 4.5), (0.3, CY, 2.85)))              # telhado -> calha
 corte(6.6, 10.2, ((-3.2, -1.3, 3.55), (0.0, CY, 2.8)), ((0.8, -1.2, 3.45), (3.2, CY, 2.72)))          # corre pela calha até o tubo
-corte(10.2, S0, ((2.6, -1.5, 2.9), (XC, CY, 2.6)), ((2.7, -1.6, 0.9), (XC, -0.3, 0.2)))               # desce pelo tubo até o ralo
+corte(10.2, S0, ((2.3, -1.9, 2.5), (XC, -0.1, 2.5)), ((2.3, -1.9, 0.75), (XC, -0.1, 0.75)))   # câmera nivelada: tubo fica no prumo               # desce pelo tubo até o ralo
 corte(S0, 17.0, OLHO_A, OLHO_B)                                                                        # SEM CALHA: despenca do telhado
 corte(17.0, S1, ((0.9, -2.3, 0.5), (0.2, -0.3, 0.45)), ((0.7, -2.1, 0.55), (0.2, -0.3, 0.5)))          # respinga na base, umidade
 corte(S1, DUR, OLHO_A, ((-0.2, -3.7, 1.7), (0.5, CY, 2.1)))                                            # COM CALHA: fachada seca

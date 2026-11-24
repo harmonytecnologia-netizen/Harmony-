@@ -1,44 +1,44 @@
 {
  "quadros": "seq/%04d.jpg",
  "fps": 24,
- "duracao": 29.6,
+ "duracao": 30.3,
  "tema": "CALHAS",
- "musica": "../../../automacao/musicas/Taking Flight - Blue Deer Studio.mp3",
- "musica_vol": 0.28,
+ "musica": "../../../automacao/musicas/Vibe Check - Blue Deer Studio.mp3",
+ "musica_vol": 0.3,
  "falas": [
   {
-   "arquivo": "voz/f1.wav",
+   "arquivo": "voz2/f1.wav",
    "t": 0.3,
    "texto": "Como a calha protege a sua casa?"
   },
   {
-   "arquivo": "voz/f2.wav",
-   "t": 3.2,
+   "arquivo": "voz2/f2.wav",
+   "t": 3.1,
    "texto": "A chuva cai no telhado e escorre direto para a calha."
   },
   {
-   "arquivo": "voz/f3.wav",
-   "t": 6.8,
+   "arquivo": "voz2/f3.wav",
+   "t": 6.7,
    "texto": "Com um leve caimento, a água corre até o tubo de descida,"
   },
   {
-   "arquivo": "voz/f4.wav",
-   "t": 10.2,
+   "arquivo": "voz2/f4.wav",
+   "t": 10.55,
    "texto": "e é levada para o ralo, longe da parede."
   },
   {
-   "arquivo": "voz/f5.wav",
-   "t": 13.5,
+   "arquivo": "voz2/f5b.wav",
+   "t": 13.6,
    "texto": "Sem calha, a água despenca do telhado e respinga na base da casa. Vem a umidade, a infiltração e a fachada manchada."
   },
   {
-   "arquivo": "voz/f6.wav",
-   "t": 21.5,
+   "arquivo": "voz2/f6.wav",
+   "t": 21.6,
    "texto": "Com calha, a fachada fica seca e protegida por muitos anos."
   },
   {
-   "arquivo": "voz/f7.wav",
-   "t": 26.1,
+   "arquivo": "voz2/f7.wav",
+   "t": 26.4,
    "texto": "Metalize. Calhas e rufos sob medida."
   }
  ],
