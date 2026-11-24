@@ -123,4 +123,4 @@
 | 2026-11-24 | 12h | story do Reel | g6r005 | — | 18121940674788154 |
 | 2026-11-24 | 13h | Reel corte GTA 6 | Paulinho: achou lança-granada (a-Ur3A_kHXc 1:15:32) | — | 17960651388292274 (story 18091999733284700) |
 | 2026-11-24 | 13h | Reel corte GTA 6 | Paulinho: fuga de carro, "furou o pneu, já era" (a-Ur3A_kHXc 1:52:38) | — | 18444321166199123 (story 18345906283287761) |
-2026-11-24 | 14h43 | Reel corte GTA 6 | não chama a polícia (Paulinho #5 4:30:01) | — | 18100538102113221 (story 17957186148308975)
+| 2026-11-24 | 14h | Reel corte GTA 6 | Paulinho: "não chama a polícia" no assalto (a-Ur3A_kHXc 4:30:01) | — | 18100538102113221 (story 17957186148308975) |
