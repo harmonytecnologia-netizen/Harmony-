@@ -4,13 +4,13 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 20
+- cortes_postados: 21
 - corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
-| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS); 3:50:10–3:50:49 ("aqui não dá polícia" / CABOU FREIO); 1:15:32–1:16:07 (achou lança-granada na última casa / "meu Deus"); 1:52:38–1:53:05 (fuga de carro, Lúcia atirando, "furou o pneu, já era") |
+| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS); 3:50:10–3:50:49 ("aqui não dá polícia" / CABOU FREIO); 1:15:32–1:16:07 (achou lança-granada na última casa / "meu Deus"); 1:52:38–1:53:05 (fuga de carro, Lúcia atirando, "furou o pneu, já era"); 4:30:01–4:30:24 (assalto na cafeteria, "não chama a polícia" / "você é louco") |
 | ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem") |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
@@ -36,6 +36,7 @@
 - a-Ur3A_kHXc (12h): gravado 3:56:47–3:57:57 — a granada na lixeira aconteceu ANTES de 3:56:47 (aqui ele só comenta dirigindo); se for usar, gravar ~3:55:30–3:57:10. Gravado 3:08:47–3:09:52 ("carros esticando" = racha no fundo, cena noturna escura) — fraco, descartado. Transcrição da watch não abriu nesta rodada (Whisper local).
 - a-Ur3A_kHXc (13h): gravado 3:55:27–3:56:39 — é cutscene (conversa do jogo) + andando, SEM granada/lixeira; a cena da lixeira não está entre 3:55:27 e 3:57:57 — descartar essa ideia. Usado o lança-granada 1:15:32. Restam: 1:13:00 "prazeroso roubar"; 1:41:36 "meu aviãozinho"; 1:50:46 fuga de motinha; 2:20:53 "ela ia meter fuga"; 4:21:14 "matei a velha"; 4:30:06 "não chama polícia"; 6:57 cabelo de leão. Transcrição da watch não abriu (Whisper local).
 - a-Ur3A_kHXc (13h): transcrição da watch abriu. Gravado 1:52:34–1:53:46 (fuga de carro). Legendas do JOGO têm palavrão ("caralho", "porra", "fodeu") — borrei a faixa de legenda do jogo (y 935–1015, x 460–1460) antes do corte.py. Resto não usado: 1:53:11 "pneu blindado... você tá doido" [risadas] (tem legenda do jogo com palavrão, borrar); 1:53:43 "pilotei bem a motinha". Restam também: 1:13:00 "prazeroso roubar"; 1:41:36 "meu aviãozinho"; 2:20:53; 4:21:14; 4:30:06; 6:57 cabelo de leão.
+- a-Ur3A_kHXc (14h): transcrição da watch abriu. Usado 4:30:01 "não chama a polícia". Logo depois (4:30:40–4:31:05) ele comenta "um pouco violento esse GTA... tá dando dó de matar os NPC... Rockstar fez de um jeito que tá dando dó" — bom gancho de opinião (tem NPC caído/saque na tela). 4:21:14 "matei a velha" tem palavrão em inglês do jogo logo depois — evitar. Restam: 1:13:00 "prazeroso roubar"; 1:41:36 "meu aviãozinho"; 2:20:53; 6:57 cabelo de leão.
 
 ## Rodadas
 | data | hora | status | resultado |
@@ -62,3 +63,4 @@
 | 2026-11-24 | 11h44 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu (Whisper local); usada ideia do CABOU FREIO da #5 | Reel 17905050222378912 + story 18125655304936646 |
 | 2026-11-24 | 12h44 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu; granada/lixeira descartada (cutscene); usada ideia do lança-granada da #5 (Whisper local) | Reel 17960651388292274 + story 18091999733284700 |
 | 2026-11-24 | 13h42 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch abriu; usada fuga/pneu da #5 (legenda do jogo borrada) | Reel 18444321166199123 + story 18345906283287761 |
+| 2026-11-24 | 14h43 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch abriu; usado "não chama a polícia" da #5 (Whisper local na legenda) | Reel 18100538102113221 + story 17957186148308975 |
