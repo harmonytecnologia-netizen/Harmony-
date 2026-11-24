@@ -121,3 +121,4 @@
 | 2026-11-24 | 12h | story do feed | g6f006 | — | 18183911899444470 |
 | 2026-11-24 | 12h | Reel | g6r005 (fonte antes do upgrade) | trilha própria sintetizada #369169 + narração Piper | 18398683666166808 |
 | 2026-11-24 | 12h | story do Reel | g6r005 | — | 18121940674788154 |
+| 2026-11-24 | 13h | Reel corte GTA 6 | Paulinho: achou lança-granada (a-Ur3A_kHXc 1:15:32) | — | 17960651388292274 (story 18091999733284700) |
