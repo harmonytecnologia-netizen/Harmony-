@@ -13,12 +13,12 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = os.path.dirname(RAIZ)
 F = os.path.join(REPO, 'kit_instagram', 'fontes')
 RAW = 'https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/{d}/{a}'
-OURO = (242, 183, 5); CREME = (243, 240, 234); CINZA = (167, 162, 154); FUNDO = (11, 12, 13)  # amarelo provisório até receber o logo original
+OURO = (251, 207, 14); CREME = (243, 240, 234); CINZA = (167, 162, 154); FUNDO = (11, 12, 13)  # amarelo da logomarca
 KICK = {'curiosidade': 'VOCÊ SABIA?', 'aprendiz': 'DICA DE OFICINA', 'detalhe': 'DETALHE DE ALTO PADRÃO', 'pergunta': 'QUAL É A SUA?', 'cta': 'METALIZE METALÚRGICA'}
 HANDLE = '@metalize.metalurgica'
 
 def fn(nome, t): return ImageFont.truetype(os.path.join(F, nome), t)
-SERIF = lambda t: fn('Playfair-Regular.ttf', t)
+SERIF = lambda t: fn('Inter-Bold.otf', int(t * 0.86))  # títulos em sans forte, como o logo
 LEVE = lambda t: fn('Inter-Light.otf', t)
 MED = lambda t: fn('Inter-Medium.otf', t)
 LOGO = Image.open(os.path.join(RAIZ, 'logo.png')).convert('RGBA'); LOGO = LOGO.crop(LOGO.getbbox())
@@ -81,7 +81,7 @@ def bloco_texto(im, kicker, titulo, texto, base_y, tam_t=92, larg=900):
 def story(item, out, var=0):
     W, H = 1080, 1920
     im = sombra(fundo(item['fundo'], W, H, var))
-    logo(im, 300, 110)
+    logo(im, 230, 90)
     d = bloco_texto(im, KICK.get(item['tipo'], 'METALIZE'), item['titulo'], item['texto'], H - 250)
     espac(d, 0, H - 150, HANDLE, LEVE(26), CINZA, 6, W); ilustrativa(d, W)
     im.save(out, quality=93)
@@ -89,13 +89,13 @@ def story(item, out, var=0):
 def feed(item, out, var=0):
     W, H = 1080, 1350
     im = sombra(fundo(item['fundo'], W, H, var), inicio=0.4)
-    logo(im, 240, 70)
+    logo(im, 190, 56)
     d = bloco_texto(im, item['kicker'], item['titulo'], item['texto'], H - 120, tam_t=84)
     ilustrativa(d, W); im.save(out, quality=93)
 
 def carrossel(item, pasta, pref):
     W, H = 1080, 1350; arqs = []
-    im = sombra(fundo(item['fundo'], W, H), inicio=0.38); logo(im, 240, 70)
+    im = sombra(fundo(item['fundo'], W, H), inicio=0.38); logo(im, 190, 56)
     d = bloco_texto(im, 'GUIA METALIZE', item['capa'], 'Arraste para o lado →', H - 120, tam_t=96); ilustrativa(d, W)
     p = f'{pref}_1.jpg'; im.save(os.path.join(pasta, p), quality=93); arqs.append(p)
     base = fundo('chapa', W, H).filter(ImageFilter.GaussianBlur(18)); base = Image.blend(base, Image.new('RGB', (W, H), FUNDO), 0.78)
@@ -108,7 +108,7 @@ def carrossel(item, pasta, pref):
         for ln in quebra(d, txt, LEVE(42), 900): d.text((90, y), ln, font=LEVE(42), fill=(222, 218, 210)); y += 60
         espac(d, 0, H - 100, HANDLE, LEVE(24), CINZA, 6, W)
         p = f'{pref}_{i}.jpg'; im.save(os.path.join(pasta, p), quality=93); arqs.append(p)
-    im = base.copy(); d = ImageDraw.Draw(im); logo(im, 520, 420)
+    im = base.copy(); d = ImageDraw.Draw(im); logo(im, 420, 300)
     for k, (s, f, c) in enumerate((('Projetos em metal sob medida.', SERIF(58), CREME), ('Orçamento pelo direct', LEVE(38), (222, 218, 210)), ('WhatsApp (66) 99632-0774', MED(36), OURO))):
         d.text(((W - d.textlength(s, font=f)) / 2, 760 + k * 90), s, font=f, fill=c)
     p = f'{pref}_{len(arqs) + 1}.jpg'; im.save(os.path.join(pasta, p), quality=93); arqs.append(p)
@@ -120,7 +120,7 @@ def story_do_post(img_path, out, rotulo='NOVO POST NO FEED'):
     bg = Image.blend(bg.resize((W, H)), Image.new('RGB', (W, H), FUNDO), 0.6)
     p = post.resize((880, round(post.height * 880 / post.width)), Image.LANCZOS); y = (H - p.height) // 2 + 40
     bg.paste(p, ((W - 880) // 2, y)); d = ImageDraw.Draw(bg)
-    espac(d, 0, y - 90, rotulo, MED(30), OURO, 8, W); logo(bg, 260, 110)
+    espac(d, 0, y - 90, rotulo, MED(30), OURO, 8, W); logo(bg, 200, 90)
     espac(d, 0, y + p.height + 60, 'toque para ver', LEVE(28), CINZA, 5, W)
     bg.save(out, quality=93)
 
