@@ -4,13 +4,13 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 16
-- corte_guardado: jpc/cortes/prontos/2026-11-24_10h_paulinho_npc_30fps.mp4 (a-Ur3A_kHXc 4:01:38–4:02:14, silêncio 4:01:58–4:02:05 removido; NPC demais / "tá 30 frame, não parece"; gancho "GTA 6 A 30 FPS COM TUDO ISSO DE NPC?!"; pico 0 s; já no GitHub, NÃO postado ainda — postar na próxima rodada e zerar este campo)
+- cortes_postados: 17
+- corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
-| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS — corte_guardado, ainda não postado) |
+| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS) |
 | ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem") |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
@@ -55,3 +55,4 @@
 | 2026-11-21 | 01h29 | sem live nova (última ivjSsjiHbZA 7:03:50); Downloads liberada de novo; gravado o pico 1:39:20 da ivjSsjiHbZA (Whisper local) | Reel 18125607379938429 + story 18114249833267996 |
 | 2026-11-24 | 07h45 | live nova a-Ur3A_kHXc (#5, 4:49:14, encerrada); Downloads liberada de novo; transcrição da watch funcionou | Reel 18130499171302009 + story 17919574332494215 |
 | 2026-11-24 | 08h00 | rodada atrasada (09h41 UTC disparou 10h38) rodou junto com a de 07h45, que já postou o jacaré; gravado e cortado NPC/30 FPS da #5 | sem post (evitar 2 Reels na mesma hora) — corte_guardado para a próxima rodada |
+| 2026-11-24 | 11h04 | rodada de 10h41 BRT (disparou 11h04); postado o corte_guardado NPC/30 FPS da #5 (a-Ur3A_kHXc 4:01:38) | Reel 18165041170436058 + story 18035051870681569 |
