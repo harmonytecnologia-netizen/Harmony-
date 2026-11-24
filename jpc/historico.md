@@ -125,3 +125,4 @@
 | 2026-11-24 | 13h | Reel corte GTA 6 | Paulinho: fuga de carro, "furou o pneu, já era" (a-Ur3A_kHXc 1:52:38) | — | 18444321166199123 (story 18345906283287761) |
 | 2026-11-24 | 14h | Reel corte GTA 6 | Paulinho: "não chama a polícia" no assalto (a-Ur3A_kHXc 4:30:01) | — | 18100538102113221 (story 17957186148308975) |
 | 2026-11-24 | 15h | Reel corte GTA 6 | Paulinho: fuga da polícia de carro, "polícia metendo bala" (a-Ur3A_kHXc 1:41:25) | — | 18083233952384748 (story 18119743922153898) |
+| 2026-11-24 | 16h | Reel corte GTA 6 | Paulinho: "roubar no GTA 6 vicia" — saque da casa, arma especial/bomba adesiva (a-Ur3A_kHXc 1:13:00) | — | 18117281669123875 (story 18131008721491545) |
