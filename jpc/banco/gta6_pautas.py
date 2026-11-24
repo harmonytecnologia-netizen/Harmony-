@@ -246,3 +246,40 @@ g6_stories+=[
  ("ab","Missão principal|Explorar o mapa"),
  ("agenda","PC montado, testado e enviado pra todo o Brasil. Manda ORÇAMENTO no Direct."),
 ]
+
+# === Bloco 4 (produção 24/11/2026) — notícias conferidas em 24/11:
+# - Sony (PlayStation Blog, 23/11): mais de 39 milhões de jogadores únicos no PS5 entre 19 e 22/11, 683 milhões de horas jogadas (jogadores, não vendas).
+# - Alinea Analytics (estimativa NÃO oficial, 24/11): ~44,9 milhões de cópias (PS5 + Xbox).
+# - Rumor (fontes anônimas, imprensa 23–24/11): PC no 1º trimestre de 2027. NÃO é oficial. Rockstar não anunciou data, preço nem requisito de PC.
+# - Pacote de ~209 GB divulgado por hacker como "build do Xbox" (não verificado): baixar = pirataria + risco de vírus.
+# Feed de HOJE (24/11) vira a notícia dos 39 milhões; processador (antigo g6f006) vai pro fim do banco.
+# Notícias que envelhecem rápido ficam logo no começo: estimativa 44,9 mi (26/11) e rumor 2027 (27/11); Reel de 25/11 = build vazada.
+_proc=g6_feed.pop(6)
+g6_feed.insert(6,{"titulo":"39 milhões no PS5","destaque":"39 milhões","sub":"Segundo a Sony: mais de 39 milhões de jogadores no PS5 entre 19 e 22/11 e 683 milhões de horas jogadas.","legenda":"39 MILHÕES de jogadores em 4 dias 🤯\n\nSegundo a Sony (PlayStation Blog, 23/11), mais de 39 milhões de pessoas jogaram GTA 6 no PS5 entre 19 e 22/11, somando 683 milhões de horas. E isso só no PS5.\n\nE no PC? Ainda sem data e sem requisito oficial. Tem rumor de 2027, mas a Rockstar não confirmou nada.\n\nVocê já tá nessa conta? 👇"})
+g6_feed+=[_proc,
+ {"titulo":"PC em 2027? É rumor","destaque":"rumor","sub":"Fontes anônimas falam em 1º trimestre de 2027. A Rockstar não anunciou data, preço nem requisito de PC.","legenda":"'GTA 6 no PC em 2027' 👀 Por enquanto é RUMOR.\n\nA imprensa cita fontes anônimas falando em início de 2027. A Rockstar não anunciou data, preço nem requisito de PC.\n\nNa dúvida, a base do PC dá pra deixar pronta: SSD, memória em dual channel e fonte boa.\n\nVocê espera ou joga no console? 👇"},
+ {"titulo":"Build vazada = vírus","destaque":"vírus","sub":"Pacote 'GTA 6 PC/Xbox' vazado não é versão oficial. Além de pirataria, é a isca perfeita pra vírus e roubo de conta.","legenda":"🚨 Viu 'GTA 6 vazado rodando no PC' pra baixar? NÃO BAIXA.\n\nNão é versão oficial: é pirataria e isca perfeita pra vírus, minerador e roubo de conta (Steam, banco, Instagram).\n\nVersão de PC oficial ainda não foi anunciada. Manda pro amigo 👇"},
+ {"titulo":"44,9 milhões? Estimativa","destaque":"Estimativa","sub":"Analistas (Alinea) estimam ~44,9 milhões de cópias no PS5 + Xbox. Número não oficial.","legenda":"Quantas cópias o GTA 6 já vendeu? 📈\n\nA Alinea Analytics estima uns 44,9 milhões (PS5 + Xbox) — estimativa, não número oficial. Oficial: US$ 3,79 bi no 1º dia (Rockstar) e 39 mi de jogadores no PS5 (Sony).\n\nChuta: quanto vai ser no fim do ano? 👇"},
+]
+g6_car.insert(6,{"capa":"GTA 6 no PC: fato x rumor","slides":[("FATO","GTA 6 saiu em 19/11 só no PS5 e Xbox Series X|S."),("FATO","A Rockstar não anunciou versão, data, preço nem requisito de PC."),("RUMOR","Fontes anônimas falam em PC no 1º trimestre de 2027. Não confirmado."),("CILADA","'Build vazada' pra baixar = pirataria + risco de vírus."),("O QUE DÁ PRA FAZER","Deixar a base pronta: SSD NVMe, 16 GB+ em dual channel, fonte boa (estimativa JPC).")]})
+g6_reels[6:6]=[
+ {"gancho":"BUILD VAZADA? NÃO BAIXA","destaque":"NÃO BAIXA","cards":["Não é versão oficial","Pirataria + risco de vírus","Rouba conta e senha"],
+  "narracao":"Viu GTA 6 vazado rodando no PC para baixar? Não baixa. Não é versão oficial, é pirataria e a isca perfeita para vírus e roubo de conta. A versão de PC ainda não foi anunciada. Manda esse vídeo para aquele amigo.",
+  "legenda":"🚨 'GTA 6 vazado pra PC' = pirataria + risco de vírus.\n\nVersão de PC oficial ainda não foi anunciada.\n\nManda pro amigo 👇"},
+]
+g6_stories[30:30]=[
+ ("noticia","Sony: mais de 39 milhões de jogadores de GTA 6 no PS5 entre 19 e 22/11."),
+ ("curiosidade","683 milhões de horas de GTA 6 jogadas no PS5 em 4 dias, segundo a Sony."),
+ ("pergunta","GTA 6 no PC em 2027? É rumor. Você acha que sai quando?"),
+ ("ab","Sai em 2027|Só em 2028"),
+ ("dica","'GTA 6 vazado pra PC' = pirataria e risco de vírus. Não baixa."),
+ ("noticia","Analistas estimam ~44,9 milhões de cópias do GTA 6 (estimativa, não oficial)."),
+ ("ab","PS5|Xbox Series"),
+ ("pergunta","Já zerou ou ainda tá explorando Leonida?"),
+ ("agenda","Rumor ou não, PC pronto é PC pronto. Manda GTA6 no Direct."),
+ ("dica","Quer ver se o PC tem vírus? Windows Security > Verificação completa."),
+]
+
+_g=[x for x in g6_feed if x["titulo"] in ("44,9 milhões? Estimativa","PC em 2027? É rumor")]
+for x in _g: g6_feed.remove(x)
+g6_feed[8:8]=[_g[1],_g[0]] if _g[0]["titulo"].startswith("PC") else _g

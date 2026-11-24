@@ -15,7 +15,10 @@
   "g6f003",
   "g6f004",
   "g6f005",
-  "g6f006"
+  "g6f006",
+  "g6f007",
+  "g6f008",
+  "g6f009"
  ],
  "carrosseis": [
   "car001",
@@ -31,7 +34,10 @@
   "g6c002",
   "g6c003",
   "g6c004",
-  "g6c005"
+  "g6c005",
+  "g6c006",
+  "g6c007",
+  "g6c008"
  ],
  "stories": [
   "st000",
@@ -108,7 +114,22 @@
   "g6s026",
   "g6s027",
   "g6s028",
-  "g6s029"
+  "g6s029",
+  "g6s030",
+  "g6s031",
+  "g6s032",
+  "g6s033",
+  "g6s034",
+  "g6s035",
+  "g6s036",
+  "g6s037",
+  "g6s038",
+  "g6s039",
+  "g6s040",
+  "g6s041",
+  "g6s042",
+  "g6s043",
+  "g6s044"
  ],
  "fundos": [
   "pexels_pc_build_10405280.jpg",
@@ -224,7 +245,29 @@
   "pexels_setup_roxo.jpg",
   "ia_2026-11-15_3.jpg",
   "pexels_gamer_telas.jpg",
-  "ia_2026-11-14_4.jpg"
+  "ia_2026-11-14_4.jpg",
+  "pexels_mouse_mesa.jpg",
+  "pexels_homem_jogando.jpg",
+  "ia_2026-11-15_1.jpg",
+  "pexels_setup_roxo.jpg",
+  "ia_2026-11-14_1.jpg",
+  "ia_2026-11-15_3.jpg",
+  "pexels_gamer_telas.jpg",
+  "ia_2026-11-14_4.jpg",
+  "pexels_mouse_mesa.jpg",
+  "ia_2026-11-15_1.jpg",
+  "pexels_setup_roxo.jpg",
+  "pexels_homem_jogando.jpg",
+  "ia_2026-11-15_3.jpg",
+  "ia_2026-11-14_1.jpg",
+  "pexels_gamer_telas.jpg",
+  "ia_2026-11-14_4.jpg",
+  "pexels_mouse_mesa.jpg",
+  "ia_2026-11-15_1.jpg",
+  "pexels_setup_roxo.jpg",
+  "ia_2026-11-15_3.jpg",
+  "ia_2026-11-14_1.jpg",
+  "pexels_homem_jogando.jpg"
  ],
  "musicas": [
   [
@@ -254,6 +297,18 @@
   [
    "2026-11-24",
    "trilha"
+  ],
+  [
+   "2026-11-25",
+   "trilha"
+  ],
+  [
+   "2026-11-26",
+   "trilha"
+  ],
+  [
+   "2026-11-27",
+   "trilha"
   ]
  ],
  "reels": [
@@ -262,7 +317,10 @@
   "g6r002",
   "g6r003",
   "g6r004",
-  "g6r005"
+  "g6r005",
+  "g6r006",
+  "g6r007",
+  "g6r008"
  ],
  "cortes": []
 }
