@@ -1,0 +1,43 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.62,0:00:02.02,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}EU{\r} VOU CHAMAR
+Dialogue: 0,0:00:02.02,0:00:02.12,L,,0,0,0,,EU {\c&H4FE1FF&\fscx112\fscy112}VOU{\r} CHAMAR
+Dialogue: 0,0:00:02.12,0:00:02.32,L,,0,0,0,,EU VOU {\c&H4FE1FF&\fscx112\fscy112}CHAMAR{\r}
+Dialogue: 0,0:00:02.32,0:00:02.44,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} POLÍCIA OK?
+Dialogue: 0,0:00:02.44,0:00:03.10,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}POLÍCIA{\r} OK?
+Dialogue: 0,0:00:03.10,0:00:03.15,L,,0,0,0,,A POLÍCIA {\c&H4FE1FF&\fscx112\fscy112}OK?{\r}
+Dialogue: 0,0:00:03.56,0:00:04.30,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}OXE!{\r} NÃO, NÃO
+Dialogue: 0,0:00:04.30,0:00:04.52,L,,0,0,0,,OXE! {\c&H4FE1FF&\fscx112\fscy112}NÃO,{\r} NÃO
+Dialogue: 0,0:00:04.52,0:00:04.60,L,,0,0,0,,OXE! NÃO, {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r}
+Dialogue: 0,0:00:04.60,0:00:04.72,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}CHAMA{\r} A POLÍCIA,
+Dialogue: 0,0:00:04.72,0:00:04.82,L,,0,0,0,,CHAMA {\c&H4FE1FF&\fscx112\fscy112}A{\r} POLÍCIA,
+Dialogue: 0,0:00:04.82,0:00:05.02,L,,0,0,0,,CHAMA A {\c&H4FE1FF&\fscx112\fscy112}POLÍCIA,{\r}
+Dialogue: 0,0:00:05.10,0:00:05.20,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} CHAMA A
+Dialogue: 0,0:00:05.20,0:00:05.30,L,,0,0,0,,NÃO {\c&H4FE1FF&\fscx112\fscy112}CHAMA{\r} A
+Dialogue: 0,0:00:05.30,0:00:05.40,L,,0,0,0,,NÃO CHAMA {\c&H4FE1FF&\fscx112\fscy112}A{\r}
+Dialogue: 0,0:00:05.40,0:00:05.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}POLÍCIA{\r} NÃO! VOCÊ
+Dialogue: 0,0:00:05.64,0:00:12.48,L,,0,0,0,,POLÍCIA {\c&H4FE1FF&\fscx112\fscy112}NÃO!{\r} VOCÊ
+Dialogue: 0,0:00:12.48,0:00:12.88,L,,0,0,0,,POLÍCIA NÃO! {\c&H4FE1FF&\fscx112\fscy112}VOCÊ{\r}
+Dialogue: 0,0:00:12.88,0:00:13.00,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}É{\r} LOUCO CHAMAR
+Dialogue: 0,0:00:13.00,0:00:13.26,L,,0,0,0,,É {\c&H4FE1FF&\fscx112\fscy112}LOUCO{\r} CHAMAR
+Dialogue: 0,0:00:13.26,0:00:13.56,L,,0,0,0,,É LOUCO {\c&H4FE1FF&\fscx112\fscy112}CHAMAR{\r}
+Dialogue: 0,0:00:13.56,0:00:13.61,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} POLÍCIA? DEVE
+Dialogue: 0,0:00:13.60,0:00:19.36,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}POLÍCIA?{\r} DEVE
+Dialogue: 0,0:00:19.36,0:00:19.72,L,,0,0,0,,A POLÍCIA? {\c&H4FE1FF&\fscx112\fscy112}DEVE{\r}
+Dialogue: 0,0:00:19.72,0:00:19.88,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TER{\r} FITA DE
+Dialogue: 0,0:00:19.88,0:00:20.10,L,,0,0,0,,TER {\c&H4FE1FF&\fscx112\fscy112}FITA{\r} DE
+Dialogue: 0,0:00:20.10,0:00:20.22,L,,0,0,0,,TER FITA {\c&H4FE1FF&\fscx112\fscy112}DE{\r}
+Dialogue: 0,0:00:20.22,0:00:20.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}SEGURANÇA{\r} AQUI, DEIXA
+Dialogue: 0,0:00:20.64,0:00:21.10,L,,0,0,0,,SEGURANÇA {\c&H4FE1FF&\fscx112\fscy112}AQUI,{\r} DEIXA
+Dialogue: 0,0:00:21.10,0:00:21.16,L,,0,0,0,,SEGURANÇA AQUI, {\c&H4FE1FF&\fscx112\fscy112}DEIXA{\r}
+Dialogue: 0,0:00:21.16,0:00:21.24,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DEIXA EU{\r} VER.
+Dialogue: 0,0:00:21.24,0:00:21.38,L,,0,0,0,,DEIXA EU {\c&H4FE1FF&\fscx112\fscy112}VER.{\r}
