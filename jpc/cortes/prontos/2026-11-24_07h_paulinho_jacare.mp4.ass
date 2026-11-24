@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:00.40,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}O{\r} QUE É
+Dialogue: 0,0:00:00.40,0:00:02.30,L,,0,0,0,,O {\c&H4FE1FF&\fscx112\fscy112}QUE{\r} É
+Dialogue: 0,0:00:02.30,0:00:02.42,L,,0,0,0,,O QUE {\c&H4FE1FF&\fscx112\fscy112}É{\r}
+Dialogue: 0,0:00:02.42,0:00:10.56,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ISSO?{\r} EU ENTREI
+Dialogue: 0,0:00:10.56,0:00:10.70,L,,0,0,0,,ISSO? {\c&H4FE1FF&\fscx112\fscy112}EU{\r} ENTREI
+Dialogue: 0,0:00:10.70,0:00:11.16,L,,0,0,0,,ISSO? EU {\c&H4FE1FF&\fscx112\fscy112}ENTREI{\r}
+Dialogue: 0,0:00:11.16,0:00:11.26,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ALI{\r} E NÃO
+Dialogue: 0,0:00:11.26,0:00:11.31,L,,0,0,0,,ALI {\c&H4FE1FF&\fscx112\fscy112}E{\r} NÃO
+Dialogue: 0,0:00:11.28,0:00:11.38,L,,0,0,0,,ALI E {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r}
+Dialogue: 0,0:00:11.38,0:00:11.60,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TINHA{\r} NADA, HEIN?
+Dialogue: 0,0:00:11.60,0:00:12.20,L,,0,0,0,,TINHA {\c&H4FE1FF&\fscx112\fscy112}NADA,{\r} HEIN?
+Dialogue: 0,0:00:12.20,0:00:12.44,L,,0,0,0,,TINHA NADA, {\c&H4FE1FF&\fscx112\fscy112}HEIN?{\r}
+Dialogue: 0,0:00:21.88,0:00:22.38,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}OLHA,{\r} BLASFÊMIA. NÃO
+Dialogue: 0,0:00:22.38,0:00:23.18,L,,0,0,0,,OLHA, {\c&H4FE1FF&\fscx112\fscy112}BLASFÊMIA.{\r} NÃO
+Dialogue: 0,0:00:23.18,0:00:23.34,L,,0,0,0,,OLHA, BLASFÊMIA. {\c&H4FE1FF&\fscx112\fscy112}NÃO{\r}
+Dialogue: 0,0:00:23.34,0:00:29.78,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}GOSTEI.{\r} OLHA, EU
+Dialogue: 0,0:00:29.78,0:00:30.14,L,,0,0,0,,GOSTEI. {\c&H4FE1FF&\fscx112\fscy112}OLHA,{\r} EU
+Dialogue: 0,0:00:30.14,0:00:30.20,L,,0,0,0,,GOSTEI. OLHA, {\c&H4FE1FF&\fscx112\fscy112}EU{\r}
+Dialogue: 0,0:00:30.20,0:00:30.46,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ENTREI{\r} ALI E
+Dialogue: 0,0:00:30.46,0:00:30.52,L,,0,0,0,,ENTREI {\c&H4FE1FF&\fscx112\fscy112}ALI{\r} E
+Dialogue: 0,0:00:30.52,0:00:30.62,L,,0,0,0,,ENTREI ALI {\c&H4FE1FF&\fscx112\fscy112}E{\r}
+Dialogue: 0,0:00:30.62,0:00:30.67,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} TINHA CROCODILO
+Dialogue: 0,0:00:30.62,0:00:30.74,L,,0,0,0,,NÃO {\c&H4FE1FF&\fscx112\fscy112}TINHA{\r} CROCODILO
+Dialogue: 0,0:00:30.74,0:00:31.18,L,,0,0,0,,NÃO TINHA {\c&H4FE1FF&\fscx112\fscy112}CROCODILO{\r}
+Dialogue: 0,0:00:31.18,0:00:31.46,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO,{\r} CARA.
+Dialogue: 0,0:00:31.46,0:00:31.66,L,,0,0,0,,NÃO, {\c&H4FE1FF&\fscx112\fscy112}CARA.{\r}
