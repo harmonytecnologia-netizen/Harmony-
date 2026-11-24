@@ -1,0 +1,76 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Você trocaria a TV por uma tela assim?\n\nNesta sala em Balneário Camboriú, a projeção ocupa a parede inteira, as caixas ficam embutidas no forro ripado e o LED em linha acompanha a madeira. Na hora do filme, só a imagem e o som aparecem.\n\nTela grande pede som à altura: posição das caixas, infraestrutura e luz pensadas juntas, antes da obra.\n\nTV ou tela de cinema: qual você escolheria? Conte aqui e salve para o seu projeto.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas e apartamentos de alto padrão no litoral norte de SC. Chame no direct e envie a planta.\n\nObra real MOVE (imagem da tela ilustrativa).\n\n#HomeCinema #HomeTheater #Projetor #SalaDeCinema #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "Vai viajar e a casa fica apagada? 🏠\n\nCasa escura por vários dias é o primeiro sinal de que não tem ninguém.\nO certo é a simulação de presença: as luzes acendem e apagam em horários diferentes, a cortina abre de manhã e fecha à noite, e você confere tudo pelo celular.\nPra quem passa na rua, tem gente em casa.\n\nSalve para conferir antes da próxima viagem.\nNa viagem, sua casa fica acesa ou apagada? Comenta aí.\n\nImagens conceito.\n\n#SegurançaResidencial #AutomaçãoResidencial #CasaInteligente #SmartHome #SimulaçãoDePresença #MOVE",
+   "thumb_offset": 6500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "500 mega no plano, 94 no cabo?\n\nQuando o teste no cabo trava perto de 94 Mb, quase sempre o culpado cabe na mão: o conector.\n01 · Um par de fios curto ou fora de ordem: o gigabit usa os 4 pares, e faltando um a placa conecta a 100.\n02 · O jeito certo: os 8 fios na ordem, até o fim do conector, com a capa presa pela trava.\n03 · Testador em cada ponto antes de fechar: as 8 luzes têm que acender.\n04 · O que é fixo vai no cabo (TV, console, escritório) e o Wi-Fi fica livre para o celular.\n\nSeu cabo já foi testado? Conte aqui, salve e envie para quem está em obra.\n\nA MOVE projeta rede, som, cinema e automação para casas e apartamentos de alto padrão no litoral norte de SC. Chame no direct e envie a planta.\n\nImagens conceito.\n\n#RedeEstruturada #WiFi #CasaInteligente #Infraestrutura #SmartHome #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Contratou 500 mega e, no cabo, o teste trava em 94? 🌐\n\nOlha o conector. Se um par de fios ficou curto ou fora de ordem, a placa só conecta a 100: o gigabit precisa dos 4 pares.\nO certo: os 8 fios na ordem, até o fim do conector, com a capa presa pela trava. Depois, o testador: as 8 luzes têm que acender.\nAí sim chega o plano todo.\n\nSalve para conferir na sua obra.\nSeu cabo foi testado? Comenta: sim ou não.\n\nAnimação conceito.\n\n#RedeEstruturada #Internet #WiFi #CasaInteligente #SmartHome #MOVE",
+   "thumb_offset": 17500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "videos_usados": [
+  "ballneario/VID-20240902-WA0023.mp4 (quadro do feed)",
+  "floripa/VID-20250317-WA0129.mp4 (quadro do story 09h)"
+ ],
+ "plano_b": false,
+ "tema": "Terça: feed obra real (sala de cinema BC) + Reel 12h SEGURANÇA bonequinho 3D simulação de presença (voz Iamin, Mirror Mirror) + carrossel REDE cabo mal crimpado + Reel 19h REDE 3D RJ45 (voz Iamin, Twinkle) + stories bastidor Floripa, enquete viagem, cena Boa noite",
+ "origem": "Peças prontas de fila/2026-11-23 que não foram publicadas (rotinas de publicação falharam 21–23/11 por limite de uso); kickers com dia da semana refeitos em 24/11."
+}

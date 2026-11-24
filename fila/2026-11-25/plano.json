@@ -1,0 +1,79 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_2.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Som de bar que não briga com a conversa.\n\nNa House Beer, a música chega a todo o salão por caixas embutidas no forro, com volume pensado para cada canto: dá para conversar na mesa e ainda sentir a trilha.\n\nSom comercial bem feito é parte da experiência de quem entra. No seu espaço, a música ajuda ou atrapalha a conversa? Conte aqui.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas, apartamentos e espaços comerciais de alto padrão no litoral norte de SC. Chame no direct e envie a planta do seu projeto.\n\nObra real MOVE.\n\n#SomAmbiente #Sonorização #ProjetoComercial #SomParaBar #CasaInteligente #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "Surround no chão, atrás do sofá? 🎬\n\nNessa posição o som bate no encosto e se perde: o efeito que deveria passar por você simplesmente some.\nO certo: caixas nas laterais, um pouco atrás de quem assiste e de 30 a 60 cm acima do ouvido de quem está sentado.\nAssim o filme passa por você, e não por trás do sofá.\n\nSalve para conferir na sua sala.\nA sua surround está no chão ou na parede? Comenta aí.\n\nAnimação conceito.\n\n#HomeTheater #HomeCinema #Surround #Sonorização #SomAmbiente #MOVE",
+   "thumb_offset": 19500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "Seu home cinema pode estar perdendo metade do filme.\n\n4 erros que roubam o som (e são muito comuns):\n01 · Surround no chão atrás do sofá: o som bate no encosto e se perde.\n02 · Sub preso dentro do móvel: grave embolado e móvel vibrando.\n03 · TV alta demais: pescoço cansado no meio do filme.\n04 · Sala só de vidro e piso: o eco embola os diálogos.\nO jeito certo: posição das caixas, infraestrutura e acústica pensadas antes da obra.\n\nQuantos desses tem na sua sala? Conte aqui, salve e envie para quem está montando o home cinema.\n\nA MOVE projeta e integra som, cinema, iluminação e automação para casas, apartamentos e espaços de alto padrão no litoral norte de SC. Chame no direct e envie a planta do seu projeto.\n\nAmbientes conceito.\n\n#HomeTheater #HomeCinema #Acústica #Sonorização #ArquiteturaDeInteriores #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Quantos interruptores tem na parede da sua sala? 💡\n\nUma fileira de interruptores pesa na parede mais bonita da casa, e ainda vira adivinhação toda noite.\nNa automação, um teclado só faz tudo: cada tecla é uma cena. Um toque e as luzes baixam, a cortina fecha e a TV liga.\nMenos peças na parede, mais conforto no dia a dia.\n\nSalve para lembrar na sua obra.\nComenta o número de interruptores da sua sala.\n\nAmbiente conceito.\n\n#AutomaçãoResidencial #CasaInteligente #SmartHome #Iluminação #Interiores #MOVE",
+   "thumb_offset": 13000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "videos_usados": [
+  "House Beer: fotos 20260409_063643.jpg e 20260409_063817.jpg"
+ ],
+ "plano_b": false,
+ "tema": "Quarta: feed obra real House Beer (som de bar) + Reel 12h SOM 3D surround na altura certa + carrossel 4 erros do home cinema + Reel 19h AUTOMAÇÃO keypad × fileira de interruptores (cena ChatGPT, voz Iamin) + stories, bastidor real, enquete surround, cinema",
+ "origem": "Peças prontas de fila/2026-11-22 que não foram publicadas (rotinas de publicação falharam 21–23/11 por limite de uso); kickers com dia da semana refeitos em 24/11."
+}

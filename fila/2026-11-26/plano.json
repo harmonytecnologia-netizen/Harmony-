@@ -1,0 +1,74 @@
+{
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Caixinha na bancada ou som no forro? 🎶\n\nChurrasco com os amigos pede trilha. A caixinha Bluetooth resolve na hora, mas fica no meio da bancada, perde bateria e o som não chega no fundo da área gourmet. O som embutido no forro fica escondido, espalha a música por igual e liga junto com a luz, numa cena só.\n\nA: caixinha na bancada\nB: som no forro\n\nQual você escolhe? Comenta A ou B 👇 E se quiser o B na sua casa, chama no direct.\n\nAmbiente conceito.\n\n#Sonorização #ÁreaGourmet #SomAmbiente #CasaInteligente #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "legenda": "Saiu de casa e bateu a dúvida: será que desliguei o ar? 🤔\n\nCom a cena \"Saí de casa\", um toque no teclado da porta apaga as luzes, desliga o ar, fecha as cortinas e liga as câmeras. E se a dúvida bater no meio do caminho, você confere (e desliga) tudo pelo celular.\n\nE você, é do tipo que volta pra conferir? Comenta: SIM ou NÃO 👇\n\nSalva pra lembrar disso na sua obra. Orçamento pelo direct.\n\nAmbiente conceito.\n\n#AutomaçãoResidencial #CasaInteligente #SmartHome #CenaDeAutomação #Itapema #MOVE",
+   "thumb_offset": 8000
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "5 jeitos de abrir a sua porta (sem procurar chave) 🔐\n\n01 · Digital: sua digital é a chave.\n02 · Aplicativo: abre pelo celular e mostra quem entrou e a que horas.\n03 · Senha temporária: uma senha só para a diarista, no dia e horário que você definir.\n04 · Tag ou cartão: aproximou, abriu.\n05 · Chave de emergência: a chave física continua lá, para qualquer imprevisto.\n\nQual desses você mais usaria? Comenta o número 👇 Salva pra mostrar pra quem vai reformar.\n\nProjeto e instalação de fechadura digital integrada à automação: chama a MOVE no direct.\n\nAmbiente conceito.\n\n#FechaduraDigital #Segurança #CasaInteligente #AutomaçãoResidencial #Itajaí #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_19h.mp4",
+   "legenda": "Internet de 500 mega e a TV travando no meio do filme? 😤\n\nQuase nunca é o plano. O vilão costuma ser o Wi-Fi atravessando parede ou um cabo de rede mal crimpado. O certo: TV e videogame no cabo, bem crimpado e testado, e access point no teto para o resto da casa.\n\nSua TV está no CABO ou no WI-FI? Comenta 👇\n\nSalva pra conferir aí na sua sala. Projeto de rede pelo direct.\n\n#RedeDeInternet #WiFi #AccessPoint #HomeTheater #CasaInteligente #MOVE",
+   "thumb_offset": 5500
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_19h.mp4"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "videos_usados": [],
+ "plano_b": false,
+ "tema": "Quinta: feed SOM caixinha × som no forro (A/B) + Reel 12h AUTOMAÇÃO cena 'Saí de casa' (cena ChatGPT ultrarrealista, narração feminina Iamin) + carrossel SEGURANÇA fechadura digital (5 jeitos) + Reel 19h REDE bonequinho 3D TV travando (narração feminina Iamin) + 3 stories próprios — formato novo: voz feminina + música nova",
+ "musica_reel": "12h: After Sunset — Alex Jones/Xander Jones | 19h: On The Eve — The Grey Room/Density & Time (YouTube Audio Library)",
+ "origem": "Peças prontas de fila/2026-11-21 que não foram publicadas (rotinas de publicação falharam 21–23/11 por limite de uso); kickers com dia da semana refeitos em 24/11."
+}
