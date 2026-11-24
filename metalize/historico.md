@@ -6,3 +6,4 @@ data | hora | ação | pauta | media id
 2026-11-24 | 15h | story | c02 A ferrugem que protege | 18118402697027844
 2026-11-24 | 15h | story | a02 Limpe antes de soldar | 17929160718203936
 2026-11-24 | 15h | story | p01 Qual combina com sua casa? | 18150502552602857
+2026-11-24 | 20h | story | t01 Seu projeto em metal | 18047017934834496
