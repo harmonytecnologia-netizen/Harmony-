@@ -83,14 +83,39 @@ M['amarelo'] = mat('amarelo', (0, 0, 0), emis=(0.98, 0.78, 0.03), es=5)
 # ---------------- casa ----------------
 bpy.ops.mesh.primitive_plane_add(size=60, location=(0, -10, 0)); bpy.context.object.data.materials.append(M['grama'])
 cube('calcada', (0, -0.6, 0.01), (5, 0.6, 0.01), M['calcada'])
-# mata/fazenda ao fundo (cara de Mato Grosso)
-for i in range(26):
-    tx = random.uniform(-26, 26); ty = random.uniform(10, 30); hh = random.uniform(4, 9)
-    cil(f'tronco{i}', (tx, ty, hh * 0.4), 0.18, hh * 0.8, M['tronco'], rot=(0, 0, 0), v=8)
-    for k in range(3):
-        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=2, radius=random.uniform(1.6, 2.8), location=(tx + random.uniform(-1, 1), ty + random.uniform(-1, 1), hh + random.uniform(-0.5, 1.2)))
-        o = bpy.context.object; o.scale = (1.2, 1.2, 0.75); o.data.materials.append(M['copa'])
-
+# mata ao fundo (cara de Mato Grosso): copas orgânicas com variação de verde
+tex_copa = bpy.data.textures.new('copa_tex', 'CLOUDS'); tex_copa.noise_scale = 0.6
+VERDES = [((0.03, 0.08, 0.02), (0.09, 0.17, 0.04)), ((0.05, 0.1, 0.02), (0.13, 0.2, 0.05)), ((0.02, 0.06, 0.02), (0.07, 0.13, 0.04))]
+MC = [mat_ruido(f'copa{k}', a, b, 0.85, 9, 0.7) for k, (a, b) in enumerate(VERDES)]
+for i in range(30):
+    tx = random.uniform(-28, 28); ty = random.uniform(9, 32); hh = random.uniform(4, 10)
+    cil(f'tronco{i}', (tx, ty, hh * 0.4), 0.16, hh * 0.8, M['tronco'], rot=(0, 0, 0), v=10)
+    for k in range(4):
+        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=3, radius=random.uniform(1.4, 2.6), location=(tx + random.uniform(-1.3, 1.3), ty + random.uniform(-1.3, 1.3), hh + random.uniform(-0.6, 1.4)))
+        o = bpy.context.object; o.scale = (1.15, 1.15, 0.8); md = o.modifiers.new('d', 'DISPLACE'); md.texture = tex_copa; md.strength = 0.9
+        bpy.ops.object.shade_smooth(); o.data.materials.append(MC[(i + k) % 3])
+# jardim: canteiro com arbustos junto à parede
+M['canteiro'] = mat('canteiro', (0.25, 0.24, 0.23), 0.7)
+M['terra'] = mat_ruido('terra', (0.12, 0.05, 0.02), (0.2, 0.09, 0.04), 0.9, 30, 0.3)
+for (xa, xb) in ((-4.0, -2.2), (1.9, 3.1)):
+    cube(f'canteiro{xa}', ((xa + xb) / 2, -0.17, 0.1), ((xb - xa) / 2, 0.16, 0.1), M['canteiro'])
+    cube(f'terra{xa}', ((xa + xb) / 2, -0.17, 0.2), ((xb - xa) / 2 - 0.03, 0.13, 0.005), M['terra'])
+    x = xa + 0.2
+    while x < xb - 0.1:
+        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=3, radius=random.uniform(0.16, 0.24), location=(x, -0.17, 0.33))
+        o = bpy.context.object; md = o.modifiers.new('d', 'DISPLACE'); md.texture = tex_copa; md.strength = 0.08
+        bpy.ops.object.shade_smooth(); o.data.materials.append(MC[random.randint(0, 2)]); x += random.uniform(0.28, 0.38)
+# porta de madeira, arandela e portão metálico (vitrine da Metalize)
+M['madeira'] = mat_ruido('madeira', (0.18, 0.09, 0.04), (0.3, 0.16, 0.08), 0.45, 4, 0.05)
+M['preto_fosco'] = mat('preto_fosco', (0.015, 0.015, 0.016), 0.45, metal=0.7)
+cube('porta', (1.35, -0.01, 1.1), (0.48, 0.02, 1.1), M['madeira'])
+cube('puxador', (1.0, -0.05, 1.1), (0.012, 0.012, 0.45), M['preto_fosco'])
+cube('arandela', (0.6, -0.05, 2.25), (0.05, 0.04, 0.12), M['preto_fosco'])
+cube('arandela_luz', (0.6, -0.092, 2.25), (0.035, 0.002, 0.09), mat('luz_quente', (0, 0, 0), emis=(1.0, 0.75, 0.45), es=12))
+cube('muro_dir', (6.0, 0.15, 1.2), (1.8, 0.15, 1.2), M['parede'])
+for k in range(22):
+    cube(f'ripa{k}', (4.4 + k * 0.15, -0.02, 1.05), (0.045, 0.025, 1.0), M['preto_fosco'], 0.004)
+cube('portao_trilho', (6.0, -0.02, 0.03), (1.7, 0.03, 0.03), M['preto_fosco'])
 cube('parede', (0, 1.6, 1.4), (4.2, 1.6, 1.4), M['parede'])
 # janela
 cube('jan_moldura', (-1.4, -0.005, 1.55), (0.62, 0.02, 0.62), M['alu'])
@@ -189,7 +214,7 @@ def mat_lamina(nome):
     mp = nt.nodes.new('ShaderNodeMapping'); mp.inputs['Scale'].default_value = (90, 3, 1); nt.links.new(tc.outputs['UV'], mp.inputs['Vector'])
     nz = nt.nodes.new('ShaderNodeTexNoise'); nz.inputs['Scale'].default_value = 2.5; nz.inputs['Detail'].default_value = 6
     nt.links.new(mp.outputs['Vector'], nz.inputs['Vector'])
-    a1 = nt.nodes.new('ShaderNodeMath'); a1.operation = 'MULTIPLY_ADD'; a1.inputs[1].default_value = 0.3; a1.inputs[2].default_value = 0.4
+    a1 = nt.nodes.new('ShaderNodeMath'); a1.operation = 'MULTIPLY_ADD'; a1.inputs[1].default_value = 0.0; a1.inputs[2].default_value = 0.56
     nt.links.new(sep.outputs['Y'], a1.inputs[0])
     a2 = nt.nodes.new('ShaderNodeMath'); a2.operation = 'SUBTRACT'; nt.links.new(nz.outputs['Fac'], a2.inputs[0]); nt.links.new(a1.outputs[0], a2.inputs[1])
     a3 = nt.nodes.new('ShaderNodeMath'); a3.operation = 'MULTIPLY'; a3.use_clamp = True; a3.inputs[1].default_value = 10
@@ -221,7 +246,7 @@ for t, v in ((0, False), (S0, True), (S1, False)):
 
 # gotas soltas que se desprendem da borda + respingos no chão (partículas com gravidade)
 bpy.ops.mesh.primitive_uv_sphere_add(radius=0.006, segments=8, ring_count=6, location=(0, 0, -20)); gt = bpy.context.object
-gt.scale = (1, 1, 2.2); gt.data.materials.append(M['filete'])
+gt.scale = (1, 1, 2.2); gt.data.materials.append(M['agua'])
 def emissor(nome, loc, esc, f0, f1, n, vel, rnd, vida):
     bpy.ops.mesh.primitive_plane_add(size=1, location=loc); e = bpy.context.object; e.name = nome; e.scale = esc
     e.show_instancer_for_render = False
@@ -231,7 +256,7 @@ def emissor(nome, loc, esc, f0, f1, n, vel, rnd, vida):
     p.particle_size = 1.0; p.use_rotations = True; p.rotation_mode = 'VEL'; p.emit_from = 'FACE'; p.use_emit_random = True
     return e
 # borda (dois períodos de transbordamento)
-emissor('gotas', (0, Y0, Z0), (L - 0.1, 0.01, 1), T(S0) - 10, T(S1), 6000, (0, -0.55, 0), 0.25, 30)
+emissor('gotas', (0, Y0, Z0), (L - 0.1, 0.01, 1), T(S0) - 10, T(S1), 2500, (0, -0.55, 0), 0.25, 30)
 # respingos onde a água bate no chão
 YCH = Y0 - VY * TQ
 emissor('resp', (0, YCH, 0.03), (L - 0.1, 0.12, 1), T(S0) + 10, T(S1), 9000, (0, 0.5, 1.7), 1.2, 14)  # respinga na parede
@@ -296,9 +321,42 @@ ps.emit_from = 'FACE'; ps.use_emit_random = True
 anot, _ = cabo('anot', [(-L + 0.05, CY - CW / 2 - 0.05, zB(-L) + CH + 0.06), (XC, CY - CW / 2 - 0.05, zB(XC) + CH + 0.06)], M['amarelo'], esp=0.006)
 vis([anot], [(0, False), (6.7, True), (10.2, False)])
 
+# ---------------- manequim explicando (estilo das referências) ----------------
+M['manequim'] = mat('manequim', (0.5, 0.52, 0.56), 0.45)
+def manequim(nome, base, frente_ang, alvo, janela):
+    from mathutils import Vector, Matrix
+    R = Matrix.Rotation(frente_ang, 3, 'Z'); B = Vector(base)
+    P = lambda x, y, z: B + R @ Vector((x, y, z))
+    partes = []
+    def osso(a, b, r):
+        d = b - a; bpy.ops.mesh.primitive_cylinder_add(vertices=20, radius=r, depth=d.length, location=(a + b) / 2)
+        o = bpy.context.object; o.rotation_mode = 'QUATERNION'; o.rotation_quaternion = d.to_track_quat('Z', 'Y'); bpy.ops.object.shade_smooth(); o.data.materials.append(M['manequim']); partes.append(o)
+    def junta(c, r, esc=(1, 1, 1)):
+        bpy.ops.mesh.primitive_uv_sphere_add(radius=r, location=c); o = bpy.context.object; o.scale = esc; bpy.ops.object.shade_smooth(); o.data.materials.append(M['manequim']); partes.append(o)
+    for sx in (-0.1, 0.1):  # pernas
+        pe, joe, qu = P(sx, 0, 0.06), P(sx, 0, 0.5), P(sx * 0.9, 0, 0.92)
+        osso(pe, joe, 0.055); osso(joe, qu, 0.068); junta(joe, 0.062); junta(pe + Vector((0, 0, -0.03)), 0.06, (1, 1.6, 0.5))
+    junta(P(0, 0, 0.97), 0.17, (1, 0.62, 0.62)); osso(P(0, 0, 0.98), P(0, 0, 1.2), 0.13)
+    junta(P(0, 0, 1.3), 0.2, (1, 0.6, 0.85)); osso(P(0, 0, 1.45), P(0, 0, 1.55), 0.05); junta(P(0, 0, 1.66), 0.105, (0.9, 1, 1.12))
+    ombE, ombD = P(-0.2, 0, 1.43), P(0.2, 0, 1.43)
+    junta(ombE, 0.06); junta(ombD, 0.06)
+    cotE, maoE = P(-0.25, 0.02, 1.15), P(-0.26, 0.04, 0.9); osso(ombE, cotE, 0.042); osso(cotE, maoE, 0.036); junta(cotE, 0.045); junta(maoE, 0.045)
+    dirv = (Vector(alvo) - ombD).normalized(); cotD = ombD + dirv * 0.3; maoD = ombD + dirv * 0.6
+    osso(ombD, cotD, 0.042); osso(cotD, maoD, 0.036); junta(cotD, 0.045); junta(maoD, 0.045)
+    vis(partes, janela)
+    return partes
+manequim('m1', (-0.1, -2.4, 0.02), math.radians(165), (0.4, CY, 2.85), [(0, True), (3.0, False)])
+manequim('m3', (0.8, -1.1, 0.02), math.radians(200), (0.2, CY, 2.85), [(0, False), (S1, True)])
+manequim('m2', (-0.05, -1.25, 0.02), math.radians(200), (-0.3, -0.75, 1.2), [(0, False), (S0, True), (17.0, False)])
+
 # ---------------- luz: dia nublado de chuva ----------------
 w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True
-bg = w.node_tree.nodes['Background']; bg.inputs['Color'].default_value = (0.4, 0.46, 0.55, 1); bg.inputs['Strength'].default_value = 1.15
+bg = w.node_tree.nodes['Background']; bg.inputs['Strength'].default_value = 1.15
+wn = w.node_tree; tcw = wn.nodes.new('ShaderNodeTexCoord'); sxw = wn.nodes.new('ShaderNodeSeparateXYZ'); rw = wn.nodes.new('ShaderNodeValToRGB')
+wn.links.new(tcw.outputs['Generated'], sxw.inputs['Vector']); wn.links.new(sxw.outputs['Z'], rw.inputs['Fac'])
+rw.color_ramp.elements[0].position = 0.5; rw.color_ramp.elements[0].color = (0.55, 0.6, 0.66, 1)
+rw.color_ramp.elements[1].position = 0.75; rw.color_ramp.elements[1].color = (0.16, 0.19, 0.24, 1)
+wn.links.new(rw.outputs['Color'], bg.inputs['Color'])
 sd = bpy.data.lights.new('sol', 'SUN'); sd.energy = 1.2; sd.angle = math.radians(25); sd.color = (0.9, 0.93, 1.0)
 so = bpy.data.objects.new('sol', sd); so.rotation_euler = (math.radians(50), 0, math.radians(-35)); bpy.context.collection.objects.link(so)
 l = bpy.data.lights.new('frente', 'AREA'); l.energy = 180; l.size = 4; lo = bpy.data.objects.new('frente', l)
