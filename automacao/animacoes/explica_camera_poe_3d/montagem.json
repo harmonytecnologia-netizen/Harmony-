@@ -1,0 +1,9 @@
+{"video": "anim24.mp4", "segurar_fim": 1.4, "duracao": 22.4, "musica": "silencio.wav", "falas": [{"arquivo": "voz.wav", "t": 0.2}],
+ "cartoes": [
+  {"de": 0, "ate": 21.0, "img": "badge.png"},
+  {"de": 0, "ate": 2.6, "titulo": "SUA CÂMERA TRAVA", "titulo2": "QUANDO ALGUÉM CHEGA?", "cor2": "erro", "contorno": 5},
+  {"de": 2.6, "ate": 6.9, "titulo": "WI-FI FRACO", "titulo2": "= IMAGEM CONGELADA", "cor2": "erro", "rodape": "longe do roteador, o sinal não chega", "contorno": 5, "contorno_rodape": 3},
+  {"de": 6.9, "ate": 12.8, "titulo": "O CERTO: CABO DE REDE", "titulo2": "COM PoE ATÉ A CÂMERA", "cor2": "destaque", "rodape": "energia e imagem no mesmo cabo, direto do rack", "contorno": 5, "contorno_rodape": 3},
+  {"de": 12.8, "ate": 16.9, "titulo": "GRAVA SEM TRAVAR", "titulo2": "DIA E NOITE", "cor2": "destaque", "pilula": "✓ CERTO", "contorno": 5},
+  {"de": 16.9, "ate": 21.0, "titulo": "A SUA É NO", "titulo2": "CABO OU NO WI-FI?", "cor2": "destaque", "pilula": "COMENTA: CABO OU WI-FI", "rodape": "Salva pra conferir na sua obra", "contorno": 5, "contorno_rodape": 3},
+  {"de": 21.0, "ate": 22.4, "img": "final.png"}]}
