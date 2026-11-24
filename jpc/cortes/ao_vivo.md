@@ -4,13 +4,13 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 25
+- cortes_postados: 26
 - corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
-| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS); 3:50:10–3:50:49 ("aqui não dá polícia" / CABOU FREIO); 1:15:32–1:16:07 (achou lança-granada na última casa / "meu Deus"); 1:52:38–1:53:05 (fuga de carro, Lúcia atirando, "furou o pneu, já era"); 4:30:01–4:30:24 (assalto na cafeteria, "não chama a polícia" / "você é louco"); 1:41:25–1:42:01 (fuga da polícia de carro, arrebenta portão, "polícia metendo bala"); 1:13:00–1:13:34 ("prazeroso roubar", arma especial, bomba adesiva, "você é louco, gordin"); 4:30:40–4:31:10 ("pouco violento esse GTA... tá dando dó de matar os NPC... Rockstar fez de um jeito que tá dando dó"); 4:31:14–4:31:38 (loja de eletrônicos, "dá pra comprar fone de ouvido", escolhendo cor) |
+| a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS); 3:50:10–3:50:49 ("aqui não dá polícia" / CABOU FREIO); 1:15:32–1:16:07 (achou lança-granada na última casa / "meu Deus"); 1:52:38–1:53:05 (fuga de carro, Lúcia atirando, "furou o pneu, já era"); 4:30:01–4:30:24 (assalto na cafeteria, "não chama a polícia" / "você é louco"); 1:41:25–1:42:01 (fuga da polícia de carro, arrebenta portão, "polícia metendo bala"); 1:13:00–1:13:34 ("prazeroso roubar", arma especial, bomba adesiva, "você é louco, gordin"); 4:30:40–4:31:10 ("pouco violento esse GTA... tá dando dó de matar os NPC... Rockstar fez de um jeito que tá dando dó"); 4:31:14–4:31:38 (loja de eletrônicos, "dá pra comprar fone de ouvido", escolhendo cor); 6:55–7:17 (cabelo do Jason "tá triste", "parecendo um leão", senha 2008 da Vicky) |
 | ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem") |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
@@ -41,6 +41,7 @@
 - a-Ur3A_kHXc (16h): transcrição da watch NÃO abriu (Whisper local). Usado 1:13:00–1:13:34 (saque da casa). Legenda do jogo com "fodidos" ~1:13:30 borrada (faixa y 885–995, x 460–1460). Depois (1:13:35+) "Ei, Stryker, vamos pegar a nossa força" — policiais chegando. Restam: 2:20:53 "ela ia meter fuga"; 4:30:40 "dando dó de matar os NPC"; 6:57 cabelo de leão.
 - a-Ur3A_kHXc (18h): transcrição da watch abriu. Usado 4:30:40 "dá dó de matar NPC". Download: o <a download>.click() dentro de um script longo (await de 55 s) NÃO salvou; funcionou separando em 2 chamadas (1ª inicia MediaRecorder com setTimeout stop; 2ª, depois, monta o Blob e clica). HF deu 429 no Whisper — esperar ~150 s e repetir. Logo depois (4:31:15–4:31:40) "dá pra comprar fone de ouvido... que que é isso, cara? [grito]" — conferir. Restam: 2:20:53 "ela ia meter fuga" (senha = nome do cachorro); 6:57 cabelo de leão.
 - a-Ur3A_kHXc (19h43): transcrição da watch NÃO abriu (Whisper local). Gravado 4:31:03–4:32:05; usado o fone (4:31:14–4:31:38). Depois (4:31:39+) ela sai correndo, briga no beco com NPCs — legendas do JOGO cheias de palavrão ("Porra", "caralho", "merda"); evitar. Restam: 2:20:53 "ela ia meter fuga" (senha = nome do cachorro); 6:57 cabelo de leão.
+- a-Ur3A_kHXc (20h43): transcrição da watch NÃO abriu (Whisper local). Gravado 6:43–7:45; usado cabelo de leão (6:55–7:17). Legenda do JOGO com "Puta merda" a partir de ~7:07 — borrada (faixa y 820–1065, x 380–1540). Depois (7:17+) entra nos bastidores procurando senha (2008) — fraco. Resta só: 2:20:53 "ela ia meter fuga" (senha = nome do cachorro). Live #5 quase esgotada; próximas fontes: lives #1/#2 nunca mineradas (varredura de volume no embed).
 
 ## Rodadas
 | data | hora | status | resultado |
@@ -72,3 +73,4 @@
 | 2026-11-24 | 16h42 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu (Whisper local); usado saque "prazeroso roubar" da #5 (1:13:00) | Reel 18117281669123875 + story 18131008721491545 |
 | 2026-11-24 | 18h44 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch abriu; usado "dá dó de matar NPC" da #5 (4:30:40) | Reel 18132171826790032 + story 18118817891023850 |
 | 2026-11-24 | 19h43 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu (Whisper local); usado "fone de ouvido" da #5 (4:31:14) | Reel 18120015094823960 + story 18113960918524771 |
+| 2026-11-24 | 20h43 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu (Whisper local); usado "cabelo de leão" da #5 (6:55) | Reel 18021234875746168 + story 18222467530359085 |

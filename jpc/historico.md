@@ -130,3 +130,4 @@
 | 2026-11-24 | 19h | create_carousel_post (7 slides) | g6c005 — Leonida: as 6 regiões do GTA 6 | — | 18507542548102664 |
 | 2026-11-24 | 19h | create_story (story_car) | g6c005 — chamada do carrossel | — | 18255208762309390 |
 | 2026-11-24 | 19h | Reel corte GTA 6 | Paulinho: "dá pra comprar fone no GTA 6" (a-Ur3A_kHXc 4:31:14) | — | 18120015094823960 (story 18113960918524771) |
+| 2026-11-24 | 20h | Reel corte GTA 6 | Paulinho: "cabelo do Jason virou juba de leão" (a-Ur3A_kHXc 6:55) | — | 18021234875746168 (story 18222467530359085) |
