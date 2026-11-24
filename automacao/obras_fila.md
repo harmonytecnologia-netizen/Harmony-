@@ -7,10 +7,10 @@ O João colocou ~70 vídeos organizados por obra/cliente. Regra: 1 obra por Reel
 | 1 | hotel candeias balneario camboriu | 15 vídeos (WhatsApp, 8–83 s) + 5 fotos: Clube Candeias (lounge com jardim vertical, escada colorida, restaurante com TVs, fachada, caixa/amplificador no rack) | "Som ambiente em hotel em BC": fachada → escada → lounge → TVs → equipamento | FEITO — Reel 20/11 12h (8 vídeos) + feed e 3 stories 20/11 |
 | 2 | House Beer | 1 vídeo + 2 fotos 09/04/2026, 1 vídeo 2024 | sonorização de bar/cervejaria em BC | a fazer |
 | 3 | posto | 2 vídeos 09/04/2026 (38 MB e 12 MB) | sonorização de posto em BC | a fazer |
-| 4 | romanza | 3 vídeos (1 de 121 MB) | — ver conteúdo | a fazer |
+| 4 | romanza | 3 vídeos (1 de 121 MB) | obra comercial (marcenaria, forro) | 2 quadros de VID-20250415-WA0071 em stories 28/11 |
 | 5 | pousada sunset porto belo | 2 vídeos + 5 fotos | som em pousada, Porto Belo | a fazer |
 | 6 | floripa | 4 vídeos | obra em Florianópolis | a fazer |
-| 7 | cliente katia | 3 vídeos | — ver conteúdo | a fazer |
+| 7 | cliente katia | 3 vídeos | banheiro/closet com perfil de LED | quadro de VID-20250507-WA0020 no feed 28/11 |
 | 8 | cliente itajai | 2 vídeos | obra em Itajaí | a fazer |
 | 9 | ballneario | 2 vídeos | obra em Balneário | a fazer |
 | 10 | lap tv suportes | 4 vídeos curtos | instalação de suporte de TV | a fazer |
