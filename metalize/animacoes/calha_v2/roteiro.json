@@ -1,0 +1,111 @@
+{
+ "quadros": "seq/%04d.jpg",
+ "fps": 24,
+ "duracao": 29.6,
+ "tema": "CALHAS",
+ "musica": "../../../automacao/musicas/Taking Flight - Blue Deer Studio.mp3",
+ "musica_vol": 0.28,
+ "falas": [
+  {
+   "arquivo": "voz/f1.wav",
+   "t": 0.3,
+   "texto": "Como a calha protege a sua casa?"
+  },
+  {
+   "arquivo": "voz/f2.wav",
+   "t": 3.2,
+   "texto": "A chuva cai no telhado e escorre direto para a calha."
+  },
+  {
+   "arquivo": "voz/f3.wav",
+   "t": 6.8,
+   "texto": "Com um leve caimento, a água corre até o tubo de descida,"
+  },
+  {
+   "arquivo": "voz/f4.wav",
+   "t": 10.2,
+   "texto": "e é levada para o ralo, longe da parede."
+  },
+  {
+   "arquivo": "voz/f5.wav",
+   "t": 13.5,
+   "texto": "Sem calha, a água despenca do telhado e respinga na base da casa. Vem a umidade, a infiltração e a fachada manchada."
+  },
+  {
+   "arquivo": "voz/f6.wav",
+   "t": 21.5,
+   "texto": "Com calha, a fachada fica seca e protegida por muitos anos."
+  },
+  {
+   "arquivo": "voz/f7.wav",
+   "t": 26.1,
+   "texto": "Metalize. Calhas e rufos sob medida."
+  }
+ ],
+ "pilulas": [
+  {
+   "de": 0,
+   "ate": 6.6,
+   "texto": "CHUVA FORTE",
+   "cor": "amarelo"
+  },
+  {
+   "de": 6.6,
+   "ate": 10.2,
+   "texto": "CAIMENTO 5 mm/m",
+   "cor": "amarelo"
+  },
+  {
+   "de": 10.2,
+   "ate": 13.2,
+   "texto": "DIRETO PRO RALO",
+   "cor": "verde"
+  },
+  {
+   "de": 13.2,
+   "ate": 21.2,
+   "texto": "SEM CALHA",
+   "cor": "vermelho"
+  },
+  {
+   "de": 21.2,
+   "ate": 26.0,
+   "texto": "COM CALHA",
+   "cor": "verde"
+  }
+ ],
+ "etiquetas": [
+  {
+   "de": 3.2,
+   "ate": 6.6,
+   "texto": "CALHA",
+   "y": 1150,
+   "cor": "amarelo"
+  },
+  {
+   "de": 10.2,
+   "ate": 13.2,
+   "texto": "TUBO DE DESCIDA",
+   "y": 1150,
+   "cor": "amarelo"
+  },
+  {
+   "de": 17.0,
+   "ate": 21.2,
+   "texto": "UMIDADE NA BASE",
+   "y": 1150,
+   "cor": "vermelho"
+  },
+  {
+   "de": 21.2,
+   "ate": 26.0,
+   "texto": "FACHADA SECA",
+   "y": 1150,
+   "cor": "verde"
+  }
+ ],
+ "fim": {
+  "de": 26.0,
+  "img": "fim.png"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "quadros": "seq/%04d.jpg",
+ "fps": 24,
+ "segurar_fim": 3.6,
+ "duracao": 29.6,
+ "musica": "../../../automacao/musicas/Taking Flight - Blue Deer Studio.mp3",
+ "musica_vol": 0.32,
+ "falas": [
+  {
+   "arquivo": "voz/f1.wav",
+   "t": 0.3
+  },
+  {
+   "arquivo": "voz/f2.wav",
+   "t": 3.2
+  },
+  {
+   "arquivo": "voz/f3.wav",
+   "t": 6.8
+  },
+  {
+   "arquivo": "voz/f4.wav",
+   "t": 10.2
+  },
+  {
+   "arquivo": "voz/f5.wav",
+   "t": 13.5
+  },
+  {
+   "arquivo": "voz/f6.wav",
+   "t": 21.5
+  },
+  {
+   "arquivo": "voz/f7.wav",
+   "t": 26.1
+  }
+ ],
+ "cartoes": [
+  {
+   "de": 0,
+   "ate": 3.0,
+   "titulo": "COMO FUNCIONA",
+   "titulo2": "A CALHA",
+   "cor2": "destaque"
+  },
+  {
+   "de": 3.0,
+   "ate": 6.6,
+   "titulo": "A CHUVA ESCORRE",
+   "titulo2": "PARA A CALHA",
+   "cor2": "destaque"
+  },
+  {
+   "de": 6.6,
+   "ate": 10.2,
+   "titulo": "CAIMENTO",
+   "titulo2": "5 mm POR METRO",
+   "cor2": "destaque",
+   "rodape": "até o tubo de descida"
+  },
+  {
+   "de": 10.2,
+   "ate": 13.2,
+   "titulo": "TUBO DE DESCIDA",
+   "titulo2": "ATÉ O RALO",
+   "cor2": "destaque"
+  },
+  {
+   "de": 13.2,
+   "ate": 21.2,
+   "titulo2": "SEM CALHA",
+   "cor2": "erro",
+   "rodape": "umidade • infiltração • fachada manchada"
+  },
+  {
+   "de": 21.2,
+   "ate": 26.0,
+   "titulo": "COM CALHA",
+   "titulo2": "FACHADA PROTEGIDA",
+   "cor2": "destaque"
+  },
+  {
+   "de": 26.0,
+   "ate": 29.6,
+   "img": "fim.png"
+  }
+ ]
+}
