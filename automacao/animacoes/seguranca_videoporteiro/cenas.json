@@ -1,0 +1,7 @@
+{"fps":30,"xf":0.4,"cenas":[
+{"img":"cenas/R1.jpg","dur":4.0,"mov":"in"},
+{"img":"cenas/R2.jpg","dur":1.9,"mov":"out","tr":"fadeblack"},
+{"img":"cenas/R3.jpg","dur":2.4,"mov":"left","tr":"smoothleft"},
+{"img":"cenas/R4.jpg","dur":4.7,"mov":"in","tr":"fadewhite"},
+{"img":"cenas/R5.jpg","dur":3.1,"mov":"in","tr":"smoothleft"},
+{"img":"cenas/R6.jpg","dur":5.7,"mov":"out","tr":"fadeblack"}]}

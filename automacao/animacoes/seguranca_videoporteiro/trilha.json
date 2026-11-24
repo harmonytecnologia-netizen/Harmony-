@@ -1,0 +1,3 @@
+{"video":"sem_trilha.mp4","saida":"MOVE_explica.mp4","musica":"../../musicas/Rubberband - The Grey Room, Density & Time.mp3",
+ "falas":[{"arquivo":"voz.wav","t":0.2}],
+ "efeitos":[{"t":0.0,"som":"impacto","vol":0.6},{"t":2.8,"som":"riser","dur":1.2,"vol":0.4},{"t":4.0,"som":"impacto","vol":0.55},{"t":12.8,"som":"swoosh","vol":0.4},{"t":21.8,"som":"impacto","vol":0.35}]}

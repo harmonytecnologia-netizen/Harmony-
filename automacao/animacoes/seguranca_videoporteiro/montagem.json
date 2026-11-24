@@ -1,0 +1,11 @@
+{"video":"anim.mp4","segurar_fim":1.2,"duracao":23.1,"musica":"silencio.wav",
+ "falas":[{"arquivo":"voz.wav","t":0.2}],
+ "cartoes":[
+  {"de":0,"ate":21.8,"img":"badge.png"},
+  {"de":0,"ate":4.0,"titulo":"PERDEU 3 ENTREGAS","titulo2":"ESTE MÊS?","cor2":"erro","contorno":5},
+  {"de":4.0,"ate":5.9,"titulo":"O CERTO:","titulo2":"VIDEOPORTEIRO NO CELULAR","cor2":"destaque","contorno":5},
+  {"de":5.9,"ate":8.3,"titulo":"A CAMPAINHA TOCA","titulo2":"ONDE VOCÊ ESTIVER","cor2":"destaque","contorno":5},
+  {"de":8.3,"ate":13.0,"titulo":"VÊ, FALA E ABRE","titulo2":"O PORTÃOZINHO PELO APP","cor2":"destaque","rodape":"sem sair da reunião","contorno":5,"contorno_rodape":3},
+  {"de":13.0,"ate":16.1,"titulo":"ENCOMENDA DENTRO","titulo2":"E TUDO GRAVADO","cor2":"destaque","pilula":"✓ CERTO","contorno":5},
+  {"de":16.1,"ate":21.8,"titulo":"VOCÊ ATENDE O PORTÃO","titulo2":"PELO CELULAR?","cor2":"destaque","pilula":"COMENTA: SIM OU NÃO","rodape":"Salva pra mostrar pra quem cuida da obra","contorno":5,"contorno_rodape":3},
+  {"de":21.8,"ate":23.2,"img":"final.png"}]}
