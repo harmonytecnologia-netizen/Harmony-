@@ -28,10 +28,12 @@
   {
    "acao": "create_video_post",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-26/reel.mp4",
-   "legenda": "VRAM: a memória da placa de vídeo 🎮\n\nPouca VRAM = textura borrada e travadinha em mundo aberto. Requisito oficial do GTA 6 PC ainda não saiu.\n\nQuantos GB tem a sua? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
-   "thumb_offset": 1000,
-   "musica": "trilha própria sintetizada #226009 + narração Piper",
-   "pauta": "g6r007"
+   "capa": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-26/capa.jpg",
+   "legenda": "🎓 JPC ENSINA: Vírus no PC? Verifica de graça 👇\n\n1️⃣ Iniciar > pesquisa Segurança do Windows\n2️⃣ Proteção contra vírus e ameaças\n3️⃣ Opções de verificação > Verificação completa\n4️⃣ Verificar agora (deixa rodando)\n5️⃣ Achou ameaça? Remover/Quarentena e reinicia\n\n💾 Salva pra fazer depois e manda pro amigo que tem PC lento\n\nVocê usa o antivírus do Windows ou outro? 👇\n\nPrecisa de ajuda? Manda TÉCNICO ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #dicasdepc #windows11 #manutencaodepc #pclento #hardware #setupgamer #gamerbrasil #windowsdefender #seguranca #virus",
+   "musica": "ego_chall_blue_deer.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+   "pauta": "ens001",
+   "tipo_reel": "JPC Ensina",
+   "tema": "verificação completa do Defender"
   },
   {
    "acao": "create_story",

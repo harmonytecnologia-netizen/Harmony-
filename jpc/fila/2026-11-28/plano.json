@@ -1,0 +1,83 @@
+{
+ "data": "2026-11-28",
+ "perfil": "harmony_computer",
+ "conta_windsor": "17841445277894628",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/story_1.jpg",
+   "pauta": "g6s045"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/story_2.jpg",
+   "pauta": "g6s046"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/feed.jpg",
+   "legenda": "O mapa do GTA 6 se passa no estado de Leonida, com 6 regiões: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia e Mount Kalaga. 🌴\n\nE você imagina o PC que vai precisar pra carregar isso tudo quando sair no PC? 😅\n\nQual região você quer explorar primeiro? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6f010"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/reel.mp4",
+   "capa": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/capa.jpg",
+   "legenda": "🎓 JPC ENSINA: Poeira deixa o PC lento 👇\n\n1️⃣ Desliga e TIRA DA TOMADA\n2️⃣ Fora da tomada, segura o botão de ligar 5 s\n3️⃣ Toca no metal do gabinete (estática)\n4️⃣ Ar comprimido + pincel, segurando a ventoinha\n5️⃣ Nada de aspirador ou pano molhado\n\n💾 Salva pra fazer depois e manda pro amigo que tem PC lento\n\nQuando foi a última limpeza do seu? 👇\n\nPrecisa de ajuda? Manda TÉCNICO ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #dicasdepc #windows11 #manutencaodepc #pclento #hardware #setupgamer #gamerbrasil #limpezadepc #poeira #pcquente",
+   "musica": "survival_mode_blue_deer.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+   "pauta": "ens003",
+   "tipo_reel": "JPC Ensina",
+   "tema": "limpar poeira"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/reel.mp4",
+   "tipo": "video"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/story_3.jpg",
+   "pauta": "g6s047"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/car_01.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/car_02.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/car_03.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/car_04.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/car_05.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/car_06.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/car_07.jpg"
+   ],
+   "legenda": "Console x PC no GTA 6 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6c009"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/story_car.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/story_4.jpg",
+   "pauta": "g6s048"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-28/story_5.jpg",
+   "pauta": "g6s049"
+  }
+ ]
+}

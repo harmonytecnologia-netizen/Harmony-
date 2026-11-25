@@ -28,10 +28,12 @@
   {
    "acao": "create_video_post",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-27/reel.mp4",
-   "legenda": "GTA 5 levou 2 anos pra chegar ao PC. ⏳ GTA 6 ainda sem data de PC.\n\nDá tempo de preparar o PC com calma, peça por peça.\n\nVocê espera ou joga no console? 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
-   "thumb_offset": 1000,
-   "musica": "trilha própria sintetizada #952336 + narração Piper",
-   "pauta": "g6r008"
+   "capa": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-27/capa.jpg",
+   "legenda": "🎓 JPC ENSINA: SSD cheio? Libera espaço agora 👇\n\n1️⃣ Win + I (Configurações)\n2️⃣ Sistema > Armazenamento\n3️⃣ Arquivos temporários\n4️⃣ Marca tudo MENOS a pasta Downloads\n5️⃣ Remover arquivos\n\n💾 Salva pra fazer depois e manda pro amigo que tem PC lento\n\nQuantos GB você liberou? Conta aqui 👇\n\nPrecisa de ajuda? Manda TÉCNICO ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #dicasdepc #windows11 #manutencaodepc #pclento #hardware #setupgamer #gamerbrasil #armazenamento #ssd #limpezadepc",
+   "musica": "bad_news_steve_kane.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+   "pauta": "ens002",
+   "tipo_reel": "JPC Ensina",
+   "tema": "arquivos temporários"
   },
   {
    "acao": "create_story",
