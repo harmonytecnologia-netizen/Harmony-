@@ -135,3 +135,6 @@
 | 2026-11-24 | 21h | story próprio | g6s028 | — | 18169606081487603 |
 | 2026-11-24 | 21h | story próprio | g6s029 | — | 18135823096746980 |
 | 2026-11-24 | 21h | Reel corte GTA 6 | Paulinho: "a senha é o nome do cachorro" (a-Ur3A_kHXc 2:20:53) | — | 18132363775755744 (story 18088729676705976) |
+| 2026-11-24 | 09h (atrasado, 21h58) | story próprio | g6s025 (não tinha saído às 09h) | — | 18491561842116799 |
+| 2026-11-24 | 09h (atrasado, 21h58) | story próprio | g6s026 (não tinha saído às 09h) | — | 17996289039027480 |
+| 2026-11-24 | 21h58 | conferência diária | Windsor OK (Trial; force_refresh indisponível no Trial): 1 feed (imagem) 12h + 1 carrossel 19h + Reel g6r005 + 12 Reels de corte; 20 stories (5 próprios — 2 das 09h repostos agora, 15 de post/Reel). Fila 25–27/11 completa, 51 links raw 200 | — | — |
