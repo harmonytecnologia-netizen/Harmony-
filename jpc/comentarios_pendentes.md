@@ -10,3 +10,4 @@ comment_id | usuário | data | status | resposta planejada
 18089135882686251 | (sem nome) | 2026-11-23 04:43 | pendente (erro permissão) | "Essa é a ambulancia que tem q destruir no cap 2?..." → Kkkk acontece! Sem spoiler aqui, mas segue firme que a missão continua 🎮
 18127063199477053 | (sem nome) | 2026-11-22 18:10 | pendente (erro permissão) | "Eu bati o quadriciclo e acabei perdendo eles de vista" → Quem nunca, né? Bora tentar de novo que na próxima sai 😂
 18099661244447802 | (sem nome) | 2026-11-22 18:20 | pendente (erro permissão) | "😂" → Valeu demais pela moral! Cola aqui que tem mais GTA 6 vindo 🔥
+# 24/11/2026 (nova rodada): reply_to_comment ainda falha — "(#100) Missing Permission". Os 5 comentários acima seguem pendentes; 18120170368817228 não veio mais na leitura dos últimos 7 dias.
