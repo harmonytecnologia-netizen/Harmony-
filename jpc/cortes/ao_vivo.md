@@ -4,14 +4,14 @@
 - ja_teve_live: sim
 - rodadas_seguidas_offline: 0
 - aviso_youtube_enviado: —
-- cortes_postados: 27
+- cortes_postados: 28
 - corte_guardado: —
 
 ## Lives do YouTube (canal UCdlJx-w37viXFNq__qZ7ARQ) — trechos já usados
 | live (id) | título | duração | trechos usados (h:mm:ss) |
 |---|---|---|---|
 | a-Ur3A_kHXc | GTA 6, LIVE CURTINHA HOJE! #5 (21/11) | 4:49:14 | 4:11:55–4:12:29 (jacaré debaixo do colchão / missão da Mia); 4:01:38–4:02:14 (NPC demais / 30 FPS); 3:50:10–3:50:49 ("aqui não dá polícia" / CABOU FREIO); 1:15:32–1:16:07 (achou lança-granada na última casa / "meu Deus"); 1:52:38–1:53:05 (fuga de carro, Lúcia atirando, "furou o pneu, já era"); 4:30:01–4:30:24 (assalto na cafeteria, "não chama a polícia" / "você é louco"); 1:41:25–1:42:01 (fuga da polícia de carro, arrebenta portão, "polícia metendo bala"); 1:13:00–1:13:34 ("prazeroso roubar", arma especial, bomba adesiva, "você é louco, gordin"); 4:30:40–4:31:10 ("pouco violento esse GTA... tá dando dó de matar os NPC... Rockstar fez de um jeito que tá dando dó"); 4:31:14–4:31:38 (loja de eletrônicos, "dá pra comprar fone de ouvido", escolhendo cor); 6:55–7:17 (cabelo do Jason "tá triste", "parecendo um leão", senha 2008 da Vicky); 2:20:53–2:21:38 ("ela ia meter fuga" + senha do notebook = nome do cachorro, "muffins") |
-| ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem") |
+| ivjSsjiHbZA | GTA 6 e 20 PS5 PRA VOCÊS HOJE! #3 (encerrada 20/11 17h58 BRT) | 7:03:50 | 1:57:41–1:58:20 (roubou caça/jato, polícia, motor danificado); 1:39:49–1:40:26 (atravessou a plantação de carro / "passou o efeito do trem"); 1:45:10–1:45:39 (praia indo pra base militar, "vou de maluco", "que coisa insensacional") |
 | cxuF5siTUQw | GTA 6 O ÍNICIO! | 7:21:54 | — |
 | X2rtbJJEvVE | GTA 6 O ÍNICIO! #2 | 5:05:33 | — |
 | hOOiQagTyTA | GTA 6 SEGUNDO DIA! #3 | 3:02:49 | 0:11:12–0:11:57 (primeira missão, agonia/barco); 2:44:48–2:45:50 (avião/paraquedas); 1:36:04–1:36:41 (cavalo); 1:31:31–1:32:00 (roubaram a ambulância); 1:26:11–1:26:20 + 1:26:33–1:26:59 (Eclipse vermelhão/Penumbra); 2:14:02–2:14:47 (fuga perfeita de motinha, 1.700); 0:16:40–0:17:21 (trocação no incêndio + dinheiro queimou); 1:37:54–1:38:39 (funcionária da fazenda chamou a polícia / crime denunciado); 2:39:16–2:39:58 (controle vibrando sozinho / barulho misterioso); 2:40:54–2:41:28 (mistério parte 2: bandeira vibrando, "vou voltar outra hora"); 1:37:27–1:37:54 (cavalo vindo atrás + "moça cismada?"); 0:43:56–0:44:29 (cobra Dolores fugiu / tá solta no mapa); 2:40:26–2:40:55 (som vindo debaixo do monumento / ponto de interesse) |
@@ -43,6 +43,7 @@
 - a-Ur3A_kHXc (19h43): transcrição da watch NÃO abriu (Whisper local). Gravado 4:31:03–4:32:05; usado o fone (4:31:14–4:31:38). Depois (4:31:39+) ela sai correndo, briga no beco com NPCs — legendas do JOGO cheias de palavrão ("Porra", "caralho", "merda"); evitar. Restam: 2:20:53 "ela ia meter fuga" (senha = nome do cachorro); 6:57 cabelo de leão.
 - a-Ur3A_kHXc (20h43): transcrição da watch NÃO abriu (Whisper local). Gravado 6:43–7:45; usado cabelo de leão (6:55–7:17). Legenda do JOGO com "Puta merda" a partir de ~7:07 — borrada (faixa y 820–1065, x 380–1540). Depois (7:17+) entra nos bastidores procurando senha (2008) — fraco. Resta só: 2:20:53 "ela ia meter fuga" (senha = nome do cachorro). Live #5 quase esgotada; próximas fontes: lives #1/#2 nunca mineradas (varredura de volume no embed).
 - a-Ur3A_kHXc (21h44): transcrição da watch NÃO abriu (Whisper local); #1 cxuF5siTUQw também sem botão de transcrição e timedtext vazio. Gravado 2:20:30–2:21:38; usado 2:20:53–2:21:38 (fuga + senha do cachorro). Legenda do JOGO com "Porra" ~2:20:51–2:20:53 borrada (faixa y 875–1005, x 380–1540). Logo depois (2:21:38+) ele tenta as senhas no notebook (Muffins etc.) — pode render continuação. Live #5 ESGOTADA das ideias anotadas. Próximas fontes: ivjSsjiHbZA picos 1:43:20, 1:52:10, 1:54:40, 1:29:00; lives #1/#2 (varredura de volume no embed). Obs: raw do GitHub só respondeu 200 com o repo em minúsculo (harmony-), Harmony- deu 404.
+- ivjSsjiHbZA (22h43): transcrição da watch da #5 não abriu; sem live nova. Gravado 1:43:11–1:44:26 (só dirigindo o Coquette até a base militar, "chegamos, base militar é ali" ~1:44:07) e 1:44:24–1:45:44 (contornando a base pelo pântano/praia; usado 1:45:10–1:45:39). Atenção: legenda do JOGO "Turista: Chupa aqui!" ~1:44:34 — evitar. Próximo: o que ele faz NA base militar (1:45:45–1:57:40, antes do caça já usado em 1:57:41) — provável invasão; picos ainda não conferidos 1:52:10 (6730) e 1:54:40 (6880), 1:29:00 (5340).
 
 ## Rodadas
 | data | hora | status | resultado |
@@ -76,3 +77,4 @@
 | 2026-11-24 | 19h43 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu (Whisper local); usado "fone de ouvido" da #5 (4:31:14) | Reel 18120015094823960 + story 18113960918524771 |
 | 2026-11-24 | 20h43 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu (Whisper local); usado "cabelo de leão" da #5 (6:55) | Reel 18021234875746168 + story 18222467530359085 |
 | 2026-11-24 | 21h44 | sem live nova (última a-Ur3A_kHXc #5); Downloads liberada de novo; transcrição da watch não abriu (Whisper local); usada "ela ia meter fuga"/senha do cachorro da #5 (2:20:53) | Reel 18132363775755744 + story 18088729676705976 |
+| 2026-11-24 | 22h43 | sem live nova (última a-Ur3A_kHXc #5, esgotada); Downloads liberada de novo; usada a ivjSsjiHbZA (Whisper local): praia/base militar 1:45:10 | Reel 18133933294692345 + story 18150790582572848 |

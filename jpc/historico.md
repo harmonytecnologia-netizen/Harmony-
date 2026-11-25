@@ -138,3 +138,4 @@
 | 2026-11-24 | 09h (atrasado, 21h58) | story próprio | g6s025 (não tinha saído às 09h) | — | 18491561842116799 |
 | 2026-11-24 | 09h (atrasado, 21h58) | story próprio | g6s026 (não tinha saído às 09h) | — | 17996289039027480 |
 | 2026-11-24 | 21h58 | conferência diária | Windsor OK (Trial; force_refresh indisponível no Trial): 1 feed (imagem) 12h + 1 carrossel 19h + Reel g6r005 + 12 Reels de corte; 20 stories (5 próprios — 2 das 09h repostos agora, 15 de post/Reel). Fila 25–27/11 completa, 51 links raw 200 | — | — |
+| 2026-11-24 | 22h | Reel corte GTA 6 | Paulinho: praia a caminho da base militar, "que coisa insensacional" (ivjSsjiHbZA 1:45:10) | — | 18133933294692345 (story 18150790582572848) |
