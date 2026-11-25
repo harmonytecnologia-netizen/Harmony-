@@ -309,6 +309,10 @@
   [
    "2026-11-27",
    "trilha"
+  ],
+  [
+   "2026-11-25",
+   "spontaneous_rodina.mp3"
   ]
  ],
  "reels": [
@@ -322,5 +326,8 @@
   "g6r007",
   "g6r008"
  ],
- "cortes": []
+ "cortes": [],
+ "ensina": [
+  "ens000"
+ ]
 }

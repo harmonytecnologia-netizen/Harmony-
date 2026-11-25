@@ -28,10 +28,12 @@
   {
    "acao": "create_video_post",
    "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-25/reel.mp4",
-   "legenda": "🚨 'GTA 6 vazado pra PC' = pirataria + risco de vírus.\n\nVersão de PC oficial ainda não foi anunciada.\n\nManda pro amigo 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
-   "thumb_offset": 1000,
-   "musica": "trilha própria sintetizada #655242 + narração Piper",
-   "pauta": "g6r006"
+   "capa": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-25/capa.jpg",
+   "legenda": "🎓 JPC ENSINA: Seu PC demora pra ligar? 👇\n\n1️⃣ Ctrl + Shift + Esc (Gerenciador de Tarefas)\n2️⃣ Aplicativos de inicialização\n3️⃣ Olha a coluna Impacto (Alto = pesa mais)\n4️⃣ Botão direito > Desabilitar no que você não usa\n5️⃣ Reinicia o PC\n\n💾 Salva pra fazer depois e manda pro amigo que tem PC lento\n\nQuanto tempo o seu leva pra ligar? Comenta 👇\n\nPrecisa de ajuda? Manda TÉCNICO ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #dicasdepc #windows11 #manutencaodepc #pclento #hardware #setupgamer #gamerbrasil #gerenciadordetarefas #pcrapido",
+   "musica": "spontaneous_rodina.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+   "pauta": "ens000",
+   "tipo_reel": "JPC Ensina",
+   "tema": "programas na inicialização"
   },
   {
    "acao": "create_story",

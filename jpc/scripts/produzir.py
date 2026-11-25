@@ -292,14 +292,8 @@ def produzir_dia(data,forcar=False):
                        (html_story_repost(f"file://{dia_dir}/car_01.jpg","CARROSSEL NOVO 👉"),1080,1920,f"{dia_dir}/story_car.jpg")]))
     plano["12h"].append({"acao":"create_image_post","arquivo":url("feed.jpg"),"legenda":legenda(it["legenda"]),"pauta":it["id"]})
     plano["12h"].append({"acao":"create_story","arquivo":url("story_feed.jpg")})
-    if GTA:   # MODO GTA 6: Reel TODO DIA. 1º corte GTA 6 autorizado novo; senão Reel próprio do banco "reels"
-        co=corte_novo()
-        if co: plano["12h"]+= [{"acao":"create_video_post","arquivo":co["video_url"],"legenda":co["legenda"],"thumb_offset":co.get("thumb_offset",1000),"musica":co.get("musica",""),"corte":co["arquivo"]},
-                               {"acao":"create_story","arquivo":co["video_url"],"tipo":"video"}]
-        else:
-            r=proximo(BANCO["reels"],"reels"); arq,mus=reel_gta(dia_dir,r,rng); USADOS["musicas"].append([data,mus.split(" ")[0]])
-            plano["12h"]+= [{"acao":"create_video_post","arquivo":url(arq),"legenda":legenda(r["legenda"]),"thumb_offset":1000,"musica":mus,"pauta":r["id"]},
-                            {"acao":"create_story","arquivo":url(arq),"tipo":"video"}]
+    if GTA or BANCO.get("ensina"):   # desde 24/11/2026: Reel 12h = JPC ENSINA (tutorial + capa). Cortes GTA 6 saem às 15h/20h por outra tarefa.
+        plano["12h"]+=reel_ensina_itens(dia_dir,data,rng)
     elif dt.weekday() in (0,2,4):
         pr=reel_pronto()
         if pr: plano["12h"]+= [{"acao":"create_video_post","arquivo":pr["video_url"],"legenda":pr["legenda"],"thumb_offset":pr.get("thumb_offset",1500),"musica":pr.get("musica","")},
@@ -317,6 +311,26 @@ def produzir_dia(data,forcar=False):
     json.dump(USADOS,open(USADOS_F,"w"),ensure_ascii=False,indent=1)
     print("pronto",data); return True
 
+for _k in ("ensina",): USADOS.setdefault(_k,[])
+def reel_ensina_itens(dia_dir,data,rng):
+    """Reel JPC ENSINA (máx. 3 vídeos/dia: este + 2 cortes GTA 6 às 15h/20h). Devolve os 2 itens da chave 12h."""
+    sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import ensina
+    r=proximo(BANCO["ensina"],"ensina"); arq,capa,mus,musf,dur=ensina.reel_ensina(dia_dir,r,rng,USADOS,data)
+    USADOS["musicas"].append([data,musf]); url=lambda n:f"{RAW}fila/{data}/{n}"
+    print(f"JPC Ensina {data}: {r['id']} '{r['tema']}' ({dur:.1f}s, {musf})")
+    return [{"acao":"create_video_post","arquivo":url(arq),"capa":url(capa),"legenda":ensina.legenda(r,BANCO["ensina_hashtags"]),"musica":mus,"pauta":r["id"],"tipo_reel":"JPC Ensina","tema":r["tema"]},
+            {"acao":"create_story","arquivo":url(arq),"tipo":"video"}]
+
+def refazer_12h(data):
+    """Troca o Reel da 12h de um dia já pronto pelo JPC Ensina com capa (mantém feed + story do feed)."""
+    pj=f"{R}/fila/{data}/plano.json"; plano=json.load(open(pj))
+    v=[x for x in plano["12h"] if x["acao"]=="create_video_post"]
+    if v and v[0].get("tipo_reel")=="JPC Ensina" and v[0].get("capa"): print("12h já é JPC Ensina",data); return False
+    plano["12h"]=[x for x in plano["12h"] if not (x["acao"]=="create_video_post" or x.get("tipo")=="video")]
+    plano["12h"]+=reel_ensina_itens(f"{R}/fila/{data}",data,random.Random(data+"ensina"))
+    json.dump(plano,open(pj,"w"),ensure_ascii=False,indent=1); json.dump(USADOS,open(USADOS_F,"w"),ensure_ascii=False,indent=1)
+    print("12h refeita",data); return True
+
 def emergencia(hora):
     hoje=datetime.datetime.now(TZ).date().isoformat(); dia_dir=f"{R}/fila/{hoje}/emergencia_{hora}"; os.makedirs(dia_dir,exist_ok=True)
     rng=random.Random(hoje+hora); st=proximo(BANCO["stories"],"stories")
@@ -327,6 +341,9 @@ def emergencia(hora):
 if __name__=="__main__":
     a=sys.argv[1:]
     if "--emergencia" in a: emergencia(a[a.index("--emergencia")+1]); sys.exit()
+    if "--refazer12h" in a: refazer_12h(a[a.index("--refazer12h")+1]); sys.exit()
     if "--data" in a: produzir_dia(a[a.index("--data")+1],"--forcar" in a); sys.exit()
     hoje=datetime.datetime.now(TZ).date()
-    for k in range(4): produzir_dia((hoje+datetime.timedelta(k)).isoformat())
+    for k in range(4):
+        d=(hoje+datetime.timedelta(k)).isoformat()
+        if not produzir_dia(d) and (k>0 or datetime.datetime.now(TZ).hour<12): refazer_12h(d)
