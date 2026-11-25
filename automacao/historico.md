@@ -130,3 +130,7 @@
 - 2026-11-24 21h50 (Brasília) — CONFERÊNCIA Windsor — dia 24/11 completo: 1 feed (12h05 sala de cinema BC), 1 carrossel (19h12 rede RJ45), 2 Reels (12h07 segurança simulação de presença; 19h13 rede RJ45), 8 stories (4 próprios: 09h07, 13h32, 21h06, 21h06 + 4 de feed/carrossel/Reels). Sem série em partes hoje. Métricas: nenhum post na janela 24–72 h (21–23/11 sem publicação) — nada novo em aprendizados.md. Fila 25, 26 e 27/11 com plano.json completo e arquivos presentes. Windsor OK (plano TRIAL: sem force_refresh, dados do cache). Parcial <24 h: Reel rede 139 views/123 contas (~3 h), Reel segurança 85/67 (~7 h), feed 28/18, carrossel 29/9.
 - 2026-11-25 09:06 (Brasília) — story 09h (1/2) — story_09h_1.jpg — media id 17872271337686310
 - 2026-11-25 09:06 (Brasília) — story 09h (2/2) — story_09h_2.jpg — media id 17945696184386456
+- 2026-11-25 12h (Brasília) — feed (imagem) — OBRA REAL House Beer "Som de bar que não briga com a conversa" (feed.jpg) — media id 18270569410307084
+- 2026-11-25 12h (Brasília) — story do feed — story_feed.jpg — media id 18405129106167738
+- 2026-11-25 12h (Brasília) — Reel MOVE Explica 3D — SOM surround na altura certa "Surround no chão, atrás do sofá?" (reel_12h.mp4) — música Duty Calls — Rod Kim — media id 17966091060241591
+- 2026-11-25 12h (Brasília) — story do Reel — reel_12h.mp4 — música Duty Calls — Rod Kim — media id 18138289015740488
