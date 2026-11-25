@@ -308,6 +308,454 @@
    "titulo": "Do desenho|à instalação",
    "texto": "Projeto, fabricação e instalação com acabamento de alto padrão. Fale com a Metalize.",
    "fundo": "calha"
+  },
+  {
+   "id": "c16",
+   "tipo": "curiosidade",
+   "titulo": "Aço é ferro|com carbono",
+   "texto": "O aço é uma liga de ferro com menos de cerca de 2% de carbono. Essa pequena dose é o que dá resistência ao metal.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "c17",
+   "tipo": "curiosidade",
+   "titulo": "Por que a viga|tem forma de I?",
+   "texto": "As abas ficam longe do centro, onde a viga mais trabalha. Assim ela fica rígida usando menos aço.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "c18",
+   "tipo": "curiosidade",
+   "titulo": "O triângulo|não deforma",
+   "texto": "Um quadro de quatro lados pode virar losango. O triângulo, não. Por isso treliças e contraventamentos são feitos de triângulos.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "c19",
+   "tipo": "curiosidade",
+   "titulo": "Ferrugem precisa|de água e ar",
+   "texto": "A corrosão do aço depende de umidade e oxigênio. Sal e poluição aceleram tudo. Proteção é manter os dois longe do metal.",
+   "fundo": "portao"
+  },
+  {
+   "id": "c20",
+   "tipo": "curiosidade",
+   "titulo": "Telha|sanduíche",
+   "texto": "Duas chapas metálicas com um miolo isolante no meio. Diminuem o calor e o barulho da chuva embaixo da cobertura.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "c21",
+   "tipo": "curiosidade",
+   "titulo": "Alumínio dilata|o dobro",
+   "texto": "O alumínio dilata cerca de duas vezes mais que o aço com o calor. Em peças longas, a fixação precisa permitir esse movimento.",
+   "fundo": "calha"
+  },
+  {
+   "id": "c22",
+   "tipo": "curiosidade",
+   "titulo": "Têmpera:|o choque que endurece",
+   "texto": "Aquecer o aço e resfriar de uma vez muda sua estrutura interna. Ele fica bem mais duro, mas também mais frágil.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "c23",
+   "tipo": "curiosidade",
+   "titulo": "Vão livre|sem pilar",
+   "texto": "Treliças metálicas vencem grandes vãos com pouco peso. É assim que galpões ficam amplos, sem colunas no meio.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "c24",
+   "tipo": "curiosidade",
+   "titulo": "Policarbonato|deixa a luz entrar",
+   "texto": "Leve e muito mais resistente a impacto que o vidro comum. Ótimo para coberturas que precisam de claridade.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "c25",
+   "tipo": "curiosidade",
+   "titulo": "Por que a calha|tem condutor?",
+   "texto": "A calha recolhe a água do telhado. O condutor leva essa água para baixo. Sem condutores suficientes, a calha enche e transborda.",
+   "fundo": "calha"
+  },
+  {
+   "id": "a13",
+   "tipo": "aprendiz",
+   "titulo": "Teste na|sobra",
+   "texto": "Antes da peça, regule a máquina numa sobra do mesmo material e espessura. A peça boa não é lugar de teste.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a14",
+   "tipo": "aprendiz",
+   "titulo": "Eletrodo|seco",
+   "texto": "Eletrodo revestido absorve umidade do ar e isso vira poro e trinca na solda. Guarde fechado, em local seco ou em estufa.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a15",
+   "tipo": "aprendiz",
+   "titulo": "Chapa grossa|pede chanfro",
+   "texto": "Em chapa grossa, o chanfro abre caminho para a solda chegar até a raiz. Sem ele, o cordão fica só na superfície.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a16",
+   "tipo": "aprendiz",
+   "titulo": "Galvanizado:|ventile",
+   "texto": "Soldar peça galvanizada solta fumos de zinco. Trabalhe em local ventilado e use proteção respiratória.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a17",
+   "tipo": "aprendiz",
+   "titulo": "Disco de corte|não desbasta",
+   "texto": "Disco de corte é fino e não aguenta força lateral. Para desbastar, use disco de desbaste.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a18",
+   "tipo": "aprendiz",
+   "titulo": "Gabarito|economiza tempo",
+   "texto": "Peças repetidas, como lâminas de portão, saem iguais com um gabarito simples. Menos medida, menos erro.",
+   "fundo": "portao"
+  },
+  {
+   "id": "a19",
+   "tipo": "aprendiz",
+   "titulo": "Confira antes|de fechar",
+   "texto": "Ponteie, confira esquadro e nível e só depois faça a solda final. Corrigir depois custa muito mais.",
+   "fundo": "portao"
+  },
+  {
+   "id": "a20",
+   "tipo": "aprendiz",
+   "titulo": "Tire a|rebarba",
+   "texto": "Rebarba de corte machuca a mão e atrapalha o encaixe. Lime ou passe o disco antes de montar.",
+   "fundo": "escada"
+  },
+  {
+   "id": "a21",
+   "tipo": "aprendiz",
+   "titulo": "Bico limpo,|arco estável",
+   "texto": "Na MIG, respingo acumulado no bocal atrapalha o gás de proteção. Limpe o bocal e troque o bico gasto.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a22",
+   "tipo": "aprendiz",
+   "titulo": "Nível e|prumo",
+   "texto": "Pilar fora de prumo aparece na obra inteira. Confira com nível em duas faces antes de fixar.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "a23",
+   "tipo": "aprendiz",
+   "titulo": "Roupa certa|na solda",
+   "texto": "Manga longa de algodão ou couro, luvas de raspa e botina. Tecido sintético derrete com a fagulha.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a24",
+   "tipo": "aprendiz",
+   "titulo": "Escala|na máscara",
+   "texto": "Use a tonalidade de filtro indicada para o processo e a corrente. O arco queima a vista mesmo de relance.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "d09",
+   "tipo": "detalhe",
+   "titulo": "Corrimão que|cabe na mão",
+   "texto": "A NBR 9050 pede corrimão de seção circular entre 3 e 4,5 cm de diâmetro. Firmeza para a mão e elegância no desenho.",
+   "fundo": "guarda_corpo"
+  },
+  {
+   "id": "d10",
+   "tipo": "detalhe",
+   "titulo": "Pilar|que aparece",
+   "texto": "Bem acabado, o pilar metálico deixa de ser só estrutura e vira parte do desenho da fachada.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "d11",
+   "tipo": "detalhe",
+   "titulo": "O rufo|que protege",
+   "texto": "O rufo veda o encontro do telhado com a parede. Sem ele, a água entra pela junta e mancha a alvenaria.",
+   "fundo": "calha"
+  },
+  {
+   "id": "d12",
+   "tipo": "detalhe",
+   "titulo": "Pingadeira|na fachada",
+   "texto": "A pingadeira faz a gota cair longe da parede. Detalhe pequeno, fachada limpa por anos.",
+   "fundo": "calha"
+  },
+  {
+   "id": "d13",
+   "tipo": "detalhe",
+   "titulo": "Cobertura|com luz",
+   "texto": "Estrutura metálica fina e cobertura translúcida: proteção da chuva sem escurecer a área.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "d14",
+   "tipo": "detalhe",
+   "titulo": "Linhas|alinhadas",
+   "texto": "Corrimão, degrau e guarda-corpo seguindo a mesma linha. É isso que faz o conjunto parecer projeto.",
+   "fundo": "escada"
+  },
+  {
+   "id": "d15",
+   "tipo": "detalhe",
+   "titulo": "Aresta|sem farpa",
+   "texto": "Cantos lixados e arestas quebradas: a peça fica mais bonita e ninguém se machuca.",
+   "fundo": "guarda_corpo"
+  },
+  {
+   "id": "d16",
+   "tipo": "detalhe",
+   "titulo": "Galpão|bem resolvido",
+   "texto": "Telhas alinhadas, calhas no caimento certo e estrutura no prumo. Galpão também pode ter acabamento.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "d17",
+   "tipo": "detalhe",
+   "titulo": "Fixação|discreta",
+   "texto": "Parafusos e chumbadores posicionados para não aparecer. O olho vê só o desenho.",
+   "fundo": "escada"
+  },
+  {
+   "id": "d18",
+   "tipo": "detalhe",
+   "titulo": "Preto fosco|não sai de moda",
+   "texto": "Combina com madeira, concreto e vidro. Por isso aparece em tantas fachadas contemporâneas.",
+   "fundo": "portao"
+  },
+  {
+   "id": "d19",
+   "tipo": "detalhe",
+   "titulo": "O portão começa|no trilho",
+   "texto": "Base nivelada e firme é o que faz o portão de correr deslizar leve por muitos anos.",
+   "fundo": "portao"
+  },
+  {
+   "id": "p06",
+   "tipo": "pergunta",
+   "titulo": "Portão de correr|ou basculante?",
+   "texto": "Qual funciona melhor na sua garagem? Responde no direct.",
+   "fundo": "portao"
+  },
+  {
+   "id": "p07",
+   "tipo": "pergunta",
+   "titulo": "Pergolado aberto|ou coberto?",
+   "texto": "Só ripas para a sombra ou cobertura contra chuva? Qual seria o seu?",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "p08",
+   "tipo": "pergunta",
+   "titulo": "Sua calha já|transbordou?",
+   "texto": "Na última chuva forte, a água passou por cima? Conta pra gente no direct.",
+   "fundo": "calha"
+  },
+  {
+   "id": "p09",
+   "tipo": "pergunta",
+   "titulo": "Escada reta|ou em L?",
+   "texto": "Reta é mais direta, em L economiza espaço. Qual cabe melhor na sua casa?",
+   "fundo": "escada"
+  },
+  {
+   "id": "p10",
+   "tipo": "pergunta",
+   "titulo": "Com qual você|começou a soldar?",
+   "texto": "Eletrodo, MIG ou TIG? Responde aqui e conta como foi.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "p11",
+   "tipo": "pergunta",
+   "titulo": "Qual sua maior|dúvida em solda?",
+   "texto": "Manda no direct. As melhores perguntas viram story.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "p12",
+   "tipo": "pergunta",
+   "titulo": "Lâmina fina|ou larga?",
+   "texto": "No portão de lâminas, qual desenho você prefere? Vota no direct.",
+   "fundo": "portao"
+  },
+  {
+   "id": "p13",
+   "tipo": "pergunta",
+   "titulo": "Garagem|coberta?",
+   "texto": "Seu carro fica no sol hoje? Uma cobertura metálica resolve. Já pensou nisso?",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "p14",
+   "tipo": "pergunta",
+   "titulo": "Guarda-corpo|de barras ou fechado?",
+   "texto": "Barras deixam a vista livre, fechado dá privacidade. Qual combina com você?",
+   "fundo": "guarda_corpo"
+  },
+  {
+   "id": "p15",
+   "tipo": "pergunta",
+   "titulo": "Qual serviço|você quer ver?",
+   "texto": "Calha, portão, galpão ou escada: qual tema você quer no próximo vídeo?",
+   "fundo": "galpao"
+  },
+  {
+   "id": "p16",
+   "tipo": "pergunta",
+   "titulo": "Pilar aparente|ou escondido?",
+   "texto": "Tem quem goste da estrutura à mostra e quem prefira que ela suma. E você?",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "p17",
+   "tipo": "pergunta",
+   "titulo": "Precisa de|um galpão?",
+   "texto": "Para máquinas, depósito ou empresa? Conta pra gente qual seria o uso.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "p18",
+   "tipo": "pergunta",
+   "titulo": "Corrimão:|preto ou claro?",
+   "texto": "Na sua escada, qual cor você escolheria? Responde no direct.",
+   "fundo": "escada"
+  },
+  {
+   "id": "p19",
+   "tipo": "pergunta",
+   "titulo": "Você confere|o esquadro?",
+   "texto": "Quem está aprendendo: você mede as diagonais antes de soldar? Conta pra gente.",
+   "fundo": "portao"
+  },
+  {
+   "id": "p20",
+   "tipo": "pergunta",
+   "titulo": "O que mais|pesa na escolha?",
+   "texto": "Na hora de contratar uma obra em metal: acabamento, prazo ou durabilidade?",
+   "fundo": "escada"
+  },
+  {
+   "id": "t05",
+   "tipo": "cta",
+   "titulo": "Calhas e rufos|sob medida",
+   "texto": "Água no caminho certo e fachada protegida. Orçamento: (66) 99632-0774.",
+   "fundo": "calha"
+  },
+  {
+   "id": "t06",
+   "tipo": "cta",
+   "titulo": "Portões residenciais|e comerciais",
+   "texto": "Projetados para a sua fachada. Fale com a Metalize no direct.",
+   "fundo": "portao"
+  },
+  {
+   "id": "t07",
+   "tipo": "cta",
+   "titulo": "Galpões e|estruturas metálicas",
+   "texto": "Para fazenda, empresa ou indústria. Orçamento: (66) 99632-0774.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "t08",
+   "tipo": "cta",
+   "titulo": "Coberturas|metálicas",
+   "texto": "Garagem, área gourmet ou galpão. Chame no direct e conte o seu projeto.",
+   "fundo": "pergolado"
+  },
+  {
+   "id": "t09",
+   "tipo": "cta",
+   "titulo": "Escadas|metálicas",
+   "texto": "Leves, firmes e sob medida. Orçamento pelo WhatsApp (66) 99632-0774.",
+   "fundo": "escada"
+  },
+  {
+   "id": "t10",
+   "tipo": "cta",
+   "titulo": "Corrimãos|sob medida",
+   "texto": "Segurança e acabamento para escadas e rampas. Fale com a Metalize.",
+   "fundo": "guarda_corpo"
+  },
+  {
+   "id": "t11",
+   "tipo": "cta",
+   "titulo": "Pilares e|estruturas",
+   "texto": "Estruturas metálicas sob medida para a sua obra. Orçamento: (66) 99632-0774.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "t12",
+   "tipo": "cta",
+   "titulo": "Atendemos|a região",
+   "texto": "Marcelândia, Cláudia, União do Sul, Atlântica e Itaúba. Chame no direct.",
+   "fundo": "calha"
+  },
+  {
+   "id": "t13",
+   "tipo": "cta",
+   "titulo": "Manda uma foto|do local",
+   "texto": "Com 2 ou 3 fotos e uma medida aproximada já começamos. WhatsApp (66) 99632-0774.",
+   "fundo": "portao"
+  },
+  {
+   "id": "t14",
+   "tipo": "cta",
+   "titulo": "Antes da|próxima chuva",
+   "texto": "Calha transbordando ou rufo faltando? Fale com a Metalize no direct.",
+   "fundo": "calha"
+  },
+  {
+   "id": "t15",
+   "tipo": "cta",
+   "titulo": "Arquitetos e|engenheiros",
+   "texto": "Seu projeto em metal executado com precisão. Fale com a Metalize.",
+   "fundo": "escada"
+  },
+  {
+   "id": "t16",
+   "tipo": "cta",
+   "titulo": "Residencial,|comercial e industrial",
+   "texto": "Metal sob medida com acabamento sem improviso. Orçamento: (66) 99632-0774.",
+   "fundo": "galpao"
+  },
+  {
+   "id": "c26",
+   "tipo": "curiosidade",
+   "titulo": "Inox 304|ou 316?",
+   "texto": "O 316 leva molibdênio na liga e resiste melhor ao sal e ao cloro. Por isso é o preferido perto do mar e de piscinas.",
+   "fundo": "guarda_corpo"
+  },
+  {
+   "id": "a25",
+   "tipo": "aprendiz",
+   "titulo": "Marque|com precisão",
+   "texto": "Risco grosso vira milímetro perdido. Riscador ou marcador fino, esquadro apoiado e marcação do lado certo do corte.",
+   "fundo": "chapa"
+  },
+  {
+   "id": "a26",
+   "tipo": "aprendiz",
+   "titulo": "Prenda|a peça",
+   "texto": "Peça solta se move com o calor da solda. Grampos e sargentos mantêm tudo no esquadro até o fim.",
+   "fundo": "portao"
+  },
+  {
+   "id": "d20",
+   "tipo": "detalhe",
+   "titulo": "Condutor|no lugar certo",
+   "texto": "Bem posicionado, o condutor fica discreto no canto da fachada e ainda leva a água para onde deve ir.",
+   "fundo": "calha"
   }
  ],
  "carrosseis": [
@@ -337,7 +785,7 @@
      "O óxido ocupa mais volume que o aço e empurra a pintura."
     ]
    ],
-   "legenda": "Metal tem mais ciência do que parece. Qual dessas você não sabia?\n\nSalve para mostrar para alguém da obra.\n\n#metalurgia #serralheria #aço #arquitetura #altopadrao #marcelandia"
+   "legenda": "Metal tem mais ciência do que parece. Qual dessas você não sabia?\n\nSalve para mostrar para alguém da obra.\nImagem ilustrativa.\n\n#metalurgia #serralheria #aço #arquitetura #altopadrao #marcelandia"
   },
   {
    "id": "car02",
@@ -365,7 +813,7 @@
      "Cada escada e cada sacada têm sua medida. Por isso medimos no local."
     ]
    ],
-   "legenda": "Guarda-corpo não é só acabamento: é segurança com desenho.\n\nSalve para conferir na sua obra.\n\n#guardacorpo #serralheria #arquitetura #altopadrao #metalurgia #marcelandia"
+   "legenda": "Guarda-corpo não é só acabamento: é segurança com desenho.\n\nSalve para conferir na sua obra.\nImagem ilustrativa.\n\n#guardacorpo #serralheria #arquitetura #altopadrao #metalurgia #marcelandia"
   },
   {
    "id": "car02b",
@@ -393,7 +841,7 @@
      "Degraus em madeira sobre aço preto fosco: clássico do alto padrão."
     ]
    ],
-   "legenda": "Escada bonita é escada confortável. Essa conta faz toda a diferença.\n\nSalve para mostrar ao seu arquiteto.\n\n#escadametalica #escada #arquitetura #altopadrao #serralheria #marcelandia"
+   "legenda": "Escada bonita é escada confortável. Essa conta faz toda a diferença.\n\nSalve para mostrar ao seu arquiteto.\nImagem ilustrativa.\n\n#escadametalica #escada #arquitetura #altopadrao #serralheria #marcelandia"
   },
   {
    "id": "car03",
@@ -421,7 +869,7 @@
      "Suportes no espaçamento certo evitam barriga e água parada."
     ]
    ],
-   "legenda": "Calha que transborda quase sempre é falta de caimento ou de condutor.\n\nSalve para conferir na sua casa.\n\n#calha #telhado #serralheria #arquitetura #altopadrao #marcelandia"
+   "legenda": "Calha que transborda quase sempre é falta de caimento ou de condutor.\n\nSalve para conferir na sua casa.\nImagem ilustrativa.\n\n#calha #telhado #serralheria #arquitetura #altopadrao #marcelandia"
   },
   {
    "id": "car04",
@@ -449,7 +897,7 @@
      "Velocidade constante faz cordão bonito. Treine em sucata."
     ]
    ],
-   "legenda": "Para quem está começando: o básico bem feito separa amador de profissional.\n\nSalve e mande para quem está aprendendo.\n\n#metalurgia #solda #serralheiro #aprendiz #oficina #marcelandia"
+   "legenda": "Para quem está começando: o básico bem feito separa amador de profissional.\n\nSalve e mande para quem está aprendendo.\nImagem ilustrativa.\n\n#metalurgia #solda #serralheiro #aprendiz #oficina #marcelandia"
   },
   {
    "id": "car05",
@@ -477,7 +925,35 @@
      "Motor dimensionado para o peso real do portão."
     ]
    ],
-   "legenda": "Portão bom é o que você esquece que existe: abre, fecha e continua bonito.\n\nSalve para quando for fazer o seu.\n\n#portao #portaoautomatico #serralheria #altopadrao #arquitetura #marcelandia"
+   "legenda": "Portão bom é o que você esquece que existe: abre, fecha e continua bonito.\n\nSalve para quando for fazer o seu.\nImagem ilustrativa.\n\n#portao #portaoautomatico #serralheria #altopadrao #arquitetura #marcelandia"
+  },
+  {
+   "id": "car06",
+   "capa": "Galpão se planeja|antes da coluna",
+   "fundo": "galpao",
+   "slides": [
+    [
+     "Uso",
+     "O que vai guardar ou operar define vão, altura e piso."
+    ],
+    [
+     "Vão livre",
+     "Quanto maior o vão, mais a estrutura precisa ser calculada."
+    ],
+    [
+     "Vento",
+     "Contraventamentos mantêm a estrutura no prumo."
+    ],
+    [
+     "Cobertura",
+     "Telha, inclinação, calhas e ventilação pensadas juntas."
+    ],
+    [
+     "Fundação",
+     "A base precisa conversar com a estrutura."
+    ]
+   ],
+   "legenda": "Um galpão bem planejado custa menos ao longo da vida do que um galpão consertado.\n\nSalve para o seu planejamento.\nImagem ilustrativa.\n\n#galpao #estruturametalica #agro #construcao #metalurgia #marcelandia"
   }
  ],
  "feeds": [
@@ -512,6 +988,14 @@
    "texto": "Calhas e condutores com caimento correto.",
    "fundo": "calha",
    "legenda": "Calha bem feita ninguém nota. Mal feita, mancha a fachada na primeira chuva.\n\nOrçamento pelo direct ou WhatsApp (66) 99632-0774.\nImagem ilustrativa.\n\n#calha #telhado #altopadrao #serralheria #arquitetura #marcelandia"
+  },
+  {
+   "id": "f05",
+   "kicker": "GALPÕES",
+   "titulo": "Estrutura que|aguenta o tempo",
+   "texto": "Galpões e estruturas metálicas sob medida.",
+   "fundo": "galpao",
+   "legenda": "Fazenda, empresa ou indústria: o galpão precisa vencer o vão, segurar o vento e durar.\n\nPlanejando o seu? Chame no direct ou no WhatsApp (66) 99632-0774.\nImagem ilustrativa.\n\n#galpao #estruturametalica #agro #metalurgia #serralheria #marcelandia"
   }
  ]
 }

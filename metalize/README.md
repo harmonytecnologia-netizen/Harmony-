@@ -15,7 +15,7 @@ Branch `metalize`, pasta `metalize/`. Conta no Windsor.ai: **17841449079341071**
 ## Identidade visual
 Preto, **amarelo da logomarca #FBCF0E**, branco, cinza grafite, metal discreto. Premium e minimalista: título Inter Bold, texto Inter Light, muito espaço, nada de panfleto. Feed 4:5 (1080x1350), stories e Reels 9:16.
 - `logo.png` = logo original (MTZ amarelo + METALIZE branco), recortado da imagem enviada pelo João em 24/11/2026. Amarelo da marca #FBCF0E. Títulos em Inter Bold (combina com o logo).
-- Fundos 3D: `fundos/3d_*.jpg`, gerados por `animacoes/fundos3d.py <cena> <saida>` (calha, portao, escada, pergolado, chapa). Criar cenas novas aos poucos (galpão, cobertura, rufo, corrimão, pilar) para não repetir fundo.
+- Fundos 3D: `fundos/3d_*.jpg`, gerados por `animacoes/fundos3d.py <cena> <saida>` (calha, portao, escada, guarda_corpo, pergolado, galpao, chapa). Criar cenas novas aos poucos (cobertura, rufo, corrimão, pilar) para não repetir fundo.
 - Fotos reais do João têm prioridade sobre 3D: Google Drive, pasta **"Metalize para postar"** (e, com o PC ligado, `Documentos\Metalize para postar`). Foto real nova → usar em feed/stories com o mesmo layout e registrar em `banco/reais.json`.
 
 ## FREQUÊNCIA OBRIGATÓRIA (pedido do João, 24/11/2026)

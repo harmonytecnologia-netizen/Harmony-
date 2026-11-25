@@ -1,5 +1,5 @@
 # Fundos 3D premium da Metalize (stills 9:16). uso: python3 fundos3d.py <cena> <saida.jpg>
-# cenas: calha, portao, escada, guarda_corpo, pergolado, chapa
+# cenas: calha, portao, escada, guarda_corpo, pergolado, galpao, chapa
 import sys, math, os
 sys.path.insert(0, '/home/claude/harmony-/automacao/animacoes')
 import bpy
@@ -89,6 +89,38 @@ elif cena == 'pergolado':
     cube('banco', (0, 0.3, 0.22), (1.0, 0.25, 0.04), M['madeira'], 0.01)
     area((2, -1, 6), (15, 0, 30), 900, QUENTE, 1.0)
     kc(0, (-2.4, -3.6, 1.1), (0.2, 0, 1.5))
+elif cena == 'galpao':
+    # galpão metálico ao entardecer: pórticos, terças, contraventamento em X e cobertura em galvalume
+    piso(); mundo(0.35, (0.75, 0.55, 0.45))
+    vao, alt, n = 4.0, 2.6, 7
+    inc = math.radians(15)
+    for k in range(n):
+        y = k * 1.6
+        for s in (-1, 1):
+            cube(f'col{k}{s}', (s * vao, y, alt / 2), (0.07, 0.11, alt / 2), M['preto'])
+            # tesoura/viga inclinada até a cumeeira
+            L = vao / math.cos(inc)
+            v = cube(f'viga{k}{s}', (s * vao / 2, y, alt + math.tan(inc) * vao / 2), (L / 2, 0.08, 0.1), M['preto'])
+            v.rotation_euler = (0, s * inc, 0)
+    comp = (n - 1) * 1.6
+    for j in range(-4, 5):  # terças
+        x = j * vao / 4.4; z = alt + 0.14 + math.tan(inc) * (vao - abs(x))
+        cube(f'terca{j}', (x, comp / 2, z), (0.03, comp / 2 + 0.3, 0.04), M['inox'])
+    for s in (-1, 1):  # contraventamento em X nas laterais do 1º vão
+        for d in (-1, 1):
+            b = cube(f'x{s}{d}', (s * vao, 0.8, alt / 2), (0.012, math.hypot(1.6, alt) / 2, 0.012), M['inox'])
+            b.rotation_euler = (d * math.atan2(alt, 1.6), 0, 0)
+    # cobertura: só a metade de trás coberta, para mostrar a estrutura na frente
+    for s in (-1, 1):
+        L = vao / math.cos(inc) + 0.3
+        t = cube(f'telha{s}', (s * vao / 2, (comp + 1.6) / 2 + 0.15, alt + 0.2 + math.tan(inc) * vao / 2), (L / 2, (comp - 1.6) / 2 + 0.3, 0.008), M['cobre'])
+        t.rotation_euler = (0, s * inc, 0)
+    cube('fundo', (0, comp + 0.1, alt / 2), (vao, 0.02, alt / 2), M['concreto'])
+    cube('laje', (0, comp / 2, 0.03), (vao + 0.6, comp / 2 + 0.6, 0.03), M['concreto'])
+    bpy.ops.mesh.primitive_plane_add(size=1, location=(0, comp - 0.05, 0.02)); f = bpy.context.object; f.scale = (vao * 1.6, 0.4, 1)
+    f.data.materials.append(mat('luz_int', (0, 0, 0), emis=QUENTE, es=3))
+    area((6, -6, 5), (60, 0, 45), 1400, QUENTE, 5); area((-5, 4, 6), (30, 0, -140), 300, (0.6, 0.72, 1.0), 4)
+    kc(0, (-6.5, -7.5, 1.7), (0.3, 3.0, 2.6))
 else:  # chapa
     mundo(0.0)
     c = cube('chapa', (0, 0, 0), (2, 0.02, 3), mat('escovado', (0.5, 0.5, 0.52), 0.32, metal=1.0))

@@ -1,0 +1,45 @@
+{
+ "data": "2026-11-28",
+ "conta": "17841449079341071",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-28/story_09h_1.jpg",
+   "pauta": "c09 A calha tem inclinação"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-28/story_09h_2.jpg",
+   "pauta": "a09 Meça duas, corte uma"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-28/story_09h_3.jpg",
+   "pauta": "d05 Sombra desenhada"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-28/story_15h_1.jpg",
+   "pauta": "c10 Por que a pintura estufa?"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-28/story_15h_2.jpg",
+   "pauta": "a10 Inox pede ferramenta própria"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-28/story_15h_3.jpg",
+   "pauta": "p05 Calha aparente ou embutida?"
+  }
+ ],
+ "20h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-28/story_20h_1.jpg",
+   "pauta": "t01 Seu projeto em metal"
+  }
+ ]
+}

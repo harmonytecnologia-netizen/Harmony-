@@ -1,0 +1,45 @@
+{
+ "data": "2026-11-29",
+ "conta": "17841449079341071",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-29/story_09h_1.jpg",
+   "pauta": "c11 Pintura eletrostática"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-29/story_09h_2.jpg",
+   "pauta": "a11 Fundo antes do acabamento"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-29/story_09h_3.jpg",
+   "pauta": "d06 Calha que some"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-29/story_15h_1.jpg",
+   "pauta": "c12 Guarda-corpo tem medida"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-29/story_15h_2.jpg",
+   "pauta": "a12 Decape o inox"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-29/story_15h_3.jpg",
+   "pauta": "p06 Portão de correr ou basculante?"
+  }
+ ],
+ "20h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/metalize/metalize/fila/2026-11-29/story_20h_1.jpg",
+   "pauta": "t02 Feito para durar"
+  }
+ ]
+}

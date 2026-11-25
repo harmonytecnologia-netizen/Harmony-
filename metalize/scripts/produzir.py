@@ -52,7 +52,7 @@ def espac(d, x, y, s, f, cor, esp, centro=None):
 
 def quebra(d, s, f, larg):
     linhas, l = [], ''
-    for p in s.replace('(66) ', '(66)\u00a0').split():
+    for p in [w for w in s.replace('(66) ', '(66)\u00a0').split(' ') if w]:
         t = (l + ' ' + p).strip()
         if d.textlength(t, font=f) <= larg: l = t
         else: linhas.append(l); l = p
