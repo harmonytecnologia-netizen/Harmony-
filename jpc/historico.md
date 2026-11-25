@@ -142,3 +142,7 @@
 | 2026-11-25 | 07h50 | produção diária | Fila 25–28/11 completa. Reel 12h virou JPC ENSINA com capa (máx. 3 vídeos/dia): 25 ens000 programas na inicialização, 26 ens001 verificação completa do Defender, 27 ens002 arquivos temporários, 28 ens003 limpar poeira (refeitos 25–27, cortes GTA 6 fora do plano). Banco JPC Ensina: 25 pautas (5 grupos). 28/11: feed/carrossel/stories GTA 6. GTA 6: patch 01.002.002 (correções); build de Xbox vazada/.exe circulando = sem versão PC oficial (conferido) | — | — |
 | 2026-11-25 | 09h | story próprio | g6s030 | — | 18100518794404174 |
 | 2026-11-25 | 09h | story próprio | g6s031 | — | 17957099877293434 |
+| 2026-11-25 | 12h | feed (imagem) | g6f007 | — | 18083127002392439 |
+| 2026-11-25 | 12h | story do feed | story_feed.jpg (g6f007) | — | 17930788761430031 |
+| 2026-11-25 | 12h | Reel JPC Ensina | ens000 programas na inicialização (capa.jpg) | spontaneous_rodina.mp3 (Biblioteca de áudio do YouTube) + narração Piper | 18288002329288726 |
+| 2026-11-25 | 12h | story do Reel | reel.mp4 (ens000) | spontaneous_rodina.mp3 | 18147645952514316 |
