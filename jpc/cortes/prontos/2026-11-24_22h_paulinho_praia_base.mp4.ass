@@ -1,0 +1,26 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.86,0:00:03.46,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TEM{\r} OS CARA,
+Dialogue: 0,0:00:03.46,0:00:03.62,L,,0,0,0,,TEM {\c&H4FE1FF&\fscx112\fscy112}OS{\r} CARA,
+Dialogue: 0,0:00:03.62,0:00:03.86,L,,0,0,0,,TEM OS {\c&H4FE1FF&\fscx112\fscy112}CARA,{\r}
+Dialogue: 0,0:00:09.32,0:00:09.80,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOU{\r} DE MALUCO
+Dialogue: 0,0:00:09.80,0:00:09.92,L,,0,0,0,,VOU {\c&H4FE1FF&\fscx112\fscy112}DE{\r} MALUCO
+Dialogue: 0,0:00:09.92,0:00:10.40,L,,0,0,0,,VOU DE {\c&H4FE1FF&\fscx112\fscy112}MALUCO{\r}
+Dialogue: 0,0:00:10.40,0:00:11.90,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}HEIN,{\r} OLHA ESSA
+Dialogue: 0,0:00:15.72,0:00:15.96,L,,0,0,0,,HEIN, {\c&H4FE1FF&\fscx112\fscy112}OLHA{\r} ESSA
+Dialogue: 0,0:00:15.96,0:00:16.36,L,,0,0,0,,HEIN, OLHA {\c&H4FE1FF&\fscx112\fscy112}ESSA{\r}
+Dialogue: 0,0:00:16.36,0:00:16.88,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PRAIA{\r} GENTE, QUE
+Dialogue: 0,0:00:16.88,0:00:18.22,L,,0,0,0,,PRAIA {\c&H4FE1FF&\fscx112\fscy112}GENTE,{\r} QUE
+Dialogue: 0,0:00:18.22,0:00:18.54,L,,0,0,0,,PRAIA GENTE, {\c&H4FE1FF&\fscx112\fscy112}QUE{\r}
+Dialogue: 0,0:00:18.54,0:00:18.86,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}COISA{\r} INSENSACIONAL, INSENSACIONAL
+Dialogue: 0,0:00:18.86,0:00:20.36,L,,0,0,0,,COISA {\c&H4FE1FF&\fscx112\fscy112}INSENSACIONAL,{\r} INSENSACIONAL
+Dialogue: 0,0:00:21.76,0:00:23.20,L,,0,0,0,,COISA INSENSACIONAL, {\c&H4FE1FF&\fscx112\fscy112}INSENSACIONAL{\r}
