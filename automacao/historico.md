@@ -134,3 +134,7 @@
 - 2026-11-25 12h (Brasília) — story do feed — story_feed.jpg — media id 18405129106167738
 - 2026-11-25 12h (Brasília) — Reel MOVE Explica 3D — SOM surround na altura certa "Surround no chão, atrás do sofá?" (reel_12h.mp4) — música Duty Calls — Rod Kim — media id 17966091060241591
 - 2026-11-25 12h (Brasília) — story do Reel — reel_12h.mp4 — música Duty Calls — Rod Kim — media id 18138289015740488
+- 2026-11-25 19:14 (Brasília) — carrossel 19h — 4 erros que roubam o som do home cinema (carrossel_1–6.jpg) — media id 18151291630566279
+- 2026-11-25 19:14 (Brasília) — story do carrossel — story_carrossel.jpg — media id 17954379492055528
+- 2026-11-25 19:14 (Brasília) — Reel MOVE Explica 3D 19h — AUTOMAÇÃO keypad × fileira de interruptores "Quantos interruptores tem na parede da sua sala?" (reel_19h.mp4) — media id 18149457742568165
+- 2026-11-25 19:14 (Brasília) — story do Reel 19h — reel_19h.mp4 — media id 18140802136633615
