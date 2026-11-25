@@ -89,6 +89,7 @@ def gerar_legenda(arquivo, ini, dur, modelo, destino, corrigir=None):
         grupo = palavras[i:i + 3]
         for j, w in enumerate(grupo):
             fim = grupo[j + 1].start if j + 1 < len(grupo) else w.end
+            fim = min(fim, w.start + 1.5)  # nao deixar legenda parada em silencio
             txt = " ".join(("{\\c&H4FE1FF&\\fscx112\\fscy112}" + textos[i + k] + "{\\r}") if k == j
                            else textos[i + k] for k, x in enumerate(grupo))
             linhas.append(f"Dialogue: 0,{ass_tempo(w.start)},{ass_tempo(max(fim, w.start + 0.05))},L,,0,0,0,,{txt}")

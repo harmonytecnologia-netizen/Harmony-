@@ -1,0 +1,40 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.08,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ELA{\r} IA METER
+Dialogue: 0,0:00:00.08,0:00:00.20,L,,0,0,0,,ELA {\c&H4FE1FF&\fscx112\fscy112}IA{\r} METER
+Dialogue: 0,0:00:00.20,0:00:00.44,L,,0,0,0,,ELA IA {\c&H4FE1FF&\fscx112\fscy112}METER{\r}
+Dialogue: 0,0:00:00.44,0:00:00.90,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}FUGA,{\r} CÊS VIRAM
+Dialogue: 0,0:00:00.90,0:00:01.04,L,,0,0,0,,FUGA, {\c&H4FE1FF&\fscx112\fscy112}CÊS{\r} VIRAM
+Dialogue: 0,0:00:01.04,0:00:01.26,L,,0,0,0,,FUGA, CÊS {\c&H4FE1FF&\fscx112\fscy112}VIRAM{\r}
+Dialogue: 0,0:00:01.26,0:00:01.38,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÉ{\r} TURMA? CÊS
+Dialogue: 0,0:00:01.38,0:00:02.88,L,,0,0,0,,NÉ {\c&H4FE1FF&\fscx112\fscy112}TURMA?{\r} CÊS
+Dialogue: 0,0:00:03.72,0:00:04.24,L,,0,0,0,,NÉ TURMA? {\c&H4FE1FF&\fscx112\fscy112}CÊS{\r}
+Dialogue: 0,0:00:04.24,0:00:04.70,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VIRAM,{\r} NÉ? ELA
+Dialogue: 0,0:00:04.70,0:00:06.20,L,,0,0,0,,VIRAM, {\c&H4FE1FF&\fscx112\fscy112}NÉ?{\r} ELA
+Dialogue: 0,0:00:07.05,0:00:07.57,L,,0,0,0,,VIRAM, NÉ? {\c&H4FE1FF&\fscx112\fscy112}ELA{\r}
+Dialogue: 0,0:00:07.57,0:00:07.83,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}IA{\r} METER FUGA,
+Dialogue: 0,0:00:07.83,0:00:08.09,L,,0,0,0,,IA {\c&H4FE1FF&\fscx112\fscy112}METER{\r} FUGA,
+Dialogue: 0,0:00:08.09,0:00:08.71,L,,0,0,0,,IA METER {\c&H4FE1FF&\fscx112\fscy112}FUGA,{\r}
+Dialogue: 0,0:00:08.85,0:00:10.35,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}TÁ?{\r} É DUAS
+Dialogue: 0,0:00:25.88,0:00:27.38,L,,0,0,0,,TÁ? {\c&H4FE1FF&\fscx112\fscy112}É{\r} DUAS
+Dialogue: 0,0:00:37.40,0:00:37.92,L,,0,0,0,,TÁ? É {\c&H4FE1FF&\fscx112\fscy112}DUAS{\r}
+Dialogue: 0,0:00:37.92,0:00:38.22,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VEZES{\r} O NOME
+Dialogue: 0,0:00:38.22,0:00:38.34,L,,0,0,0,,VEZES {\c&H4FE1FF&\fscx112\fscy112}O{\r} NOME
+Dialogue: 0,0:00:38.34,0:00:38.44,L,,0,0,0,,VEZES O {\c&H4FE1FF&\fscx112\fscy112}NOME{\r}
+Dialogue: 0,0:00:38.44,0:00:38.54,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DO{\r} CACHORRO É
+Dialogue: 0,0:00:38.54,0:00:40.04,L,,0,0,0,,DO {\c&H4FE1FF&\fscx112\fscy112}CACHORRO{\r} É
+Dialogue: 0,0:00:40.81,0:00:41.33,L,,0,0,0,,DO CACHORRO {\c&H4FE1FF&\fscx112\fscy112}É{\r}
+Dialogue: 0,0:00:41.33,0:00:41.45,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}UMA{\r} COMBINAÇÃO ENTÃO
+Dialogue: 0,0:00:41.45,0:00:42.95,L,,0,0,0,,UMA {\c&H4FE1FF&\fscx112\fscy112}COMBINAÇÃO{\r} ENTÃO
+Dialogue: 0,0:00:43.09,0:00:43.61,L,,0,0,0,,UMA COMBINAÇÃO {\c&H4FE1FF&\fscx112\fscy112}ENTÃO{\r}
+Dialogue: 0,0:00:43.61,0:00:43.77,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}É{\r} MUFFINS
+Dialogue: 0,0:00:43.77,0:00:44.39,L,,0,0,0,,É {\c&H4FE1FF&\fscx112\fscy112}MUFFINS{\r}
