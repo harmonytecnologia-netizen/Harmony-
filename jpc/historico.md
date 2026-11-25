@@ -146,3 +146,5 @@
 | 2026-11-25 | 12h | story do feed | story_feed.jpg (g6f007) | — | 17930788761430031 |
 | 2026-11-25 | 12h | Reel JPC Ensina | ens000 programas na inicialização (capa.jpg) | spontaneous_rodina.mp3 (Biblioteca de áudio do YouTube) + narração Piper | 18288002329288726 |
 | 2026-11-25 | 12h | story do Reel | reel.mp4 (ens000) | spontaneous_rodina.mp3 | 18147645952514316 |
+| 2026-11-25 | 19h | carrossel (7 slides) | g6c006 GTA 6 no PC: fato x rumor | — | 18123229622468530 |
+| 2026-11-25 | 19h | story do carrossel | story_car.jpg (g6c006) — 1ª tentativa falhou (mídia não encontrada), 2ª ok | — | 18123448792955532 |
