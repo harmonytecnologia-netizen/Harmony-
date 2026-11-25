@@ -128,3 +128,5 @@
 - 2026-11-24 21:06 (Brasília) — story 15h (publicado na rodada das 21h) — enquete viagem (story_15h_1.jpg) — media id 18125102467940979
 - 2026-11-24 21:07 (Brasília) — story 21h — cena Boa noite (story_21h_1.jpg) — media id 18119146316012244
 - 2026-11-24 21h50 (Brasília) — CONFERÊNCIA Windsor — dia 24/11 completo: 1 feed (12h05 sala de cinema BC), 1 carrossel (19h12 rede RJ45), 2 Reels (12h07 segurança simulação de presença; 19h13 rede RJ45), 8 stories (4 próprios: 09h07, 13h32, 21h06, 21h06 + 4 de feed/carrossel/Reels). Sem série em partes hoje. Métricas: nenhum post na janela 24–72 h (21–23/11 sem publicação) — nada novo em aprendizados.md. Fila 25, 26 e 27/11 com plano.json completo e arquivos presentes. Windsor OK (plano TRIAL: sem force_refresh, dados do cache). Parcial <24 h: Reel rede 139 views/123 contas (~3 h), Reel segurança 85/67 (~7 h), feed 28/18, carrossel 29/9.
+- 2026-11-25 09:06 (Brasília) — story 09h (1/2) — story_09h_1.jpg — media id 17872271337686310
+- 2026-11-25 09:06 (Brasília) — story 09h (2/2) — story_09h_2.jpg — media id 17945696184386456
