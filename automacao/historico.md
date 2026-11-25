@@ -124,3 +124,5 @@
 - 2026-11-24 19h (Brasília) — story do carrossel — story_carrossel.jpg — media id 18155071291544537
 - 2026-11-24 19h (Brasília) — Reel MOVE Explica 3D — REDE RJ45 "Contratou 500 mega e, no cabo, o teste trava em 94?" (reel_19h.mp4) — música Twinkle — media id 18108498392199704
 - 2026-11-24 19h (Brasília) — story do Reel — reel_19h.mp4 — música Twinkle — media id 18652486894021794
+- 2026-11-24 21:06 (Brasília) — story 15h (publicado na rodada das 21h) — enquete viagem (story_15h_1.jpg) — media id 18125102467940979
+- 2026-11-24 21:07 (Brasília) — story 21h — cena Boa noite (story_21h_1.jpg) — media id 18119146316012244
