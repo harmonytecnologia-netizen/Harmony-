@@ -134,3 +134,4 @@
 | 2026-11-24 | 15h | story próprio | g6s027 | — | 18289047853295078 |
 | 2026-11-24 | 21h | story próprio | g6s028 | — | 18169606081487603 |
 | 2026-11-24 | 21h | story próprio | g6s029 | — | 18135823096746980 |
+| 2026-11-24 | 21h | Reel corte GTA 6 | Paulinho: "a senha é o nome do cachorro" (a-Ur3A_kHXc 2:20:53) | — | 18132363775755744 (story 18088729676705976) |
