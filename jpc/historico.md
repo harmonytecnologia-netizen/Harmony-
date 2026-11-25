@@ -140,3 +140,5 @@
 | 2026-11-24 | 21h58 | conferência diária | Windsor OK (Trial; force_refresh indisponível no Trial): 1 feed (imagem) 12h + 1 carrossel 19h + Reel g6r005 + 12 Reels de corte; 20 stories (5 próprios — 2 das 09h repostos agora, 15 de post/Reel). Fila 25–27/11 completa, 51 links raw 200 | — | — |
 | 2026-11-24 | 22h | Reel corte GTA 6 | Paulinho: praia a caminho da base militar, "que coisa insensacional" (ivjSsjiHbZA 1:45:10) | — | 18133933294692345 (story 18150790582572848) |
 | 2026-11-25 | 07h50 | produção diária | Fila 25–28/11 completa. Reel 12h virou JPC ENSINA com capa (máx. 3 vídeos/dia): 25 ens000 programas na inicialização, 26 ens001 verificação completa do Defender, 27 ens002 arquivos temporários, 28 ens003 limpar poeira (refeitos 25–27, cortes GTA 6 fora do plano). Banco JPC Ensina: 25 pautas (5 grupos). 28/11: feed/carrossel/stories GTA 6. GTA 6: patch 01.002.002 (correções); build de Xbox vazada/.exe circulando = sem versão PC oficial (conferido) | — | — |
+| 2026-11-25 | 09h | story próprio | g6s030 | — | 18100518794404174 |
+| 2026-11-25 | 09h | story próprio | g6s031 | — | 17957099877293434 |
