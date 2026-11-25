@@ -13,3 +13,5 @@ Uma linha por comentário já tratado (respondido ou encaminhado ao João). A ta
 | 18077931044741241 | fco.evaristo | 2026-11-18 | respondido | Evaristo, é esse o nosso compromisso em cada projeto! Obrigado pela confiança de sempre 🤝 |
 | 17962228731256648 | move.s.a | 2026-11-19 | própria conta | (resposta nossa — ignorar) |
 | 18122708584971793 | move.s.a | 2026-11-19 | própria conta | (resposta nossa "Sempre irmao" — ignorar) |
+| 18653965459063534 | yasmin.joaopaulo | 2026-11-24 | respondido | Yasmin, seus aplausos fazem o nosso dia! Obrigado por acompanhar cada projeto de perto 💫 |
+| 18209499922373916 | move.s.a | 2026-11-24 | própria conta | (resposta nossa — ignorar) |
