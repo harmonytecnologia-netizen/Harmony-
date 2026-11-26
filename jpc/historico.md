@@ -159,3 +159,5 @@
 | 2026-11-26 | 12h | story do feed | story_feed.jpg | — | 18115967699227161 |
 | 2026-11-26 | 12h | Reel JPC Ensina (capa) | ens001 verificação completa do Defender | ego_chall_blue_deer.mp3 + narração Piper | 18665377675045746 |
 | 2026-11-26 | 12h | story do Reel | reel.mp4 | ego_chall_blue_deer.mp3 | 18203577022384456 |
+| 2026-11-26 | 19h | carrossel (7 slides) | g6c007 golpes do GTA 6 | — | 18119777015137445 |
+| 2026-11-26 | 19h | story do carrossel | story_car.jpg | — | 18098231426176295 |
