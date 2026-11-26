@@ -155,3 +155,7 @@
 | 2026-11-26 | 07h25 | produção diária | Fila 26–29/11 completa. 26–28 já tinham Reel 12h JPC Ensina com capa (hoje ens001 verificação completa do Defender). 29/11 criado: feed g6f011 Jason e Lucia, carrossel g6c010 'Seu PC atual aguenta?', stories g6s050–054, Reel ens004 'PC liga e não dá vídeo' (5 passos + luz de aviso/bipes, 39 s, CTA TÉCNICO; capa com placa-mãe real; música spontaneous_rodina reutilizada — só 4 na biblioteca). GTA 6: sem versão PC/requisito oficial (conferido) | — | — |
 | 2026-11-26 | 09h | story próprio | g6s035 | — | 18085467779397476 |
 | 2026-11-26 | 09h | story próprio | g6s036 | — | 18094385279239682 |
+| 2026-11-26 | 12h | feed (imagem) | g6f008 vendas GTA 6 (estimativa Alinea) | — | 18117460661126114 |
+| 2026-11-26 | 12h | story do feed | story_feed.jpg | — | 18115967699227161 |
+| 2026-11-26 | 12h | Reel JPC Ensina (capa) | ens001 verificação completa do Defender | ego_chall_blue_deer.mp3 + narração Piper | 18665377675045746 |
+| 2026-11-26 | 12h | story do Reel | reel.mp4 | ego_chall_blue_deer.mp3 | 18203577022384456 |
