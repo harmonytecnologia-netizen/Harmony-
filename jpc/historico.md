@@ -152,3 +152,4 @@
 | 2026-11-25 | 21h | story próprio | g6s033 | — | 18143515972624933 |
 | 2026-11-25 | 21h | story próprio | g6s034 | — | 17903353812608421 |
 | 2026-11-25 | 21h58 | conferência diária | Windsor OK (Trial, cache): 1 feed (imagem) 12h + 1 carrossel 19h + Reel JPC Ensina ens000; 8 stories (5 próprios: 2 das 09h, 15h g6s032 saiu atrasado às 21h10, 2 das 21h; + story do feed, do Reel e do carrossel). Meta OK. Fila 26–28/11 completa, 51 links raw 200 | — | — |
+| 2026-11-26 | 07h25 | produção diária | Fila 26–29/11 completa. 26–28 já tinham Reel 12h JPC Ensina com capa (hoje ens001 verificação completa do Defender). 29/11 criado: feed g6f011 Jason e Lucia, carrossel g6c010 'Seu PC atual aguenta?', stories g6s050–054, Reel ens004 'PC liga e não dá vídeo' (5 passos + luz de aviso/bipes, 39 s, CTA TÉCNICO; capa com placa-mãe real; música spontaneous_rodina reutilizada — só 4 na biblioteca). GTA 6: sem versão PC/requisito oficial (conferido) | — | — |

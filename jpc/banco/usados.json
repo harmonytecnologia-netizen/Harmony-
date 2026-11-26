@@ -19,7 +19,8 @@
   "g6f007",
   "g6f008",
   "g6f009",
-  "g6f010"
+  "g6f010",
+  "g6f011"
  ],
  "carrosseis": [
   "car001",
@@ -39,7 +40,8 @@
   "g6c006",
   "g6c007",
   "g6c008",
-  "g6c009"
+  "g6c009",
+  "g6c010"
  ],
  "stories": [
   "st000",
@@ -136,7 +138,12 @@
   "g6s046",
   "g6s047",
   "g6s048",
-  "g6s049"
+  "g6s049",
+  "g6s050",
+  "g6s051",
+  "g6s052",
+  "g6s053",
+  "g6s054"
  ],
  "fundos": [
   "pexels_pc_build_10405280.jpg",
@@ -281,7 +288,14 @@
   "pexels_setup_roxo.jpg",
   "pexels_mouse_mesa.jpg",
   "ia_2026-11-14_1.jpg",
-  "pexels_homem_jogando.jpg"
+  "pexels_homem_jogando.jpg",
+  "ia_2026-11-14_4.jpg",
+  "ia_2026-11-15_3.jpg",
+  "pexels_gamer_telas.jpg",
+  "pexels_setup_roxo.jpg",
+  "ia_2026-11-15_1.jpg",
+  "ia_2026-11-14_1.jpg",
+  "pexels_mouse_mesa.jpg"
  ],
  "musicas": [
   [
@@ -339,6 +353,10 @@
   [
    "2026-11-28",
    "survival_mode_blue_deer.mp3"
+  ],
+  [
+   "2026-11-29",
+   "spontaneous_rodina.mp3"
   ]
  ],
  "reels": [
@@ -357,6 +375,7 @@
   "ens000",
   "ens001",
   "ens002",
-  "ens003"
+  "ens003",
+  "ens004"
  ]
 }

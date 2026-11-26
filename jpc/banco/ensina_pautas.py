@@ -51,9 +51,10 @@ ensina=[
   "passos":[("Cabo na placa de vídeo","Saídas de baixo, deitadas","Confere se o cabo do monitor tá nas saídas da placa de vídeo, as de baixo, e não na placa-mãe."),
             ("Entrada certa no monitor","Monitor > Menu > Entrada/Input","No botão do monitor, escolhe a entrada certa: HDMI ou DisplayPort."),
             ("Testa outro cabo","Outro cabo HDMI/DisplayPort","Troca o cabo. Cabo ruim dá tela preta mais do que parece."),
-            ("Reencaixa a memória","Fora da tomada > tira e põe até o clique","Fora da tomada, tira a memória e encaixa de novo até ouvir o clique.")],
-  "resumo":["Cabo do monitor na PLACA DE VÍDEO (saídas de baixo)","Monitor na entrada certa (HDMI/DisplayPort)","Testa outro cabo","Fora da tomada: reencaixa a memória até o clique"],
-  "pergunta":"Já passou por isso? Conta o que era 👇","tags":"#pcsemvideo #telapreta #manutencao","fundo_capa":"real_20260525_095610.jpg","videos":"reais","tecnico":True},
+            ("Reencaixa a memória","Fora da tomada > tira e põe até o clique","Fora da tomada, toca no metal do gabinete, tira a memória e encaixa de novo até ouvir o clique."),
+            ("Olha a luz de aviso","Placa-mãe: luz CPU, DRAM, VGA ou bipes","Ligou e nada? Olha se a placa-mãe acende uma luzinha de aviso ou dá bipes. Anota qual é: isso mostra onde tá o defeito.")],
+  "resumo":["Cabo do monitor na PLACA DE VÍDEO (saídas de baixo)","Monitor na entrada certa (HDMI/DisplayPort)","Testa outro cabo","Fora da tomada: reencaixa a memória até o clique","Olha a luz de aviso da placa-mãe (CPU, DRAM, VGA) ou os bipes"],
+  "pergunta":"Já passou por isso? Conta o que era 👇","tags":"#pcsemvideo #telapreta #manutencao","fundo_capa":"real_20260526_120255.jpg","videos":"reais","tecnico":True},
  # ---------- bloco 2 ----------
  {"grupo":1,"tema":"modo de energia","gancho":"Teu PC tá economizando FPS?","destaque":"FPS","capa":"MODO DESEMPENHO MÁXIMO","capa_dest":"MÁXIMO",
   "fala_gancho":"Teu PC pode estar economizando energia no meio do jogo. Muda isso.",
