@@ -142,3 +142,7 @@
 - 2026-11-25 21:06 (Brasília) — story 21h — story_21h_1.jpg — media id 17977443645174194
 - 2026-11-25 21h50 (Brasília) — CONFERÊNCIA Windsor — dia 25/11 completo: 1 feed (12h05 obra real House Beer), 1 carrossel (19h12 4 erros do home cinema), 2 Reels (12h06 som surround; 19h13 automação keypad), 8 stories (4 próprios: 09h05, 09h06, 21h05, 21h06 + 4 de feed/carrossel/Reels). Sem série em partes hoje. Métricas de 4 posts de 24/11 em aprendizados.md (carrossel RJ45 53 views = melhor carrossel; regra da capa com dor + número validada; teste dos 3 Reels fora de som concluído, todos <250 → João avisado). Fila 26, 27 e 28/11 com plano.json completo e arquivos presentes. Windsor OK. Parcial <12 h: Reel som surround 113 views/108 contas (~7 h, abaixo do ritmo dos Explica de som), Reel keypad 9/7, feed 24/13, carrossel 13/4.
 - 2026-11-26 09:05 (Brasília) — story 09h — story_09h_1.jpg — media id 18004776902809963
+- 2026-11-26 12:08 (Brasília) — feed (imagem) 12h — SOM caixinha × som no forro (A/B) "Caixinha na bancada ou som no forro?" (feed.jpg) — media id 18133788563489619
+- 2026-11-26 12:08 (Brasília) — story do feed — story_feed.jpg — media id 17995703010071222
+- 2026-11-26 12:08 (Brasília) — Reel MOVE Explica 3D 12h — AUTOMAÇÃO cena "Saí de casa" "Será que desliguei o ar?" (reel_12h.mp4) — música Vibe Check — Blue Deer Studio — media id 18116197148155358
+- 2026-11-26 12:08 (Brasília) — story do Reel — reel_12h.mp4 — música Vibe Check — Blue Deer Studio — media id 18252183601312700
