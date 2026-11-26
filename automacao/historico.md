@@ -138,3 +138,5 @@
 - 2026-11-25 19:14 (Brasília) — story do carrossel — story_carrossel.jpg — media id 17954379492055528
 - 2026-11-25 19:14 (Brasília) — Reel MOVE Explica 3D 19h — AUTOMAÇÃO keypad × fileira de interruptores "Quantos interruptores tem na parede da sua sala?" (reel_19h.mp4) — media id 18149457742568165
 - 2026-11-25 19:14 (Brasília) — story do Reel 19h — reel_19h.mp4 — media id 18140802136633615
+- 2026-11-25 21:06 (Brasília) — story 15h (publicado na rodada das 21h) — story_15h_1.jpg — media id 18095322842208477
+- 2026-11-25 21:06 (Brasília) — story 21h — story_21h_1.jpg — media id 17977443645174194

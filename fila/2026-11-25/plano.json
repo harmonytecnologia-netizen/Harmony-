@@ -78,5 +78,7 @@
  "origem": "Peças prontas de fila/2026-11-22 que não foram publicadas (rotinas de publicação falharam 21–23/11 por limite de uso); kickers com dia da semana refeitos em 24/11.",
  "publicado_09h": true,
  "publicado_12h": true,
- "publicado_19h": true
+ "publicado_19h": true,
+ "publicado_15h": true,
+ "publicado_21h": true
 }
