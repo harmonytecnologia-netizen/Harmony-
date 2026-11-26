@@ -146,3 +146,7 @@
 - 2026-11-26 12:08 (Brasília) — story do feed — story_feed.jpg — media id 17995703010071222
 - 2026-11-26 12:08 (Brasília) — Reel MOVE Explica 3D 12h — AUTOMAÇÃO cena "Saí de casa" "Será que desliguei o ar?" (reel_12h.mp4) — música Vibe Check — Blue Deer Studio — media id 18116197148155358
 - 2026-11-26 12:08 (Brasília) — story do Reel — reel_12h.mp4 — música Vibe Check — Blue Deer Studio — media id 18252183601312700
+- 2026-11-26 19:14 (Brasília) — carrossel 19h — SEGURANÇA fechadura digital "5 jeitos de abrir a sua porta" (carrossel_1..6.jpg) — media id 18148768459586214
+- 2026-11-26 19:14 (Brasília) — story do carrossel — story_carrossel.jpg — media id 18140630518647392
+- 2026-11-26 19:14 (Brasília) — Reel MOVE Explica 3D 19h — REDE "TV travando no meio do filme?" (reel_19h.mp4) — música Circuit Rush — The Mini Vandals — media id 18026784188946895
+- 2026-11-26 19:14 (Brasília) — story do Reel — reel_19h.mp4 — música Circuit Rush — The Mini Vandals — media id 18112849340265668
