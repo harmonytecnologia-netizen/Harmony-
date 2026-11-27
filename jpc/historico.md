@@ -161,3 +161,6 @@
 | 2026-11-26 | 12h | story do Reel | reel.mp4 | ego_chall_blue_deer.mp3 | 18203577022384456 |
 | 2026-11-26 | 19h | carrossel (7 slides) | g6c007 golpes do GTA 6 | — | 18119777015137445 |
 | 2026-11-26 | 19h | story do carrossel | story_car.jpg | — | 18098231426176295 |
+| 2026-11-26 | 15h | story próprio | g6s037 | — | 18485415139117473 |
+| 2026-11-26 | 21h | story próprio | g6s038 | — | 18121454081079751 |
+| 2026-11-26 | 21h | story próprio | g6s039 | — | 18084986648367180 |
