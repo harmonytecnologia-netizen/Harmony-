@@ -172,3 +172,4 @@
 | 2026-11-27 | 12h | story do feed | story_feed.jpg | — | 18135937288834948 |
 | 2026-11-27 | 12h | Reel JPC Ensina (capa) | ens002 arquivos temporários reel.mp4 | bad_news_steve_kane.mp3 (Biblioteca de áudio do YouTube) + narração Piper | 17959470684270958 |
 | 2026-11-27 | 12h | story do Reel | reel.mp4 | bad_news_steve_kane.mp3 | 18170724460486955 |
+| 2026-11-27 | 18h20 | Reel corte GTA 6 | Paulinho: tentou invadir a base militar e deu ruim (ivjSsjiHbZA 1:46–1:48:31) | capa 2026-11-27_15h_paulinho_base_militar.jpg; survival_mode_blue_deer.mp3 | 18013151090780904 (story 18659448586055919) |
