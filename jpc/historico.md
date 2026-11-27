@@ -165,3 +165,4 @@
 | 2026-11-26 | 21h | story próprio | g6s038 | — | 18121454081079751 |
 | 2026-11-26 | 21h | story próprio | g6s039 | — | 18084986648367180 |
 | 2026-11-26 | 21h55 | conferência diária | Windsor OK: 1 feed (imagem) 12h + 1 carrossel 19h + Reel JPC Ensina ens001; 8 stories (5 próprios: 2 das 09h, 15h g6s037 saiu atrasado às 21h09, 2 das 21h; + story do feed, do Reel e do carrossel). Meta OK. Fila 27–29/11 completa, 51 links raw 200 | — | — |
+| 2026-11-27 | 07h35 | produção diária | Fila 27–30/11 completa. 27–29 já tinham Reel 12h JPC Ensina com capa (hoje ens002 arquivos temporários). 30/11 criado: feed g6f012 golpe "GTA 6 PC grátis", carrossel g6c011 processador pro GTA 6, stories g6s055–059, Reel ens005 modo de energia (Win+I > Sistema > Energia > Modo de energia > Melhor desempenho; 5 passos, 34,7 s, capa "MODO DESEMPENHO MÁXIMO"; ego_chall_blue_deer.mp3). GTA 6: sem versão PC/requisito oficial (só rumores de 2027, conferido) | — | — |

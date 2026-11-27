@@ -3174,13 +3174,19 @@
      "No notebook, na tomada",
      "Notebook: ligado no carregador",
      "No notebook, joga sempre no carregador. Na bateria ele segura o desempenho."
+    ],
+    [
+     "Testa no jogo",
+     "Abre o jogo e compara",
+     "Agora abre teu jogo e compara. Esquentou demais ou continua travando? Manda TÉCNICO no Direct."
     ]
    ],
    "resumo": [
     "Win + I (Configurações)",
     "Sistema > Energia (notebook: Energia e bateria)",
     "Modo de energia > Melhor desempenho",
-    "Notebook: jogue no carregador"
+    "Notebook: jogue no carregador",
+    "Abre o jogo e compara"
    ],
    "pergunta": "O seu tava em Equilibrado? 👇",
    "tags": "#fps #desempenho #modoenergia",

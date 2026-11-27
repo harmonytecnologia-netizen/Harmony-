@@ -1,0 +1,83 @@
+{
+ "data": "2026-11-30",
+ "perfil": "harmony_computer",
+ "conta_windsor": "17841445277894628",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/story_1.jpg",
+   "pauta": "g6s055"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/story_2.jpg",
+   "pauta": "g6s056"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/feed.jpg",
+   "legenda": "Golpe da semana: 'GTA 6 PC grátis', 'beta de PC', 'requisitos vazados'. 🎣\n\nNada disso é oficial. Instalar arquivo desses é pedir vírus, roubo de conta e PC lento. A versão de PC ainda não foi anunciada.\n\nSalva e manda pro grupo da galera 👇\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6f012"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/story_feed.jpg"
+  },
+  {
+   "acao": "create_video_post",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/reel.mp4",
+   "capa": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/capa.jpg",
+   "legenda": "🎓 JPC ENSINA: Teu PC tá economizando FPS? 👇\n\n1️⃣ Win + I (Configurações)\n2️⃣ Sistema > Energia (notebook: Energia e bateria)\n3️⃣ Modo de energia > Melhor desempenho\n4️⃣ Notebook: jogue no carregador\n5️⃣ Abre o jogo e compara\n\n💾 Salva pra fazer depois e manda pro amigo que tem PC lento\n\nO seu tava em Equilibrado? 👇\n\nPrecisa de ajuda? Manda TÉCNICO ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#pcgamer #dicasdepc #windows11 #manutencaodepc #pclento #hardware #setupgamer #gamerbrasil #fps #desempenho #modoenergia",
+   "musica": "ego_chall_blue_deer.mp3 (Biblioteca de áudio do YouTube) + narração Piper",
+   "pauta": "ens005",
+   "tipo_reel": "JPC Ensina",
+   "tema": "modo de energia"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/reel.mp4",
+   "tipo": "video"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/story_3.jpg",
+   "pauta": "g6s057"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/car_01.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/car_02.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/car_03.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/car_04.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/car_05.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/car_06.jpg",
+    "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/car_07.jpg"
+   ],
+   "legenda": "Processador pro GTA 6: o que importa 👉 arrasta pro lado!\n\n💾 Salva pra consultar depois e manda pro amigo.\n\nQuer um PC pronto pro GTA 6 chegar ao PC? Manda GTA6 ou ORÇAMENTO no Direct. Enviamos para todo o Brasil 🚚\n\n#gta6 #gtavi #gta6brasil #pcgamer #setupgamer #montagemdepc",
+   "pauta": "g6c011"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/story_car.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/story_4.jpg",
+   "pauta": "g6s058"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "https://raw.githubusercontent.com/harmonytecnologia-netizen/Harmony-/jpc/jpc/fila/2026-11-30/story_5.jpg",
+   "pauta": "g6s059"
+  }
+ ]
+}
