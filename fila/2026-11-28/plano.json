@@ -17,16 +17,6 @@
   {
    "acao": "create_story",
    "arquivo": "story_feed.jpg"
-  },
-  {
-   "acao": "create_video_post",
-   "arquivo": "reel_12h.mp4",
-   "legenda": "Perdeu 3 entregas este mês porque não tinha ninguém em casa? 📦\n\nCom o videoporteiro no celular, a campainha toca onde você estiver: você vê quem é, fala com o entregador e abre o portãozinho pelo app. A encomenda fica dentro e tudo fica gravado.\n\nSalve para mostrar para quem cuida da sua obra. E você, atende o portão pelo celular? Comenta SIM ou NÃO 👇\n\nAmbiente conceito.\n\n#Segurança #Videoporteiro #CasaInteligente #AutomaçãoResidencial #BalneárioCamboriú #MOVE",
-   "thumb_offset": 10000
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "reel_12h.mp4"
   }
  ],
  "15h": [
@@ -51,16 +41,6 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
-  },
-  {
-   "acao": "create_video_post",
-   "arquivo": "reel_19h.mp4",
-   "legenda": "Volume no meio e o som já distorce? 🔊\n\nQuase sempre o culpado é o botão de GANHO do amplificador no máximo. Ganho não é volume: ele ajusta a sensibilidade da entrada. No máximo, o amplificador satura cedo, a onda é cortada, o som racha e o tweeter esquenta.\n\nO certo: fonte em ~80% e ganho só até antes de distorcer, no volume mais alto que você usa.\n\nSalve para conferir no seu som. E o seu ganho, está no MÁXIMO? Comenta SIM ou NÃO 👇\n\n#Sonorização #Amplificador #HomeTheater #SomAmbiente #DicaDeSom #MOVE",
-   "thumb_offset": 9500
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "reel_19h.mp4"
   }
  ],
  "21h": [

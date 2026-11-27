@@ -17,8 +17,28 @@ TODOS OS DIAS, sem falhar nenhum dia:
 - **1 carrossel** (5 a 7 slides) — publica às 19h.
 - **No mínimo 3 stories PRÓPRIOS** (de 3 a 8), feitos para story (1080x1920): bastidor de obra, dica rápida, pergunta/enquete em arte ("responde no direct"), antes/depois, detalhe de produto, agenda aberta, cena conceito. Reel repostado NÃO conta como story próprio. Horários: 09h, 15h e 21h (pode haver mais de um por horário).
 - **Tudo que for publicado no feed (feed, carrossel, Reel) também vai para o story** — isso é ALÉM dos 3 stories próprios.
-- **Reels: 2 POR DIA a partir de 15/11/2026** (um às 12h junto com o feed e um às 19h junto com o carrossel), no estilo **MOVE Explica 3D premium** (ver seção abaixo): ensinar e envolver sobre sonorização e automação. Vídeo de obra real pode substituir um deles quando houver.
+- **Reels: 4 a 5 POR SEMANA (desde 27/11/2026 — substitui os 2 por dia).** Ver "NOVA ESTRATÉGIA DE REELS" logo abaixo. Dia sem Reel NÃO é falha; Reel fraco é.
 - A fila (fila/AAAA-MM-DD/plano.json) deve ter sempre hoje + 3 dias prontos. Chaves do plano: "09h", "12h", "15h", "19h", "21h".
+
+## NOVA ESTRATÉGIA DE REELS (aprovada pelo João em 27/11/2026 — vale ACIMA de todas as seções de Reels abaixo)
+Diagnóstico: até 18/11 os Explica 3D de som faziam 740–1.758 views (43–45% assistido). Desde 19/11 TODOS os Reels ficaram em 34–215 views, pulo nos 3 s de 60–65%, inclusive de som. A queda veio com o formato de 18–19/11: voz de IA robótica (Iamin), imagem parada do ChatGPT com zoom e excesso de volume. Os vídeos de obra quase não foram usados (1 de 12 pastas).
+1. **PROIBIDO voz sintética/IA nos Reels** (Iamin, ttsmp3, Piper, edge-tts etc.). A narração é **a VOZ DO JOÃO** (gravada por ele; ver "Voz do João"). Sem gravação dele: Reel só com texto grande na tela + áudio real/música. Rosto do João NÃO aparece (ele não quer imagem dele).
+2. **Frequência:** 4–5 Reels/semana, só os fortes. Mix semanal: **3 de OBRA REAL** + **1–2 MOVE Explica 3D no formato de 13–17/11** (estúdio 3D, 20–23 s, número/caso na 1ª frase, correção antes de 8 s) com a voz do João.
+3. **Reel de OBRA REAL (pilar principal):** vídeo em movimento da pasta "MOVE para postar" (obras_fila.md). Nada de foto parada com zoom.
+   - 0–1 s: o momento mais impressionante (tela descendo, luz acendendo, som ligando, ambiente cheio) + dor/pergunta em texto grande ("Dá pra ouvir a música e conversar?", "Onde estão as caixas?").
+   - **ÁUDIO REAL da obra** (a música tocando no ambiente, o som do sistema) é a prova — manter. Música de biblioteca só baixinha ou quando o áudio original não presta.
+   - Formatos: antes × depois (obra crua → pronto, mesmo ângulo), "POV: você chega e…", bastidor com a dor escrita, "Onde estão as caixas?" (achar as caixas no forro).
+   - 15–25 s, cortes a cada 1–2 s, local na legenda e no texto (Balneário Camboriú, Itapema, Porto Belo).
+4. **Collab:** obra em estabelecimento (hotel, bar, pousada, posto) → convidar o perfil do lugar como coautor (Collab) — se a publicação pela API não permitir, avisar o João para adicionar o colaborador pelo app.
+5. **Primeira hora:** responder comentários de verdade (conversa, não emoji).
+6. Medir cada Reel em 24–48 h (aprendizados.md) e comparar com 13–17/11. Se obra real com áudio real não passar de 250 views em 3 tentativas, avisar o João.
+7. **Feed, carrossel e stories seguem como estão.** Imagens do ChatGPT continuam valendo para feed/carrossel/stories, não como base de Reel.
+
+### Voz do João (como funciona)
+- Toda vez que houver Reel com fala, Claude escreve o roteiro (frases curtas, jeito de falar) em `automacao/voz_joao/roteiros/AAAA-MM-DD_tema.md` e avisa o João no celular.
+- O João grava no celular (gravador ou áudio de WhatsApp mandado para ele mesmo), num lugar silencioso, celular a um palmo da boca, e salva em `C:\Users\PC\Videos\MOVE voz` com o nome do roteiro.
+- Claude puxa o arquivo, trata com `scripts/voz_humana.py` (sem acelerar, sem cortar respiro) e monta o Reel.
+- Teste em paralelo (grátis): clonar a voz do João no PC dele (GPU) com modelo aberto (F5-TTS/XTTS pt-BR) a partir de 2–3 min de gravação; só usar se ele aprovar que soa igual a ele.
 
 
 ## VARIEDADE OBRIGATÓRIA (pedido do João, 16/11/2026 — vale acima das listas de pautas)

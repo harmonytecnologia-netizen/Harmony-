@@ -14,16 +14,6 @@
   {
    "acao": "create_story",
    "arquivo": "story_feed.jpg"
-  },
-  {
-   "acao": "create_video_post",
-   "arquivo": "reel_12h.mp4",
-   "legenda": "De onde vem essa música? 🎶\n\nNesta pousada em Porto Belo, o som está no salão inteiro, mas as caixas quase não aparecem: ficam nas vigas e nos pilares.\nO segredo é usar várias caixas com volume baixo, em vez de uma caixa alta num canto.\nAssim a música chega igual em todas as mesas, sem estourar perto de ninguém.\n\nSalve para usar no seu projeto.\nVocê tinha reparado nas caixas? Comenta: sim ou não.\n\nObra real MOVE.\n\n#SomAmbiente #Sonorização #Pousada #PortoBelo #ObraReal #MOVE",
-   "thumb_offset": 4500
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "reel_12h.mp4"
   }
  ],
  "15h": [
@@ -49,16 +39,6 @@
   {
    "acao": "create_story",
    "arquivo": "story_carrossel.jpg"
-  },
-  {
-   "acao": "create_video_post",
-   "arquivo": "reel_19h.mp4",
-   "legenda": "Sua câmera trava justo quando alguém chega? 📹\n\nQuase sempre é o Wi-Fi: longe do roteador, o sinal chega fraco e a imagem congela.\nO certo é levar cabo de rede com PoE até a câmera: energia e imagem no mesmo cabo, direto do switch no rack.\nAí ela grava sem travar, de dia e de noite.\n\nSalve para conferir na sua obra.\nA sua câmera é no cabo ou no Wi-Fi? Comenta aí.\n\nAnimação conceito.\n\n#Segurança #CâmeraDeSegurança #CFTV #PoE #CasaInteligente #MOVE",
-   "thumb_offset": 13500
-  },
-  {
-   "acao": "create_story",
-   "arquivo": "reel_19h.mp4"
   }
  ],
  "21h": [
