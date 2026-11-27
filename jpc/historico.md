@@ -168,3 +168,7 @@
 | 2026-11-27 | 07h35 | produção diária | Fila 27–30/11 completa. 27–29 já tinham Reel 12h JPC Ensina com capa (hoje ens002 arquivos temporários). 30/11 criado: feed g6f012 golpe "GTA 6 PC grátis", carrossel g6c011 processador pro GTA 6, stories g6s055–059, Reel ens005 modo de energia (Win+I > Sistema > Energia > Modo de energia > Melhor desempenho; 5 passos, 34,7 s, capa "MODO DESEMPENHO MÁXIMO"; ego_chall_blue_deer.mp3). GTA 6: sem versão PC/requisito oficial (só rumores de 2027, conferido) | — | — |
 | 2026-11-27 | 09h | story próprio | g6s040 | — | 17980418163146137 |
 | 2026-11-27 | 09h | story próprio | g6s041 | — | 17919381660509835 |
+| 2026-11-27 | 12h | feed (imagem) | g6f009 feed.jpg | — | 18031078055926996 |
+| 2026-11-27 | 12h | story do feed | story_feed.jpg | — | 18135937288834948 |
+| 2026-11-27 | 12h | Reel JPC Ensina (capa) | ens002 arquivos temporários reel.mp4 | bad_news_steve_kane.mp3 (Biblioteca de áudio do YouTube) + narração Piper | 17959470684270958 |
+| 2026-11-27 | 12h | story do Reel | reel.mp4 | bad_news_steve_kane.mp3 | 18170724460486955 |
