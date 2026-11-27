@@ -6,7 +6,7 @@ O João colocou ~70 vídeos organizados por obra/cliente. Regra: 1 obra por Reel
 |---|---|---|---|---|
 | 1 | hotel candeias balneario camboriu | 15 vídeos (WhatsApp, 8–83 s) + 5 fotos: Clube Candeias (lounge com jardim vertical, escada colorida, restaurante com TVs, fachada, caixa/amplificador no rack) | "Som ambiente em hotel em BC": fachada → escada → lounge → TVs → equipamento | FEITO — Reel 20/11 12h (8 vídeos) + feed e 3 stories 20/11 |
 | 2 | House Beer | 1 vídeo + 2 fotos 09/04/2026, 1 vídeo 2024 | sonorização de bar/cervejaria em BC | a fazer |
-| 3 | posto | 2 vídeos 09/04/2026 (38 MB e 12 MB) | sonorização de posto em BC | a fazer |
+| 3 | posto | 2 vídeos 09/04/2026 (38 MB e 12 MB) | sonorização de posto em BC | quadros no feed + story 29/11 (vídeo ainda livre para Reel com áudio real) |
 | 4 | romanza | 3 vídeos (1 de 121 MB) | obra comercial (marcenaria, forro) | 2 quadros de VID-20250415-WA0071 em stories 28/11 |
 | 5 | pousada sunset porto belo | 2 vídeos + 5 fotos | som em pousada, Porto Belo | a fazer |
 | 6 | floripa | 4 vídeos | obra em Florianópolis | a fazer |
@@ -14,7 +14,7 @@ O João colocou ~70 vídeos organizados por obra/cliente. Regra: 1 obra por Reel
 | 8 | cliente itajai | 2 vídeos | obra em Itajaí | a fazer |
 | 9 | ballneario | 2 vídeos | obra em Balneário | a fazer |
 | 10 | lap tv suportes | 4 vídeos curtos | instalação de suporte de TV | a fazer |
-| 11 | clientes | 20 vídeos variados (2024–2026) | separar por tema; dá para 3–4 Reels | a fazer |
+| 11 | clientes | 20 vídeos variados (2024–2026) | separar por tema; dá para 3–4 Reels | VID-20250716-WA0165 (sala com caixas de torre) = Reel 30/11 com áudio real; VID_20250707_150147 em feed/story 30/11 |
 | 12 | cliente mariscal | 9 vídeos, alguns ENORMES (1,6 GB, 1,08 GB, 799 MB) | obra em Mariscal | a fazer — os 3 maiores passam do limite de 400 MB da transferência: comprimir no PC antes ou usar só os menores |
 | — | WhatsApp Unknown 2026-11-14 at 22.14.51 (pasta e .zip em Vídeos) | ver conteúdo | — | a verificar |
 
