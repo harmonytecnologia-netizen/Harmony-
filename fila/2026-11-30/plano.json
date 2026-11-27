@@ -1,0 +1,63 @@
+{
+ "tema": "Segunda: Reel 12h OBRA REAL sala com caixas de torre (áudio real da sala, texto grande, sem voz de IA) + feed OBRA REAL cabo de rede antes do gesso + carrossel REDE \"40 aparelhos no seu Wi-Fi?\" + stories bastidor House Beer, enquete cabo × Wi-Fi, living de segunda à noite.",
+ "plano_b": false,
+ "musica_reel": "12h: áudio real da obra (som tocando nas caixas da sala), sem música de biblioteca",
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_video_post",
+   "arquivo": "reel_12h.mp4",
+   "thumb_offset": 7000,
+   "legenda": "Dá pra ter som de verdade sem estragar a sala? 🔊\n\nAumenta o volume: esse é o áudio real da sala, gravado na obra. Caixas de torre nos cantos, no tom da madeira, e o som entrando no projeto junto com a decoração — não depois dela.\n\nSalve para conferir na sua obra.\n\nNa sua sala: caixa aparente ou embutida? Comenta 👇\n\nObra real MOVE.\n\n#HomeTheater #SomDeAltoPadrão #Sonorização #ProjetoDeSom #Hifi #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "reel_12h.mp4"
+  },
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "O cabo de rede nasce antes do gesso. 🔌\n\nTV, câmeras e access points funcionam melhor no cabo — e o melhor momento de passar esse cabo é antes do forro e da parede fecharem. Depois, só tomada e acabamento, sem canaleta e sem improviso.\n\nSua obra está em qual etapa? Comenta 👇 Salve para a sua obra. Projeto de rede pelo direct.\n\nObra real MOVE.\n\n#RedeEstruturada #Obra #CasaInteligente #WiFi #Reforma #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "40 aparelhos no seu Wi-Fi? TV, câmeras, celulares, assistentes de voz, ar-condicionado… a conta sobe rápido. 📶\n\n01 · Roteador da operadora fechado no nicho perde sinal e não dá conta.\n02 · O que não se mexe vai no cabo: TV e câmeras.\n03 · Access point no teto, um por área, com cabo — no lugar do repetidor na tomada.\n04 · Rede separada para visitas e para a automação.\n\nE o jeito certo: rack organizado, cabos identificados e nobreak.\n\nQuantos aparelhos tem aí? Chuta um número 👇 Salve e envie para quem está em obra. Projeto de rede pelo direct.\n\nImagens conceito.\n\n#RedeEstruturada #WiFi #CasaInteligente #AccessPoint #BalneárioCamboriú #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "videos_usados": "clientes/VID-20250716-WA0165.mp4 (Reel, 2,4–16,4 s, adesivo removido com delogo); clientes/VID_20250707_150147.mp4 (quadros 1 s e 3,9 s); House Beer/20260409_063657.mp4 (5,5 s)"
+}
