@@ -164,3 +164,4 @@
 | 2026-11-26 | 15h | story próprio | g6s037 | — | 18485415139117473 |
 | 2026-11-26 | 21h | story próprio | g6s038 | — | 18121454081079751 |
 | 2026-11-26 | 21h | story próprio | g6s039 | — | 18084986648367180 |
+| 2026-11-26 | 21h55 | conferência diária | Windsor OK: 1 feed (imagem) 12h + 1 carrossel 19h + Reel JPC Ensina ens001; 8 stories (5 próprios: 2 das 09h, 15h g6s037 saiu atrasado às 21h09, 2 das 21h; + story do feed, do Reel e do carrossel). Meta OK. Fila 27–29/11 completa, 51 links raw 200 | — | — |
