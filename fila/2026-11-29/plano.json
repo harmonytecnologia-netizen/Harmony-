@@ -1,0 +1,52 @@
+{
+ "tema": "Domingo: feed OBRA REAL posto em Balneário Camboriú (som da pista à conveniência) + carrossel AUTOMAÇÃO cena \"Boa noite\" (9 interruptores × 1 toque) + stories suíte com ar no app (obra real Itajaí), enquete TV × telão (obra real BC), cinema de domingo. Sem Reel: semana 23–29/11 já teve 6 Reels (nova estratégia 4–5/semana, aprovada 27/11).",
+ "plano_b": false,
+ "09h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_09h_1.jpg"
+  }
+ ],
+ "12h": [
+  {
+   "acao": "create_image_post",
+   "arquivo": "feed.jpg",
+   "legenda": "Música da bomba à conveniência. ⛽🎶\n\nNum posto, o som não pode brigar com o movimento: na pista, volume que acompanha sem incomodar; na conveniência, música para quem entra e fica. Cada área com seu volume, de dia e de noite.\n\nObra real MOVE em Balneário Camboriú.\n\nQuer som ambiente por zonas no seu negócio? Chama a MOVE no direct.\n\n#SomAmbiente #Sonorização #BalneárioCamboriú #SomComercial #ProjetoDeSom #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_feed.jpg"
+  }
+ ],
+ "15h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_15h_1.jpg"
+  }
+ ],
+ "19h": [
+  {
+   "acao": "create_carousel_post",
+   "arquivos": [
+    "carrossel_1.jpg",
+    "carrossel_2.jpg",
+    "carrossel_3.jpg",
+    "carrossel_4.jpg",
+    "carrossel_5.jpg",
+    "carrossel_6.jpg"
+   ],
+   "legenda": "9 interruptores antes de dormir? Com a cena \"Boa noite\", é 1 toque. 🌙\n\n01 · Um botão na cabeceira (ou no app, ou por voz).\n02 · As luzes da casa apagam e fica só um LED baixo no caminho.\n03 · Cortinas fecham sozinhas.\n04 · Portão conferido, alarme armado e só a luz de segurança acesa.\n\nO segredo: pensar a cena antes do forro (neutro nas caixinhas, motor de cortina e teclados previstos na obra).\n\nQuantos interruptores você apaga hoje? Comenta o número 👇 Salve para a sua obra. Projeto de automação pelo direct.\n\nImagens conceito.\n\n#Automação #CasaInteligente #AutomaçãoResidencial #SmartHome #Itajaí #MOVE"
+  },
+  {
+   "acao": "create_story",
+   "arquivo": "story_carrossel.jpg"
+  }
+ ],
+ "21h": [
+  {
+   "acao": "create_story",
+   "arquivo": "story_21h_1.jpg"
+  }
+ ],
+ "videos_usados": "posto/20260409_200812.mp4 (quadro 13,5 s) e 20260409_200854.mp4 (1,5 s); cliente itajai/VID-20240902-WA0011.mp4 (5 s); ballneario/VID-20240902-WA0024.mp4 (0,8 s)"
+}
