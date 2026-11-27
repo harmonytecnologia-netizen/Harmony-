@@ -156,3 +156,6 @@
 - 2026-11-27 09h (Brasília) · story (imagem) · story_09h_1.jpg · sexta de manhã (Pousada Sunset/Segurança) · media id 17883983421651642
 
 - 2026-11-27 10h (Brasília) — NOVA ESTRATÉGIA DE REELS aprovada pelo João (README): sem voz de IA, voz do João (sem imagem dele), 4–5 Reels/semana, obra real com áudio real + Collab, Explica 3D no formato de 13–17/11. Retirados da fila os 4 Reels com voz da Iamin (27/11 12h pousada e 19h câmera PoE; 28/11 12h videoporteiro e 19h ganho) — feed, carrossel e stories mantidos. Roteiros para o João gravar em automacao/voz_joao/roteiros (ganho, câmera PoE, amostra para clonar). PC desligado: obra real com áudio real fica para quando ligar.
+- 2026-11-27 12h (Brasília) — feed (imagem) 12h — OBRA REAL Pousada Sunset (Porto Belo) "Som e imagem para receber bem" (feed.jpg) — sem música — media id 17905701882608485
+- 2026-11-27 12h (Brasília) — story do feed — story_feed.jpg — media id 17947902759381288
+- 2026-11-27 12h (Brasília) — SEM Reel às 12h: o Reel (voz Iamin) foi retirado da fila pela nova estratégia aprovada hoje às 10h (proibida voz de IA; 4–5 Reels/semana; dia sem Reel não é falha). Os Explica 3D prontos usam voz sintética, então nenhum foi publicado na emergência. João avisado.
