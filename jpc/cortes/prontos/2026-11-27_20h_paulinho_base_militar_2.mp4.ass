@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.00,0:00:03.40,L,,0,0,0,,ELES VÃO ME\N{\c&H4FE1FF&\fscx112\fscy112}ESTRANHAR{\r}
+Dialogue: 0,0:00:12.80,0:00:14.30,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}BORA, BORA, BORA!{\r}
+Dialogue: 0,0:00:15.20,0:00:17.00,L,,0,0,0,,SÓ PROCURAR O\N{\c&H4FE1FF&\fscx112\fscy112}JATO{\r} AGORA
+Dialogue: 0,0:00:17.40,0:00:19.40,L,,0,0,0,,CHEGA,\N{\c&H4FE1FF&\fscx112\fscy112}VAI ENTRAR!{\r}
+Dialogue: 0,0:00:20.50,0:00:22.00,L,,0,0,0,,Ó, CHAMA O\N{\c&H4FE1FF&\fscx112\fscy112}VALKYRIE{\r} ALI
+Dialogue: 0,0:00:25.10,0:00:27.60,L,,0,0,0,,TÁ NO PENTE,\N{\c&H4FE1FF&\fscx112\fscy112}MINHA TURMA{\r}
+Dialogue: 0,0:00:28.90,0:00:31.00,L,,0,0,0,,Ó O {\c&H4FE1FF&\fscx112\fscy112}JATO{\r} AÍ,\NMEU TRUTA!
