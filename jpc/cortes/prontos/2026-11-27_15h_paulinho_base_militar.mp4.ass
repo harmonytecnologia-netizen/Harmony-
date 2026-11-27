@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Anton,86,&H00FFFFFF,&H00FFFFFF,&H000F0407,&H64000000,0,0,0,0,100,100,1,0,1,7,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.00,0:00:02.50,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}VOU{\r} INVADIR, HEIN?
+Dialogue: 0,0:00:02.52,0:00:03.06,L,,0,0,0,,VOU {\c&H4FE1FF&\fscx112\fscy112}INVADIR,{\r} HEIN?
+Dialogue: 0,0:00:03.10,0:00:03.70,L,,0,0,0,,VOU INVADIR, {\c&H4FE1FF&\fscx112\fscy112}HEIN?{\r}
+Dialogue: 0,0:00:07.26,0:00:07.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NOSSA,{\r} MORRI!
+Dialogue: 0,0:00:07.86,0:00:08.40,L,,0,0,0,,NOSSA, {\c&H4FE1FF&\fscx112\fscy112}MORRI!{\r}
+Dialogue: 0,0:00:10.50,0:00:10.94,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ABRIRAM,{\r} ABRIRAM!
+Dialogue: 0,0:00:10.94,0:00:11.60,L,,0,0,0,,ABRIRAM, {\c&H4FE1FF&\fscx112\fscy112}ABRIRAM!{\r}
+Dialogue: 0,0:00:14.90,0:00:15.64,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}ESTÃO{\r} JOGANDO
+Dialogue: 0,0:00:15.64,0:00:16.60,L,,0,0,0,,ESTÃO {\c&H4FE1FF&\fscx112\fscy112}JOGANDO{\r}
+Dialogue: 0,0:00:17.04,0:00:17.54,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}BOMBA{\r} EM MIM!
+Dialogue: 0,0:00:17.54,0:00:17.74,L,,0,0,0,,BOMBA {\c&H4FE1FF&\fscx112\fscy112}EM{\r} MIM!
+Dialogue: 0,0:00:17.74,0:00:18.60,L,,0,0,0,,BOMBA EM {\c&H4FE1FF&\fscx112\fscy112}MIM!{\r}
+Dialogue: 0,0:00:22.00,0:00:22.52,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}QUE{\r} BAGULHO
+Dialogue: 0,0:00:22.52,0:00:23.20,L,,0,0,0,,QUE {\c&H4FE1FF&\fscx112\fscy112}BAGULHO{\r}
+Dialogue: 0,0:00:23.20,0:00:23.68,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}LOUCO,{\r} TURMA!
+Dialogue: 0,0:00:23.68,0:00:24.60,L,,0,0,0,,LOUCO, {\c&H4FE1FF&\fscx112\fscy112}TURMA!{\r}
+Dialogue: 0,0:00:39.52,0:00:40.28,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}PRIMEIRA{\r} TENTATIVA
+Dialogue: 0,0:00:40.28,0:00:41.00,L,,0,0,0,,PRIMEIRA {\c&H4FE1FF&\fscx112\fscy112}TENTATIVA{\r}
+Dialogue: 0,0:00:41.00,0:00:41.16,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}DE{\r} INVADIR
+Dialogue: 0,0:00:41.16,0:00:41.54,L,,0,0,0,,DE {\c&H4FE1FF&\fscx112\fscy112}INVADIR{\r}
+Dialogue: 0,0:00:41.54,0:00:41.62,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}A{\r} BASE MILITAR...
+Dialogue: 0,0:00:41.62,0:00:41.84,L,,0,0,0,,A {\c&H4FE1FF&\fscx112\fscy112}BASE{\r} MILITAR...
+Dialogue: 0,0:00:41.84,0:00:42.60,L,,0,0,0,,A BASE {\c&H4FE1FF&\fscx112\fscy112}MILITAR...{\r}
+Dialogue: 0,0:00:43.55,0:00:43.90,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}FEITA{\r} COM
+Dialogue: 0,0:00:43.90,0:00:44.25,L,,0,0,0,,FEITA {\c&H4FE1FF&\fscx112\fscy112}COM{\r}
+Dialogue: 0,0:00:44.30,0:00:44.70,L,,0,0,0,,{\c&H4FE1FF&\fscx112\fscy112}NÃO{\r} SUCESSO!
+Dialogue: 0,0:00:44.70,0:00:45.80,L,,0,0,0,,NÃO {\c&H4FE1FF&\fscx112\fscy112}SUCESSO!{\r}
