@@ -150,3 +150,5 @@
 - 2026-11-26 19:14 (Brasília) — story do carrossel — story_carrossel.jpg — media id 18140630518647392
 - 2026-11-26 19:14 (Brasília) — Reel MOVE Explica 3D 19h — REDE "TV travando no meio do filme?" (reel_19h.mp4) — música Circuit Rush — The Mini Vandals — media id 18026784188946895
 - 2026-11-26 19:14 (Brasília) — story do Reel — reel_19h.mp4 — música Circuit Rush — The Mini Vandals — media id 18112849340265668
+- 2026-11-26 21:06 (Brasília) — story 15h (publicado na rodada das 21h) — story_15h_1.jpg — media id 18121481863997864
+- 2026-11-26 21:06 (Brasília) — story 21h — story_21h_1.jpg — media id 18507106558103292
