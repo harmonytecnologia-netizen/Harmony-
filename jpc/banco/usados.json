@@ -21,7 +21,8 @@
   "g6f009",
   "g6f010",
   "g6f011",
-  "g6f012"
+  "g6f012",
+  "g6f013"
  ],
  "carrosseis": [
   "car001",
@@ -43,7 +44,8 @@
   "g6c008",
   "g6c009",
   "g6c010",
-  "g6c011"
+  "g6c011",
+  "g6c012"
  ],
  "stories": [
   "st000",
@@ -150,7 +152,12 @@
   "g6s056",
   "g6s057",
   "g6s058",
-  "g6s059"
+  "g6s059",
+  "g6s060",
+  "g6s061",
+  "g6s062",
+  "g6s063",
+  "g6s064"
  ],
  "fundos": [
   "pexels_pc_build_10405280.jpg",
@@ -309,7 +316,14 @@
   "pexels_setup_roxo.jpg",
   "ia_2026-11-15_1.jpg",
   "ia_2026-11-14_1.jpg",
-  "pexels_mouse_mesa.jpg"
+  "pexels_mouse_mesa.jpg",
+  "pexels_homem_jogando.jpg",
+  "ia_2026-11-15_3.jpg",
+  "pexels_gamer_telas.jpg",
+  "pexels_setup_roxo.jpg",
+  "ia_2026-11-14_4.jpg",
+  "ia_2026-11-15_1.jpg",
+  "ia_2026-11-14_1.jpg"
  ],
  "musicas": [
   [
@@ -375,6 +389,10 @@
   [
    "2026-11-30",
    "ego_chall_blue_deer.mp3"
+  ],
+  [
+   "2026-12-01",
+   "bad_news_steve_kane.mp3"
   ]
  ],
  "reels": [
@@ -395,6 +413,7 @@
   "ens002",
   "ens003",
   "ens004",
-  "ens005"
+  "ens005",
+  "ens006"
  ]
 }
