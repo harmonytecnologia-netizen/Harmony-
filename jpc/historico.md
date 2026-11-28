@@ -176,3 +176,6 @@
 | 2026-11-27 | 19h | carrossel (7 slides) | g6c008 Placa de vídeo pro GTA 6: o que olhar | — | 18404828740203947 |
 | 2026-11-27 | 19h | story do carrossel | story_car.jpg | — | 18385302376301137 |
 | 2026-11-27 | 21h01 | Reel corte GTA 6 | Paulinho: 2ª tentativa, arrebentou a cancela da base militar e foi atrás dos jatos (ivjSsjiHbZA 1:49:53–1:50:41, 3 pedaços) | capa 2026-11-27_20h_paulinho_base_militar_2.jpg; spontaneous_rodina.mp3 | 18121255265047910 (story 17913577548597309) |
+| 2026-11-27 | 15h | story próprio | g6s042 | — | 17916285147577662 |
+| 2026-11-27 | 21h | story próprio | g6s043 | — | 18081978206412527 |
+| 2026-11-27 | 21h | story próprio | g6s044 | — | 18138211387670970 |
