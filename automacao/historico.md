@@ -168,3 +168,4 @@
 - 2026-11-27 21:04 (rodada 21h) · 15h · story · enquete cabo × Wi-Fi (story_15h_1.jpg) · media 18084750980423717
 - 2026-11-27 21:04 (rodada 21h) · 21h · story · cinema de sexta (story_21h_1.jpg) · media 18117481726843749
 - 2026-11-27 21h50 (Brasília) — CONFERÊNCIA Windsor — dia 27/11 completo pela nova estratégia: 1 feed (12h05 obra real Pousada Sunset), 1 carrossel (19h13 câmera PoE), 0 Reels (retirados pela nova estratégia de 27/11 — 4–5/semana, dia sem Reel não é falha), 5 stories (3 próprios: 09h05, 21h06, 21h07 + feed e carrossel). Sem série em partes hoje. Métricas de 4 posts de 26/11 em aprendizados.md (Reel "Saí de casa" 10 views = pior do perfil; Reel rede 28; carrossel fechadura 31/21 contas; feed A×B conceito 22). Fila 28, 29 e 30/11 com plano.json completo. Windsor OK. Parcial <10 h: feed Pousada 16/10, carrossel câmera 9/2.
+- 2026-11-28 09:06 (rodada 09h) · 09h · story · bastidor real Romanza (story_09h_1.jpg) · media 18122862241969146
