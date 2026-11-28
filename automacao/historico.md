@@ -165,3 +165,5 @@
 - 2026-11-27 19:13 (Brasília) — carrossel 19h — SEGURANÇA câmera que não trava "Sua câmera trava justo quando mais precisa?" (carrossel_1..7.jpg) — media id 18079292498762733
 - 2026-11-27 19:13 (Brasília) — story do carrossel — story_carrossel.jpg — media id 18131606762475890
 - 2026-11-27 19:13 (Brasília) — SEM Reel às 19h: o Reel 19h (câmera PoE, voz Iamin) foi retirado pela nova estratégia aprovada pelo João hoje às 10h (proibida voz de IA; 4–5 Reels/semana). Os Explica 3D prontos usam voz sintética, então nenhum foi publicado como emergência. João avisado.
+- 2026-11-27 21:04 (rodada 21h) · 15h · story · enquete cabo × Wi-Fi (story_15h_1.jpg) · media 18084750980423717
+- 2026-11-27 21:04 (rodada 21h) · 21h · story · cinema de sexta (story_21h_1.jpg) · media 18117481726843749
