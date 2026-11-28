@@ -181,3 +181,5 @@
 | 2026-11-27 | 21h | story próprio | g6s044 | — | 18138211387670970 |
 | 2026-11-27 | 21h58 | conferência diária | Windsor OK: 1 feed (imagem) 12h + 1 carrossel 19h + Reel JPC Ensina ens002 + 2 Reels de corte GTA 6; 10 stories (5 próprios: 2 das 09h, 15h g6s042 saiu atrasado às 21h10, 2 das 21h; + story do feed, do Reel, do carrossel e de 2 cortes). Meta OK. Fila 28–30/11 completa, 54 links raw 200 | — | — |
 | 2026-11-28 | 07h35 | produção diária | Fila 28/11–01/12 completa. 28–30 já tinham Reel 12h JPC Ensina com capa (hoje ens003). 01/12 criado: feed g6f013 'Upgrade agora ou depois?', carrossel g6c012 'Deixe o PC pronto antes do GTA 6 chegar', stories g6s060–064, Reel ens006 verificação offline do Defender (4 passos, 29,8 s, capa 'VÍRUS QUE NÃO SAI?'; bad_news_steve_kane.mp3). Caminho conferido (Segurança do Windows > Proteção contra vírus e ameaças > Opções de verificação). GTA 6: sem versão PC/requisito oficial (conferido). 68 links raw 200 | — | — |
+| 2026-11-28 | 09h | story próprio | g6s045 | — | 17929621443442819 |
+| 2026-11-28 | 09h | story próprio | g6s046 | — | 18176915527497199 |
