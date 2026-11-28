@@ -175,3 +175,4 @@
 | 2026-11-27 | 18h20 | Reel corte GTA 6 | Paulinho: tentou invadir a base militar e deu ruim (ivjSsjiHbZA 1:46–1:48:31) | capa 2026-11-27_15h_paulinho_base_militar.jpg; survival_mode_blue_deer.mp3 | 18013151090780904 (story 18659448586055919) |
 | 2026-11-27 | 19h | carrossel (7 slides) | g6c008 Placa de vídeo pro GTA 6: o que olhar | — | 18404828740203947 |
 | 2026-11-27 | 19h | story do carrossel | story_car.jpg | — | 18385302376301137 |
+| 2026-11-27 | 21h01 | Reel corte GTA 6 | Paulinho: 2ª tentativa, arrebentou a cancela da base militar e foi atrás dos jatos (ivjSsjiHbZA 1:49:53–1:50:41, 3 pedaços) | capa 2026-11-27_20h_paulinho_base_militar_2.jpg; spontaneous_rodina.mp3 | 18121255265047910 (story 17913577548597309) |
