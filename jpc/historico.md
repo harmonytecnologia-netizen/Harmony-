@@ -179,3 +179,4 @@
 | 2026-11-27 | 15h | story próprio | g6s042 | — | 17916285147577662 |
 | 2026-11-27 | 21h | story próprio | g6s043 | — | 18081978206412527 |
 | 2026-11-27 | 21h | story próprio | g6s044 | — | 18138211387670970 |
+| 2026-11-27 | 21h58 | conferência diária | Windsor OK: 1 feed (imagem) 12h + 1 carrossel 19h + Reel JPC Ensina ens002 + 2 Reels de corte GTA 6; 10 stories (5 próprios: 2 das 09h, 15h g6s042 saiu atrasado às 21h10, 2 das 21h; + story do feed, do Reel, do carrossel e de 2 cortes). Meta OK. Fila 28–30/11 completa, 54 links raw 200 | — | — |
