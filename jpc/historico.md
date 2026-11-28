@@ -183,3 +183,7 @@
 | 2026-11-28 | 07h35 | produção diária | Fila 28/11–01/12 completa. 28–30 já tinham Reel 12h JPC Ensina com capa (hoje ens003). 01/12 criado: feed g6f013 'Upgrade agora ou depois?', carrossel g6c012 'Deixe o PC pronto antes do GTA 6 chegar', stories g6s060–064, Reel ens006 verificação offline do Defender (4 passos, 29,8 s, capa 'VÍRUS QUE NÃO SAI?'; bad_news_steve_kane.mp3). Caminho conferido (Segurança do Windows > Proteção contra vírus e ameaças > Opções de verificação). GTA 6: sem versão PC/requisito oficial (conferido). 68 links raw 200 | — | — |
 | 2026-11-28 | 09h | story próprio | g6s045 | — | 17929621443442819 |
 | 2026-11-28 | 09h | story próprio | g6s046 | — | 18176915527497199 |
+| 2026-11-28 | 12h | feed (imagem) | g6f010 feed.jpg | — | 18160436944518608 |
+| 2026-11-28 | 12h | story do feed | story_feed.jpg | — | 18099382301394459 |
+| 2026-11-28 | 12h | Reel JPC Ensina (capa) | ens003 limpar poeira reel.mp4 | survival_mode_blue_deer.mp3 (Biblioteca de áudio do YouTube) + narração Piper | 18136476134498850 |
+| 2026-11-28 | 12h | story do Reel | reel.mp4 | survival_mode_blue_deer.mp3 | 18114118016098806 |
